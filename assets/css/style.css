@@ -3,36 +3,81 @@
 header {
     margin: 0;
     padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*----------------------------------------------heading---*/
 
-h1 {
-    margin-bottom: 0;
-    text-align: center;
-    font-family: 'Kalam', cursive;
-    font-size: 50px;
-    padding-top: 20px;
+#logo {
     color: rgb(12, 89, 151);
-}
-
-a {
-    color: rgb(24, 119, 243);
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-family: 'Kalam', cursive;
+    font-size: 35px;
     
 }
 
-.nav-item .nav-disabled {
-    color: rgb(12, 89, 151);
+#logo:hover{
+    color: rgb(71, 156, 224)
 }
 
-.nav-item .nav-live {
-    color: rgb(24, 119, 243);
+.logoicon {
+    background: url("../images/logo-icon.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    padding: 20px;
+}
+
+#menulist {
+    margin-left: auto;
+   
+}
+
+#menulist a {
+    font-size: 20px;
+    color: rgb(71, 156, 224)
+}
+
+#menulist a:hover{
+    color: rgb(12, 89, 151);
 }
 
 
 /*----------------------------------------------Section---*/
+
+#outer {
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    background: url("../images/hero_image.jpg") no-repeat center center; 
+    height: 600px;
+    width: 100%;
+}
+
+#unordered-list {
+    font-size: 25px;
+    font-family: 'Kalam', cursive;
+    color: #0c5997;
+    letter-spacing: 2px;
+    height: 40%;
+    padding: 60px 60px 0 40px;
+    background-color: rgba(71, 156, 224, .7);
+    border-radius: 50%;
+    top: 100px;
+    right: 150px;
+    position: absolute;
+}
+
+ul {
+    list-style-type: none;
+}
 
 /*----------------------------------------------Footer---*/
 
@@ -51,5 +96,14 @@ footer p {
 }
 
 .icons i {
-    color: green;
+    color: rgb(71, 156, 224)
+}
+
+.icons i:hover{
+    color: rgb(12, 89, 151);
+}
+
+a {
+    font-size: 20px;
+    padding: 10px;
 }
