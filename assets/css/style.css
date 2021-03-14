@@ -8,19 +8,26 @@ header {
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: #e7ecef;
 }
 
 /*----------------------------------------------heading---*/
+.margin {
+    margin: -5px;
+}
+
+.bgcolor {
+    background-color: #e7ecef;
+}
 
 #logo {
-    color: rgb(12, 89, 151);
+    color: #274c77;
     font-family: 'Kalam', cursive;
     font-size: 35px;
-    
 }
 
 #logo:hover{
-    color: rgb(71, 156, 224)
+    color: #479ce0;
 }
 
 .logoicon {
@@ -28,7 +35,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 100px;
-    padding: 20px;
+    padding: 15px;
 }
 
 #menulist {
@@ -38,45 +45,73 @@ body {
 
 #menulist a {
     font-size: 20px;
-    color: rgb(71, 156, 224)
+    color: #479ce0;
 }
 
 #menulist a:hover{
-    color: rgb(12, 89, 151);
+    color: #274c77;
 }
 
+#menulist #active {
+    color: #274c77;
+}
 
-/*----------------------------------------------Section---*/
+/*----------------------------------------------Homepage Section---*/
 
 #outer {
-    height:600px;
-    width: 100%;
+    height: 620px;
+    width: 96%;
     overflow: hidden;
     position: relative;
+    background-color: #274c77;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 2%;
 }
 
 #hero-image {
-    background: url("../images/hero_image.jpg") no-repeat center center; 
+    background: url("../images/hero-image.jpg") no-repeat; 
     height: 600px;
-    width: 100%;
+    width: 66%;
 }
 
 #unordered-list {
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Kalam', cursive;
-    color: #0c5997;
+    text-align: center;
+    color: #274c77;
     letter-spacing: 2px;
-    height: 40%;
-    padding: 60px 60px 0 40px;
-    background-color: rgba(71, 156, 224, .7);
+    padding: 50px 50px 25px 20px;
+    background-color: #479ce0;
     border-radius: 50%;
-    top: 100px;
-    right: 150px;
+    top: 60px;
+    right: 80px;
+    position: absolute;
+}
+
+#ordered-list {
+    font-size: 20px;
+    color: #274c77;
+    letter-spacing: 2px;
+    padding: 40px 50px 25px 25px;
+    background-color: #479ce0;
+    bottom: 150px;
+    right: 15px;
     position: absolute;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none; 
+}
+
+#subscribe-btn-home {
+    bottom: 80px;
+    right: 130px;
+    position: absolute;
+}     
+
+#subscribe-btn-home span {
+    text-transform: uppercase;
 }
 
 /*----------------------------------------------Footer---*/
@@ -85,22 +120,19 @@ footer .icons,
 p 
 {
     text-align: center;
-    color: rgb(12, 89, 151);
+    color: #274c77;
 }
 
 .icons {
-    padding-top: 10px;
-}
-footer p {
-    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 .icons i {
-    color: rgb(71, 156, 224)
+    color: #479ce0;
 }
 
 .icons i:hover{
-    color: rgb(12, 89, 151);
+    color: #274c77;
 }
 
 a {

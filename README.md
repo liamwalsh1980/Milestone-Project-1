@@ -6,9 +6,9 @@
 
 ![template](assets/images/imagetemplate.png)
 
-Embrace Autism is a website that is mainly aimed at parents and parental guardians of children that have a diagnosis of Autism (ASD – Autistic Spectrum Disorder). The website provides ideas and tips on how to occupy Autistic children which will keep them happy, busy and active. As a father of an Autistic child, I know how difficult it can be to entertain and keep your child happy and active. Therefore, I had the idea to design a website that can offer help and advice drawn upon my own experiences. Embrace Autism is a website that you can access time and time again to get new ideas, parent to parent advice and useful links to external websites relevant to Autism. There is the option to subscribe to Embrace Autism by providing your name and email address to get regular new ideas.
+Embrace Autism is a fictional website that is mainly aimed at parents of children that have a diagnosis of Autism (ASD – Autistic Spectrum Disorder). The website provides ideas and tips on how to occupy Autistic children which will keep them happy, engaged and active. As a father of an Autistic child, I know how difficult it can be to entertain and keep your child happy and active. Therefore, I had the idea to design a website that can offer help and advice drawn upon my own experiences. Embrace Autism is a website that you can access time and time again to get new ideas, parent to parent advice and useful links to external websites relevant to ASD. There is the option to subscribe to Embrace Autism by providing your name and email address to get regular new ideas, free of charge.
 
-This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project is to design a responsive website using HTML5 and CSS3 with three web pages or three separate sections on one page. I chose to go with three webpages as I wanted to keep the home page content minimum, the about page with a high level of content and a separate page for subscribing. All this i feel would work well when using the easy-to-use menu bar to navigate around. 
+This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project is to design a responsive website using HTML5 and CSS3 with three web pages or three separate sections on one page. I chose to go with three webpages as I wanted to keep the homepage content minimum, the about page with a high level of content and a third page for subscribing. All this i feel would work well when using the easy-to-use menu bar to navigate around. 
 
 Essentially, this part is your sales pitch.
 
@@ -18,10 +18,10 @@ Essentially, this part is your sales pitch.
 ---
 
 ### Main aims
-* Is to help other parents Embrace Autism by offering their child with Autism positive activities and ways to entertain.
-* To encourage parents/parental guardians and their children not to ignore the condition but instead realise what it is, embrace it and find ways to work with the condition.  
-* To let parents/parental guardians know that they aren't alone and that there are many others out there that have been through challenging times when raising a child with ASD.  
-* To make it easy for all users to navigate around the site using the menu navigation bar.  
+* To help other parents embrace Autism by offering their child with the condition positive activities and ways to improve the quality of life for all members of the family involved.
+* To encourage parents and their children not to ignore the condition but instead realise what it is, embrace it and find ways to that will work to understand and cope well with the condition.  
+* To let parents know that they aren't alone and that there are many other parents and families out there that have been through challenging times when raising a child with Autism. 
+* To make it easy for all users to navigate around the site using the menu navigation bar to read more about the service being offered.
 * To make it easy and quick to subscribe for weekly/monthly updates offering them help and advice. 
 * To offer useful links to creditable charities and organisations that can offer more in-depth advice and support.  
 
@@ -36,22 +36,28 @@ Essentially, this part is your sales pitch.
 * I have five children. The two youngest are diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained.  
 **Response - by subscribing to Embrace Autism this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of her family.** 
 
-* I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their users?  
+* I work for a large Autism charity and see what Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their users?  
 **Response - There is the option to email. The email address can be found at the footer of every web page.** 
 
-### Design Process
+### Design Process 
 
-1. I knew I wanted to create a website based on a subject that is close to my heart.  I started the design process on pen and paper and already had the name Embrace Autism in my mind before starting the course. I wanted the website to have a minimum of 3 pages, home (index), about and subscribe with maybe a fourth page for ideas. At this stage I feel that the ideas section was best suited in the about page to start with. 
+1. I knew I wanted to create a website based on a subject that is close to my heart.  I started the design process on pen and paper and already had the name 'Embrace Autism' in mind before starting the course. I wanted the website to have a minimum of 3 pages, home (index), about and subscribe with a potential fourth page to act as a blog. At this stage I feel that a blog page would be to advanced for this new website. 
 
-1. The design I wanted to achieve was a clean and friendly website for people to visit and return back to. Therefore, I feel the colour schemes and font choices were going to be an important part of the design process. The home and subscribe pages would have minimum content. The home page would be designed to gain the users attention and encourage them to easily navigate to the about page and subscribe page to complete the form to sign up to on-going information and advice sent by email each week or month. 
+1. The design I wanted to achieve was a clean and friendly website for people to visit and return back to. Therefore, I feel the colour schemes and font choices were going to be an important part of the design process. The home and subscribe pages would have minimum content. The home page would be designed to gain the users attention and encourage them to easily navigate to the about page and then onto the subscribe page to complete the form to sign up to receive on-going information and advice which would be sent by email each week or month. I changed the colour of the website a couple of times and used coolors.co site to assist with a couple of colours that worked well to compliment my preferred blue (hex: 479ce0). The coolors.co colour chosen - dark blue (hex:274c77) and light grey (hex:e7ecef).
 
-1. The about page would have most of the useful information users are looking for along with important external links to relevant charities and organisations for Autism. This page will also have some information about my families journey from when we had the formal Autism diagnoses for our son. 
+1. All three pages have the same header and footer formated across the whole website. The header has the Autism logo ribbon in full rainbow colour with the text logo 'Embrace Autism' in dark blue in the top left. When hovering over the logo text the dark blue colour (hex:274c77) becomes light blue (hex:479ce0) as its a link to the homepage and therefore by clicking on the logo text will always bring you back to the homepage (index.html). On the right side of the header there is a navigtion bar for the home page, about page and subscribe page. The default colour for all three page titles is light blue (hex:479ce0) and when hovering over a page link the colour will turn from light blue (hex:479ce0) to dark blue (hex:274c77). The relelvant page title in the navigation menu will be automatically dark blue (hex:274c77) to show which page you are currently on. 
+
+1. The home page design went through a few trial and error stages with the positioning of the heroimage and lists on the right side. I wanted to use all three colours to maximise the attraction of this page. The first list is unordered and highlights the main services the website offers. The second list is ordered using numbers 1-3 giving an easy step by step process to get the most from the site. Below the lists there is a 'subscribe for FREE' button which is linked to the subscribe page. I chose for this button to be a different colour so it would stand out. Colour TBC
+
+1. The about page would have most of the useful information users are looking for along with important external links to relevant charities and organisations for Autism. This page will also have some information about my families journey from when we had the formal Autism diagnoses our Son. 
 
 1. Every Friday morning my wife and I attent an Autism workshop with other parents and NHS professionals to discuss the best ways to help when raising a child with Autism. The knowledge gained is often information i like to share with other parents and therefore the Embrace Autism website is the perfect platform for this. 
 
 1. I found it difficult to find the perfect hero image for the home page. I wanted an image that clearly shows Autism as the focal point. (MORE INFO TO COME)
 
-1. Issue - email address moved from footer to header and positioned underneath the menu nav bar. This is because on tablet and mobile the footer looked squashed and intidy. I therefore decided move the email address and leave the copright and social media icons in place. 
+1. The email address moved a few times. In the end i decided to add a forth icon next to the social media icons in the footer which looked much cleaner and more professional. 
+
+1. 
 
 ### Strategy trade-off
 
@@ -198,9 +204,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 * I received inspiration for this project from X
 
 
+hero_image icon sourced from istockphoto.com (to be purchased £??)
+https://www.istockphoto.com/photo/hands-holding-puzzle-ribbon-for-autism-awareness-gm1134365962-301409027?utm_campaign=srp_photos_limitedresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fautism%2F&utm_medium=affiliate&utm_source=pexels&utm_term=autism
+Credit to photography Vejaa
+https://www.istockphoto.com/portfolio/vejaa?assettype=image&mediatype=photography
+Cost: £??
 
-
-
+logo-icon sourced from wikimedia commons
+https://commons.wikimedia.org/wiki/File:Autism_Awareness_Ribbon.png
 
 
 
