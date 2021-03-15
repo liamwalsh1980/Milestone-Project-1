@@ -9,11 +9,12 @@ header {
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #e7ecef;
+    color: #274c77;
 }
 
 /*----------------------------------------------heading---*/
 .margin {
-    margin: -5px;
+    margin: 2px;
 }
 
 .bgcolor {
@@ -21,9 +22,10 @@ body {
 }
 
 #logo {
-    color: #274c77;
+    color: inherit;
     font-family: 'Kalam', cursive;
-    font-size: 35px;
+    font-size: 40px;
+    letter-spacing: 2px;
 }
 
 #logo:hover{
@@ -35,84 +37,129 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 100px;
-    padding: 15px;
+    padding: 25px;
 }
 
 #menulist {
     margin-left: auto;
-   
 }
 
 #menulist a {
-    font-size: 20px;
+    font-size: 18px;
     color: #479ce0;
+    letter-spacing: 2px;
+    margin: 10px;
+    text-transform: uppercase;
 }
 
 #menulist a:hover{
-    color: #274c77;
+    color: inherit;
 }
 
-#menulist #active {
+#menulist .active {
+    border-bottom: 1px solid #274c77;
     color: #274c77;
 }
 
 /*----------------------------------------------Homepage Section---*/
 
 #outer {
-    height: 620px;
-    width: 96%;
-    overflow: hidden;
-    position: relative;
-    background-color: #274c77;
-    padding-top: 10px;
-    padding-left: 10px;
-    margin-left: 2%;
+    min-height: 600;
+    min-width: 100%;
+    background-color: #e7ecef; 
 }
 
 #hero-image {
-    background: url("../images/hero-image.jpg") no-repeat; 
-    height: 600px;
-    width: 66%;
+    background: url("../images/heroimage2.jpg") no-repeat center center;  
+    min-height: 600px; 
+    width: 100%; 
+    position: relative;
 }
 
-#unordered-list {
-    font-size: 30px;
-    font-family: 'Kalam', cursive;
+#h2-list { 
+
+    font-family: 'Kalam', cursive; 
+    text-align: center; 
+    color: #e7ecef; 
+    letter-spacing: 2px; 
+    padding: 50px;
+    background-color: rgba(39,76,119,0.8); 
+    border-radius: 30%; 
+    top: 35%; 
+    left: 55%;
+    position: absolute; 
+
+} 
+
+#subscribe-btn-home {  
+    top: 45%; 
+    left: 80%;
+    position: absolute; 
+} 
+
+#subscribe-btn-home span {  
+    text-transform: uppercase; 
+    font-size: large;
+    color: #e7ecef
+} 
+
+#subscribe-btn-home button {
+    background-color: rgba(39,76,119,0.8);
+    border: none;
+    border-radius: 30px;
+}
+
+#subscribe-btn-home button:hover {
+    background-color: #479ce0;
+}
+
+/*----------------------------------------------Media Queries for Homepage Section---*/
+
+@media screen and (max-width:576px) {
+    #logo {
+        font-size: 20px;
+    }
+
+    #logoicon {
+        padding: 0px;
+    }
+}
+
+/*----------------------------------------------About Section---*/
+h2  {
     text-align: center;
-    color: #274c77;
-    letter-spacing: 2px;
-    padding: 50px 50px 25px 20px;
+}
+
+#subscribe-btn-about { 
+    margin-top: 20px; 
+    text-align: center;
+} 
+
+#subscribe-btn-about span {  
+    text-transform: uppercase; 
+    font-size: large;
+    color: #e7ecef;
+} 
+
+#subscribe-btn-about button {
+    background-color: rgba(39,76,119,0.8);
+    border: none;
+    border-radius: 30px;
+}
+
+#subscribe-btn-about button:hover {
     background-color: #479ce0;
-    border-radius: 50%;
-    top: 60px;
-    right: 80px;
-    position: absolute;
 }
 
-#ordered-list {
-    font-size: 20px;
-    color: #274c77;
-    letter-spacing: 2px;
-    padding: 40px 50px 25px 25px;
-    background-color: #479ce0;
-    bottom: 150px;
-    right: 15px;
-    position: absolute;
+.background-color p {
+    background-color: #274c77;
+    color: #e7ecef;
 }
+/*----------------------------------------------Media Queries for About Section---*/
 
-ul {
-    list-style-type: none; 
-}
+/*----------------------------------------------Subscribe Section---*/
 
-#subscribe-btn-home {
-    bottom: 80px;
-    right: 130px;
-    position: absolute;
-}     
-
-#subscribe-btn-home span {
-    text-transform: uppercase;
-}
+/*----------------------------------------------Media Queries for Subscribe Section---*/
 
 /*----------------------------------------------Footer---*/
 
@@ -124,7 +171,7 @@ p
 }
 
 .icons {
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .icons i {
@@ -137,5 +184,9 @@ p
 
 a {
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
+}
+
+.copyright {
+    margin-top: 10px;
 }

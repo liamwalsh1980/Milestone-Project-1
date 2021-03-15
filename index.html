@@ -34,17 +34,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav" id="menulist">
                         <li class="nav-item">
-                            <a class="nav-link" id="active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="subscribe.html">Subscribe</a>
-                        </li>
-                        <li class="nav-item">
-                            <span><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog - Coming
-                                    Soon</a></span>
                         </li>
                     </ul>
                 </div>
@@ -55,35 +51,17 @@
         Section includes a hero image sourced from istockphoto.com and a plain dark blue with unordered lists. Padding added for the image to appear inbedded in the section.
     -->
     <section id="outer">
-        <div id="hero-image"></div>
-        <div id="unordered-list">
-            <ul>
-                <li>
-                    Helpful Advice
-                </li>
-                <li>
-                    New Ideas
-                </li>
-                <li>
-                    Useful Links
-                </li>
-            </ul>
+        <div class="container-fluid">
+            <div id="hero-image"></div>
         </div>
-        <div id="ordered-list">
-            <ol>
-                <li>
-                    Take a look at the About page
-                </li>
-                <li>
-                    Sign up on the Subscribe page
-                </li>
-                <li>
-                    Receive free impartial advice
-                </li>
-            </ol>
+        <div id="h2-list">
+            <h2>helpful advice</h2>
+            <h2>new ideas</h2>
+            <h2>useful links</h2>
         </div>
         <div id="subscribe-btn-home">
-            <button type="button" class="btn btn-success btn-lg">subscribe for <span>free</span></button>
+            <button type="button" class="btn btn-light btn-lg"><a class="nav-link" href="subscribe.html"><span>subscribe
+                        for free</span></a></button>
         </div>
     </section>
     <!--Footer includes a social media and email icons sourced from fontawesome and copyright paragraph-->
@@ -94,7 +72,7 @@
             <a href="https://twitter.com/" target="_blank"><i class="fab  fa-twitter"></i></a>
             <a href="#" target="_blank"><i class="fas fa-envelope-square"></i></a>
         </div>
-        <div>
+        <div class="copyright">
             <p>Copyright © 2021 Embrace Autism</p>
         </div>
     </footer>
