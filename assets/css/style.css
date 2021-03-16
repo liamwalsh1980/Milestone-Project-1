@@ -113,6 +113,42 @@ body {
 }
 
 /*---------------------------------------Media Queries for Homepage Section---*/
+
+@media screen and (max-width: 425px) {
+    #hero-image {
+        background: url(../images/hero-image.jpg) no-repeat center center;
+        min-height: 300px;
+        width: 100%;
+        position: relative;
+        background-size: cover;
+    }
+
+    #h2-list {
+        font-family: 'Kalam', cursive;
+        text-align: center;
+        color: #274c77;
+        letter-spacing: 2px;
+        padding: 30px 30px 20px 30px;
+        background-color: rgba(71, 156, 224,0.8);
+        border-radius: 30%;
+        top: 320px;
+        left: 60px;
+        position: absolute;
+        font-size: 3px;
+    }
+
+    #subscribe-btn-home button {
+        background-color: rgba(39,76,119,0.8);
+        border: none;
+        border-radius: 30px;
+        margin-right: 10px;
+        margin-top: 140px;
+    /* float: right; */
+    /* position: absolute; */
+    }
+
+}
+
 /*----------------------------------------------About Section---*/
 h2  {
     text-align: center;
@@ -157,6 +193,8 @@ h2  {
 
 /*----------------------------------------------Media Queries for About Section---*/
 
+
+
 /*----------------------------------------------Subscribe Section---*/
 
 #sub-form {
@@ -198,6 +236,33 @@ h2  {
 
 /*----------------------------------------------Media Queries for Subscribe Section---*/
 
+@media screen and (max-width: 425px) {
+
+    #logo {
+        color: inherit;
+        font-family: Kalam, cursive;
+        font-size: 30px;
+        letter-spacing: 2px;
+        float: left;
+    }
+    #hero-image {
+        background: url(../images/hero-image.jpg) no-repeat center center;
+        min-height: 300px;
+        width: 100%;
+        position: relative;
+        background-size: cover;
+    }
+
+    #sub-form {
+        background-color: none;
+        position: absolute;
+
+        top: 280px;
+        font-size: 15px;
+        color: #274c77;
+        padding: 50px;
+    }
+}
 /*----------------------------------------------Footer---*/
 
 footer .icons,
