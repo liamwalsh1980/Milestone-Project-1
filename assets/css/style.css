@@ -12,20 +12,14 @@ body {
     color: #274c77;
 }
 
-/*----------------------------------------------heading---*/
-.margin {
-    margin: 2px;
-}
-
-.bgcolor {
-    background-color: #e7ecef;
-}
+/*----------------------------------------------Heading---*/
 
 #logo {
     color: inherit;
-    font-family: 'Kalam', cursive;
-    font-size: 40px;
+    font-family: Kalam, cursive;
+    font-size: 36px;
     letter-spacing: 2px;
+    float: left;
 }
 
 #logo:hover{
@@ -35,9 +29,9 @@ body {
 .logoicon {
     background: url("../images/logo-icon.png"); 
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100px;
-    padding: 25px;
+    background-position: center center;
+    height: 50px;
+    padding: 15px;
 }
 
 #menulist {
@@ -61,39 +55,44 @@ body {
     color: #274c77;
 }
 
+/*----------------------------------------------Media Queries Heading---*/
+
+
 /*----------------------------------------------Homepage Section---*/
 
 #outer {
-    min-height: 600;
-    min-width: 100%;
+    height: 600px;
+    width: 100%;
     background-color: #e7ecef; 
 }
 
 #hero-image {
-    background: url("../images/heroimage2.jpg") no-repeat center center;  
+    background: url("../images/hero-image.jpg") no-repeat center center;  
     min-height: 600px; 
     width: 100%; 
     position: relative;
+    background-size: cover;
 }
 
 #h2-list { 
 
     font-family: 'Kalam', cursive; 
     text-align: center; 
-    color: #e7ecef; 
+    color: #274c77; 
     letter-spacing: 2px; 
-    padding: 50px;
-    background-color: rgba(39,76,119,0.8); 
+    padding: 30px 30px 20px 30px;
+    background-color: rgba(231,236,239,0.8); 
     border-radius: 30%; 
-    top: 35%; 
-    left: 55%;
+    top: 20%; 
+    left: 70%;
     position: absolute; 
+    font-size: 3px;
 
 } 
 
 #subscribe-btn-home {  
-    top: 45%; 
-    left: 80%;
+    right: 170px;
+    top: 350px;
     position: absolute; 
 } 
 
@@ -113,18 +112,7 @@ body {
     background-color: #479ce0;
 }
 
-/*----------------------------------------------Media Queries for Homepage Section---*/
-
-@media screen and (max-width:576px) {
-    #logo {
-        font-size: 20px;
-    }
-
-    #logoicon {
-        padding: 0px;
-    }
-}
-
+/*---------------------------------------Media Queries for Homepage Section---*/
 /*----------------------------------------------About Section---*/
 h2  {
     text-align: center;
@@ -152,12 +140,61 @@ h2  {
 }
 
 .background-color p {
-    background-color: #274c77;
     color: #e7ecef;
 }
+
+#useful-links {
+    text-align: center;
+}
+
+#useful-links-1 {
+    background: url("../images/hero-image.jpg") no-repeat center center;  
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    clear: left;
+}
+
 /*----------------------------------------------Media Queries for About Section---*/
 
 /*----------------------------------------------Subscribe Section---*/
+
+#sub-form {
+    background-color: none;
+    position: absolute;
+    right: 150px;
+    top: 60px;
+    font-size: 20px;
+    color: #274c77;
+    
+    
+}
+
+#subscribe-btn-sub {
+    right: 150px;
+    top: 300px;
+    position: absolute; 
+
+}
+
+#subscribe-btn-sub span {  
+    text-transform: uppercase; 
+    font-size: large;
+    color: #e7ecef
+    
+    
+} 
+
+#subscribe-btn-sub button {
+    background-color: rgba(39,76,119,0.8);
+    border: none;
+    border-radius: 30px;
+    
+}
+
+#subscribe-btn-sub button:hover {
+    background-color: #479ce0;
+}
 
 /*----------------------------------------------Media Queries for Subscribe Section---*/
 

@@ -20,17 +20,21 @@
 </head>
 
 <body>
-    <!--Header includes the Autism icon from Wikimedia commons with a new logo name and Navbar template from Bootstrap 5-->
+    <!--Header includes the Autism Ribbon icon at the left and right side, sourced from Wikimedia commons with a new logo name at the top left and Navbar template from Bootstrap 5 at the top right-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bgcolor margin">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
                 <div class="logoicon">
                 </div>
-                <a class="navbar-brand" id="logo" href="index.html">Embrace Autism</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div>
+                    <a class="navbar-brand" id="logo" href="index.html">Embrace Autism</a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav" id="menulist">
                         <li class="nav-item">
@@ -43,6 +47,8 @@
                             <a class="nav-link" href="subscribe.html">Subscribe</a>
                         </li>
                     </ul>
+                    <div class="logoicon">
+                    </div>
                 </div>
             </div>
         </nav>
@@ -50,20 +56,22 @@
     <!--
         Section includes a hero image sourced from istockphoto.com and a plain dark blue with unordered lists. Padding added for the image to appear inbedded in the section.
     -->
-    <section id="outer">
-        <div class="container-fluid">
-            <div id="hero-image"></div>
+
+        <div id="outer">
+            <div id="hero-image">
+                <div id="h2-list">
+                    <h2>helpful advice</h2>
+                    <h2>new ideas</h2>
+                    <h2>useful links</h2>
+                </div>
+                <div id="subscribe-btn-home">
+                    <button type="button" class="btn btn-light btn-lg"><a class="nav-link"
+                            href="subscribe.html"><span>subscribe
+                                for free</span></a>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div id="h2-list">
-            <h2>helpful advice</h2>
-            <h2>new ideas</h2>
-            <h2>useful links</h2>
-        </div>
-        <div id="subscribe-btn-home">
-            <button type="button" class="btn btn-light btn-lg"><a class="nav-link" href="subscribe.html"><span>subscribe
-                        for free</span></a></button>
-        </div>
-    </section>
     <!--Footer includes a social media and email icons sourced from fontawesome and copyright paragraph-->
     <footer class="bgcolor">
         <div class="icons">
