@@ -12,7 +12,7 @@ body {
     color: #274c77;
 }
 
-/*----------------------------------------------Heading---*/
+/*---------------------------------------------Heading---*/
 
 #logo {
     color: inherit;
@@ -20,19 +20,20 @@ body {
     font-size: 36px;
     letter-spacing: 2px;
     float: left;
+    padding-top: 10px;
 }
 
 #logo:hover{
     color: #479ce0;
 }
 
-.logoicon {
+/* .logoicon {
     background: url("../images/logo-icon.png"); 
     background-repeat: no-repeat;
     background-position: center center;
     height: 50px;
     padding: 15px;
-}
+} */
 
 #menulist {
     margin-left: auto;
@@ -55,44 +56,128 @@ body {
     color: #274c77;
 }
 
-/*----------------------------------------------Media Queries Heading---*/
+/*--------------------------------------Media Queries for Heading---*/
 
+@media screen and (max-width: 991px) {
+    #menulist .active {
+    border-bottom: none;
+    color: #274c77;
+    }
+}
 
-/*----------------------------------------------Homepage Section---*/
+@media screen and (max-width: 768px) {
+    #logo {
+    color: inherit;
+    font-family: Kalam, cursive;
+    font-size: 35px;
+    letter-spacing: 2px;
+    float: left;
+    }
+
+    .navbar-toggler {
+        padding: 0.15rem 0.45rem;       
+    }
+
+    #menulist a {
+    font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #logo {
+    color: inherit;
+    font-family: Kalam, cursive;
+    font-size: 35px;
+    letter-spacing: 2px;
+    float: left;
+    }
+
+    .navbar-toggler {
+        padding: 0.10rem 0.40rem;       
+    }
+
+    #menulist a {
+    font-size: 16px;
+    }
+
+    #menulist .active {
+    border-bottom: none;
+    color: #274c77;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #logo {
+    color: inherit;
+    font-family: Kalam, cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    float: left;
+    }
+
+    .navbar-toggler {
+        padding: 0.10rem 0.40rem;       
+    }
+
+    #menulist a {
+    font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #logo {
+    color: inherit;
+    font-family: Kalam, cursive;
+    font-size: 23px;
+    letter-spacing: 2px;
+    float: left;
+    }
+
+    .navbar-toggler {
+        padding: 0.05rem 0.30rem;       
+    }
+
+    #menulist a {
+    font-size: 16px;
+    }
+}
+
+/*---------------------------------------------Homepage---*/
 
 #outer {
-    height: 600px;
+    height: 810px;
     width: 100%;
     background-color: #e7ecef; 
 }
 
 #hero-image {
     background: url("../images/hero-image.jpg") no-repeat center center;  
-    min-height: 600px; 
-    width: 100%; 
+    height: 800px; 
+    width: 100%;
     position: relative;
     background-size: cover;
 }
 
-#h2-list { 
+#ul-list { 
 
     font-family: 'Kalam', cursive; 
     text-align: center; 
     color: #274c77; 
     letter-spacing: 2px; 
-    padding: 30px 30px 20px 30px;
+    padding: 30px 30px 30px 30px;
     background-color: rgba(231,236,239,0.8); 
     border-radius: 30%; 
     top: 20%; 
     left: 70%;
     position: absolute; 
-    font-size: 3px;
+    font-size: 30px;
+    list-style-type: none;
 
 } 
 
 #subscribe-btn-home {  
-    right: 170px;
-    top: 350px;
+    right: 175px;
+    top: 400px;
     position: absolute; 
 } 
 
@@ -112,46 +197,64 @@ body {
     background-color: #479ce0;
 }
 
-/*---------------------------------------Media Queries for Homepage Section---*/
+/*--------------------------------------Media Queries for Homepage---*/
+
+@media screen and (max-width: 1024px) {
+    #subscribe-btn-home {  
+    right: 51px;
+    top: 420px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    #subscribe-btn-home {  
+    right: 51px;
+    top: 420px;
+    } 
+}
 
 @media screen and (max-width: 425px) {
+    #outer {
+        height: 750px;
+}
+
     #hero-image {
-        background: url(../images/hero-image.jpg) no-repeat center center;
-        min-height: 300px;
-        width: 100%;
+        background: url("../images/hero-image.jpg") no-repeat center center;  
+        height: 400px; 
+        width: 100%; 
         position: relative;
         background-size: cover;
     }
 
-    #h2-list {
-        font-family: 'Kalam', cursive;
-        text-align: center;
+    #ul-list {
         color: #274c77;
-        letter-spacing: 2px;
-        padding: 30px 30px 20px 30px;
         background-color: rgba(71, 156, 224,0.8);
-        border-radius: 30%;
-        top: 320px;
-        left: 60px;
-        position: absolute;
-        font-size: 3px;
+        top: 430px;
+        left: 76px;
     }
-
-    #subscribe-btn-home button {
-        background-color: rgba(39,76,119,0.8);
-        border: none;
-        border-radius: 30px;
-        margin-right: 10px;
-        margin-top: 140px;
-    /* float: right; */
-    /* position: absolute; */
-    }
-
+    #subscribe-btn-home {  
+        right: 93px;
+        top: 650px;
+    } 
 }
 
-/*----------------------------------------------About Section---*/
-h2  {
+/*---------------------------------------------About Page---*/
+
+.border-height {
+    margin-top: 20px;
+}
+
+h2, h5  {
     text-align: center;
+}
+
+.color-change {
+    background-color: #274c77;
+    color: #e7ecef;
+}
+
+.hr-color {
+    color: #479ce0;
 }
 
 #subscribe-btn-about { 
@@ -162,17 +265,17 @@ h2  {
 #subscribe-btn-about span {  
     text-transform: uppercase; 
     font-size: large;
-    color: #e7ecef;
+    color: #274c77;
 } 
 
 #subscribe-btn-about button {
-    background-color: rgba(39,76,119,0.8);
+    background-color: rgba(71, 156, 224);
     border: none;
     border-radius: 30px;
 }
 
 #subscribe-btn-about button:hover {
-    background-color: #479ce0;
+    background-color: #274c77;
 }
 
 .background-color p {
@@ -184,33 +287,36 @@ h2  {
 }
 
 #useful-links-1 {
-    background: url("../images/hero-image.jpg") no-repeat center center;  
+    background: url("../images/logo-icon.png") no-repeat center center;  
     position: absolute;
     background-size: cover;
     background-position: center;
     clear: left;
 }
 
-/*----------------------------------------------Media Queries for About Section---*/
+/*---------------------------------------------Media Queries for About Page---*/
 
 
 
-/*----------------------------------------------Subscribe Section---*/
+/*---------------------------------------------Subscribe Page---*/
+#testing {
+    border: 1px solid #479ce0;
+    padding: 10px;
+}
 
 #sub-form {
     background-color: none;
     position: absolute;
-    right: 150px;
+    right: 200px;
     top: 60px;
     font-size: 20px;
     color: #274c77;
-    
     
 }
 
 #subscribe-btn-sub {
     right: 150px;
-    top: 300px;
+    top: 330px;
     position: absolute; 
 
 }
@@ -234,9 +340,14 @@ h2  {
     background-color: #479ce0;
 }
 
-/*----------------------------------------------Media Queries for Subscribe Section---*/
+#sub-form h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
-@media screen and (max-width: 425px) {
+/*---------------------------------------------Media Queries for Subscribe---*/
+
+/* @media screen and (max-width: 425px) {
 
     #logo {
         color: inherit;
@@ -262,18 +373,19 @@ h2  {
         color: #274c77;
         padding: 50px;
     }
+} */
+/*---------------------------------------------Footer---*/
+footer {
+    position: relative;
+    margin: 10px;
+    border: 5px
 }
-/*----------------------------------------------Footer---*/
 
 footer .icons,
 p 
 {
     text-align: center;
     color: #274c77;
-}
-
-.icons {
-    padding-top: 15px;
 }
 
 .icons i {
@@ -286,9 +398,17 @@ p
 
 a {
     font-size: 20px;
-    padding: 15px;
+    padding: 20px;
 }
 
 .copyright {
-    margin-top: 10px;
+    margin-top: 5px;
 }
+
+/*--------------------------------------Media Queries for Footer---*/
+
+/* @media screen and (max-width: 425px) {
+    footer {
+        margin: -150px;
+    }
+} */
