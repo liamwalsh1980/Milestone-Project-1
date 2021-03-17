@@ -8,8 +8,8 @@ header {
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #e7ecef;
     color: #274c77;
+    background-color: #e7ecef;
 }
 
 /*---------------------------------------------Heading---*/
@@ -47,7 +47,7 @@ body {
     text-transform: uppercase;
 }
 
-#menulist a:hover{
+#menulist a:hover {
     color: inherit;
 }
 
@@ -60,18 +60,18 @@ body {
 
 @media screen and (max-width: 991px) {
     #menulist .active {
-    border-bottom: none;
-    color: #274c77;
+        border-bottom: none;
+        color: #274c77;
     }
 }
 
 @media screen and (max-width: 768px) {
     #logo {
-    color: inherit;
-    font-family: Kalam, cursive;
-    font-size: 35px;
-    letter-spacing: 2px;
-    float: left;
+        color: inherit;
+        font-family: Kalam, cursive;
+        font-size: 35px;
+        letter-spacing: 2px;
+        float: left;
     }
 
     .navbar-toggler {
@@ -79,17 +79,17 @@ body {
     }
 
     #menulist a {
-    font-size: 18px;
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 425px) {
     #logo {
-    color: inherit;
-    font-family: Kalam, cursive;
-    font-size: 35px;
-    letter-spacing: 2px;
-    float: left;
+        color: inherit;
+        font-family: Kalam, cursive;
+        font-size: 35px;
+        letter-spacing: 2px;
+        float: left;
     }
 
     .navbar-toggler {
@@ -97,22 +97,22 @@ body {
     }
 
     #menulist a {
-    font-size: 16px;
+        font-size: 16px;
     }
 
     #menulist .active {
-    border-bottom: none;
-    color: #274c77;
+        border-bottom: none;
+        color: #274c77;
     }
 }
 
 @media screen and (max-width: 375px) {
     #logo {
-    color: inherit;
-    font-family: Kalam, cursive;
-    font-size: 30px;
-    letter-spacing: 2px;
-    float: left;
+        color: inherit;
+        font-family: Kalam, cursive;
+        font-size: 30px;
+        letter-spacing: 2px;
+        float: left;
     }
 
     .navbar-toggler {
@@ -120,17 +120,17 @@ body {
     }
 
     #menulist a {
-    font-size: 16px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 320px) {
     #logo {
-    color: inherit;
-    font-family: Kalam, cursive;
-    font-size: 23px;
-    letter-spacing: 2px;
-    float: left;
+        color: inherit;
+        font-family: Kalam, cursive;
+        font-size: 23px;
+        letter-spacing: 2px;
+        float: left;
     }
 
     .navbar-toggler {
@@ -138,7 +138,7 @@ body {
     }
 
     #menulist a {
-    font-size: 16px;
+        font-size: 16px;
     }
 }
 
@@ -159,7 +159,6 @@ body {
 }
 
 #ul-list { 
-
     font-family: 'Kalam', cursive; 
     text-align: center; 
     color: #274c77; 
@@ -201,22 +200,22 @@ body {
 
 @media screen and (max-width: 1024px) {
     #subscribe-btn-home {  
-    right: 51px;
-    top: 420px;
+        right: 51px;
+        top: 420px;
     } 
 }
 
 @media screen and (max-width: 768px) {
     #subscribe-btn-home {  
-    right: 51px;
-    top: 420px;
+        right: 51px;
+        top: 420px;
     } 
 }
 
 @media screen and (max-width: 425px) {
     #outer {
         height: 750px;
-}
+    }
 
     #hero-image {
         background: url("../images/hero-image.jpg") no-repeat center center;  
@@ -232,6 +231,7 @@ body {
         top: 430px;
         left: 76px;
     }
+
     #subscribe-btn-home {  
         right: 93px;
         top: 650px;
@@ -269,13 +269,13 @@ h2, h5  {
 } 
 
 #subscribe-btn-about button {
-    background-color: rgba(71, 156, 224);
+    background-color: rgb(71, 156, 224);
     border: none;
     border-radius: 30px;
 }
 
 #subscribe-btn-about button:hover {
-    background-color: #274c77;
+    background-color: #e7ecef;
 }
 
 .background-color p {
@@ -284,14 +284,6 @@ h2, h5  {
 
 #useful-links {
     text-align: center;
-}
-
-#useful-links-1 {
-    background: url("../images/logo-icon.png") no-repeat center center;  
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    clear: left;
 }
 
 /*---------------------------------------------Media Queries for About Page---*/
@@ -310,30 +302,25 @@ h2, h5  {
     right: 200px;
     top: 60px;
     font-size: 20px;
-    color: #274c77;
-    
+    color: #274c77;   
 }
 
 #subscribe-btn-sub {
     right: 150px;
     top: 330px;
     position: absolute; 
-
 }
 
 #subscribe-btn-sub span {  
     text-transform: uppercase; 
     font-size: large;
     color: #e7ecef
-    
-    
 } 
 
 #subscribe-btn-sub button {
     background-color: rgba(39,76,119,0.8);
     border: none;
     border-radius: 30px;
-    
 }
 
 #subscribe-btn-sub button:hover {
@@ -374,6 +361,7 @@ h2, h5  {
         padding: 50px;
     }
 } */
+
 /*---------------------------------------------Footer---*/
 footer {
     position: relative;
@@ -381,9 +369,7 @@ footer {
     border: 5px
 }
 
-footer .icons,
-p 
-{
+footer .icons, p {
     text-align: center;
     color: #274c77;
 }
