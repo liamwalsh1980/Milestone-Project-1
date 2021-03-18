@@ -198,6 +198,33 @@ body {
 
 /*--------------------------------------Media Queries for Homepage---*/
 
+@media screen and (min-width: 2560px) {
+     #outer {
+        height: 1400px;
+    }
+
+    #hero-image {
+        height: 1400px; 
+    }
+
+    #ul-list {
+       font-size: 80px;
+       padding: 50px;
+    }
+
+    #subscribe-btn-home {  
+        position: absolute;
+        right: 182px;
+        top: 850px;
+    }
+
+     #subscribe-btn-home span {  
+        font-size: 50px;
+    }
+
+}
+
+
 @media screen and (max-width: 1024px) {
     #subscribe-btn-home {  
         right: 51px;
@@ -206,10 +233,23 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    #subscribe-btn-home {  
-        right: 51px;
-        top: 420px;
-    } 
+    #ul-list {
+        font-size: 20px;
+    }
+
+    #subscribe-btn-home {
+        right: 32px;
+        top: 350px;
+    }
+
+    #subscribe-btn-home span {  
+        font-size: 15px;
+    }
+
+    .nav-link {
+        padding: 2px;
+    }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -229,13 +269,67 @@ body {
         color: #274c77;
         background-color: rgba(71, 156, 224,0.8);
         top: 430px;
-        left: 76px;
+        left: 107px;
     }
 
     #subscribe-btn-home {  
-        right: 93px;
-        top: 650px;
+        right: 121px;
+        top: 630px;
     } 
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    #outer {
+        height: 750px;
+    }
+
+    #hero-image {
+        background: url("../images/hero-image.jpg") no-repeat center center;  
+        height: 400px; 
+        width: 100%; 
+        position: relative;
+        background-size: cover;
+    }
+
+    #ul-list {
+        color: #274c77;
+        background-color: rgba(71, 156, 224,0.8);
+        top: 430px;
+        left: 82.5px;
+    }
+
+    #subscribe-btn-home {  
+        right: 96px;
+        top: 630px;
+    } 
+}
+
+@media screen and (max-width: 320px) {
+
+   #outer {
+        height: 750px;
+    }
+
+    #hero-image {
+        background: url("../images/hero-image.jpg") no-repeat center center;  
+        height: 400px; 
+        width: 100%; 
+        position: relative;
+        background-size: cover;
+    }
+
+    #ul-list {
+        color: #274c77;
+        background-color: rgba(71, 156, 224,0.8);
+        top: 430px;
+        left: 55px;
+    }
+
+    #subscribe-btn-home {  
+        right: 69px;
+        top: 630px;
+    } 
+
 }
 
 /*---------------------------------------------About Page---*/
@@ -282,7 +376,13 @@ h2, h5  {
     color: #e7ecef;
 }
 
-#useful-links {
+.ideas-1 {
+    height: 100px;
+    padding: 2px;
+    overflow: scroll;
+}
+
+.useful-links {
     text-align: center;
 }
 
