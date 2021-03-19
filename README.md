@@ -38,35 +38,35 @@ Essentially, this part is your sales pitch. [delete when ready]
 **Response - by subscribing to Embrace Autism this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of her family. They can also take a look at the useful links to see whether one of the charties can offer some advice** 
 
 * I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their site visitors?  
-**Response - 
-
-There is the option to contact Embrace Autism by email. To send an email the user will need to click the email envelope icon which can be found within the footer next to the social media icons. The user can click the icon to open a draft email within their device. The draft will have the pre-prepopulated email address of info@embrace-autism.co.uk in the recipient section of the email. The user can then complete the email and when ready, click send. 
+**Response - There is the option to contact Embrace Autism by email. To send an email the user will need to click the email envelope icon which can be found within the footer next to the social media icons. The user can click the icon to open a draft email within their device. The draft will have the pre-prepopulated email address of info@embrace-autism.co.uk in the recipient section of the email. The user can then complete the email and when ready, click send** 
 
 * One more - tbc
 
 ## Design Process 
 
-### Strategy trade-off
+1. I knew I wanted to create a website based on a subject that is close to my heart. I came up with a good name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once i had completed the Strategy and Scope planes knowing what was and what wasn't needed or acheiveable. I then focused on the structure and layout.
+
+## Strategy trade-off
 
 ![Image template](assets/images/ea-strategy.png)
 
-### Scope Plane diagram
+## Scope Plane diagram
 
 ![Image template](assets/images/ea-scope.png)
 
-1. I knew I wanted to create a website based on a subject that is close to my heart. I came up with a good name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once i had completed the Strategy and Scope planes knowing what was and what wasn't needed or acheiveable. I then focused on the structure and layout.
+1. I wanted to keep the Structure straightforward so that all users visiting the site would see the same flow, patterns and layout making their experience on the site easy to navigate around. 
 
-1. I wanted to keep the Structure straightforward so that all users visiting the site would see the same flow, patterns and layout making their experience on the site easy and relaxing. I wanted to make sure there was consistences with regards to the header (logo name and navigation menu) and footer throughout all pages. I also wanted to show an even and relevant amount of information depending on which page the user is on. 
-
-1. The content for the website mostly came from my own experiences and took a little time to put together. I used a couple of external sources to help with the content from other Autism websites. Credits can be found at the bottom of this README document for reference. 
+1. The content for the website mainly came from my own experiences and therefore took a little time to put together. I used a couple of external sources to help with the content from other Autism websites. Credits can be found at the bottom of this README document for reference. 
 
 1. Once i knew what structure i had in mind i moved onto the Skeleton plane and used Balsamiq wireframes to start some blueprints on how the website looked. Initially i was building a website with three pages, however, after going through the design process early on i knew that four pages was needed to spread out the right level of content in the right places which i know would offer better UX. 
+
+1. I wanted to make sure there was consistence with regards to the header (logo name and navigation menu) and footer throughout all pages (social media icons, email icons and copyright text). I also wanted to show an even and relevant amount of information depending on which page the user is on. 
 
 1. I wanted the website to have a minimum of three pages, home (index.html), about (about.html) and subscribe (subscribe.html). However, as mentioned above a fourth page for ideas (ideas.html) would be needed to help structure the content in the right place. I also considered a blog page, however, at this stage I feel that this would be to advanced for a new website like this and my current skillset.
 
 1. Every Friday morning my wife and I attent an Autism intervention workshop with other parents and NHS professionals to discuss the best ways to help when raising a child with Autism. The knowledge gained is often information i like to share with other parents and therefore the Embrace Autism website idea i believe is the perfect platform to offer the information we gain from these workshops. 
 
-1. As my target audience would be other parents with a child with Autism, the design I wanted to achieve is a clean and friendly website that is easy to use, to gain information and subscribe to a mailing list. I also wanted to make sure the wesbite was attractive enough for vistors to return back to as more information would be added over time. I felt the layout of the site, colour schemes and font choices were going to be an important part of the design process. I took my time testing different font styles in Google Fonts and chose the Ubuntu : Sans-serif font family for most of the website content. The Ubuntu font was chosen as it appears friendly and very readable to the eye. I chose the Kalam : cursive font family for the logo text and homepage cover text. The Kalam font was chosen to stand out and show as a different style compared to most of the website content.
+1. As my target audience would be other parents with a child on the Autistic spectrum, the design I wanted to achieve is a clean and friendly website that is easy to use, to gain information and subscribe to a mailing list. I also wanted to make sure the wesbite was attractive enough for vistors to return back to as more information would be added over time. I felt the layout of the site, colour schemes and font choices were going to be an important part of the design process. I took my time testing different font styles in Google Fonts and chose the Ubuntu : Sans-serif font family for most of the website content. The Ubuntu font was chosen as it appears friendly and very readable to the eye. I chose the Kalam : cursive font family for the logo text and homepage cover text. The Kalam font was chosen to stand out and show as a different style compared to most of the website content.
 
 1. The home and subscribe pages would have minimum content. The home page would be designed to gain the users attention and encourage them to easily navigate to the about page, ideas page and then onto the subscribe page to register.   
 
@@ -86,28 +86,18 @@ There is the option to contact Embrace Autism by email. To send an email the use
 
 1. Within the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is dark blue (hex:274c77) with the text in light grey (hex:e7ecef). The wording is in capital letters and when hovering over this button the colour of the button changes to a strong green colour. After removing the ordered list i had the option to increase the size of this cover text and 'SUBSCRIBE FOR FREE' button more visiable to users. 
 
-1. The about page has information in the form of a paragaph about my families personal journey with Autism. This information sits within a dark blue background colour (hex:274c77) with the font Ubuntu and the colour of the font being a very light grey (hex:e7ecef). Below this paragraph there is some additional content encouraging the user to visit the ideas page and subscribe page. The text is also in very light grey (hex:e7ecef). Underneath this text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue (hex:479ce0) with the text in dark blue (hex:274c77. The wording is in capital letters and when hovering over this button the colour of the button changes to a strong green colour.
+1. The about page has a dark blue background colour (hex:274c77) within the main body. The Ubuntu font is used for all content with a very light grey (hex:e7ecef) colour finish. This page holds information in the form of a paragaph about my families personal journey with Autism. Below this paragraph there is some additional content encouraging the user to visit the ideas page and subscribe page. Underneath this text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue (hex:479ce0) with the text in dark blue (hex:274c77). The wording is in capital letters and when hovering over this button the colour of the button changes to a strong green colour. Below the media video there is useful Links which include three chartiy organisation links for users to click. These links are external to the website and therefore will open in a new tab page on the users browser. This is to make sure that if the user wants to return to the Embrace Autism the site is there to click back on. I used bootstrap containers, rows and columns to structure the layout of this page which made it easier with regards to responsive design. 
 
-1. The ideas page 
-useful information along with important external links to relevant charities and organisations for Autism. This page will also have some information about my families journey from when we had the formal Autism diagnoses our Son. I decided to keep this page simple with colours and breakup the information into sections i.e. Our Autism Journey, What worked for us and Useful links. This was done using horizontal rows. After the 'What worked for us' section and before the 'Useful links' section there is another 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page to click on. 
-This button is dark blue (hex:274c77) with the text in light grey (hex:e7ecef). The wording is in capital letters and when hovering over this button the colour of the button changes to light blue (hex:479ce0). Useful Links section includes three chartiy organisation links for users to click. These links are external to the website and therefore will open in a new tab page on the users browser. This is to make sure that if the user wants to return to the Embrace Autism website the site is there to click back on.
+Media video to be added
 
+1. The ideas page has a dark blue background colour (hex:274c77) within the main body. The Ubuntu font is used for all content with a very light grey (hex:e7ecef) colour finish. The main purpose for this page is to provide users with clear to read information. I decided to keep this page simple with the option to read and much or as little as the user wanted. This is done using the CSS overflow scroll value. There is also breaks between each information paragaph to make it easy to navigate throughout the page. Below the information paragraphs there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue (hex:479ce0) with the text in dark blue (hex:274c77). The wording is in capital letters and when hovering over this button the colour of the button changes to a strong green colour. Below the button there is useful Links which include three chartiy organisation links for users to click. These links are external to the website and therefore will open in a new tab page on the users browser. This is to make sure that if the user wants to return to the Embrace Autism the site is there to click back on. I used bootstrap containers, rows and columns to structure the layout of this page which made it easier with regards to responsive design. 
+ 
 1. The subcribe page  
 
 1. Media queries 
     - The navbar is created using bootstrap and therefore mobile first responsive. 
     - Hero-image has been adjusted in size to fit all screeen sizes.
     - The cover text and subscribe button has had media queries applied to adjust the positioning and to fit in with all mobile, tablet and desktop sizes.
-
-
-### Strategy trade-off
-
-![Image template](assets/images/ea-strategy.png)
-
-### Scope
-
-![Image template](assets/images/ea-scope.png)
-
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
