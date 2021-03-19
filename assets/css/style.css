@@ -354,6 +354,10 @@ h2, h5  {
     text-align: center;
 }
 
+#hiddendisabilities {
+    background-image: url(../css/images/hidden-disabilities_logo2.png) no-repeat centre centre;
+}
+
 /*---------------------------------------------Media Queries for About Page---*/
 
 /*---------------------------------------------Subscribe Page---*/

@@ -6,9 +6,9 @@
 
 ![template](assets/images/imagetemplate.png)
 
-Embrace Autism is a fictional website that is mainly aimed at parents of children that have a diagnosis of Autism (ASD – Autistic Spectrum Disorder). The website provides advice and ideas on how to occupy and keep Autistic children happy, engaged and active. As a father of an Autistic child, I know how difficult it can be to entertain and keep your child happy and fulfilled. Therefore, I had the idea to design a website that can offer help and advice drawn upon my own experiences. Embrace Autism is a website that you can access time and time again to get new ideas, parent to parent advice and useful links to external websites relevant to ASD. There is the option to subscribe to Embrace Autism by providing your name and email address to get regular new ideas, free of charge, straight to email. 
+Embrace Autism is a fictional information website that is mainly aimed at parents of those who have a child with a diagnosis of Autism (ASD – Autistic Spectrum Disorder). The website provides advice and ideas on how to occupy and keep Autistic children happy, engaged and active. As a father of an Autistic child, I know how difficult it can be to entertain and keep your child happy and fulfilled. Therefore, I had the idea to design a website that can offer help and advice drawn upon my own experiences. Embrace Autism is a website that you can access time and time again to get new ideas, parent to parent advice and useful links to external websites relevant to ASD. There is the option to subscribe to Embrace Autism mailing list by providing your name and email address to get regular new ideas, free of charge. 
 
-This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project is to design a responsive website using HTML5 and CSS3 with a miniumum of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about and ideas pages relevant with the right level of content and fourth page offering users to subscribe. All this i feel would work well when using the menu bar to navigate around the site. 
+This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project is to design a responsive website using HTML5 and CSS3 with the option of using CSS libraries/frameworks like Bootstrap. There is a miniumum requirement of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about and ideas pages relevant with the right level of content and a fourth page offering users the option to subscribe. All this i feel would work well when using the menu bar to navigate around the site.
 
 Essentially, this part is your sales pitch. [delete when ready]
 
@@ -18,56 +18,75 @@ Essentially, this part is your sales pitch. [delete when ready]
 ---
 
 ### Main aims
-* To inform other parents of potential new ways to help in their day to day life when bringing up their Autistic condition.
+* To inform other parents of potential new ways to help in their day to day life when bringing up their Child with Autism.
 * Offer positive activities and ways to improve the quality of life for all members of the family involved.
-* To encourage parents and their children not to ignore the condition but instead realise what it is, embrace it and find ways to that will work to understand and cope well with the condition.  
+* To encourage parents and their children not to ignore the condition but instead realise what it is, embrace it and find ways that will work to understand and cope well with the it.  
 * To let parents know that they aren't alone and that there are many other parents and families out there that have been through challenging times when raising a child with Autism. 
 * To make it easy for all users to navigate around the site using the menu navigation bar to read more about the service being offered.
 * To make it easy and quick to subscribe for weekly/monthly updates offering them help and advice. 
 * To offer useful links to creditable charities and organisations that can offer more in-depth advice and support.
-* The main aim from a developers point is to maximise as many subscribed users as possible by encouraging users to complete the very quick and easy form, free of charge.   
+* The main aim from a developers point is to maximise as many subscribed members to Embrace Autism as possible by encouraging users to complete the very quick and easy form.
 
 ### User Stories
+* I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage I just need to be pointed in the right direction.  
+**Response - Embrace Autism offers useful links to charities that specialise in Autism all over the UK. These links can be found on the about and ideas page. For example: A link to the National Autism Society will offer this parent the right step towards long term help and support.** 
 
-* I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do now that I know what my child's condition is. I don't necessarily need specific advice at this stage I just need to be pointed in the right direction.  
-**Response - Embrace Autism offers useful links to charities that specialise in Autism all over the UK. A link to the National Autism Society for example will offer this parent the right step towards long term help and support.** 
-
-* I have a teenage Son who has Autism. He only wants to play on his computer games. He hardly leaves the house and I'm concerned about this health and wellbeing.  
+* I have a teenage Son who has Autism. He only wants to play on his computer games. He hardly leaves the house and I'm concerned about his health and wellbeing.  
 **Response - There would be advice on the website to support this parent, often related to encouraging routines and good habits to get into.** 
 
-* I have five children. The two youngest are diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained.  
-**Response - by subscribing to Embrace Autism this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of her family.** 
+* I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained.  
+**Response - by subscribing to Embrace Autism this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of her family. They can also take a look at the useful links to see whether one of the charties can offer some advice** 
 
-* I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their users?  
-**Response - There is the option to make contact by email. The email address can be found in the form of an icon that can be clicked to launch a ready to send email with the email info@embrace-autism.co.uk prepopulated in a new message draft ready for the user to type a message and send the email straight away. This icon can be found at the footer of every web page after the social media icons (this feature isn't enabled yet as believe - Javascript) .** 
+* I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their site visitors?  
+**Response - 
 
-### Design Process 
+There is the option to contact Embrace Autism by email. To send an email the user will need to click the email envelope icon which can be found within the footer next to the social media icons. The user can click the icon to open a draft email within their device. The draft will have the pre-prepopulated email address of info@embrace-autism.co.uk in the recipient section of the email. The user can then complete the email and when ready, click send. 
 
-1. I knew I wanted to create a website based on a subject that is close to my heart.  I started the design process on pen and paper and moved to wireframes using Balsamiq soon after. I already had the name 'Embrace Autism' in mind before starting the course. I wanted the website to have a minimum of three pages, home (index), about and subscribe with a potential fourth page to act as a blog. At this stage I feel that a blog page would be to advanced for this new website and my skillset. I've since decided to add a fourth page to capature new ideas and advice for parents to read. 
+* One more - tbc
+
+## Design Process 
+
+### Strategy trade-off
+
+![Image template](assets/images/ea-strategy.png)
+
+### Scope Plane diagram
+
+![Image template](assets/images/ea-scope.png)
+
+1. I knew I wanted to create a website based on a subject that is close to my heart. I came up with a good name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once i had completed the Strategy and Scope planes knowing what was and what wasn't needed or acheiveable. I then focused on the structure and layout.
+
+1. I wanted to keep the Structure straightforward so that all users visiting the site would see the same flow, patterns and layout making their experience on the site easy and relaxing. I wanted to make sure there was consistences with regards to the header (logo name and navigation menu) and footer throughout all pages. I also wanted to show an even and relevant amount of information depending on which page the user is on. 
+
+1. The content for the website mostly came from my own experiences and took a little time to put together. I used a couple of external sources to help with the content from other Autism websites. Credits can be found at the bottom of this README document for reference. 
+
+1. Once i knew what structure i had in mind i moved onto the Skeleton plane and used Balsamiq wireframes to start some blueprints on how the website looked. Initially i was building a website with three pages, however, after going through the design process early on i knew that four pages was needed to spread out the right level of content in the right places which i know would offer better UX. 
+
+1. I wanted the website to have a minimum of three pages, home (index.html), about (about.html) and subscribe (subscribe.html). However, as mentioned above a fourth page for ideas (ideas.html) would be needed to help structure the content in the right place. I also considered a blog page, however, at this stage I feel that this would be to advanced for a new website like this and my current skillset.
 
 1. Every Friday morning my wife and I attent an Autism intervention workshop with other parents and NHS professionals to discuss the best ways to help when raising a child with Autism. The knowledge gained is often information i like to share with other parents and therefore the Embrace Autism website idea i believe is the perfect platform to offer the information we gain from these workshops. 
 
-1. As my target audience would be other parents with a child with Autism, the design I wanted to achieve is a clean and friendly website that is easy to use, to gain information and subscribe to a mailing list. I also wanted to make sure the wesbite was attractive enough for vistors to return back to as more information would be added over time. I felt the layout of the site, colour schemes and font choices were going to be an important part of the design process. I took my time testing different font styles in Google Fonts and chose the Ubuntu : Sans-serif font family for most of the website content. The Ubuntu font was chosen as it appears friendly and very readable to the eye. I chose the Kalam : cursive font family for the logo text and homepage cover text. The Kalam font was chosen to stand out and show as a different style compared to most of the wesbite content.
+1. As my target audience would be other parents with a child with Autism, the design I wanted to achieve is a clean and friendly website that is easy to use, to gain information and subscribe to a mailing list. I also wanted to make sure the wesbite was attractive enough for vistors to return back to as more information would be added over time. I felt the layout of the site, colour schemes and font choices were going to be an important part of the design process. I took my time testing different font styles in Google Fonts and chose the Ubuntu : Sans-serif font family for most of the website content. The Ubuntu font was chosen as it appears friendly and very readable to the eye. I chose the Kalam : cursive font family for the logo text and homepage cover text. The Kalam font was chosen to stand out and show as a different style compared to most of the website content.
 
 1. The home and subscribe pages would have minimum content. The home page would be designed to gain the users attention and encourage them to easily navigate to the about page, ideas page and then onto the subscribe page to register.   
 
-1. I changed the colour of the website a couple of times and used coolors.co site to assist with a couple of colours that worked well to compliment my preferred blue. The coolors.co colours chosen are - dark blue and light grey. I needed an colour to stand out when buttons are being hovered over. Therefore, i picked a strong green. Full details of all colours can be found below: -
-    - Colour: hex:479ce0 (rgb:71, 156, 224) and (hsl:207°, 71%, 58%) Description: A striking blue
+1. I changed the colour of the website a couple of times and used coolors.co site to assist with a couple of colours that worked well to compliment the light blue which i wanted to use. The coolors.co colours chosen is a dark blue and very light grey. I needed a colour to stand out when buttons are being hovered over. Therefore, i picked a strong green. Full details of all colours can be found below: -
+    - Colour: hex:479ce0 (rgb:71, 156, 224) and (hsl:207°, 71%, 58%) Description: Light blue
     - Colour: hex:274c77 (rgb: 39,76,119) and (hsl:212°, 51%, 31%) Description: Dark blue (from coolors.co)
     - Colour: hex:e7ecef (rgb:231,236,239) and (hsl: 202°, 20%, 92%) Description: Very light grey (from coolors.co)
-    - Colour: hex:3b9e3b (rgb: 59, 158, 59) and (hsl: 120°, 46%, 43%) Description: Dark green
+    - Colour: hex:3b9e3b (rgb: 59, 158, 59) and (hsl: 120°, 46%, 43%) Description: Strong green
 
 1. I wanted to offer users the option of making contact by email. I was going to apply a generic email address at the top of the homepage, however after moving it about a few times, In the end i decided to add a forth icon next to the social media icons which looked much cleaner and more professional.
 
 1. The homepage design went through a few trials with the right type of image i wanted and the positioning of it. When i found this image <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">click here</a> i knew it would work well for what i wanted to show and the message i wanted to get across. 
 
-1. I wanted to use all colours pre-picked for the website to maximise the attraction of this page. Starting with the cover text highlighting three benefits about the website. The text was formatted as an unordered list with the bullet points removed. At first the unordered list was nested in a div element, however, i wanted the list to sit inside a semantic element to show improved web design. I used the aside element to achieve this. The colours i chose for the cover text list was dark blue (hex:274c77) with a light grey background colour using rgba(106, 112, 116, 0.7. The 'alpha' was used to show a softened colour background to appear to blend into the hero image. 
+1. I wanted to use all colours for the website to maximise the attraction of this page. Starting with the cover text highlighting three benefits about the website. The text was formatted as an unordered list with the bullet points removed. At first the unordered list was nested in a div element, however, i wanted the list to sit inside a semantic element to show improved web design. I used the aside element to achieve this. The colours i chose for the cover text list was dark blue (hex:274c77) with a light grey background colour using rgba(106, 112, 116, 0.7. The 'alpha' was used to show a softened colour background to appear to blend into the hero image. 
 
 1. There was an ordered list using numbers 1-3 giving an easy step by step process to get the most from the site. However, after careful consideration i decided to remove the ordered list and strenghen the look of the navigation menu bar. 
 
-1. Within the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is dark blue (hex:274c77) with the text in light grey (hex:e7ecef). The wording is in capital letters and when hovering over this button the colour of the button changes to green. After removing the ordered list i had the option to increase the size of this cover text and 'SUBSCRIBE FOR FREE' button more visiable to users. 
+1. Within the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is dark blue (hex:274c77) with the text in light grey (hex:e7ecef). The wording is in capital letters and when hovering over this button the colour of the button changes to a strong green colour. After removing the ordered list i had the option to increase the size of this cover text and 'SUBSCRIBE FOR FREE' button more visiable to users. 
 
-1. The about page has information about my families personal journey with Autism. This information sits within a dark blue background (hex:274c77)
+1. The about page has information in the form of a paragaph about my families personal journey with Autism. This information sits within a dark blue background colour (hex:274c77) with the font Ubuntu and the colour of the font being a very light grey (hex:e7ecef). Below this paragraph there is some additional content encouraging the user to visit the ideas page and subscribe page. The text is also in very light grey (hex:e7ecef). Underneath this text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue (hex:479ce0) with the text in dark blue (hex:274c77. The wording is in capital letters and when hovering over this button the colour of the button changes to a strong green colour.
 
 1. The ideas page 
 useful information along with important external links to relevant charities and organisations for Autism. This page will also have some information about my families journey from when we had the formal Autism diagnoses our Son. I decided to keep this page simple with colours and breakup the information into sections i.e. Our Autism Journey, What worked for us and Useful links. This was done using horizontal rows. After the 'What worked for us' section and before the 'Useful links' section there is another 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page to click on. 
@@ -227,15 +246,25 @@ In addition, if it is not obvious, you should also describe how to run your code
 ---
 
 ### Content
+* <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto" target="blank">Link to my email icon</a> supplied by my mentor - Seun Owonikoko using 
+<a href="https://www.w3schools.com/tags/" target="blank">w3schools</a>
+
+* I obtained content for the ideas page titled -  Tips for New Autism Parents <a href="https://www.autismspeaks.org/blog/11-tips-new-autism-parents" target="blank">(10) Take your kid out everywhere</a>. This was from the website - <a href="https://www.autismspeaks.org/" target="blank">Autism Speaks</a>
+
+https://www.autismspeaks.org/blog/11-tips-new-autism-parents
+
 * The text for section Y was copied from the Wikipedia article Z
 
 ### Media
-* I received inspiration for this project from using images supplied by the <a href="https://www.istockphoto.com/portfolio/vejaa?assettype=image&mediatype=photography" target="blank">Photography - Vejaa</a>.
+* I received inspiration for this project by using images supplied by the <a href="https://www.istockphoto.com/portfolio/vejaa?assettype=image&mediatype=photography" target="blank">Photography - Vejaa</a>.
 
-    - <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">Chosen image</a> by photography - Vejaa
-    - Hero image icon sourced from istockphoto.com (to be purchased £??)
+    - <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">Chosen homepage hero image</a> by photography - Vejaa
+    - <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">Chosen subscribe page image</a> by photography - Vejaa
+    - Images sourced from istockphoto.com (to be purchased £?? each)
 
 ### Acknowledgements    
+
+* My Mentor - Seun Owonikoko  
 
 logo-icon sourced from wikimedia commons
 https://commons.wikimedia.org/wiki/File:Autism_Awareness_Ribbon.png
