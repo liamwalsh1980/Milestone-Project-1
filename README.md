@@ -8,7 +8,7 @@
 
 Embrace Autism is a fictional website that is mainly aimed at parents of children that have a diagnosis of Autism (ASD – Autistic Spectrum Disorder). The website provides advice and ideas on how to occupy and keep Autistic children happy, engaged and active. As a father of an Autistic child, I know how difficult it can be to entertain and keep your child happy and fulfilled. Therefore, I had the idea to design a website that can offer help and advice drawn upon my own experiences. Embrace Autism is a website that you can access time and time again to get new ideas, parent to parent advice and useful links to external websites relevant to ASD. There is the option to subscribe to Embrace Autism by providing your name and email address to get regular new ideas, free of charge, straight to email. 
 
-This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project is to design a responsive website using HTML5 and CSS3 with three web pages or three separate sections on one page. I chose to go with three webpages as I wanted to keep the homepage content minimum, the about page contained full of information and a third page for just subscribing. All this i feel would work well when using the easy-to-use menu bar to navigate around. 
+This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project is to design a responsive website using HTML5 and CSS3 with a miniumum of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about and ideas pages relevant with the right level of content and fourth page offering users to subscribe. All this i feel would work well when using the menu bar to navigate around the site. 
 
 Essentially, this part is your sales pitch. [delete when ready]
 
@@ -43,28 +43,43 @@ Essentially, this part is your sales pitch. [delete when ready]
 
 ### Design Process 
 
-1. I knew I wanted to create a website based on a subject that is close to my heart.  I started the design process on pen and paper and moved to Balsamiq soon after. I already had the name 'Embrace Autism' in mind before starting the course. I wanted the website to have a minimum of 3 pages, home (index), about and subscribe with a potential fourth page to act as a blog. At this stage I feel that a blog page would be to advanced for this new website and my skillset. 
+1. I knew I wanted to create a website based on a subject that is close to my heart.  I started the design process on pen and paper and moved to wireframes using Balsamiq soon after. I already had the name 'Embrace Autism' in mind before starting the course. I wanted the website to have a minimum of three pages, home (index), about and subscribe with a potential fourth page to act as a blog. At this stage I feel that a blog page would be to advanced for this new website and my skillset. I've since decided to add a fourth page to capature new ideas and advice for parents to read. 
 
-1. The design I wanted to achieve was a clean and friendly website for people to visit and return back to as more ideas are added. Therefore, I feel the colour schemes and font choices were going to be an important part of the design process. I took my time testing different font styles on Google Fonts and chose the Ubuntu font for most of the content and the Kalam font for the logo text and homepage cover text - website benefits list. The home and subscribe pages would have minimum content. The home page would be designed to gain the users attention and encourage them to easily navigate to the about page and then onto the subscribe page to complete the form to sign up to receive on-going information and advice which would be sent by email each week or month. I changed the colour of the website a couple of times and used coolors.co site to assist with a couple of colours that worked well to compliment my preferred blue. The coolors.co colours chosen are - dark blue and light grey. I needed an colour to stand out when buttons are being hovered over. Therefore, i picked a strong green. Full details of all colours can be found below: -
-    - Colour: hex: 479ce0 (rgb:71, 156, 224) and (hsl:207°, 71%, 58%) Description: A stiking blue
-    - Colour: hex: 274c77 (rgb: 39,76,119) and (hsl:212°, 51%, 31%) Description: Navy blue (from coolors.co)
-    - Colour: hex: e7ecef (rgb:231,236,239) and (hsl: 202°, 20%, 92%) Description: Very light grey (from coolors.co)
-    - Colour: hex: 3b9e3b (rgb: 59, 158, 59) and (hsl: 120°, 46%, 43%) Description: Dark green
+1. Every Friday morning my wife and I attent an Autism intervention workshop with other parents and NHS professionals to discuss the best ways to help when raising a child with Autism. The knowledge gained is often information i like to share with other parents and therefore the Embrace Autism website idea i believe is the perfect platform to offer the information we gain from these workshops. 
 
-1. All three pages have the same header and footer formated. The header has a text logo 'Embrace Autism' in dark blue at the top left. When hovering over the logo text the dark blue colour (hex:274c77) becomes light blue (hex:479ce0). As its a link to the homepage, when clicked, it will bring the user back to the homepage (index.html) for convivence. On the right side of the header there is a navigtion bar for the home page, about page and subscribe page. The default colour for all three page titles is light blue (hex:479ce0) and when hovering over one of the page title links the colour will turn from light blue (hex:479ce0) to dark blue (hex:274c77). The relelvant page title in the navigation menu will be automatically dark blue (hex:274c77) and underlined in the same colour to show which page the user is currently on. The footer has central social media logos to facebook, linkedIn and twitter. These are all links to the relevant sites making it easy for users to click through to. Each link will be opened in a new tab making it easy for the user to come back Embrace Autism as the site will still be open. I wanted to offer users the option of making contact by email. I was going to apply a generic email address at the top of the homepage, however after moving it about a few times, In the end i decided to add a forth icon next to the social media icons which looked much cleaner and more professional. All 4 logos are structured evenly in the centre of the screen at the bottom of every web page. There is good spacing between each icon to make it easy for users to click without making the mistake of clicking the wrong one. Below the icons there is a short paragraph for copyright which again is central and at the bottom of every page and in a dark blue colour. All icons have the colour of light blue. When the icons are hovered over the light blue turns dark blue showing the user which icon they are about to select when clicked. 
+1. As my target audience would be other parents with a child with Autism, the design I wanted to achieve is a clean and friendly website that is easy to use, to gain information and subscribe to a mailing list. I also wanted to make sure the wesbite was attractive enough for vistors to return back to as more information would be added over time. I felt the layout of the site, colour schemes and font choices were going to be an important part of the design process. I took my time testing different font styles in Google Fonts and chose the Ubuntu : Sans-serif font family for most of the website content. The Ubuntu font was chosen as it appears friendly and very readable to the eye. I chose the Kalam : cursive font family for the logo text and homepage cover text. The Kalam font was chosen to stand out and show as a different style compared to most of the wesbite content.
 
-1. The homepage design went through a few trial and error stages with the positioning of the heroimage and the key information i wanted to include. I wanted to use all colours pre-picked for the website to maximise the attraction of this page. Starting with the cover text highlighting three benefits about the website. The text was formatted as an unordered list with the bullet points removed. At first the unordered list was nested in a div element, however, i wanted the list to sit in a semantic element and therefore i used the aside element to achieve this. The colours chosen for this is dark blue for the text and a light grey background colour using alpha (rgba) to show a soft colour background where it appears to blend into the hero-image. There was an ordered list using numbers 1-3 giving an easy step by step process to get the most from the site. However, after careful consideration i decided to remove the ordered list and strenghen the look of the navigation menu bar. Within the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is dark blue with the text in light grey. The wording is in capital letters and when hovering over this button the colour of the button changes to green. After removing the ordered list i had the option to increase the size of this cover text and 'SUBSCRIBE FOR FREE' button to make it easy for users to click to the subscribe page. 
+1. The home and subscribe pages would have minimum content. The home page would be designed to gain the users attention and encourage them to easily navigate to the about page, ideas page and then onto the subscribe page to register.   
 
-1. The about page has most of the website content giving the users alot of useful information along with important external links to relevant charities and organisations for Autism. This page will also have some information about my families journey from when we had the formal Autism diagnoses our Son. I decided to keep this page simple with colours and breakup the information into sections i.e. Our Autism Journey, What worked for us and Useful links. This was done using horizontal rows. After the 'What worked for us' section and before the 'Useful links' section there is another 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page to click on. 
-This button is dark blue (hex:274c77) with the text in light grey (hex:e7ecef). The wording is in capital letters and when hovering over this button the colour of the button changes to light blue (hex:479ce0). Useful Links section includes three chartiy organisation links for users to click. These links are external to the website and therefore will open in a new tab page on the users browser. This is to make sure that if the user wants to return to the Embrace Autism website the site is there to click back on. 
+1. I changed the colour of the website a couple of times and used coolors.co site to assist with a couple of colours that worked well to compliment my preferred blue. The coolors.co colours chosen are - dark blue and light grey. I needed an colour to stand out when buttons are being hovered over. Therefore, i picked a strong green. Full details of all colours can be found below: -
+    - Colour: hex:479ce0 (rgb:71, 156, 224) and (hsl:207°, 71%, 58%) Description: A striking blue
+    - Colour: hex:274c77 (rgb: 39,76,119) and (hsl:212°, 51%, 31%) Description: Dark blue (from coolors.co)
+    - Colour: hex:e7ecef (rgb:231,236,239) and (hsl: 202°, 20%, 92%) Description: Very light grey (from coolors.co)
+    - Colour: hex:3b9e3b (rgb: 59, 158, 59) and (hsl: 120°, 46%, 43%) Description: Dark green
 
-1. Every Friday morning my wife and I attent an Autism workshop with other parents and NHS professionals to discuss the best ways to help when raising a child with Autism. The knowledge gained is often information i like to share with other parents and therefore the Embrace Autism website is the perfect platform for this. 
+1. I wanted to offer users the option of making contact by email. I was going to apply a generic email address at the top of the homepage, however after moving it about a few times, In the end i decided to add a forth icon next to the social media icons which looked much cleaner and more professional.
 
-1. I found it difficult to find the perfect hero image for the home page. I wanted an image that clearly shows Autism as the focal point. (MORE INFO TO COME)
+1. The homepage design went through a few trials with the right type of image i wanted and the positioning of it. When i found this image <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">click here</a> i knew it would work well for what i wanted to show and the message i wanted to get across. 
 
-1. The email address moved a few times. In the end i decided to add a forth icon next to the social media icons in the footer which looked much cleaner and more professional. 
+1. I wanted to use all colours pre-picked for the website to maximise the attraction of this page. Starting with the cover text highlighting three benefits about the website. The text was formatted as an unordered list with the bullet points removed. At first the unordered list was nested in a div element, however, i wanted the list to sit inside a semantic element to show improved web design. I used the aside element to achieve this. The colours i chose for the cover text list was dark blue (hex:274c77) with a light grey background colour using rgba(106, 112, 116, 0.7. The 'alpha' was used to show a softened colour background to appear to blend into the hero image. 
 
-1. Media queries (homepage - nav bar it bootstrap and therefore mobile first responsive. Hero-image has been adjusted in size to fit all screeen sizes. )
+1. There was an ordered list using numbers 1-3 giving an easy step by step process to get the most from the site. However, after careful consideration i decided to remove the ordered list and strenghen the look of the navigation menu bar. 
+
+1. Within the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is dark blue (hex:274c77) with the text in light grey (hex:e7ecef). The wording is in capital letters and when hovering over this button the colour of the button changes to green. After removing the ordered list i had the option to increase the size of this cover text and 'SUBSCRIBE FOR FREE' button more visiable to users. 
+
+1. The about page has information about my families personal journey with Autism. This information sits within a dark blue background (hex:274c77)
+
+1. The ideas page 
+useful information along with important external links to relevant charities and organisations for Autism. This page will also have some information about my families journey from when we had the formal Autism diagnoses our Son. I decided to keep this page simple with colours and breakup the information into sections i.e. Our Autism Journey, What worked for us and Useful links. This was done using horizontal rows. After the 'What worked for us' section and before the 'Useful links' section there is another 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page to click on. 
+This button is dark blue (hex:274c77) with the text in light grey (hex:e7ecef). The wording is in capital letters and when hovering over this button the colour of the button changes to light blue (hex:479ce0). Useful Links section includes three chartiy organisation links for users to click. These links are external to the website and therefore will open in a new tab page on the users browser. This is to make sure that if the user wants to return to the Embrace Autism website the site is there to click back on.
+
+1. The subcribe page  
+
+1. Media queries 
+    - The navbar is created using bootstrap and therefore mobile first responsive. 
+    - Hero-image has been adjusted in size to fit all screeen sizes.
+    - The cover text and subscribe button has had media queries applied to adjust the positioning and to fit in with all mobile, tablet and desktop sizes.
+
 
 ### Strategy trade-off
 
@@ -100,26 +115,32 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-My project has 3 web pages all connected to each other by using the relevant link options at the top of each page in the menu navigation section.  
+#### All four pages 
 
- 
+* My project has 4 web pages with the same header and footer formated. All pages are connected to each other by using the relevant link options at the top of each page in the menu navigation bar. The defaults set across all pages are as follows: - 
 
- 
+    - Font style: Ubuntu with Sans-serif incase google fonts doesn't load
+    - Font colour: dark blue (hex:274c77)
+    - Background colour: very light grey (hex:e7ecef)
 
-### All pages 
+* The header has a text logo called 'Embrace Autism' in dark blue (hex:274c77) at the top left. When hovering over the logo text the dark blue colour (hex:274c77) changes to light blue (hex:479ce0). This gives the user an indication that it’s a link and when clicked, it will bring the user back to the homepage (index.html) for convenience. On the right side of the header there is a horizontal navigtion bar showing the following pages available: - home, about, ideas and subscribe. The font colour for all four page titles is light blue (hex:479ce0) and when hovering over one of the page titles the colour will change from light blue (hex:479ce0) to dark blue (hex:274c77). This shows a user that these page titles are links and that when hovering over one of them, it can also be clicked to move to that particular page within the site. A user will know what page they're on because the relevant page title will be highlighted in dark blue (hex:274c77) and underlined in the same colour. At this time the other pages will be shown in light blue (hex:479ce0) by default. This gives the user clear indication of what page they are currently on and what pages are available to hover over and click on. 
 
-1. A header which includes a text logo at the top left which is also a link back to the home page offer convivence for the user. Top right, there is a navigation bar in the form of a horizontal menu with links to each page relevant to the description titles.  
-1. A footer which includes social media icons, a generic email address for communicating and copyright icon.  
-1. A generic easy on the eye background showing an Autism symbol ??? 
+* The footer has social media icons to facebook, instgram and twitter. These are all links to the relevant sites making it easy for a user to click through to. Each link will be opened in a new tab making it easy for the user to come back to the Embrace Autism site as it will still be open on the users browser. There is an email icon next to the social media icons which will give users the option to click on. This will open up a new blank email draft ready to use and send back to Embrace Autism's genertic emaill account. All four icons are structured evenly in the centre of the screen at the bottom of every page. There is good spacing between each icon to make it easy users to click on without making the mistake of clicking the wrong one. All icons have the colour of light blue (hex:479ce0). When a user hovers over a particular icon the light blue (hex:479ce0) turns dark blue (hex:274c77) showing the user which icon they are about to select when clicked. Below the icons there is a short paragraph for copyright which again is central and at the bottom of every page. The colour of this paragraph is dark blue (hex:274c77). 
 
-### Home (index.html) 
 
-1. A hero image associated to Autism 
+#### Homepage (index.html) 
+
+* The main feature of this page is a large hero image with a light blue cloud like background. At the forefront of the image there is two sets of hands embracing a small heartshape colourful object. This image will indidcate to users that its a loving, embracing and welcoming site which should gain immediate attention. 
+
+There is a small list of benefits about the website which sits within the large hero image. The text is in dark blue (hex:274c77) and in the 
+
+Withi
+
 1. A brief description of the site 
 1. Reasons to subscribe (i.e. Free service, weekly or monthly subscription options, parent to parent advice) 
 1. A subscribe button to click and subscribe free, quick and easy.  
 
-### About 
+### About (about.html)
 
 1. Our Autism Journey section  
 1. Facts and figures section 
@@ -133,6 +154,10 @@ My project has 3 web pages all connected to each other by using the relevant lin
 1. A form section for subscribing to free tips and advice via emailed.  
 1. The form will include a name and email section to complete along with the choice of either a weekly or monthly subscription using radio buttons.  
 1. A submit button will be at the bottom of the form and once clicked a Modal message will appear to show the user the form has been completed and submitted successfully. 
+
+### Mobile responsive
+
+### Tablet responsive
 
 
 * Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -205,17 +230,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 * The text for section Y was copied from the Wikipedia article Z
 
 ### Media
-* The photos used in this site were obtained from ...
+* I received inspiration for this project from using images supplied by the <a href="https://www.istockphoto.com/portfolio/vejaa?assettype=image&mediatype=photography" target="blank">Photography - Vejaa</a>.
 
-### Acknowledgements
-* I received inspiration for this project from X
+    - <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">Chosen image</a> by photography - Vejaa
+    - Hero image icon sourced from istockphoto.com (to be purchased £??)
 
-
-hero_image icon sourced from istockphoto.com (to be purchased £??)
-https://www.istockphoto.com/photo/hands-holding-puzzle-ribbon-for-autism-awareness-gm1134365962-301409027?utm_campaign=srp_photos_limitedresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fautism%2F&utm_medium=affiliate&utm_source=pexels&utm_term=autism
-Credit to photography Vejaa
-https://www.istockphoto.com/portfolio/vejaa?assettype=image&mediatype=photography
-Cost: £??
+### Acknowledgements    
 
 logo-icon sourced from wikimedia commons
 https://commons.wikimedia.org/wiki/File:Autism_Awareness_Ribbon.png

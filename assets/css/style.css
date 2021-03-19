@@ -159,20 +159,17 @@ body {
     list-style-type: none;
 } 
 
-#subscribe-btn-home { 
-    padding: 5px;
-} 
-
 #subscribe-btn-home span {  
     text-transform: uppercase; 
     font-size: large;
-    color: #e7ecef
+    color: #e7ecef;
 } 
 
 #subscribe-btn-home {
     background-color: rgba(39,76,119,0.8);
     border: none;
     border-radius: 30px;
+    padding: 5px;
 }
 
 #subscribe-btn-home:hover {
