@@ -150,11 +150,15 @@ body {
     background-size: cover; 
 }
 
-    #homepage-h1 span {
-        color: #274c77;
-        font-family: Kalam, cursive;
-        letter-spacing: 2px;
-    }
+#homepage-h1 {
+    text-align: center;
+}
+
+#homepage-h1 span {
+    color: #e7ecef;
+    font-family: Kalam, cursive;
+    letter-spacing: 2px;
+}
 
 
 #homepage-cover-text-background {
@@ -163,9 +167,7 @@ body {
     width: 250px;
     height: 250px;
     border-radius: 30%;
-
-    margin-top: 350;
-    margin-left: 1000;
+    margin-left: 595px;
 }
 
 #ul-benefits-list { 
@@ -185,7 +187,8 @@ body {
     height: 50px;
     border-radius: 30px;
     border: none;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 595px;
 }
 
 #subscribe-btn-home-cover span {  
@@ -474,20 +477,16 @@ body {
 }
 /*---------------------------------------------About Page---*/
 
-.border-height {
-    margin-top: 20px;
-}
-
-h2, h5  {
+h2  {
     text-align: center;
 }
 
-.color-change {
+.bg-color-change-about {
     background-color: #274c77;
     color: #e7ecef;
 }
 
-.hr-color {
+.hr-color-about {
     color: #479ce0;
 }
 
@@ -513,25 +512,72 @@ h2, h5  {
     background-color: rgb(59, 158, 59);
 }
 
-.background-color p {
+.useful-links-about {
+    text-align: center;
+    background-color: white;
+}
+
+.useful-links-about h2 {
+    color: #274c77;
+    padding-top: 5px;
+}
+
+/*---------------------------------------------Media Queries for About Page---*/
+
+/*---------------------------------------------Resources Page---*/
+
+h2, h4  {
+    text-align: center;
+}
+
+.bg-color-change-resources {
+    background-color: #274c77;
     color: #e7ecef;
 }
 
-.ideas-1 {
+.hr-color-resources {
+    color: #479ce0;
+}
+
+.resources-scroll {
     height: 100px;
     padding: 2px;
     overflow: scroll;
 }
 
-.useful-links {
+#subscribe-btn-resources { 
+    margin-top: 20px; 
     text-align: center;
+    padding: 5px;
+} 
+
+#subscribe-btn-resources span {  
+    text-transform: uppercase; 
+    font-size: large;
+    color: #274c77;
+} 
+
+#subscribe-btn-resources button {
+    background-color: rgb(71, 156, 224);
+    border: none;
+    border-radius: 30px;
 }
 
-#hiddendisabilities {
-    background-image: url(../css/images/hidden-disabilities_logo2.png) no-repeat centre centre;
+#subscribe-btn-resources button:hover {
+    background-color: rgb(59, 158, 59);
 }
 
-/*---------------------------------------------Media Queries for About Page---*/
+.useful-links-resources {
+    text-align: center;
+    background-color: white;
+}
+
+.useful-links-resources h2 {
+    color: #274c77;
+    padding-top: 5px;
+}
+
+/*-----------------------------------------Media Queries for Resources Page---*/
 
 /*---------------------------------------------Subscribe Page---*/
 #testing {
