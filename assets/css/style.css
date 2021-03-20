@@ -150,6 +150,13 @@ body {
     background-size: cover; 
 }
 
+    #homepage-h1 span {
+        color: #274c77;
+        font-family: Kalam, cursive;
+        letter-spacing: 2px;
+    }
+
+
 #homepage-cover-text-background {
     text-align: center;
     background-color: rgba(231,236,239, .7);
@@ -178,6 +185,7 @@ body {
     height: 50px;
     border-radius: 30px;
     border: none;
+    margin-top: 10px;
 }
 
 #subscribe-btn-home-cover span {  
@@ -194,7 +202,7 @@ body {
 
 /*--------------------------------------Media Queries for Homepage---*/
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
     #outer {
         height: 460px;
@@ -240,6 +248,61 @@ body {
 
     #subscribe-btn-home-cover span {
         font-size: 15px;
+    }
+} */
+
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+
+    #outer {
+        height: 1100px;
+    }
+    #hero-image {
+        height: 576px;
+    }
+
+    #homepage-h1 {
+        text-align: center;
+        font-size: 35px;
+        color: #479ce0;
+        margin-top: 600px;
+        font-weight: 500;
+        padding: 5px;
+        
+    }
+
+    #homepage-h1 span {
+        color: #274c77;
+        font-family: Kalam, cursive;
+        letter-spacing: 2px;
+    }
+
+    #homepage-cover-text-background {
+        width: 368px;
+        height: 276px;
+        margin: 200px;
+        margin-top: 20px;
+        background-color: #274c77;
+    }
+
+    #ul-benefits-list {
+        color: #e7ecef;
+        font-size: 42px;
+        padding-left: 2%;
+        padding: 2.5rem;
+    }
+
+    #subscribe-btn-home-cover {
+        background-color: #479ce0;
+        width: 30%;
+        height: 10%;
+        margin-left: 269px;
+        top: -190px;
+        position: relative;
+    }   
+
+    #subscribe-btn-home-cover span {
+        color: #e7ecef;
+        font-size: 20px;
     }
 }
 
