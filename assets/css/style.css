@@ -150,152 +150,201 @@ body {
     background-size: cover; 
 }
 
-#ul-list { 
+#homepage-cover-text-background {
+    text-align: center;
+    background-color: rgba(231,236,239, .7);
+    width: 250px;
+    height: 250px;
+    border-radius: 30%;
+
+    margin-top: 350;
+    margin-left: 1000;
+}
+
+#ul-benefits-list { 
     font-family: Kalam, cursive;
     color: #274c77; 
     letter-spacing: 2px;
-    padding-left: 1px;
-    padding-top: 10px;
+    padding-left: 2%;
+    padding-top: 25%;
     list-style-type: none;
+    font-size: 30px;
 } 
 
-#subscribe-btn-home span {  
+#subscribe-btn-home-cover {
+    background-color: rgba(39,76,119,0.8);
+    padding: 0;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
+
+#subscribe-btn-home-cover span {  
     text-transform: uppercase; 
-    font-size: large;
+    font-size: 20px;
     color: #e7ecef;
 } 
 
-#subscribe-btn-home {
-    background-color: rgba(39,76,119,0.8);
-    border: none;
-    border-radius: 30px;
-    padding: 5px;
-}
-
-#subscribe-btn-home:hover {
+#subscribe-btn-home-cover:hover {
     background-color: rgb(59, 158, 59);
 }
 
-#homepage-center {
-    text-align: center;
-    background-color: rgba(231,236,239, .7);
-    width: 300px;
-    height: 200px;
-    border-radius: 30%;
-    font-size: 25px;  
-    margin: 10px; 
-    margin-top: 350;
-    margin-left: 1000;
-    
-}
 
 
 /*--------------------------------------Media Queries for Homepage---*/
-@media screen and (max-width: 2560px) {
-    #homepage-center {
-        margin: 1700px;
-        margin-top: 40px;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    #homepage-center {
-        margin: 900px;
-        margin-top: 40px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    #homepage-center {
-        margin: 630px;
-        margin-top: 40px;
-    }
-}
 
 @media screen and (max-width: 768px) {
-    #homepage-center {
-        margin: 440px;
-        margin-top: 40px;
+
+    #outer {
+        height: 400px;
+    }
+    #hero-image {
+        height: 384px;
+    }
+
+    #homepage-cover-text-background {
+        width: 200px;
+        height: 150px;
+        margin-left: 500px;
+        margin-top: 20px;
+    
+    }
+
+    #ul-benefits-list {
+        font-size: 17px;
+        padding-left: 2%;
+        padding: 2.1rem;
+    }
+
+    #subscribe-btn-home-cover {
+        width: 180px;
+        height: 50px;
+        margin-left: 510px;
+        margin-top: 30px;
+        position: relative;
+    }   
+
+    #subscribe-btn-home-cover span {
+        font-size: 15px;
     }
 }
 
 @media screen and (max-width: 425px) {
+
+    #outer {
+        height: 800px;
+    }
     #hero-image {
-        height: 400px;
+        height: 318px;
     }
 
-    #homepage-center {
-        margin: 15%;
-        margin-top: 450px;
+    #homepage-cover-text-background {
+        width: 325px;
+        height: 243px;
+        margin: 50px;
+        margin-top: 365px;
         background-color: #274c77;
-        
     }
 
-    #subscribe-btn-home span {
-        color: #e7ecef
-    }
-
-    #ul-list {
+    #ul-benefits-list {
         color: #e7ecef;
+        font-size: 36px;
+        padding-left: 2%;
+        padding: 2.35rem;
     }
 
-    #subscribe-btn-home {
+    #subscribe-btn-home-cover {
         background-color: #479ce0;
-    }
-
-    #subscribe-btn-home:hover {
-       background-color: rgb(59, 158, 59);
+        width: 60%;
+        height: 18%;
+        margin: 85px;
+        margin-top: -30px;
     }   
-    
+
+    #subscribe-btn-home-cover span {
+        color: #e7ecef;
+        font-size: 20px;
+    }
 }
+
+/* Middle mobile screen size - the hero image height adjusted. Cover text and button centred and reduced in size. Background colour changed also for contrasting again light background*/
 
 @media screen and (max-width: 375px) {
+
+    #outer {
+        height: 700px;
+    }
     #hero-image {
-        height: 400px;
+        height: 281px;
     }
 
-    #homepage-center {
-        margin: 37.5px;
-        margin-top: 450px;
+    #homepage-cover-text-background {
+        width: 275px;
+        height: 206px;
+        margin: 50px;
+        margin-top: 323px;
         background-color: #274c77;
-        
     }
 
-    #subscribe-btn-home span {
-        color: #e7ecef
-    }
-
-    #ul-list {
+    #ul-benefits-list {
         color: #e7ecef;
+        font-size: 28px;
+        padding-left: 2%;
+        padding: 2.3rem;
     }
 
-    #subscribe-btn-home {
+    #subscribe-btn-home-cover {
         background-color: #479ce0;
-    }
+        width: 60%;
+        height: 20%;
+        margin: 75px;
+        margin-top: -30px;
+    }   
 
+    #subscribe-btn-home-cover span {
+        color: #e7ecef;
+        font-size: 18px;
+    }
 }
+/* Smallest mobile size with the hero image height adjusted. Cover text and button centred and reduced in size. Background colour changed also for contrasting again light background*/
 
 @media screen and (max-width: 320px) {
+    #outer {
+        height: 600px;
+    }
     #hero-image {
-        height: 400px;
+        height: 240px;
     }
 
-    #homepage-center {
-        margin: 10px;
-        margin-top: 420px;
+    #homepage-cover-text-background {
+        width: 220px;
+        height: 165px;
+        margin: 50px;
+        margin-top: 276px;
         background-color: #274c77;
+
     }
 
-    #subscribe-btn-home span {
-        color: #e7ecef
-    }
-
-    #ul-list {
+    #ul-benefits-list {
         color: #e7ecef;
+        font-size: 21px;
+        padding-left: 2%;
+        padding: 1.9rem;
     }
 
-    #subscribe-btn-home {
+    #subscribe-btn-home-cover {
         background-color: #479ce0;
+        width: 60%;
+        height: 20%;
+        margin: 64px;
+        margin-top: -30px;
+
+    }
+
+    #subscribe-btn-home-cover span {
+        color: #e7ecef;
+        font-size: 15px;
     }
 
 }
@@ -404,34 +453,6 @@ h2, h5  {
 
 /*---------------------------------------------Media Queries for Subscribe---*/
 
-/* @media screen and (max-width: 425px) {
-
-    #logo {
-        color: inherit;
-        font-family: Kalam, cursive;
-        font-size: 30px;
-        letter-spacing: 2px;
-        float: left;
-    }
-    #hero-image {
-        background: url(../images/hero-image.jpg) no-repeat center center;
-        min-height: 300px;
-        width: 100%;
-        position: relative;
-        background-size: cover;
-    }
-
-    #sub-form {
-        background-color: none;
-        position: absolute;
-
-        top: 280px;
-        font-size: 15px;
-        color: #274c77;
-        padding: 50px;
-    }
-} */
-
 /*---------------------------------------------Footer---*/
 footer {
     position: relative;
@@ -462,9 +483,3 @@ a {
 }
 
 /*--------------------------------------Media Queries for Footer---*/
-
-/* @media screen and (max-width: 425px) {
-    footer {
-        margin: -150px;
-    }
-} */
