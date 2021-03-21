@@ -477,13 +477,39 @@ body {
 }
 /*---------------------------------------------About Page---*/
 
-h2  {
-    text-align: center;
-}
-
 .bg-color-change-about {
     background-color: #274c77;
     color: #e7ecef;
+    text-align: left;
+}
+
+#our-autism-journey, #next-step, #website-goals {
+    text-align: left;
+}
+
+#about-source-border {
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+    background-color: #e7ecef;
+    padding: 20px;
+    
+}
+#about-source {
+    color: red;
+    font-size: 12px;
+}
+
+#resources-link, #resources-link2 {
+    color: #479ce0;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.autism {
+    font-family: Kalam, cursive;
+    letter-spacing: 2px;
 }
 
 .hr-color-about {
