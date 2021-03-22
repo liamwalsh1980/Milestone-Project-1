@@ -10,6 +10,8 @@ Embrace Autism is a fictional information website that is mainly aimed at parent
 
 This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project is to design a responsive website using HTML5 and CSS3 with the option of using CSS libraries/frameworks like Bootstrap. There is a miniumum requirement of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about and ideas pages relevant with the right level of content and a fourth page offering users the option to subscribe. All this i feel would work well when using the menu bar to navigate around the site.
 
+Date this project started: 9th March 2021
+
 Essentially, this part is your sales pitch. [delete when ready]
 
 [Click here to view the Embrace Autism project website live](https://embraceautism2.godaddysites.com/)
@@ -93,20 +95,31 @@ Full details of all colours can be found below: -
 
 1. Below the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. On desktop screen this button is dark blue (hex:274c77) with the text in light grey (hex:e7ecef). The wording is in capital letters and when hovering over this button the colour of the button changes to a strong green colour. After removing the ordered list i had the option to increase the size of this cover text and 'SUBSCRIBE FOR FREE' button making it more visiable to users. 
 
-1. The about page has a dark blue background colour (hex:274c77) within the main body. The Ubuntu font is used for all content with a very light grey (hex:e7ecef) colour finish. The strucure of the page leans to the left side to make it more professional. The page holds information in the form of a sub headers, paragraphs, an unordered list (bullet points) a factsheet and a short video clip about Autism. The information you will find on this page is about my families personal journey with Autism, the websites goals, next steps available,subcribe button to click on and useful external links. The factsheet has a contrasting colours with a very light grey (hex:e7ecef) background and dark blue font colour (hex:274c77). This is done to purposely to stand out from the page. There is a couple of additional links to the resource and subscribe pages within the bullet points to encourse users to move on to once finished on this page. 
-
-With the there is some additional content encouraging the user to visit the ideas page and subscribe page. Underneath this text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue (hex:479ce0) with the text in dark blue (hex:274c77). The wording is in capital letters and when hovering over this button the colour of the button changes to a strong green colour. Below the media video there is useful Links which include three chartiy organisation links for users to click. These links are external to the website and therefore will open in a new tab page on the users browser. This is to make sure that if the user wants to return to the Embrace Autism the site is there to click back on. I used bootstrap containers, rows and columns to structure the layout of this page which made it easier with regards to responsive design. 
-
-Media video to be added
+1. The about page has a dark blue background colour (hex:274c77) within the main body. The Ubuntu font is used for all content with a very light grey (hex:e7ecef) colour finish. The structure of the page leans to the left side to make it look more professional. The page holds information in the form of a sub headers, paragraphs, an unordered list (bullet points) a factsheet and a short video clip about Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps available, subscribe button to click on and useful external links. The factsheet has contrasting colours with a very light grey (hex:e7ecef) background and dark blue font colour (hex:274c77). This is done purposely to stand out from the page. There is a couple of additional links to the resource and subscribe pages within the bullet points to encourage users to click on. This button is light blue (hex:479ce0) with the text in dark blue (hex:274c77). The wording is in capital letters and when hovering over this button the colour of the button changes to a strong green colour. I used bootstrap containers, rows and columns to structure the layout of this page which made it easier with regards to responsive design. 
 
 1. The resources page has a dark blue background colour (hex:274c77) within the main body. The Ubuntu font is used for all content with a very light grey (hex:e7ecef) colour finish. The main purpose for this page is to provide users with clear to read information. I decided to keep this page simple with the option to read and much or as little as the user wanted. This is done using the CSS overflow scroll value. There is also breaks between each information paragaph to make it easy to navigate throughout the page. Below the information paragraphs there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue (hex:479ce0) with the text in dark blue (hex:274c77). The wording is in capital letters and when hovering over this button the colour of the button changes to a strong green colour. Below the button there is useful Links which include three chartiy organisation links for users to click. These links are external to the website and therefore will open in a new tab page on the users browser. This is to make sure that if the user wants to return to the Embrace Autism the site is there to click back on. I used bootstrap containers, rows and columns to structure the layout of this page which made it easier with regards to responsive design. 
  
 1. The subcribe page  
 
-1. Media queries 
-    - The navbar is created using bootstrap and therefore mobile first responsive. 
-    - Hero-image has been adjusted in size to fit all screeen sizes.
-    - The cover text and subscribe button has had media queries applied to adjust the positioning and to fit in with all mobile, tablet and desktop sizes.
+1. Media queries - all pages (index.html, about.html, resources.html and subscribe.html)
+    - The nagivation bar is created using Bootstrap5 and therefore mobile first responsive. From small mobiles up to and including tablets the navigation bar is formated as a hamburger menu (3 horizontal bars, one on top of the other) I checked across all screen sizing and the only screen size that needed media queries was the larest screen (2560px) for the header. 
+    [logo text to be moved to the left and the navigation bar to the right - to be completed]
+    - The footer has minimum content with icons and a very short paragaph included. For good UX i centred the footer and therefore on any device this will appear central and easy to view. 
+
+1. Media queries - homepage (index.html)
+    - Hero-image has been adjusted in size to fit all screeen sizes
+    - The h1 header has been adusted to fit within all screen sizes. From mobiles up to and including tablets the header has the default, Ubuntu font and is in the light blue (hex:479ce0) colour. The word 'Autism' within the header has the font Kalam and is in the dark blue (hex:274c77) colour. This matches the logo text and is done to purposely allow the word to stick out from the rest of the header text. On larger screens this h1 header is positioning within the hero image and is in dark blue (hex:274c77)
+    - The cover text on mobiles up to and including tablets has a dark blue background (hex:274c77). The text is styled with the Kalam font and is in the light grey (hex:e7ecef) colour to finish. The positioning of the cover text is central and below the hero image. On larger screens the cover text is positioned within the hero image. The cover text background colour is light grey (hex:e7ecef) with the font colour in dark blue (hex:274c77).  
+    - The 'SUBSCRIBE FOR FREE' button has been adjusted and positioning to fit in with all mobile, tablet and desktop sizes. From small mobiles up to and including tablets this button can be found below the hero image and cover text. The background colour of this button is light blue (hex:479ce0). The font style within this button is in the default Ubuntu font with the colour light grey (hex:e7ecef) to finish. On larger screens this button is positioned within the hero image and below the cover text. The background colour is light grey (hex:e7ecef) and the font colour being dark blue (hex:274c77).
+
+1. Media queries - about page (about.html)
+    - The factsheet font size, height and width had to be adjusted to fit on smaller screens.
+    - The 'useful links' logos needed to be reduced and re-positioned to fit on smaller screens. As long with this the sub header above these logos also had to be adjusted in size. 
+    - The Subscribe button needed to be adjusted in size for both small screens and large screens. 
+
+1. Media queries - resources  page (resources.html)
+
+1. Media queries - subsribe  page (subsribe.html)
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -153,32 +166,29 @@ In this section, you should go over the different parts of your project, and des
 * There is a small list of benefits (cover text) about the website which sits within the large hero image. The text is in dark blue (hex:274c77) with the background colour in very light grey using rgba(231,236,239, .7). The alpha at 0.7 was designed to blend into the page. The font chosen for this text is Kalam and the same as the logo text in the header in order to stand out. Below the cover text there is a 'SUBSCRIBE FOR FREE' button. This is linked to the subcribe page making it easy for the user to click on and sign up. The button font is in default Ubuntu and in uppercase. The font colour is in very light grey (hex:e7ecef) with a dark blue (hex:274c77) background. I decided to add a h1 header to the top of the page above the cover text stating
 'A parent to parent Autism resource site'. This header is in the default Ubuntu in dark blue (hex:274c77). The word 'Autism' is formated in the Kalam font to keep the same style as the logo text. The colour of this word is in a very light grey (hex:e7ecef) for contrast. 
 
-### About (about.html)
+#### About (about.html) 
 
-Header
-Our Autism Journey (logo text and nav bar)
-Website goals
-Media clip (to be added)
-Factsheet
-The next step
-A subscribe button to click and subscribe free, quick and easy. 
-Links to external sources i.e. National Autistic Society, Autism NI, Hidden Disabilities, Wikipedia, NHS etc.  
-Footer (Social media icons, email icon and copyright text)
+* This page has a dark blue (hex:274c77) background colour with a light grey (hex:e7ecef) text colour. The font is the default Ubuntu with the word 'Autism' in the Kalam font to match the logo text. 
+* The page holds a header (Our Autism Journey) with three short paragraphs below. Underneath there is another header (Website goals) with 3 bullet points in the form of an unordered list. Within this bullet point texts there is a couple of links to different pages within the site. These links are easily visiable as the colour of the word links is in light blue (hex:479ce0) and can be clicked by users at any time to move to either the resource page or subscribe page. 
+* There is a factsheet below the unordered list. The factsheet background colour is light grey (hex:e7ecef) with the font colour being dark blue (hex:274c77). There is some small text within this section stating where the factsheet information was sourced from. This text is in red. 
+* MEDIA CLIP - to be added
+*There is another sub header (The next step) with a short paragaph below the media clip. This gives the user additional information on what they can do next. i.e. subscribe or use the links below to look at external links 
+* Underneath this short paragaph, there is a 'SUBSCRIBE FOR FREE' button. This is linked to the subcribe page making it easy for the user to click on and sign up. The button font is in default Ubuntu and in uppercase. The font colour is in dark blue (hex:274c77) with a blue (hex:479ce0) background. The button background colour will change from blue (hex:479ce0) to green (hex:3b9e3b) to show its being hovered over and that it can be clicked.
+* This page also has Links to external sources i.e. National Autistic Society, Autism NI, Hidden Disabilities. All three official logos from these charities is very visiable to see at the bottom of the page just above the footer. These logos are positioned on a white background with another room between each one, making it easy to click the right one. Clicking any of the logos will bring the user to the homepage of whichever one is clicked. This will open in a seperate tab on the users browser making it easy to navigate back to the Embrace Autism site as it will still be open. 
 
-1. A brief description of the site 
-1. Reasons to subscribe (i.e. Free service, weekly or monthly subscription options, parent to parent advice) 
+#### Resources (resources.html)
+
+1. Header (what worked for use)
+1. Sub header - 'Take your child out everywhere' and Paragraph
+1. Sub header - 'Routines and good habits' and Paragraph
+1. Sub header - 'Free up time is easier than you think' and Paragraph
+1. Sub header - 'To be confirmed' and Paragraph 
+1. All above sub headers and corresponding paragraphs have been placed in a text box giving the user the option to pick which one to read. Each text box has a scroll option making it easy to read whichever article the user is interested in. The background colour of each article is light grey (hex:e7ecef). The font colour is dark blue (hex:274c77) with the default font of Ubuntu used.
+1 There is another sub header (The next step) with a short paragaph below giving the user additional information on what they can do next. i.e. subscribe or use the links below to click on to external websites associated with Autism.
 1. A subscribe button to click and subscribe free, quick and easy.  
+1. Links to external sources i.e. National Autistic Society, Autism NI, Hidden Disabilities.  
 
-### About (about.html)
-
-1. Our Autism Journey section  
-1. Facts and figures section 
-1. Why section 
-1. New ideas and advice to offer 
-1. Links to external sources i.e. National Autistic Society, Autism NI, Hidden Disabilities, Wikipedia, NHS etc.  
-1. A subscribe button to click and subscribe free, quick and easy.  
-
-### Subscribe 
+#### Subscribe (subcribe.html)
 
 1. A form section for subscribing to free tips and advice via emailed.  
 1. The form will include a name and email section to complete along with the choice of either a weekly or monthly subscription using radio buttons.  
@@ -239,7 +249,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Deployment
+## Deployment (Date this project was deployed: TBC)
 ---
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
