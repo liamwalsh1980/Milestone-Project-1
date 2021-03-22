@@ -34,8 +34,8 @@ body {
 #menulist a {
     font-size: 18px;
     color: #479ce0;
-    letter-spacing: 2px;
-    margin: 10px;
+    letter-spacing: 1px;
+    margin: 5px;
     text-transform: uppercase;
 }
 
@@ -75,29 +75,6 @@ body {
     }
 }
 
-@media screen and (max-width: 425px) {
-    #logo {
-        color: inherit;
-        font-family: Kalam, cursive;
-        font-size: 35px;
-        letter-spacing: 2px;
-        float: left;
-    }
-
-    .navbar-toggler {
-        padding: 0.10rem 0.40rem;       
-    }
-
-    #menulist a {
-        font-size: 16px;
-    }
-
-    #menulist .active {
-        border-bottom: none;
-        color: #274c77;
-    }
-}
-
 @media screen and (max-width: 375px) {
     #logo {
         color: inherit;
@@ -108,11 +85,11 @@ body {
     }
 
     .navbar-toggler {
-        padding: 0.10rem 0.40rem;       
+        padding:  1.2px 4.8px;          
     }
 
     #menulist a {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -126,11 +103,11 @@ body {
     }
 
     .navbar-toggler {
-        padding: 0.05rem 0.30rem;       
+        padding: 0.8px 3.2px;      
     }
 
     #menulist a {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
@@ -205,60 +182,154 @@ body {
 
 /*--------------------------------------Media Queries for Homepage---*/
 
-/* @media screen and (max-width: 768px) {
+/* Large screen size changes to the hero image with height adjusted. Header, Cover text and button re-positioned and size adjusted accordingly */
 
+@media screen and (max-width: 2560px) {
     #outer {
-        height: 460px;
+        height: 1400px;
     }
+
     #hero-image {
-        height: 450px;
+        height: 1400px;
     }
 
     #homepage-h1 {
-        text-align: center;
-        font-size: 22px;
-        margin-top: 3px
-        
+        text-align: right;
+        font-size: 66px;
+        padding: 80px 50px 0px 0px;   
     }
 
     #homepage-h1 span {
         color: #274c77;
-        font-family: Kalam, cursive;
-        letter-spacing: 2px;
     }
 
     #homepage-cover-text-background {
-        width: 200px;
-        height: 150px;
-        margin-left: 500px;
-        margin-top: 20px;
-    
+        width: 500px;
+        height: 350px;
+        margin-left: 1800px;
+        margin-top: 100px;
     }
 
     #ul-benefits-list {
-        font-size: 17px;
+        font-size: 50px;
+        padding-left: 2%;
+        padding: 3.2rem;
+    }
+
+    #subscribe-btn-home-cover {
+        width: 400px;
+        height: 100px;
+        margin-left: 1850px;
+        margin-top: 50px;
+        border-radius: 50px;
+    }   
+
+    #subscribe-btn-home-cover span {
+        font-size: 35px;
+    }
+}
+
+/*Large laptop screen size changes to the hero image with height adjusted. Header, Cover text and button re-positioned and size adjusted accordingly*/
+
+@media screen and (max-width: 1440px) {
+    #outer {
+        height: 800px;
+    }
+
+    #hero-image {
+        height: 800px;
+    }
+
+    #homepage-h1 {
+        text-align: right;
+        font-size: 35px;
+        padding: 50px 25px;
+    }
+
+    #homepage-h1 span {
+        color: #274c77;
+    }
+
+    #homepage-cover-text-background {
+        width: 300px;
+        height: 225px;
+        margin-left: 1000px;
+        margin-top: 10px;
+    }
+
+    #ul-benefits-list {
+        font-size: 30px;
+        padding-left: 2%;
+        padding: 2.6rem;
+    }
+
+    #subscribe-btn-home-cover {
+        width: 250px;
+        height: 62.5px;
+        margin-left: 1025px;
+        margin-top: 30px;
+    }   
+
+    #subscribe-btn-home-cover span {
+        font-size: 21px;
+    }
+}
+
+/*Laptop screen size changes to the hero image with height adjusted. Header, Cover text and button re-positioned and size adjusted accordingly*/
+
+@media screen and (max-width: 1024px) {
+
+    #outer {
+        height: 600px;
+    }
+
+    #hero-image {
+        height: 600px;
+    }
+
+    #homepage-h1 {
+        text-align: right;
+        font-size: 25px;
+        padding: 40px 20px; 
+    }
+
+    #homepage-h1 span {
+        color: #274c77;
+    }
+
+    #homepage-cover-text-background {
+        width: 220px;
+        height: 165px;
+        margin-left: 700px;
+        margin-top: 10px;
+    }
+
+    #ul-benefits-list {
+        font-size: 20px;
         padding-left: 2%;
         padding: 2.1rem;
     }
 
     #subscribe-btn-home-cover {
-        width: 180px;
+        width: 200px;
         height: 50px;
-        margin-left: 510px;
+        margin-left: 710px;
         margin-top: 30px;
-        position: relative;
     }   
 
     #subscribe-btn-home-cover span {
-        font-size: 15px;
+        font-size: 17px;
     }
-} */
+}
 
-@media screen and (min-width: 768px) and (max-width: 1023px)  {
+/*Tablet screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background*/
+
+@media screen and (max-width: 768px)  {
 
     #outer {
-        height: 1100px;
+        height: 1200px;
     }
+
     #hero-image {
         height: 576px;
     }
@@ -270,7 +341,6 @@ body {
         margin-top: 600px;
         font-weight: 500;
         padding: 5px;
-        
     }
 
     #homepage-h1 span {
@@ -296,24 +366,26 @@ body {
 
     #subscribe-btn-home-cover {
         background-color: #479ce0;
-        width: 30%;
-        height: 10%;
-        margin-left: 269px;
-        top: -190px;
-        position: relative;
+        width: 300px;
+        height: 60px;
+        margin-left: 234px;
+        margin-top: -300px;
     }   
 
     #subscribe-btn-home-cover span {
         color: #e7ecef;
-        font-size: 20px;
+        font-size: 22px;
     }
 }
+
+/*Large mobile screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background*/
 
 @media screen and (max-width: 425px) {
 
     #outer {
         height: 800px;
     }
+
     #hero-image {
         height: 318px;
     }
@@ -325,7 +397,6 @@ body {
         margin-top: 328px;
         font-weight: 500;
         padding: 2px;
-        
     }
 
     #homepage-h1 span {
@@ -352,7 +423,7 @@ body {
     #subscribe-btn-home-cover {
         background-color: #479ce0;
         width: 60%;
-        height: 18%;
+        height: 55px;
         margin: 85px;
         margin-top: -30px;
     }   
@@ -363,13 +434,14 @@ body {
     }
 }
 
-/* Middle mobile screen size - the hero image height adjusted. Cover text and button centred and reduced in size. Background colour changed also for contrasting again light background*/
+/*Middle mobile screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background*/
 
 @media screen and (max-width: 375px) {
 
     #outer {
         height: 700px;
     }
+
     #hero-image {
         height: 281px;
     }
@@ -381,7 +453,6 @@ body {
         margin-top: 291px;
         font-weight: 500;
         padding: 2px;
-        
     }
 
     #homepage-h1 span {
@@ -408,7 +479,7 @@ body {
     #subscribe-btn-home-cover {
         background-color: #479ce0;
         width: 60%;
-        height: 20%;
+        height: 50px;
         margin: 75px;
         margin-top: -30px;
     }   
@@ -418,12 +489,13 @@ body {
         font-size: 18px;
     }
 }
-/* Smallest mobile size with the hero image height adjusted. Cover text and button centred and reduced in size. Background colour changed also for contrasting again light background*/
+/*Small mobile screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background*/
 
 @media screen and (max-width: 320px) {
     #outer {
         height: 600px;
     }
+
     #hero-image {
         height: 240px;
     }
@@ -435,7 +507,6 @@ body {
         margin-top: 250px;
         font-weight: 500;
         padding: 2px;
-        
     }
 
     #homepage-h1 span {
@@ -450,7 +521,6 @@ body {
         margin: 50px;
         margin-top: 10px;
         background-color: #274c77;
-
     }
 
     #ul-benefits-list {
@@ -463,17 +533,15 @@ body {
     #subscribe-btn-home-cover {
         background-color: #479ce0;
         width: 60%;
-        height: 20%;
+        height: 45px;
         margin: 64px;
         margin-top: -30px;
-
     }
 
     #subscribe-btn-home-cover span {
         color: #e7ecef;
-        font-size: 15px;
+        font-size: 16px;
     }
-
 }
 /*---------------------------------------------About Page---*/
 
