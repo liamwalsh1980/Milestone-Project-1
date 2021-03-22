@@ -606,13 +606,13 @@ body {
     background-color: rgb(59, 158, 59);
 }
 
-.useful-links-about {
+.useful-links-about, .useful-links-resources {
     text-align: center;
     background-color: white;
     padding-top: 15px;
 }
 
-.useful-links-about h2 {
+.useful-links-about h2, useful-links-resources h2 {
     color: #479ce0;
     font-size: 35px;
     padding-bottom: 15px;
@@ -649,7 +649,7 @@ body {
         font-size: 40px;
         }
 
-    .useful-links-about h2 {
+    .useful-links-about h2, .useful-links-resources h2 {
             font-size: 60px;
             padding-left: 20px;
         }
@@ -712,10 +712,15 @@ h2, h4  {
 .bg-color-change-resources {
     background-color: #274c77;
     color: #e7ecef;
+    text-align: left;
 }
 
 .hr-color-resources {
     color: #479ce0;
+}
+
+#what-worked-for-us, #next {
+    text-align: left;
 }
 
 .resources-scroll {
@@ -724,9 +729,17 @@ h2, h4  {
     overflow: scroll;
 }
 
+#going-out, #routines, #free-time, #tbc {
+    color: #479ce0
+}
+
+.bg-light-grey {
+    background-color: #e7ecef;
+}
+
 #subscribe-btn-resources { 
     margin-top: 20px; 
-    text-align: center;
+    text-align: none;
     padding: 5px;
 } 
 
@@ -751,11 +764,13 @@ h2, h4  {
 .useful-links-resources {
     text-align: center;
     background-color: white;
+    padding-top: 15px;
 }
 
 .useful-links-resources h2 {
-    color: #274c77;
-    padding-top: 5px;
+    color: #479ce0;
+    font-size: 35px;
+    padding-bottom: 15px;
 }
 
 /*-----------------------------------------Media Queries for Resources Page---*/
