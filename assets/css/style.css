@@ -137,7 +137,6 @@ body {
     letter-spacing: 2px;
 }
 
-
 #homepage-cover-text-background {
     text-align: center;
     background-color: rgba(231,236,239, .7);
@@ -180,7 +179,7 @@ body {
 
 /*--------------------------------------Media Queries for Homepage---*/
 
-/* Large screen size changes to the hero image with height adjusted. Header, Cover text and button re-positioned and size adjusted accordingly */
+/* Large screen size - changes to the hero image with height adjusted. Header, Cover text and button re-positioned and size adjusted accordingly */
 
 @media screen and (max-width: 2560px) {
     #outer {
@@ -227,7 +226,7 @@ body {
     }
 }
 
-/*Large laptop screen size changes to the hero image with height adjusted. Header, Cover text and button re-positioned and size adjusted accordingly*/
+/* Large laptop screen size changes to the hero image with height adjusted. Header, Cover text and button re-positioned and size adjusted accordingly */
 
 @media screen and (max-width: 1440px) {
     #outer {
@@ -273,7 +272,7 @@ body {
     }
 }
 
-/*Laptop screen size changes to the hero image with height adjusted. Header, Cover text and button re-positioned and size adjusted accordingly*/
+/* Laptop screen size changes to the hero image with height adjusted. Header, Cover text and button re-positioned and size adjusted accordingly */
 
 @media screen and (max-width: 1024px) {
 
@@ -320,7 +319,7 @@ body {
     }
 }
 
-/*Tablet screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background*/
+/* Tablet screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background */
 
 @media screen and (max-width: 768px)  {
 
@@ -376,7 +375,7 @@ body {
     }
 }
 
-/*Large mobile screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background*/
+/* Large mobile screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background */
 
 @media screen and (max-width: 425px) {
 
@@ -432,7 +431,7 @@ body {
     }
 }
 
-/*Middle mobile screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background*/
+/* Middle mobile screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background */
 
 @media screen and (max-width: 375px) {
 
@@ -487,7 +486,7 @@ body {
         font-size: 16px;
     }
 }
-/*Small mobile screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background*/
+/* Small mobile screen size changes to the hero image with height adjusted. Header, Cover text and button centred and size adjusted accordingly. Background colour changed for contrasting again light grey background */
 
 @media screen and (max-width: 320px) {
     #outer {
@@ -618,16 +617,11 @@ body {
     padding-bottom: 15px;
 }
 
+/*--------------------------------------------Media Queries for About Pages---*/
 
-/*---------------------------------------------Media Queries for About Page---*/
+/* Large screen size - factsheet, subsribe button and external link images re-sized */
+
 @media screen and (min-width: 1500px) and (max-width: 2560px) {
-    h2 {
-        font-size: 48px;
-        }
-
-    p, ul, #resources-link, #resources-link2 {
-        font-size: 32px;
-        }
 
     #factsheet-border {
         width: 540px;
@@ -650,58 +644,33 @@ body {
         }
 
     .useful-links-about h2, .useful-links-resources h2 {
-            font-size: 60px;
-            padding-left: 20px;
-        }
-
-    .charity-logo img {
-            width: 500px;
-        } 
-    }
-
-    @media screen and (max-width: 768px) {
-        .charity-logo img {
-            width: 200px;
+        font-size: 60px;
+        padding-left: 20px;
         }
     }
-    
+
+/* Large mobile screen - subsribe button centred */
+
     @media screen and (max-width: 425px) {
-    .charity-logo img {
-        width: 280px;
-        padding-bottom: 10px;
-        }
-    
-    #nas-logo {
-        margin-bottom: 30px;
-        }
-
         #subscribe-btn-about { 
-            text-align: center;
-        }   
+        text-align: center;
+        }
     }
-    
+
+/* Small mobile screen size - factsheet re-sized and re-positioned */
+
     @media screen and (max-width: 320px) {
-    #factsheet-border {
-        width: 270px;
-        height: 180px;
-        margin-left: -5px;
-        font-size: 14px;
+        #factsheet-border {
+            width: 270px;
+            height: 180px;
+            margin-left: -5px;
+            font-size: 14px;
         }
 
-    #about-source {
-        font-size: 10px;
+        #about-source {
+            font-size: 10px;
         }
-    
-    .charity-logo img {
-        width: 250px;
-        padding-right: 15px;
-        padding-bottom: 10px;
-        }
-
-    #nas-logo {
-        margin-bottom: 30px;
-        }
-    }
+    }   
 
 /*---------------------------------------------Resources Page---*/
 
@@ -775,7 +744,80 @@ h2, h4  {
 
 /*-----------------------------------------Media Queries for Resources Page---*/
 
+/* Large screen size - text content and subscribe button re-sized */
+
+@media screen and (min-width: 1500px) and (max-width: 2560px) {
+    article h4 {
+        font-size: 48px;
+        }
+
+    #subscribe-btn-resources button {
+        width: 500px;
+        height: 100px;
+        border-radius: 50px;
+        }
+
+    #subscribe-btn-resources button span {
+        font-size: 40px;
+        }
+    }
+
+/*------------------------------Media Queries for About and Resources Pages---*/
+
+/* Large screen size - header, content, bullet points and external link images re-sized */
+
+@media screen and (min-width: 1500px) and (max-width: 2560px) {
+    h2 {
+        font-size: 48px;
+        }
+
+    p, ul, #resources-link, #resources-link2 {
+        font-size: 32px;
+        }
+
+    .charity-logo img {
+            width: 500px;
+        } 
+    }
+
+/* Tablet screen - external images re-sized */
+
+    @media screen and (max-width: 768px) {
+        .charity-logo img {
+            width: 200px;
+        }
+    }
+
+/* Medium mobile screen - external images re-sized */
+    
+    @media screen and (max-width: 425px) {
+    .charity-logo img {
+        width: 280px;
+        padding-bottom: 10px;
+        }
+    
+    #nas-logo {
+        margin-bottom: 30px;
+        }
+    }
+
+/* Small mobile screen - external images re-sized */
+
+    @media screen and (max-width: 320px) {
+    
+    .charity-logo img {
+        width: 250px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        }
+
+    #nas-logo {
+        margin-bottom: 30px;
+        }
+    }
+
 /*---------------------------------------------Subscribe Page---*/
+
 #testing {
     border: 1px solid #479ce0;
     padding: 10px;
