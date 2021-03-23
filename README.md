@@ -193,7 +193,7 @@ In this section, you should go over the different parts of your project, and des
 
 * There is another header (Website goals) with 3 bullet points in the form of an unordered list. Within this bullet point texts there is a couple of links to different pages within the site. These links are easily visible as the colour of the word links is in light blue and can be clicked by users at any time to move to either the resource page or subscribe page.  
 
-* There is a factsheet with a background colour is light grey with the font colour being dark blue There is some small text within this section stating where the factsheet information was sourced from. This text is in red.  
+* There is a factsheet with a background colour is light grey with the font colour being dark blue There is some small text within this section stating where the factsheet information was sourced from. This text is in red an is also a link to the exact page relevant to the information in the factsheet.  
 
 * MEDIA CLIP - to be added 
 
@@ -293,14 +293,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 ---
 
 ### Content
+* I obtained content and adapted it for the resources page paragraph titled -  Don't stop going out. The content was taken from <a href="https://www.autismspeaks.org/blog/11-tips-new-autism-parents" target="blank">Autism Speaks</a> - (10) Take your kid out everywhere.
+* I obtained content for the resources page paragaph titled -  Routines and good habits. The content was take from <a href="https://www.marcus.org/autism-resources/autism-tips-and-resources/establishing-routines-at-home" target="blank">Marcus Autism Center</a> - Establishing routines at home (Why children with autism need routines at home)
+* I obtained content for the resources page paragraph titled -  Tips for New Autism Parents. The content was taken from <a href="https://www.appliedbehavioranalysisedu.org/6-strategies-for-encouraging-a-non-verbal-child-to-communicate/" target="blank">Applied Behavior Analysis Edu</a> - 6 Strategies for Encouraging a Non-Verbal Child to Communicate.
+
+### Code
 * <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto" target="blank">Link to my email icon</a> supplied by my mentor - Seun Owonikoko using 
-<a href="https://www.w3schools.com/tags/" target="blank">w3schools</a>
+<a href="https://www.w3schools.com/tags/" target="blank">w3schools</a>.
 
-* I obtained content for the ideas page titled -  Tips for New Autism Parents <a href="https://www.autismspeaks.org/blog/11-tips-new-autism-parents" target="blank">(10) Take your kid out everywhere</a>. This was from the website - <a href="https://www.autismspeaks.org/" target="blank">Autism Speaks</a>
-
-https://www.autismspeaks.org/blog/11-tips-new-autism-parents
-
-* The text for section Y was copied from the Wikipedia article Z
+### Factsheet
+* I obtained factural information to support my about page factsheet. The information was taken from the <a href="https://www.bma.org.uk/what-we-do/population-health/child-health/autism-spectrum-disorder#:~:text=It%20is%20estimated%20that%20around,have%20a%20diagnosis%20of%20autism." target="blank">British Medical Association (BMA)</a>.
 
 ### Media
 * I received inspiration for this project by using images supplied by the <a href="https://www.istockphoto.com/portfolio/vejaa?assettype=image&mediatype=photography" target="blank">Photography - Vejaa</a>.
@@ -309,12 +311,13 @@ https://www.autismspeaks.org/blog/11-tips-new-autism-parents
     - <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">Chosen subscribe page image</a> by photography - Vejaa
     - Images sourced from istockphoto.com (to be purchased £?? each)
 
+* The text for section Y was copied from the Wikipedia article Z
+
 ### Acknowledgements    
 
 * My Mentor - Seun Owonikoko  
 
-logo-icon sourced from wikimedia commons
-https://commons.wikimedia.org/wiki/File:Autism_Awareness_Ribbon.png
+
 
 
 
