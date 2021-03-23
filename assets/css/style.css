@@ -828,48 +828,65 @@ h2, h4  {
 
 /*---------------------------------------------Subscribe Page---*/
 
-#testing {
-    border: 1px solid #479ce0;
-    padding: 10px;
+.bg-change-form {
+    background-color: #274c77;
+    color: #e7ecef;
+    text-align: left;
 }
 
-#sub-form {
-    background-color: none;
-    position: absolute;
-    right: 200px;
-    top: 60px;
-    font-size: 20px;
-    color: #274c77;   
+#form-header {
+    text-align: center;
+    font-size: 18px;
 }
 
-#subscribe-btn-sub {
-    right: 150px;
-    top: 330px;
-    position: absolute; 
+#form-border {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    color: #274c77;
+    background-color: #e7ecef;
+    padding: 20px; 
 }
 
-#subscribe-btn-sub span {  
+#subscribe-for-free {
+    font-size: 18px;
+}
+
+.label {
+    font-size: 18px;
+}
+
+#subscribe-btn {
+   padding-top: 20px;
+   text-align: center;
+}
+
+#subscribe-btn span {  
     text-transform: uppercase; 
-    font-size: large;
+    font-size: 18px;
     color: #e7ecef
 } 
 
-#subscribe-btn-sub button {
-    background-color: rgba(39,76,119,0.8);
+#subscribe-btn button {
+    background-color: #274c77;
     border: none;
     border-radius: 30px;
 }
 
-#subscribe-btn-sub button:hover {
+#subscribe-btn button:hover {
     background-color:rgb(59, 158, 59);
 }
 
-#sub-form h4 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
+#header-here {
+    text-align: left;
 }
 
+
 /*---------------------------------------------Media Queries for Subscribe---*/
+
+/* add media queries for 768 upwards */
+
+
 
 /*---------------------------------------------Footer---*/
 footer {

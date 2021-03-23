@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,44 +65,88 @@
         Section includes an image (to be changed) sourced from istockphoto.com with a subscription form for users to complete.
     -->
     <section>
-        <div id="outer">
-            <div id="hero-image">
-                <!-- form code from Bootstrap 5 -->
-                <form id="sub-form" aria-labelledby="subscribe">
-                    <h4 id="subscribe">subscribe for free</h4>
-                    <div class="row mb-3">
-                        <label for="name" class="col-sm-2 col-form-label">Name</label>
+        <div class="container-fluid bg-change-form">
+            <div class="container-fluid" aria-labelledby="form-header">
+                <br>
+                <h2 id="form-header">Subscribe to <span class="autism">Embrace Autism</span></h2>
+                <div id="form-border">
+                    <!-- form code from Bootstrap 5 -->
+                    <form aria-labelledby="subscribe-for-free">
+                        <h4 id="subscribe-for-free">Subscribe for free</h4>
+                        <div class="row mb-3">
+                            <label for="name" class="col-sm-2 col-form-label label">Name</label>
+                            <div class="col-sm-12">
+                                <input name="name" type="text" class="form-control required" id="name" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="email" class="col-sm-1 col-form-label label">Email</label>
+                            <div class="col-sm-12">
+                                <input name="email" type="email" class="form-control" id="email" required>
+                            </div>
+                        </div>
                         <div class="col-sm-12">
-                            <input name="name" type="text" class="form-control required" id="name" required>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="subscription" id="weekly"
+                                    value="weekly" required>
+                                <label class="form-check-label label" for="weekly">
+                                    Weekly Subscription
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="subscription" id="monthly"
+                                    value="monthly">
+                                <label class="form-check-label label" for="monthly">
+                                    Monthly Subscription
+                                </label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row mb-3">
-                        <label for="email" class="col-sm-1 col-form-label">Email</label>
-                        <div class="col-sm-12">
-                            <input name="email" type="email" class="form-control" id="email" required>
+                        <div id="subscribe-btn">
+                            <button type="submit" class="btn btn-lg"><span>subscribe</span></button>
                         </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="subscription" id="weekly" value="weekly"
-                                required>
-                            <label class="form-check-label" for="weekly">
-                                Weekly Subscription
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="subscription" id="monthly"
-                                value="monthly">
-                            <label class="form-check-label" for="monthly">
-                                Monthly Subscription
-                            </label>
-                        </div>
-                    </div>
-                    <div id="subscribe-btn-sub">
-                        <button type="submit" class="btn btn-lg"><span>subscribe</span></button>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
+            <hr class="hr-color-about">
+            <div aria-labelledby="next-step">
+                <h2 id="header-here">Header here</h2>
+                <p class="bg-change-form">
+                    As a visitor to Embrace <span class="autism">Autism</span>, you will feel part of a large, supported
+                    and fantastic community. I strongly recommend taking a look on the resources page which can give you
+                    some new ideas to try straightaway. More ideas will be added regulary, therefore, please bookmark
+                    this site to make it easy to return back and feel free to visit as often as you like. The best
+                    option to get regulary updates and ideas is to click through to the subscribe page and register for
+                    free.
+                </p>
+            </div>
+            <hr class="hr-color-about">
+            <!-- External links to different charity organisations -->
+            <div class="container-fluid useful-links-about">
+                <h2>Useful Links!</h2>
+                <div class="row">
+                    <div class="col-sm-4 charity-logo">
+                        <a href="https://autismni.org/com/" aria-label="Go to the Autism NI homepage (opens in new tab)"
+                            target="_blank"><img
+                                src="http://static1.squarespace.com/static/5cf788f054106a000185c13a/t/5eaab8787bbc02178bfa7090/1588246651208/AutismNI_LOGO_2019_CMYK.png?format=150w"
+                                alt="Autism NI"></a>
+                    </div>
+                    <div class="col-sm-4 charity-logo" id="nas-logo">
+                        <a href="https://www.autism.org.uk/"
+                            aria-label="Go to the National Autistic Society homepage (opens in new tab)"
+                            target="_blank"><img
+                                src="https://node1.sdccdn.com/images/savings/logo/4639159.png?width=225&height=150"
+                                alt="National Autism Society"></a>
+                    </div>
+                    <div class="col-sm-4 charity-logo">
+                        <a href="https://hiddendisabilitiesstore.com/"
+                            aria-label="Go to the Hidden Disabilities Sunflower homepage (opens in new tab)"
+                            target="_blank"><img
+                                src="https://hiddendisabilitiesstore.com/media/logo/stores/1/Hidden_Disabilities_logo2.png"
+                                alt="Hidden Disabilities Sunflower"></a>
+                    </div>
+                </div>
+            </div>
+            <br>
         </div>
     </section>
     <!--
