@@ -764,6 +764,14 @@ h2, h4  {
         }
     }
 
+/* Large mobile screen - subsribe button centred */
+
+    @media screen and (max-width: 425px) {
+        #subscribe-btn-resources { 
+        text-align: center;
+        }
+    }
+
 /*------------------------------Media Queries for About and Resources Pages---*/
 
 /* Large screen size - header, content, bullet points and external link images re-sized */
