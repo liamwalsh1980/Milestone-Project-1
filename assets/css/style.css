@@ -562,7 +562,8 @@ body {
 
 #about-source {
     color: red;
-    font-size: 12px;
+    font-size: 10px;
+    text-decoration: none;
 }
 
 #resources-link, #resources-link2 {
@@ -625,12 +626,13 @@ body {
 
     #factsheet-border {
         width: 540px;
-        height: 363px;
+        height: 385px;
         margin-left: -5px;
         }
 
     #about-source {
         font-size: 20px;
+        margin-bottom: 5px;
         }
 
     #subscribe-btn-about button {
@@ -668,7 +670,7 @@ body {
         }
 
         #about-source {
-            font-size: 10px;
+            font-size: 9px;
         }
     }   
 
@@ -693,12 +695,12 @@ h2, h4  {
 }
 
 .resources-scroll {
-    height: 100px;
-    padding: 2px;
+    height: 80px;
+    padding: 5px;
     overflow: scroll;
 }
 
-#going-out, #routines, #free-time, #tbc {
+#going-out, #routines, #free-time, #non-verbal {
     color: #479ce0
 }
 
