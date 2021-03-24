@@ -689,10 +689,37 @@ h2, h4  {
     text-align: left;
 }
 
+.hr-color-subscribe {
+    color: #479ce0;
+}
+
+#thank-you-image {
+    background: url("../images/thank-you-image.jpg") no-repeat center center;  
+    height: 200px; 
+    width: 100%;
+    background-size: cover; 
+}
+
+.useful-links-subscribe {
+    text-align: center;
+    background-color: white;
+    padding-top: 15px;
+}
+
+.useful-links-subscribe h2 {
+    color: #479ce0;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
 
 /*---------------------------------------------Media Queries for Subscribe---*/
 
-/* add media queries for 768 upwards */
+@media screen and (min-width: 1500px) and (max-width: 2560px) {
+    .useful-links-about h2 {
+        font-size: 60px;
+        padding-left: 20px;
+        }
+    }
 
 @media screen and (min-width: 500px) {
     #form-border {
