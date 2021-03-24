@@ -365,7 +365,7 @@ body {
     height: 200px;
     border-radius: 10%;
     background-color: #e7ecef;
-    padding: 20px; 
+    padding: 10px; 
 }
 
 #about-source {
@@ -418,6 +418,7 @@ body {
     text-align: center;
     background-color: white;
     padding-top: 15px;
+    padding-right: 30px;
 }
 
 .useful-links-about h2, useful-links-resources h2 {
@@ -645,6 +646,7 @@ h2, h4  {
 #form-header {
     text-align: center;
     font-size: 18px;
+    padding-top: 20px;
 }
 
 #form-border {
@@ -661,7 +663,7 @@ h2, h4  {
 }
 
 .label {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #subscribe-btn {
@@ -685,7 +687,7 @@ h2, h4  {
     background-color:rgb(59, 158, 59);
 }
 
-#header-here {
+#what-to-expect {
     text-align: left;
 }
 
@@ -704,6 +706,7 @@ h2, h4  {
     text-align: center;
     background-color: white;
     padding-top: 15px;
+    padding-right: 30px;
 }
 
 .useful-links-subscribe h2 {
@@ -713,15 +716,104 @@ h2, h4  {
 }
 
 /*---------------------------------------------Media Queries for Subscribe---*/
-
+    
 @media screen and (min-width: 1500px) and (max-width: 2560px) {
-    .useful-links-about h2 {
-        font-size: 60px;
-        padding-left: 20px;
-        }
+    #form-header {
+        font-size: 48px;
     }
 
-@media screen and (min-width: 768px) {
+    #subscribe-for-free {
+        font-size: 48px;
+    }
+
+    .label {
+        font-size: 42px;
+    }
+
+    #form-border {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #subscribe-btn span {  
+        font-size: 38px;
+    } 
+
+    #what-to-expect {
+        font-size: 48px;
+    }
+
+    #form-paragraph {
+        font-size: 32px;
+    }
+
+    #thank-you-image {
+        height: 900px; 
+        width: 75%;
+
+    }  
+
+    .useful-links-subscribe h2 {
+        font-size: 60px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1499px) {
+    #form-header {
+        font-size: 32px;
+    }
+
+    #subscribe-for-free {
+        font-size: 32px;
+    }
+
+    .label {
+        font-size: 24px;
+    }
+
+    #form-border {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #subscribe-btn span {  
+        font-size: 28px;
+    } 
+
+    #what-to-expect {
+        font-size: 32px;
+    }
+
+    #form-paragraph {
+        font-size: 18px;
+    }
+
+    #thank-you-image {
+        height: 480px; 
+        width: 75%;
+
+    }  
+}
+
+@media screen and (min-width: 801px) and (max-width: 1439px) {
+    #form-header {
+        font-size: 24px;
+    }
+
+    #form-border {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #thank-you-image {
+        height: 320px; 
+        width: 75%;
+
+    }  
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
     #form-header {
         font-size: 24px;
     }
@@ -730,9 +822,13 @@ h2, h4  {
         width: 50%;
         margin-left: 25%;
     }
+
+    #thank-you-image {
+        height: 320px; 
+        width: 75%;
+
+    }  
 }
-
-
 /*---------------------------------------------Footer---*/
 footer {
     position: relative;
@@ -743,6 +839,7 @@ footer {
 footer .icons, p {
     text-align: center;
     color: #274c77;
+    padding-top: 10px;
 }
 
 .icons i {
