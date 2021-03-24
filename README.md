@@ -104,7 +104,7 @@ Full details can be found below for reference: -
 
 * I decided to add a h1 header to complete the design of the homepage, stating what the website is about in the form of a short sentence. On large screen sizes the colour of this is dark blue in Ubuntu font styling except for the word 'Autism' which is in Kalam font. It can be found above the cover text and inside to the right of the hero image. On small laptop, mobile and tablet size screens this header is below the hero image and above the cover text in the centre of the screen. The header colour is light blue with the word 'Autism' in dark blue to make it stand out more on smaller devices. 
 
-* The about page has a dark blue background colour within the main body. The Ubuntu font is used for all content in light grey. The structure of the page leans to the left side to make it look more professional. The page holds information in the form of a sub headers, paragraphs, an unordered list (bullet points) a factsheet and a short video clip about Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. The 'SUBSCRIBE FOR FREE' button wording is in capital letters and when hovering over this button the colour changes to a strong green. There are also horizontal breaks between each section within this page to make it easy to navigate through. The layout is identical on all screensizes with minimal changes made using media queries to adjust the factsheet, subscribe button and useful links section. 
+* The about page has a dark blue background colour within the main body. The Ubuntu font is used for all content in light grey. The structure of the page leans to the left side to make it look more professional. The page holds information in the form of a sub headers, paragraphs, an unordered list (bullet points) a factsheet and a short video clip about Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. There is two external media clips for users to watch. The first is about five minutes long and it titled "Amazing Things Happen!". The second media clip is just under three minutes long and titled "What is Autusm". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. The 'SUBSCRIBE FOR FREE' button wording is in capital letters and when hovering over this button the colour changes to a strong green. There are also horizontal breaks between each section within this page to make it easy to navigate through. The layout is identical on all screensizes with minimal changes made using media queries to adjust the factsheet, subscribe button and useful links section. 
 
 * The resources page has a dark blue background colour within the main body just like the about page. The Ubuntu font is used for all content with a light grey colour finish. The main purpose for this page is to provide users with clear to read information. I decided to keep this page simple with the option to read and much or as little as the user wanted. This is done using the CSS overflow declaration and scroll value. I wanted all information pieces to sit inside a semantic element to show improved web development. I replaced the div elements with the article elements to achieve this. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page. Below the information paragraphs there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue with the text in dark blue. The wording is in capital letters and when hovering over this button the background colour changes to a strong green. Below the button there is a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When clicked the user will see that the external website will open in a new tab page on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. The layout is identical on all screensizes with minimal changes made with media queries to adjust the subscribe button and useful links section.   
 
@@ -130,13 +130,19 @@ The subscribe page [content to follow]
     - The 'useful links' logos needed to be reduced in size and re-positioned to fit on smaller screens. A long with this the sub header above these logos also had to be adjusted in size to keep in preportion with the logos.  
     - The Subscribe button needed to be adjusted in size for both small screens and large screens. Again this was to keep in preportion with everything else on the page.
 
+    - The media clips have been repositioned side by side the factsheet for devices from laptop size screens upwards. On tablet one media clip is next to the factsheet and the second media clip is below the factsheet. On mobile screen sizes the media clips sit below each other and below the factsheet to give the best UX possible. 
+
 * Media queries - resources page (resources.html) 
 
     - The h4 header in the articles needed to be adjusted on the large screen size.
     - The subscribe button needed to be adjusted on most screen sizes to look in preportion with the web page. 
-    -TBC
+    - The useful links section had been adjusted slightly to fit within any screen size.
 
 1. Media queries - subscribe page (subscribe.html) 
+
+    - The subscribe form stays central and at the top of this page. As the screen sizes getting bigger the form adjusted in size according to the screen size. 
+    - The 'Thank you' image in central and re-sized on every screen size to keep in preportion. 
+    - The useful links section had been adjusted slightly to fit within any screen size.
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -193,7 +199,7 @@ In this section, you should go over the different parts of your project, and des
 
 * There is a factsheet with a background colour is light grey with the font colour being dark blue There is some small text within this section stating where the factsheet information was sourced from. This text is in red an is also a link to the exact page relevant to the information in the factsheet.  
 
-* MEDIA CLIP - to be added 
+* There is two media clips on this page for users to watch. Both clips come from YouTube via National Autism Society and CW Minds. 
 
 *There is another sub header (The next step) with a short paragraph. This gives the user additional information on what they can do next. i.e., subscribe or use the links below to look at external links  
 
@@ -219,7 +225,7 @@ In this section, you should go over the different parts of your project, and des
 1. The form will include a name and email section to complete along with the choice of either a weekly or monthly subscription by selecting the relevant radio buttons.
 1. A submit button will be at the bottom of the form and once clicked a Modal message will appear to show the user the form has been completed and submitted successfully. 
 1. Some text and paragraph [to be completed]
-1. Thank you image [to be added]
+1. There is a 'Thank you' image below the paragraph which i feel is a nice touch to finish the users experience on the site as they subcribe.
 1. Links to external sources i.e. National Autistic Society, Autism NI, Hidden Disabilities. 
 
 [Modal to be completed]
@@ -264,6 +270,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 When testing the website on different screen sizes i made the decision to change the layout of the homepage for mobiles and tablets against laptop and desktop. The header, cover text and subcribe button is within the hero image on desktop and laptop. On smaller screens like mobile and tablet i decided to reduct the size of the image in order for the user to see the whole image clearly and have the header, cover text and subcribe button below. This i believe makes the UX better to read. I made sure the subscribe button stayed a good size to making it clear to click on by the user.
 
 When testing the navigation bar on smaller screens this would appear as a hamburger menu (3 horizontal bars) which is what i wanted to achieve. However,the originally styling i made included a bottom border showing a user which page they are on not just by the colour change but by the border-bottom declaration which a solid thin line as a value. This didn't work well on the smaller screens when the navigation menu became a hamburger menu. I therefore removed this using media queries upto 991px which is the break point between the navigate menu changing from hamburger menu and full size. 
+
+Media clips tested
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -313,15 +321,21 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 
-* I found a great 'thank you' image on <a href="https://www.pexels.com/" target="_blank">Pexels</a> which was free of charge to download.
-<a href="https://www.pexels.com/photo/traffic-sign-business-creativity-1887992/" target="_blank">Photo</a>  by Ann H from Pexels
-
-
 * I received inspiration for this project by using images supplied by the <a href="https://www.istockphoto.com/portfolio/vejaa?assettype=image&mediatype=photography" target="blank">Photography - Vejaa</a>.
 
     - <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">Chosen homepage hero image</a> by photography - Vejaa
     - <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">Chosen subscribe page image</a> by photography - Vejaa
     - Images sourced from istockphoto.com (to be purchased £?? each)
+
+* I found a great 'thank you' image on <a href="https://www.pexels.com/" target="_blank">Pexels</a> which was free of charge to download.
+<a href="https://www.pexels.com/photo/traffic-sign-business-creativity-1887992/" target="_blank">Photo</a>  by Ann H from Pexels
+
+### Media clips
+
+* The media clips used for my website both came from YouTube. The first clip comes from <a href="https://www.youtube.com/watch?v=Lk4qs8jGN4U" target="blank">National Autism Society - What is Autism</a>. The second clip comes from <a href="https://www.youtube.com/watch?v=Ezv85LMFx2E&t=7s" target="blank">CW Mind - Amazing Things Happen!</a>. Both websites for these organisations can be found below.
+
+    - <a href="https://www.autism.org.uk/" target="blank">National Autism Society</a>
+    - <a href="https://cwmind.org.uk/autism-resources/" target="blank">CW Mind</a>
 
 * The text for section Y was copied from the Wikipedia article Z
 
