@@ -312,6 +312,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 * I obtained factural information to support my about page factsheet. The information was taken from the <a href="https://www.bma.org.uk/what-we-do/population-health/child-health/autism-spectrum-disorder#:~:text=It%20is%20estimated%20that%20around,have%20a%20diagnosis%20of%20autism." target="blank">British Medical Association (BMA)</a>.
 
 ### Media
+
+* I found a great 'thank you' image on <a href="https://www.pexels.com/" target="_blank">Pexels</a> which was free of charge to download.
+<a href="https://www.pexels.com/photo/traffic-sign-business-creativity-1887992/" target="_blank">Photo</a>  by Ann H from Pexels
+
+
 * I received inspiration for this project by using images supplied by the <a href="https://www.istockphoto.com/portfolio/vejaa?assettype=image&mediatype=photography" target="blank">Photography - Vejaa</a>.
 
     - <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">Chosen homepage hero image</a> by photography - Vejaa
