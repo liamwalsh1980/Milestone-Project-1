@@ -423,6 +423,15 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     padding: 5px;
 }
 
+#resources-link:hover {
+    color: rgb(59, 158, 59);
+}
+
+#resources-link2:hover {
+    color: rgb(59, 158, 59);
+}
+
+
 .autism {
     font-family: Kalam, cursive;
     letter-spacing: 2px;
