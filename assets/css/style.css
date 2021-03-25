@@ -85,7 +85,7 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
     #logo {
         color: inherit;
         font-family: Kalam, cursive;
-        font-size: 35px;
+        font-size: 32px;
         letter-spacing: 2px;
         float: left;
     }
@@ -360,8 +360,13 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     
 @media screen and (max-width: 425px) { 
     #homepage-h1 {
-        font-size: 21px;
+        font-size: 18px;
     }   
+
+    #homepage-cover-text-background {
+        width: 75%;
+        margin-left: 12.5%;
+    }
 } 
 
 /*Medium mobile screen size - header re-sized*/
@@ -370,14 +375,29 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     #homepage-h1 {
         font-size: 18px;
     }    
+
+    #homepage-cover-text-background {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    #ul-benefits-list { 
+        font-size: 26px;
+        padding-top: 15px;
+    } 
 } 
 
 /*Small mobile screen size - header re-sized*/
 
 @media screen and (max-width: 320px) { 
     #homepage-h1 {
-        font-size: 15px;
+        font-size: 15px; 
     }  
+
+    #ul-benefits-list { 
+        font-size: 25px;
+        padding-top: 20px;
+    } 
 } 
 
 /*---------------------------------------------About Page---*/
@@ -406,6 +426,10 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     text-decoration: none;
 }
 
+#about-source:hover {
+    color: rgb(59, 158, 59);
+}
+
 #nas-media, #cwmind-media {
     width: 300px;
     height: 200px;
@@ -431,7 +455,6 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     color: rgb(59, 158, 59);
 }
 
-
 .autism {
     font-family: Kalam, cursive;
     letter-spacing: 2px;
@@ -442,8 +465,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
 }
 
 #subscribe-btn-about { 
-    margin-top: 20px; 
-    text-align: none;
+    margin-top: 30px; 
     padding: 5px;
 } 
 
@@ -453,7 +475,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     color: #274c77;
 } 
 
-#subscribe-btn-about button {
+#subscribe-btn-about div {
     background-color: rgb(71, 156, 224);
     border: none;
     border-radius: 30px;
@@ -461,7 +483,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     padding: 0;
 }
 
-#subscribe-btn-about button:hover {
+#subscribe-btn-about div:hover {
     background-color: rgb(59, 158, 59);
 }
 
@@ -613,18 +635,24 @@ h2, h4  {
     color: #479ce0;
 }
 
-#what-worked-for-us, #next {
+#advice-ideas, #next {
     text-align: left;
+    padding-bottom: 5px;
 }
 
 .resources-scroll {
-    height: 80px;
+    height: 150px;
     padding: 5px;
     overflow: scroll;
 }
 
 #going-out, #routines, #free-time, #non-verbal {
-    color: #479ce0
+    color: #479ce0;
+    text-align: left;
+}
+
+.going-out-p, .routines-p, .free-time-p, .non-verbal-p {
+    text-align: left;
 }
 
 .bg-light-grey {
@@ -633,7 +661,6 @@ h2, h4  {
 
 #subscribe-btn-resources { 
     margin-top: 20px; 
-    text-align: none;
     padding: 5px;
 } 
 
@@ -643,7 +670,7 @@ h2, h4  {
     color: #274c77;
 } 
 
-#subscribe-btn-resources button {
+#subscribe-btn-resources div {
     background-color: rgb(71, 156, 224);
     border: none;
     border-radius: 30px;
@@ -651,7 +678,7 @@ h2, h4  {
     padding: 0;
 }
 
-#subscribe-btn-resources button:hover {
+#subscribe-btn-resources div:hover {
     background-color: rgb(59, 158, 59);
 }
 
@@ -818,6 +845,7 @@ Large screen size - header, content, bullet points and external link images re-s
     height: 200px; 
     width: 100%;
     background-size: cover; 
+    border-radius: 10%;
 }
 
 .useful-links-subscribe {
