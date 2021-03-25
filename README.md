@@ -383,12 +383,25 @@ When testing the navigation bar on smaller screens this would appear as a hambur
 
 #### CSS coding - 2 errors found
 
-* #subscribe-btn-about (error: Value Error : text-align none is not a text-align value : none)**How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-about (Subscribe button on about page). I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found'.**
+* #subscribe-btn-about (error: Value Error : text-align none is not a text-align value : none). **How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-about (Subscribe button on about page). There was no issues with the button on the webpage. I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.**
 
-* #subscribe-btn-resources (error: Value Error : text-align none is not a text-align value : none)**How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-resources (Subscribe button on resources page). I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found'.**
+* #subscribe-btn-resources (error: Value Error : text-align none is not a text-align value : none). **How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-resources (Subscribe button on resources page). There was no issues with the button on the webpage. I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.**
 
 ### W3C CSS Validation Service - zero errors **(completed)**
 
+[test the home page]
+
+[test the about page]
+
+[test the resource page]
+
+[test the subscribe page]
+
+[test all screen sizes]
+
+[test all browsers]
+
+[lighthouse]
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
