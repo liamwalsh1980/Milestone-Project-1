@@ -66,7 +66,6 @@ body {
         font-size: 40px;
         margin: 20px;
     }
-
 }
 
 /*
@@ -504,7 +503,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
 
     #nas-media {
         float: left;
-        margin-left: 1500px;
+        margin-left: 750px;
         margin-top: -400px;
         width: 540px;
         height: 385px;
@@ -512,7 +511,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
 
     #nas-media2 {
         float: left;
-        margin-left: 750px;
+        margin-left: 1500px;
         margin-top: -423px;
         width: 540px;
         height: 385px;
@@ -524,13 +523,13 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     @media screen and (min-width: 1440px) and (max-width: 1500px) {
          #nas-media {
             float: left;
-            margin-left: 800px;
+            margin-left: 400px;
             margin-top: -220px;
         }
 
         #nas-media2 {
             float: left;
-            margin-left: 400px;
+            margin-left: 800px;
             margin-top: -244px;
         }
     }
@@ -540,13 +539,13 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     @media screen and (min-width: 1024px) and (max-width: 1439px) {
         #nas-media {
             float: right;
-            margin-right: 10px;
+            margin-right: 340px;
             margin-top: -220px;
         }
 
         #nas-media2 {
             float: right;
-            margin-right: 340px;
+            margin-right: 10px;
             margin-top: -244px;
         }
     }
