@@ -119,6 +119,12 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
     }
 }
 
+@media screen and (max-width: 360px) {
+    #logo {
+        font-size: 28px;
+    }
+}
+
 /*Small mobile screen size - Logo text, navigation hamburger menu re-sized*/
 
 @media screen and (max-width: 320px) {
@@ -136,6 +142,16 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
 
     #menulist a {
         font-size: 12px;
+    }
+}
+
+    @media screen and (max-width: 280px) {
+    #logo {
+        font-size: 18px;
+    }
+
+    .navbar-toggler {
+        padding: 0.4px 0.6px;      
     }
 }
 
@@ -387,6 +403,12 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     } 
 } 
 
+@media screen and (max-width: 360px) {
+    #homepage-h1 {
+        font-size: 17px; 
+    } 
+}
+
 /*Small mobile screen size - header re-sized*/
 
 @media screen and (max-width: 320px) { 
@@ -399,6 +421,13 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
         padding-top: 20px;
     } 
 } 
+
+@media screen and (max-width: 280px) {
+    #homepage-h1 {
+        font-size: 13px; 
+    } 
+}
+
 
 /*---------------------------------------------About Page---*/
 
@@ -619,6 +648,25 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
         }
     }   
 
+    @media screen and (max-width: 280px) {
+        #factsheet-border {
+            width: 240px;
+        }
+
+        #about-source {
+            font-size: 8px;
+        }
+
+        #our-autism-journey {
+            font-size: 22px;
+        }
+
+        #nas-media, #cwmind-media {
+            width: 240px;
+        }
+        
+    }
+
 /*---------------------------------------------Resources Page---*/
 
 h2, h4  {
@@ -767,10 +815,10 @@ Large screen size - header, content, bullet points and external link images re-s
 
 /*Small mobile screen - external images re-sized*/
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 320px) and (min-width: 280px) {
     
     .charity-logo img {
-        width: 250px;
+        width: 230px;
         padding-right: 15px;
         padding-bottom: 10px;
         }
