@@ -8,7 +8,7 @@
 
 This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project is to design a responsive website using HTML5 and CSS3 with the option of using CSS libraries/frameworks like Bootstrap. There is a miniumum requirement of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about page and resources page relevant with the right level of content and a fourth page offering users the option to subscribe. All this i feel would work well when using the menu bar to navigate around the site.
 
-Embrace Autism is a fictional information website that is mainly aimed at parents of those who have a child with a diagnosis of Autism (ASD – Autistic Spectrum Disorder). The website provides advice and ideas on how to occupy and keep Autistic children happy, engaged and active. As a father of an Autistic child, I know how difficult it can be to entertain and keep your child happy and fulfilled. Therefore, I had the idea to design a website that can offer help and advice drawn upon my own experiences. Embrace Autism is a website that you can access time and time again to get new ideas, parent to parent advice and useful links to external websites relevant to ASD. There is the option to subscribe to the Embrace Autism mailing list by providing your name and email address to get regular new ideas, free of charge. 
+Embrace Autism is a fictional information website that is mainly aimed at parents of those who have a child with a diagnosis of Autism (ASD – Autistic Spectrum Disorder). The website provides advice and ideas on how to occupy and keep Autistic children happy, engaged and active. As a father of an Autistic child, I know how difficult it can be to entertain and keep your child happy and fulfilled. Therefore,I had the idea to design a website that can offer help and advice drawn upon my own experiences. Embrace Autism is a website that you can access time and time again to get new ideas, parent to parent advice and useful links to external websites relevant to ASD. There is the option to subscribe to the Embrace Autism mailing list by providing your name and email address to get regular new ideas, free of charge. 
 
 Every Friday morning my wife and I attend an Autism intervention workshop online with other parents and NHS professionals to discuss the best ways to help when raising a child with Autism. The knowledge gained is often information i like to share with other parents and therefore the Embrace Autism website idea i believe is the perfect platform to offer the information gained from these workshops.   
 
@@ -30,25 +30,25 @@ Date this project started: 9th March 2021
 * The main aim from a developers point is to maximise as many subscribed members on Embrace Autism's mailing list as possible by encouraging users to complete the very quick and easy to complete subscribe form. By doing this, the Embrace Autism site will gain more popularity and create a bespoke friendly place to get on-going help and support. 
 
 ### User Stories
-* I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.  
+1. I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.  
 
-* I have a teenage Son who has Autism. He only wants to play on his computer games. He hardly leaves the house and I'm concerned about his health and wellbeing.  
+1. I have a teenage Son who has Autism. He only wants to play on his computer games. He hardly leaves the house and I'm concerned about his health and wellbeing.  
 
-* I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained.  
+1. I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained.  
 
-* I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their site visitors?  
+1. I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their site visitors?  
 
-* I'm a teenager with Autism. With my high level sensory needs, I find it difficult to wear masks when i'm in shops and with most shops insisting i wear one, its becoming very tough to go out. Is there anything i can do to make it easier when visiting shops
+1. I'm a teenager with Autism. With my high level sensory needs, I find it difficult to wear masks when i'm in shops and with most shops insisting i wear one, its becoming very tough to go out. Is there anything i can do to make it easier when visiting shops
 
 ### Design Process 
 
-1. I knew I wanted to create a website based on a subject that is close to my heart. I came up with a good name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once I had completed the Strategy and Scope planes knowing what was and what wasn't needed or achievable, I then focused on the structure and layout. 
+* I knew I wanted to create a website based on a subject that is close to my heart. I came up with a good name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once I had completed the Strategy and Scope planes knowing what was and what wasn't needed or achievable, I then focused on the structure and layout. 
 
 #### Strategy trade-off
 
 ![Image template](assets/images/ea-strategy.png)
 
-## Scope Plane diagram
+#### Scope Plane diagram
 
 ![Image template](assets/images/ea-scope.png)
 
@@ -56,17 +56,49 @@ Date this project started: 9th March 2021
 
 * The content for the website mainly came from my own experiences and therefore this took a little time to put together. I used a couple of external sources to help with the content from other Autism websites I am familiar with. Credits to these sites can be found at the bottom of this README document for reference with the 'Credits' section.  
 
-* Once I knew what structure I had in mind I moved onto the Skeleton plane and used Balsamiq wireframes to start some blueprints on how the website looked. Initially i was building a website with three pages, however, after going through the design process early on i knew that four pages was needed to spread out the right level of content in the right places which i know would offer better overall UX.  
+* Once I knew what structure I had in mind I moved onto the Skeleton plane and used <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a> wireframes to start some blueprints on how the website looked. Initially i was building a website with three pages, however, after going through the design process early on i knew that four pages was needed to spread out the right level of content in the right places which i know would offer better overall UX.
 
-* I wanted to make sure there was consistence with regards to the header (logo name and navigation menu) and footer throughout all pages (social media icons, email icons and copyright text). I also wanted to show an even and relevant amount of information depending on which page the user is on.  
+### Balsamiq Wireframes
+---
 
-* I wanted the website to have a minimum of three pages, home (index.html), about (about.html) and subscribe (subscribe.html). However, as mentioned above a fourth page for ideas (ideas.html) would be needed to help structure the content in the right place. I also considered a blog page, however, at this stage I feel that this wouldn’t be needed for a new website like this. 
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
 
-* As my target audience would be mainly other parents with a child on the Autistic spectrum, the design I wanted to achieve is a clean and friendly website that is easy to use, gain useful information and subscribe to a mailing list. I also wanted to make sure the website was attractive enough for victors to return back to as they would be aware that new information would be added regularly. In order to get the right style website, I felt the layout of the site, colour schemes and font choices were going to be an important part of the design process. I took my time testing different font styles in Google Fonts and chose the Ubuntu : Sans-serif font family for most of the website content. The Ubuntu font was chosen as it appears friendly and very readable to the eye. I chose the Kalam : cursive font family for the logo text (curive will only be used if the Kalam font doesn't load), homepage cover text and where ever the word 'Autism' appeared throughout the site. The Kalam font was chosen to stand out and show as a striking style to the eye and completely different to most of the website content. At the same time both fonts I believe work well together which was equally important to have. 
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
 
-## Design Process, page by page
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-3.pdf">Wireframe version 3</a>
 
-* The home and subscribe pages have minimum content. The home page has been designed to gain the users attention and encourage them to easily navigate to the about page, resources page and then onto the subscribe page to register. 
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-4.pdf">Wireframe version 4</a>
+
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-5.pdf">Wireframe version 5</a>
+
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-6.pdf">Wireframe version 6</a>
+
+[a link to be added here directly to the completed wireframe page or to pdf version]
+
+#### Homepage wireframe
+![template](assets/images/wireframes/embrace-autism-home.png)
+#### About page wireframe
+![template](assets/images/wireframes/embrace-autism-about.png)
+#### Resources page wireframe
+![template](assets/images/wireframes/embrace-autism-resources.png)
+#### Subscribe page wireframe
+![template](assets/images/wireframes/embrace-autism-subscribe.png)
+
+* Moving on to the surface plane of the UX process, I wanted to make sure there was consistence with regards to the header (logo name and navigation menu) and footer throughout all pages (social media icons, email icons and copyright text). I also wanted to show an even and relevant amount of information depending on which page the user is on.  
+
+* I wanted the website to have a minimum of three pages, home (index.html), about (about.html) and subscribe (subscribe.html). However, as mentioned above a fourth page for resources (resources.html) would be needed to help structure the content in the right place. I also considered a blog page, however, at this stage I feel that this wouldn’t be needed for a new website like this. 
+
+* As my target audience would be mainly other parents with a child on the Autistic spectrum, the design I wanted to achieve is a clean and friendly website that is easy to use, gain useful information and subscribe to a mailing list. I also wanted to make sure the website was attractive enough for victors to return back to as they would be aware that new information would be added regularly. In order to get the right style website, I felt the layout of the site, colour schemes and font choices were going to be an important part of the design process. I took my time testing different font styles in Google Fonts and chose the Ubuntu : Sans-serif (fallback) font family for most of the website content. The Ubuntu font was chosen as it appears friendly and very readable to the eye. I chose the Kalam : cursive (fallback) font family for the logo text, homepage cover text and where ever the word 'Autism' appeared throughout the site. The Kalam font was chosen to stand out and show as a striking style to the eye and completely different to most of the website content. At the same time both fonts I believe work well together which was equally important to have. 
+
+* When starting the design of the website the first thing I wanted to do was set the default font style, font colours and background colours within the body element for all pages.  
+
+- Full details can be found below for reference: - 
+
+    - Font-family - Ubuntu : sans-serif (sans-serif will only be used if Ubuntu doesn't load)
+    - Font colour - Dark blue: hex:274c77 
+    - Background Colour – Very light grey: hex:e7ecef
+
+* The home and subscribe pages have minimum content. The homepage has been designed to gain the users attention and encourage them to easily navigate to the about page, resources page and then onto the subscribe page to register. 
 
 * I changed the colour of the website a couple of times and used coolors.co to assist with a couple of colours that worked well to compliment the light blue i had already found and that I wanted to use. The coolors.co colours chosen was a dark blue and very light grey. I needed a colour to stand out when buttons are being hovered over. Therefore, I picked a strong green to achieve this. 
 
@@ -77,18 +109,14 @@ Date this project started: 9th March 2021
     - Very light grey (from coolors.co) hex:e7ecef , rgb:231,236,239, hsl:202°,20%,92%  
     - Hover green hex:3b9e3b, rgb:59,158,59, hsl:120°,46%,43%  
 
-* When starting the design of the website the first thing I wanted to do was set the default font style, font colours and background colours within the body element.  
+* I wanted to offer users the option of making contact by email. I was going to apply a generic email address at the top of the homepage, however after moving it about a few times i decided to add an icon within the footer of every page which looked much more professional. 
 
-- Full details can be found below for reference: - 
+* I took some time to work on making my HTML accessible for the visually impaired. I made sure that anchor elements, media clips, external links and internal links had the relevant aria-labels and sr-only classes added. I also made sure that certain text had aria-labelledby applied and that all image elments had the alt attribute in place.
 
-    - Font-family - Ubuntu : sans-serif (sans-serif will only be used if Ubuntu doesn't load)
-    - Font colour - Dark blue: hex:274c77 
-    - Background Colour – Very light grey: hex:e7ecef 
-
-* I wanted to offer users the option of making contact by email. I was going to apply a generic email address at the top of the homepage, however after moving it about a few times i decided to add a fourth icon next to the social media icons within the footer of every page which looked much more professional.  
+## Design Process 'page by page'
 
 #### Homepage (index.html)
-* The homepage design went through a few trials with choosing the right type of image I wanted and the positioning of it. When I found this <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">image</a> I knew it would work well for what I wanted achieve on my landing page.
+* The homepage design went through a few trials with choosing the right type of image I wanted and the positioning of it. When I found this <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">image</a> I knew it would work well for what I wanted achieve on my landing page. The image has striking colours with clear version of of an adult and a child embracing a colourful heart-shaped object expressing love and caring. The background is a beautful light blue which matches my colour scheme throughout the site. 
 
 * I wanted to use all colours pre-picked for the homepage and with the hero image being colourful i felt this would maximise the attraction for all users. 
 
@@ -143,7 +171,7 @@ Date this project started: 9th March 2021
 
     - The navigation bar is created using Bootstrap5 and therefore mobile first responsive. From small mobiles up to and including tablets the navigation bar is formatted as a hamburger menu (3 horizontal bars, one on top of the other) I checked all screen sizes and it was the largest screen (2560px) that needed media queries adding to change the positioning of the logo text and navigation bar. The logo text has been moved to the left and the navigation bar to the right on the very large screen sizes.
 
-    - I since checked the smallest possible screensize (Galaxy Fold mobile: 280px) and noticed that i needed to apply some styling using media queries to adjust the images, text and media clips. 
+    - I then checked the smallest possible screensize (Galaxy Fold mobile: 280px) and noticed that i needed to apply some styling using media queries to adjust the images, text and media clips. 
 
     - The footer has minimum content with icons and a very short paragraph included. For good UX I centred the footer and therefore on any device this will appear central and easy to view and click any particular social media or email icon. 
 
@@ -153,7 +181,7 @@ Date this project started: 9th March 2021
 
 * Media queries - about page (about.html) 
 
-    - The font size, height and width has been adjusted to fit on smaller screens for the factsheet.
+    - The font size, height and width has been adjusted to fit on smaller screens for the factsheet and media clips.
     - The 'useful links' logos needed to be reduced in size and re-positioned to fit on smaller screens. A long with this the sub header above these logos also had to be adjusted in size to keep in preportion with the logos.  
     - The Subscribe button needed to be adjusted in size for both small screens and large screens. Again this was to keep in preportion with everything else on the page.
     - The media clips have been repositioned side by side the factsheet for devices from laptop size screens upwards. On tablet one media clip is next to the factsheet and the second media clip is below the factsheet. On mobile screen sizes the media clips sit below each other and below the factsheet to give the best UX possible. 
@@ -161,10 +189,10 @@ Date this project started: 9th March 2021
 * Media queries - resources page (resources.html) 
 
     - The h4 header in the articles needed to be adjusted on the large screen size.
-    - The subscribe button needed to be adjusted on most screen sizes to look in preportion with the web page. 
-    - The useful links section had been adjusted slightly to fit within any screen size.
+    - The subscribe button needed to be adjusted on most screen sizes to look in preportion with the rest of the web page. 
+    - The useful links section has been adjusted slightly to fit within any screen size.
 
-1. Media queries - subscribe page (subscribe.html) 
+* Media queries - subscribe page (subscribe.html) 
 
     - The subscribe form stays central and at the top of this page. As the screen sizes getting bigger the form adjusted in size according to the screen size. 
     - The 'Thank you' image is central and re-sized on every screen size to keep in preportion. 
@@ -176,32 +204,6 @@ In particular, as part of this section we recommend that you provide a list of U
 
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-### Balsamiq Wireframes
----
-
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
-
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
-
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-3.pdf">Wireframe version 3</a>
-
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-4.pdf">Wireframe version 4</a>
-
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-5.pdf">Wireframe version 5</a>
-
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-6.pdf">Wireframe version 6</a>
-
-#### Homepage wireframe
-![template](assets/images/wireframes/embrace-autism-home.png)
-#### About page wireframe
-![template](assets/images/wireframes/embrace-autism-about.png)
-#### Resources page wireframe
-![template](assets/images/wireframes/embrace-autism-resources.png)
-#### Subscribe page wireframe
-![template](assets/images/wireframes/embrace-autism-subscribe.png)
-
-[a link to be added here directly to the completed wireframe page or to pdf version]
 
 ## Features
 ---
@@ -261,7 +263,7 @@ My project has four web pages with all found by using the menu navigation bar
 * Further advice articles on the The resources page would be good to have, however, this would take some time to complete as the content would need be relevant to the website.
 * I considered a blog page however, i felt that at this stage the website needs to gain plenty of subcribers first before a blog can be added.
 * I also considered the option of a live chat option for parents to talk to each other and share ideas. However, the website would need to more established first and at this stage in the course i feel i don't have the skillset to implement this.
-1. To lead on from the live chat idea, i would like to make sure that there is some level of security and understand the responsbilities of offering a secure website with a live chat feature. This also leads on to the idea of offering a user login and password option. 
+* To lead on from the live chat idea, i would like to make sure that there is some level of security and understand the responsbilities of offering a secure website with a live chat feature. This also leads on to the idea of offering a user login and password option. 
 
 ## Technologies Used
 ---
@@ -278,13 +280,18 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ### Frameworks, Libraries, Programs and others Technologies Used
 
+* <a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome DevTools</a>
+
+    - Used to help amend coding to achieve the best results for each page. 
+    - Used to examine the overall performance of the site
+
 * <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5.0</a>
 
     - Used for the navigation menu, containers and form. The grid system was used in the best way i could to keep the site mobile first responsive. 
     
 * <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a>
 
-    -   Used to create my wireframes. This tool was used five times as adjustments were made to the blueprint of my website.
+    -   Used to create my wireframes. This tool was used six times as adjustments were made to the blueprint of my website throughout the design process.
 
 * <a href="https://fontawesome.com/" target="_blank">Fontawesome</a>
 
@@ -327,15 +334,17 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - Used to rest all CSS coding
 
 
+
+
 ## Testing
 ---
 
-When testing the website on different screen sizes i made the decision to change the layout of the homepage for mobiles and tablets against laptop and desktop. The header, cover text and subcribe button is within the hero image on desktop and laptop. On smaller screens like mobile and tablet i decided to reduce the size of the image in order for the user to see the whole image clearly and then scroll down to see the header, cover text and subcribe buttow. This i believe makes better UX. I made sure the subscribe button stayed a good size to making it clear to click on by the user.
+* When testing the website on different screen sizes i made the decision to change the layout of the homepage for mobiles and tablets against laptop and desktop. The header, cover text and subcribe button is within the hero image on desktop and laptop. On smaller screens like mobile and tablet i decided to reduce the size of the image in order for the user to see the whole image clearly and then scroll down to see the header, cover text and subcribe buttow. This i believe makes better UX. I made sure the subscribe button stayed a good size to making it clear to click on by the user.
 
-When testing the navigation bar on smaller screens this would appear as a hamburger menu (3 horizontal bars) which is what i wanted to achieve. I applied styling with a different colour and a bottom border to whichever page the user is currently on for good UX. The bottom border property on bigger screens worked well, however, on smalleler screens with the hamburger menu, this didn't work as well.
-I therefore removed the bottom border property using media queries upto 991px which is the break point between the navigate menu changing format. This was tested on development tools on all break points up to 991px. The results came back 100%. For reference, the colours remand the same and therefore users on smaller screens would still see what page they are on by difference in colour. 
+* When testing the navigation bar on smaller screens this would appear as a hamburger menu (3 horizontal bars) which is what i wanted to achieve. I applied styling with a different colour and a bottom border to whichever page the user is currently on for good UX. The bottom border property on bigger screens worked well, however, on smaller screens with the hamburger menu, this didn't work as well.
+I therefore removed the bottom border property using media queries upto 991px which is the break point between the navigation menu changing format. This was tested on development tools on all break points up to 991px. The results came back 100%. For reference, the colours highlighting the current page the user is on remanding in place. Therefore, users on smaller devices would still see what page they are on by color difference. 
 
-[Media clips tested]
+* I tested the media clips on different screen sizes, making sure that both clips loaded and played fully. I also checked that 'allowfullscreen' attribute was active and working. I did this by viewing the site on laptop and mobile. Both tests were successful. I also checked to make sure the sound was working and again the testing was successful.
 
 ### User Stories
 1. I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.  
@@ -350,23 +359,22 @@ I therefore removed the bottom border property using media queries upto 991px wh
     - Go to the resource page
     - On this page user will see some advice and ideas to read. Its likely that theres an article that will help this parent.
 
-* I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained.  
+1. I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained.  
 **EA Response - by subscribing to the Embrace Autism mailing, this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of her family. They can also take a look at the useful links to see whether one of the charties can offer some additional advice** 
 
     - Go to the subscribe page
     - On this page user the user can complete the form to subscribe on the mailing list for regular information sent via email. There's useful links at the bottom of this page for this user to click on. 
 
-* I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their site visitors?  
+1. I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their site visitors?  
 **EA Response - There is the option to contact Embrace Autism by email. To send an email the user will need to click the email envelope icon which can be found within the footer next to the social media icons. The user can click the icon to open a draft email within their device. The draft will have the pre-prepopulated email address of info@embrace-autism.co.uk in the recipient section of the email. The user can then complete the email and when ready, click send.** 
 
     - This user can click on the email icon at the footer of any page to open up an email template draft to complete and send. 
 
-* I'm a teenager with Autism. With my high level sensory needs, I find it difficult to wear masks when i'm in shops and with most shops insisting i wear one, its becoming very tough to go out. Is there anything i can do to make it easier when visiting shops
+1. I'm a teenager with Autism. With my high level sensory needs, I find it difficult to wear masks when i'm in shops and with most shops insisting i wear one, its becoming very tough to go out. Is there anything i can do to make it easier when visiting shops
 **EA Response - This user can click any of the useful links to gain useful information. The user will find within the Hidden Disabilities link the option to get a free green and yellow sunflower identity ribbon which can be used when out shopping without the need for wearing a mask.** 
 
     - Go to the about, resource and subscribe page
     - On any of these pages the useful link for Hidden Disabilities can be found at the bottom in the form of clickable logo. 
-
 
 ### W3C Markup Validation Service - testing
 
@@ -403,17 +411,32 @@ The W3C Markup Validator and W3C CSS Validator was used to validate all coding o
 * The aria-labelledby attribute must point to an element in the same document.
 **How i resolved this error: aria-labelledby matched the id in the relevant element, however, there was a capital letter at the start of the aria-labelledby wording. I made the adjustment from uppercase to lowercase which resolved this issue. I then re-tested the code on W3C and no errors were found.**
 
-### W3C Markup Validation Service: zero errors **(completed)**
+* W3C Markup Validation Service: zero errors **(completed)**
 
 ### W3C CSS Validation Service - testing
 
+The W3C Markup Validator and W3C CSS Validator was used to validate all coding on every html and css page of my project.
+
 #### CSS coding - 2 errors found
 
-* #subscribe-btn-about (error: Value Error : text-align none is not a text-align value : none). **How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-about (Subscribe button on about page). There was no issues with the button on the webpage. I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.**
+* subscribe-btn-about (error: Value Error : text-align none is not a text-align value : none). **How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-about (Subscribe button on about page). There was no issues with the button on the webpage. I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.**
 
-* #subscribe-btn-resources (error: Value Error : text-align none is not a text-align value : none). **How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-resources (Subscribe button on resources page). There was no issues with the button on the webpage. I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.**
+* subscribe-btn-resources (error: Value Error : text-align none is not a text-align value : none). **How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-resources (Subscribe button on resources page). There was no issues with the button on the webpage. I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.**
 
-### W3C CSS Validation Service - zero errors **(completed)**
+* W3C CSS Validation Service - zero errors **(completed)**
+
+### Testing on different web browsers making sure that links worked and pages and loaded properly. 
+
+* I tested the site across the following web browers
+    - Google Chrome
+    - Mozilla Firefox
+    - Apple Safari - * I tested the site by opening it in
+    - Safari using iphone 12 and a Macbook. 
+    - Microsoft Explorer
+
+### Testing responsiveness
+
+* I manually tested the site on differnet screen sizes by using Development tools throughout the project and once the site was finished and deployed
 
 [test the home page]
 
@@ -424,8 +447,6 @@ The W3C Markup Validator and W3C CSS Validator was used to validate all coding o
 [test the subscribe page]
 
 [test all screen sizes]
-
-[test all browsers]
 
 [lighthouse]
 
@@ -519,7 +540,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 #### Thank you image for the subcribe page (subcribe.html)
 * I found a great 'thank you' image on <a href="https://www.pexels.com/" target="_blank">Pexels</a> which was free of charge to download.
-<a href="https://www.pexels.com/photo/traffic-sign-business-creativity-1887992/" target="_blank">Thank you image</a>  by Ann H from Pexels. This was a free of charge image available to download
+<a href="https://www.pexels.com/photo/traffic-sign-business-creativity-1887992/" target="_blank">Thank you image</a>  by Ann H from <a href="https://pexels.com/" target="_blank">Pexels</a>. This was a free of charge image available to download
 
 ### Media clips
 
