@@ -16,7 +16,7 @@ Date this project started: 9th March 2021
 
 [Click here to view the Embrace Autism project website live](https://embraceautism2.godaddysites.com/)
 
-## UX (main aims, user stories, design process)
+## UX
 ---
 
 ### Main aims
@@ -40,11 +40,11 @@ Date this project started: 9th March 2021
 
 * I'm a teenager with Autism. With my high level sensory needs, I find it difficult to wear masks when i'm in shops and with most shops insisting i wear one, its becoming very tough to go out. Is there anything i can do to make it easier when visiting shops
 
-## Design Process 
+### Design Process 
 
 1. I knew I wanted to create a website based on a subject that is close to my heart. I came up with a good name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once I had completed the Strategy and Scope planes knowing what was and what wasn't needed or achievable, I then focused on the structure and layout. 
 
-## Strategy trade-off
+#### Strategy trade-off
 
 ![Image template](assets/images/ea-strategy.png)
 
@@ -64,13 +64,13 @@ Date this project started: 9th March 2021
 
 * As my target audience would be mainly other parents with a child on the Autistic spectrum, the design I wanted to achieve is a clean and friendly website that is easy to use, gain useful information and subscribe to a mailing list. I also wanted to make sure the website was attractive enough for victors to return back to as they would be aware that new information would be added regularly. In order to get the right style website, I felt the layout of the site, colour schemes and font choices were going to be an important part of the design process. I took my time testing different font styles in Google Fonts and chose the Ubuntu : Sans-serif font family for most of the website content. The Ubuntu font was chosen as it appears friendly and very readable to the eye. I chose the Kalam : cursive font family for the logo text (curive will only be used if the Kalam font doesn't load), homepage cover text and where ever the word 'Autism' appeared throughout the site. The Kalam font was chosen to stand out and show as a striking style to the eye and completely different to most of the website content. At the same time both fonts I believe work well together which was equally important to have. 
 
-## Design Process page by page
+## Design Process, page by page
 
 * The home and subscribe pages have minimum content. The home page has been designed to gain the users attention and encourage them to easily navigate to the about page, resources page and then onto the subscribe page to register. 
 
 * I changed the colour of the website a couple of times and used coolors.co to assist with a couple of colours that worked well to compliment the light blue i had already found and that I wanted to use. The coolors.co colours chosen was a dark blue and very light grey. I needed a colour to stand out when buttons are being hovered over. Therefore, I picked a strong green to achieve this. 
 
-Full details of all colours used for the website can be found below: - 
+* Full details of all colours used for the website can be found below: - 
 
     - Light Blue: hex:479ce0, rgb:71,156,224, hsl:207°,71%,58%  
     - Dark blue (from coolors.co) hex:274c77, rgb:39,76,119, hsl:212°,51%,31%  
@@ -79,37 +79,61 @@ Full details of all colours used for the website can be found below: -
 
 * When starting the design of the website the first thing I wanted to do was set the default font style, font colours and background colours within the body element.  
 
-Full details can be found below for reference: - 
+- Full details can be found below for reference: - 
 
     - Font-family - Ubuntu : sans-serif (sans-serif will only be used if Ubuntu doesn't load)
     - Font colour - Dark blue: hex:274c77 
     - Background Colour – Very light grey: hex:e7ecef 
 
-#### Homepage (index.html)
-* The homepage design went through a few trials with choosing the right type of image I wanted and the positioning of it. When I found this <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">image</a> I knew it would work well for what I wanted achieve on my landing page.  
-
 * I wanted to offer users the option of making contact by email. I was going to apply a generic email address at the top of the homepage, however after moving it about a few times i decided to add a fourth icon next to the social media icons within the footer of every page which looked much more professional.  
 
-* I wanted to use all colours pre-picked for the homepage website to maximise the attraction of this page. Starting with the cover text highlighting three benefits about the website. The text was formatted as an unordered list with the bullet points removed. At first the unordered list was nested in a div element; however, I wanted the list to sit inside a semantic element to show improved web developmemt. I used the aside element to achieve this. On desktop screen size, the colours I chose for the cover text list was dark blue with a light grey background colour using rgba(106, 112, 116, 0.7). The 'alpha' was used to show a softened colour background and to appear to blend into the hero image. On small laptop, tablet and mobile screen sizes the cover text sits below the hero image with the background colour in dark blue and the font colour in light grey.  
+#### Homepage (index.html)
+* The homepage design went through a few trials with choosing the right type of image I wanted and the positioning of it. When I found this <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">image</a> I knew it would work well for what I wanted achieve on my landing page.
 
-* There was an ordered list using numbers 1-3 giving an easy step by step process to move throughout the website. However, after careful consideration I decided to remove the ordered list and strengthen the look of the navigation menu bar with clear text throughout.   
+* I wanted to use all colours pre-picked for the homepage and with the hero image being colourful i felt this would maximise the attraction for all users. 
 
-* Below the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. On desktop screen sizes this button is dark blue with the text in light grey. On small laptop, tablet and mobile screen sizes the button sits below the hero image, header and cover text. The background colour of the button on smaller screens is light blue and the font colour in light grey. The wording is in capital letters and when hovering over this button the background colour of the button changes to a strong green colour showing the user that it can be clicked.
+* The cover text highlights three key benefits about the website. The text was formatted as an unordered list with the bullet points removed. At first the unordered list was nested in a div element; however, I wanted the list to sit inside a semantic element to show improved web developmemt. I used the aside element to achieve this. On a desktop screen size, the colours I chose for the cover text list was a dark blue with a light grey background colour using rgba(106, 112, 116, 0.7). The 'alpha' was used to show a softened colour background and to appear to blend into the hero image. On small laptop, tablet and mobile screen sizes the cover text sits below the hero image with a blue background colour and the font colour in light grey. I chosen to move this below the hero image so the user would clearly see the hero image first and then the cover text below with the idea to achieve better overall UX.
 
-* After removing the ordered list, I had the option to increase the size of the cover text and 'SUBSCRIBE FOR FREE' button making both more visible to users.  
+* There was an ordered list using numbers 1-3 giving an easy step by step process to move throughout the website. However, after careful consideration I decided to remove the ordered list and strengthen the look of the navigation menu bar with easy to understand menu titles within the navigation bar.   
 
-* I decided to add a h1 header to complete the design of the homepage, stating what the website is about in the form of a short sentence. On large screen sizes the colour of this is dark blue in Ubuntu font styling except for the word 'Autism' which is in Kalam font. It can be found above the cover text and inside to the right of the hero image. On small laptop, mobile and tablet size screens this header is below the hero image and above the cover text in the centre of the screen. The header colour is light blue with the word 'Autism' in dark blue to make it stand out more on smaller devices. 
+* Below the cover text there is a 'SUBSCRIBE FOR FREE' like button which is linked to the subscribe page. On all screen sizes this is dark blue with the light grey text. On small laptop, tablet and mobile screen sizes this sits below the hero image and cover text. The wording is in capital letters and when hovered over the background colour changes to green showing the user that it can be clicked. Green for go was my thought on the colour change. 
+
+* After removing the ordered list, I had the option to increase the size of the cover text and 'SUBSCRIBE FOR FREE' like button making both more visible to users.  
+
+* I decided to add a h1 header to complete the design of the homepage, stating what the website is about an who it is aimed for. On large screen sizes the colour of this is dark blue in Ubuntu font styling except for the word 'Autism' which is in Kalam font. It can be found at the top and in the middle of the hero image. On small laptop, mobile and tablet size screens this header is below the hero image and above the cover text in the centre of the screen. The header colour is light blue with the word 'Autism' in dark blue to make it stand out more on smaller devices. 
 
 #### About page (about.html)
-* The about page has a dark blue background colour within the main body. The Ubuntu font is used for all content in light grey. The structure of the page leans to the left side to make it look more professional. The page holds information in the form of a sub headers, paragraphs, an unordered list (bullet points) a factsheet and two short media clips about Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. When hovering over the small text the font colour will change to green to show it clickable. There is two external media clips for users to watch. The first media clip is about 2 and half minutes long and titled "What is Autusm" The second is about five and half minutes long and it titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to green to show it clickable. The 'SUBSCRIBE FOR FREE' button wording is in capital letters and when hovering over this button the colour changes to green. There are also horizontal breaks between each section within this page to make it easy to navigate through. The layout is identical on all screensizes with minimal changes made using media queries to adjust the factsheet, subscribe button and useful links section. 
+* The about page has a dark blue background colour within the main body. The Ubuntu font is used for all content in light grey colour. The structure of the page leans to the left side to make the content easier to read. The page holds information in the form of sub headers, paragraphs, an unordered list (bullet points) a factsheet and two short media clips in reference to Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. When hovering over the small text the font colour will change to green to show it is clickable. 
+
+* There is two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autusm" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to green to show they are clickable. 
+
+* The 'SUBSCRIBE FOR FREE' like button wording is in capital letters and when hovering over this, the back ground colour changes to green. 
+
+* There are also horizontal line breaks between each section within this page to make it easy to navigate through. The layout is identical on all screensizes with changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section. 
 
 #### Resources page (resources.html)
-* The resources page has a dark blue background colour within the main body just like the about page. The Ubuntu font is used for all content with a light grey colour finish. The main purpose for this page is to provide users with clear to read information. I decided to keep this page simple with the option to read and much or as little as the user wanted. This is done using the CSS overflow declaration and scroll value. I wanted all information pieces to sit inside a semantic element to show improved web development. I replaced the div elements with the article elements to achieve this. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page. Below the information paragraphs there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue with the text in dark blue. The wording is in capital letters and when hovering over this button the background colour changes to a strong green. Below the button there is a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When clicked the user will see that the external website will open in a new tab page on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. The layout is identical on all screensizes with minimal changes made with media queries to adjust the subscribe button and useful links section.   
+* The resources page has a dark blue background colour within the main body just like the about page. The Ubuntu font is used for all content with a light grey colour finish. 
+
+* The main purpose for this page is to provide users with clear to read advice and ideas. I decided to keep this page simple with the option to read and much or as little as the user wanted. This is done using the CSS 'overflow' property and 'scroll' value. I wanted all information pieces to sit inside a semantic element to show improved web development. I replaced the div elements with article elements to achieve this. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page. 
+
+* Below the information advice and ideas section there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue with the text in dark blue. The wording is in capital letters and when hovering over this button the background colour changes to a green. Below there is a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When clicked, the user will see that the external website will open in a new tab on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. The layout is identical on all screensizes with changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section.
 
 * For the about and resources pages, I used bootstrap containers, rows and columns to structure the layout of this page which made it easier to manage with regards to responsive design. 
  
 #### Subscribe page (subcribe.html)
-The subscribe page has a dark blue background colour within the main body just like the about and resource pages. The Ubuntu font is used for all content with a light grey colour finish. The main purpose for this page is the form section for all users to complete. I used Bootstrap5 to format this form for responsive design. The form at the top of this page sits in a contrasting background colour of light grey with dark blue text. There is five parts for users to complete. Name, email address, weekly subscription or monthly subscription (only one to be selected) and submit button for the user to click when ready to subscribe. The submit button has a light grey font colour and has a dark blue background colour that's turns green when hovered over. The wording 'SUBSCRIBE' is in capital letters. The form cannot be sent until all details are completed with a name, email address and the weekly or monthly radio button selected. If the form is submitted without any of this information included, a message 'please fill in this field' will appear to inform the user. Above the form there is a central sub header to confirm what the form is for. Below the form there is another sub header with a short paragraph to explain to the user what they can expect once they've subscribed. Below this there is a 'thank you' image supplied free of charge and found at <a href="https://pexels.com" target="_blank">Pexels</a>. Below this image there’s a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When any one of the logo links is clicked, the user will see that the external website will open in a new tab page on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. The layout is identical on all screen sizes with minimal changes made with media queries to adjust the form, image and useful links section. I made sure that the design of this page has minimal content so the user can focus on completing the form. There are also horizontal breaks within the section to make it easy to navigate throughout the page. 
+* The subscribe page has a dark blue background colour within the main body just like the about and resource pages. The Ubuntu font is used for all content with a light grey colour. 
+
+* The main purpose for this page is the form. I used Bootstrap5 to format the form for responsive design. The form is at the top of this page and sits in a contrasting background colour of light grey with dark blue text. There is five parts of the form for users to complete. Name, email address, weekly subscription or monthly subscription (only one to be selected) and submit button for the user to click when ready to subscribe. The submit button has a light grey font colour and has a dark blue background colour that's turns green when hovered over. The wording 'SUBSCRIBE' is in capital letters. The form cannot be sent until all details are completed with a name, email address and the weekly or monthly radio button selected. If the form is submitted without any of this information included, a message 'please fill in this field' will appear to inform the user. 
+
+* Above the form there is a central sub header to confirm what the form is for. Below the form there is another sub header with a short paragraph to explain to the user what they can expect once they've subscribed. 
+
+* Below this there is a 'thank you' image. This was found as a free image at <a href="https://pexels.com" target="_blank">Pexels</a>. 
+
+* Below this image there’s a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When any one of the logo links is clicked, the user will see that the external website will open in a new tab page on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. 
+
+* The layout is identical on all screen sizes with minimal changes made using media queries to adjust the form, image and useful links section. 
+
+* I made sure that the design of this page has minimal content so the user can focus on completing the form. There are also horizontal breaks within the section to make it easy to navigate throughout the page. 
 
 [MODAL??]
 
@@ -117,9 +141,11 @@ The subscribe page has a dark blue background colour within the main body just l
 
 * Media queries - all pages (index.html, about.html, resources.html and subscribe.html) 
 
-    - The navigation bar is created using Bootstrap5 and therefore mobile first responsive. From small mobiles up to and including tablets the navigation bar is formatted as a hamburger menu (3 horizontal bars, one on top of the other) I checked all screen sizes and it was only the largest screen (2560px) that needed media queries adding to change the positioning of the logo text and navigation bar. The logo text has been moved to the left and the navigation bar to the right on the very large screen sizes. 
+    - The navigation bar is created using Bootstrap5 and therefore mobile first responsive. From small mobiles up to and including tablets the navigation bar is formatted as a hamburger menu (3 horizontal bars, one on top of the other) I checked all screen sizes and it was the largest screen (2560px) that needed media queries adding to change the positioning of the logo text and navigation bar. The logo text has been moved to the left and the navigation bar to the right on the very large screen sizes.
 
-    - The footer has minimum content with icons and a very short paragraph included. For good UX I centred the footer and therefore on any device this will appear central and easy to view and use when clicking a particular social media or email icon. 
+    - I since checked the smallest possible screensize (Galaxy Fold mobile: 280px) and noticed that i needed to apply some styling using media queries to adjust the images, text and media clips. 
+
+    - The footer has minimum content with icons and a very short paragraph included. For good UX I centred the footer and therefore on any device this will appear central and easy to view and click any particular social media or email icon. 
 
 * Media queries - homepage (index.html) 
 
@@ -127,10 +153,9 @@ The subscribe page has a dark blue background colour within the main body just l
 
 * Media queries - about page (about.html) 
 
-    - The factsheet font size, height and width has been adjusted to fit on smaller screens. 
+    - The font size, height and width has been adjusted to fit on smaller screens for the factsheet.
     - The 'useful links' logos needed to be reduced in size and re-positioned to fit on smaller screens. A long with this the sub header above these logos also had to be adjusted in size to keep in preportion with the logos.  
     - The Subscribe button needed to be adjusted in size for both small screens and large screens. Again this was to keep in preportion with everything else on the page.
-
     - The media clips have been repositioned side by side the factsheet for devices from laptop size screens upwards. On tablet one media clip is next to the factsheet and the second media clip is below the factsheet. On mobile screen sizes the media clips sit below each other and below the factsheet to give the best UX possible. 
 
 * Media queries - resources page (resources.html) 
@@ -142,7 +167,7 @@ The subscribe page has a dark blue background colour within the main body just l
 1. Media queries - subscribe page (subscribe.html) 
 
     - The subscribe form stays central and at the top of this page. As the screen sizes getting bigger the form adjusted in size according to the screen size. 
-    - The 'Thank you' image in central and re-sized on every screen size to keep in preportion. 
+    - The 'Thank you' image is central and re-sized on every screen size to keep in preportion. 
     - The useful links section had been adjusted slightly to fit within any screen size.
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -152,98 +177,84 @@ In particular, as part of this section we recommend that you provide a list of U
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-## Balsamiq Wireframes
+### Balsamiq Wireframes
 ---
 
-### Homepage wireframe
-![template](assets/images/embrace-autism-home.png)
-### About page wireframe
-![template](assets/images/embrace-autism-about.png)
-### Resources page wireframe
-![template](assets/images/embrace-autism-resources.png)
-### Subscribe page wireframe
-![template](assets/images/embrace-autism-subscribe.png)
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
+
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
+
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-3.pdf">Wireframe version 3</a>
+
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-4.pdf">Wireframe version 4</a>
+
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-5.pdf">Wireframe version 5</a>
+
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-6.pdf">Wireframe version 6</a>
+
+#### Homepage wireframe
+![template](assets/images/wireframes/embrace-autism-home.png)
+#### About page wireframe
+![template](assets/images/wireframes/embrace-autism-about.png)
+#### Resources page wireframe
+![template](assets/images/wireframes/embrace-autism-resources.png)
+#### Subscribe page wireframe
+![template](assets/images/wireframes/embrace-autism-subscribe.png)
 
 [a link to be added here directly to the completed wireframe page or to pdf version]
 
 ## Features
 ---
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
 ### Existing Features
+ 
+My project has four web pages with all found by using the menu navigation bar
 
-#### All pages  
+#### Across all pages
 
-* My project has 4 web pages with the same header and footer formatted. All pages are connected to each other by using the relevant link options at the top of each page in the menu navigation bar. The defaults set across all pages are as follows: -  
-
-* The header has a text logo called 'Embrace Autism' at the top left of every page in dark blue. When hovering over the logo text the colour changes to light blue. This gives the user an indication that it’s a link and when clicked, it will bring the user back to the homepage (index.html) for convenience. On the right side of the header there is a horizontal navigation bar showing the following pages available: - home, about, resources and subscribe. All menu bar text is in uppercase. The font colour is light blue and when hovering over one of the page titles, the colour will change to dark blue. This was achieve by using the pseudo class, hover. This shows the user that these page titles are links, and that when hovering over one of them, it can also be clicked to move to that particular page within the site. A user will know what page they're on because the relevant page title will be highlighted in dark blue and underlined in the same colour. At this time the other pages will be shown in light blue. This gives the user clear indication of what page they are currently on and what pages are available to hover over and click on as and when they want to do this. The navigation in mobile and tablet size screens changes to a hamburger menu (3 horizontal bars, one on top of the other). The only difference is that when the bar is clicked the pages open up in a drop down menu. The page the user is on is still highlighted with the dark blue colour but there isn't an underline. 
-
-* The footer has social media icons to Facebook, Instagram and Twitter. These are all links to the relevant sites making it easy for a user to click through to. Each link will be opened in a new tab making it easy for the user to come back to the Embrace Autism site as it will still be open on the user's browser. There is an email icon next to the social media icons which will give users the option to click on. This will open up a new blank email draft ready to use and send back to Embrace Autism's generic email account. All four icons are structured evenly in the centre of the screen at the bottom of every page. There is good spacing between each icon to make it easy for users to click on without making the mistake of clicking the wrong one. All icons have the colour of light blue. When the user hovers over a particular icon the colour turns dark blue showing the user which icon they are about to select. Below the icons there is a short paragraph for ‘copyright’ which again is central and at the bottom of every page. The colour of this paragraph is dark blue. 
+* Text logo at the top left header
+* Navigation bar at the top right header
+* Four icons and copright text at the bottom in the centre of the footer
 
 #### Homepage (index.html)  
 
-* The main feature of this page is a large hero image with a light blue cloud like background. At the forefront of the image there is two sets of hands embracing a small heart-shaped colourful object. This image will indicate to users that it's a loving, embracing and welcoming site which should gain immediate attention. When I checked the description of this image, I found that the two sets of hands are in fact from one adult and one child making the image very relevant to the name of the website and the audience its aimed towards.  
-
-* A header stating what the website is about and who is it for 
-
+* The main feature of this page is a large hero image.  
+* A header stating what the website is about
 * There is a small list of website benefits  
-
-* A 'SUBSCRIBE FOR FREE' button. This is linked to the subscribe page making it easy for the user to click on and sign up. When hovered over the background the colour changes  
+* A 'SUBSCRIBE FOR FREE' button. which is a link to the subscribe page 
 
 #### About (about.html)  
 
-* This page has a dark blue background colour with a light grey text colour. The font is the default Ubuntu with the word 'Autism' in the Kalam font to match the logo text.  
-
-* The page holds a header (Our Autism Journey) with three short paragraphs below.  
-
-* There is another header (Website goals) with 3 bullet points in the form of an unordered list. Within this bullet point texts there is a couple of links to different pages within the site. These links are easily visible as the colour of the word links is in light blue and can be clicked by users at any time to move to either the resource page or subscribe page.  
-
-* There is a factsheet with a background colour is light grey with the font colour being dark blue There is some small text within this section stating where the factsheet information was sourced from. This text is in red an is also a link to the exact page relevant to the information in the factsheet.  
-
-* There is two media clips on this page for users to watch. Both clips come from YouTube via National Autism Society and CW Minds. 
-
-*There is another sub header (The next step) with a short paragraph. This gives the user additional information on what they can do next. i.e., subscribe or use the links below to look at external links  
-
-* A 'SUBSCRIBE FOR FREE' button. This is linked to the subscribe page making it easy for the user to click on and sign up. When hovered over the background the colour changes   
-
-* This page also has Links to external sources i.e., National Autistic Society, Autism NI, Hidden Disabilities. All charity logos very visible to see at the bottom of the page just above the footer. These logos are positioned on a white background with enough room between each one, making it easy to click the right one. Clicking any of the logos will bring the user to the homepage of whichever one is clicked. This will open in a separate tab on the user's browser making it easy to navigate back to the Embrace Autism site as it will still be open.  
+* This page has a dark blue background colour with a light grey text colour.
+* A sub header 'Our Autism Journey' with three short paragraphs below.  
+* A sub header 'Website Goals' with 3 bullet points of text. Within the bullet point text there is a couple of links to the 'resources' and 'subscribe' pages.
+* There is a factsheet with information relevant to the source.
+* There is two media clips to watch on screen or full screen if prefered.
+*There is another sub header 'The next step' with a short paragraph.
+* A 'SUBSCRIBE FOR FREE' button linked to the subscribe page.
+* External link logos to charties.  
 
 #### Resources (resources.html)
 
-* Header (what worked for use)
-* Sub header - 'Take your child out everywhere' and Paragraph
-* Sub header - 'Routines and good habits' and Paragraph
-* Sub header - 'Free up time is easier than you think' and Paragraph
-* Sub header - 'To be confirmed' and Paragraph 
-* All above sub headers and corresponding paragraphs have been placed in a text box giving the user the option to pick which one to read. Each text box has a scroll option making it easy to read whichever article the user is interested in. The background colour of each article is light grey (hex:e7ecef). The font colour is dark blue (hex:274c77) with the default font of Ubuntu used.
-* There is another sub header (The next step) with a short paragaph below giving the user additional information on what they can do next. i.e. subscribe or use the links below to click on to external websites associated with Autism.
-* A subscribe button to click and subscribe free, quick and easy.  
-* Links to external sources i.e. National Autistic Society, Autism NI, Hidden Disabilities.  
+* Sub header 'Advice and Ideas'
+* Sub header 'Don't stop going out' with a paragaph 
+* Sub header 'Routines and good habits' with a paragaph 
+* Sub header 'Free up time is easier than you think' with a paragaph 
+* Sub header 'Encouraging a Non-Verbal Child to Communicate' with a paragaph 
+    - All above sub headers and corresponding paragraphs have been placed in a text box giving the user the option to pick which one to read. Each text box has a scroll option making it easy to read whichever article the user is interested in. 
+* There is another sub header 'The next step' with a short paragraph.
+* A 'SUBSCRIBE FOR FREE' button linked to the subscribe page.
+* External link logos to charties.  
 
 #### Subscribe (subcribe.html)
 
-* A form section for subscribing to the Embrace Autism mailing list.  
-* The form includes a name and email section to complete along with the choice of either a weekly or monthly subscription by selecting the relevant radio buttons.
-
-A submit button will be at the bottom of the form and once clicked a Modal message will appear to show the user the form has been completed and submitted successfully. 
-* A sub header and paragraph to read after completing the form.
+* A sub header 'Subscribe to Embrace Autism' is highlighted at the top of the page below the header. 
+* A form for subscribing to the Embrace Autism mailing list.  
+    - The form includes a name and email section to complete along with the choice of either a weekly or monthly subscription by selecting the relevant radio buttons.
+* A'please fill in this field' will appear if the form is completed fully.
+* A sub header 'What to expect now' and paragraph to read after completing the form.
 * There is a 'Thank you' image below the paragraph which i feel is a nice touch to finish the users experience on the site as they subcribe.
-* Links to external sources i.e. National Autistic Society, Autism NI, Hidden Disabilities. 
-
-[Modal to be completed]
-
-### Mobile responsive
-
-### Tablet responsive
-
-
-* Feature 1 - allows users X to achieve Y, by having them fill out Z
-* ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+* External link logos to charties.  
 
 ### Features Left to Implement
 * A dedicated page for media clips would be good to implement. Adding this would be quick, however, it would take time researching appropriate clips.
@@ -257,11 +268,15 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
+### Languages Used
+
 * HTML5
     - The markup language used for all site content, many images and media clips. Used in line with the HTML essentials module completed
 
 * CSS3
     - Styling HTML5 coding with declarations. Used in line with the CSS essentials module completed
+
+### Frameworks, Libraries, Programs and others Technologies Used
 
 * <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5.0</a>
 
@@ -281,7 +296,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 * <a href="https://www.istockphoto.com/" target="_blank">istockphoto</a>
 
-    - I used one "chargable'image from this site for my homepage hero image. It cost £8.40 and was worth every penny as the quality of this image was perfect for what i wanted for my site.
+    - I used one "chargable' image from this site for my homepage hero image. It cost £8.40 and was worth every penny as the quality of this image was perfect for what i wanted on my site.
 
 * <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
 
@@ -293,23 +308,32 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 * <a href="https://gitpod.io/" target="_blank">Gitpod</a>
 
-    - Used to complete my MS1 project as instructed
+    - Used to complete my HTML and CSS coding for my MS1 project
+
+* <a href="https://github.com/" target="_blank">Github</a>
+
+    - GitHub is used to store the projects code after being pushed from Git.
+
+* <a href="https://git-scm.com/" target="_blank">Git</a>
+
+    - Git was used for version control by using the Gitpod terminal to commit to Git and Push to GitHub.
 
 * <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a>
 
-    - testing to be completed
+    - Used to test all html coding on all four html pages
 
 * <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a>
 
-    - testing to be completed
+    - Used to rest all CSS coding
 
 
 ## Testing
 ---
 
-When testing the website on different screen sizes i made the decision to change the layout of the homepage for mobiles and tablets against laptop and desktop. The header, cover text and subcribe button is within the hero image on desktop and laptop. On smaller screens like mobile and tablet i decided to reduce the size of the image in order for the user to see the whole image clearly and have the header, cover text and subcribe button below. This i believe makes the UX better to read. I made sure the subscribe button stayed a good size to making it clear to click on by the user.
+When testing the website on different screen sizes i made the decision to change the layout of the homepage for mobiles and tablets against laptop and desktop. The header, cover text and subcribe button is within the hero image on desktop and laptop. On smaller screens like mobile and tablet i decided to reduce the size of the image in order for the user to see the whole image clearly and then scroll down to see the header, cover text and subcribe buttow. This i believe makes better UX. I made sure the subscribe button stayed a good size to making it clear to click on by the user.
 
-When testing the navigation bar on smaller screens this would appear as a hamburger menu (3 horizontal bars) which is what i wanted to achieve. However,the originally styling i made included a bottom border showing a user which page they are on not just by the colour change but by the border-bottom declaration which a solid thin line as a value. This didn't work well on the smaller screens when the navigation menu became a hamburger menu. I therefore removed this using media queries upto 991px which is the break point between the navigate menu changing from hamburger menu and full size. This was tested on development tools on all break points up to 991px. The results came back 100%.
+When testing the navigation bar on smaller screens this would appear as a hamburger menu (3 horizontal bars) which is what i wanted to achieve. I applied styling with a different colour and a bottom border to whichever page the user is currently on for good UX. The bottom border property on bigger screens worked well, however, on smalleler screens with the hamburger menu, this didn't work as well.
+I therefore removed the bottom border property using media queries upto 991px which is the break point between the navigate menu changing format. This was tested on development tools on all break points up to 991px. The results came back 100%. For reference, the colours remand the same and therefore users on smaller screens would still see what page they are on by difference in colour. 
 
 [Media clips tested]
 
@@ -345,6 +369,8 @@ When testing the navigation bar on smaller screens this would appear as a hambur
 
 
 ### W3C Markup Validation Service - testing
+
+The W3C Markup Validator and W3C CSS Validator was used to validate all coding on every html and css page of my project.
 
 #### Homepage - 1 error found 
 
@@ -403,6 +429,9 @@ When testing the navigation bar on smaller screens this would appear as a hambur
 
 [lighthouse]
 
+### Further testing
+### Bugs outstanding
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -423,6 +452,34 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment (Date this project was deployed: TBC)
 ---
+
+### Github pages
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+1. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.       
+1. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+1. Under "Source", click the dropdown called "None" and select "Master Branch".
+1. The page will automatically refresh.
+1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+1. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository
+1. Under the repository name, click "Clone or download".
+1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+1. Open Git Bash
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type git clone, and then paste the URL you copied in Step 3.
+    - $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+1. Press Enter. Your local clone will be created.
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -445,6 +502,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 * I obtained content for the resources page paragraph titled -  Tips for New Autism Parents. The content was taken from <a href="https://www.appliedbehavioranalysisedu.org/6-strategies-for-encouraging-a-non-verbal-child-to-communicate/" target="blank">Applied Behavior Analysis Edu</a> - 6 Strategies for Encouraging a Non-Verbal Child to Communicate.
 
 ### Code
+* <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5.0</a>: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. 
+
 * <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto" target="blank">Link to my email icon</a> supplied by my mentor - Seun Owonikoko using 
 <a href="https://www.w3schools.com/tags/" target="blank">w3schools</a>.
 
