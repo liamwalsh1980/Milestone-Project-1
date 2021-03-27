@@ -11,9 +11,7 @@ body {
     color: #274c77;
     background-color: #e7ecef;
 }
-
 /*---------------------------------------------Heading---*/
-
 #logo {
     color: inherit;
     font-family: Kalam, cursive;
@@ -47,11 +45,9 @@ body {
     border-bottom: 1px solid #274c77;
     color: #274c77;
 }
-
 /*--------------------------------------Media Queries for Heading---*/
 
 /*Large screen size - Logo text, navigation bar repositioned and re-sized */
-
 @media screen and (min-width: 2500px) {
     #logo {
         font-size: 80px;
@@ -67,20 +63,16 @@ body {
         margin: 20px;
     }
 }
-
 /*
 Screen sizes with Hamburger dropdown menu - underline removed from the selected page title
 */
-
 @media screen and (max-width: 991px) {
     #menulist .active {
         border-bottom: none;
         color: #274c77;
     }
 }
-
 /*Tablet size screen - Logo text, navigation hamburger menu re-sized*/
-
 @media screen and (max-width: 768px) {
     #logo {
         color: inherit;
@@ -98,9 +90,7 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
         font-size: 18px;
     }
 }
-
 /*Medium mobile screen size - Logo text, navigation hamburger menu re-sized*/
-
 @media screen and (max-width: 375px) {
     #logo {
         color: inherit;
@@ -118,15 +108,12 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
         font-size: 14px;
     }
 }
-
 @media screen and (max-width: 360px) {
     #logo {
         font-size: 28px;
     }
 }
-
 /*Small mobile screen size - Logo text, navigation hamburger menu re-sized*/
-
 @media screen and (max-width: 320px) {
     #logo {
         color: inherit;
@@ -154,9 +141,7 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
         padding: 0.4px 0.6px;      
     }
 }
-
 /*---------------------------------------------Homepage---*/
-
 #outer {
     height: 600px;
     width: 100%;
@@ -230,7 +215,6 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
 /*
 Large desktop screen size - hero image, header, cover text and subsribe button re-sized, repositioned and color changes
 */
-
  @media screen and (min-width: 2500px) {    
     #outer {
         height: 2000px;
@@ -284,11 +268,9 @@ Large desktop screen size - hero image, header, cover text and subsribe button r
         font-size: 40px;
     } 
 }
-
 /*
 Desktop screen size - hero image, header, cover text and subsribe button re-sized and colour changes
 */
-
 @media screen and (min-width: 1440px) and (max-width: 1500px) {
     #outer {
         height: 850px;
@@ -322,11 +304,9 @@ Desktop screen size - hero image, header, cover text and subsribe button re-size
         margin-top: 40px;
     }
 }
-
 /*
 Laptop and small desktop screen size - hero image, header, cover text and subsribe button re-sized and repositioned
 */
-
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     #outer {
         height: 900px;
@@ -347,11 +327,9 @@ Laptop and small desktop screen size - hero image, header, cover text and subsri
         margin-left: 302px;
     }
 }
-
 /*
 tablet screen size - hero image, header and cover text re-sized and repositioned
 */
-
 @media screen and (min-width: 768px) and (max-width: 789px) {
     #outer {
         height: 800px;
@@ -372,9 +350,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
         margin-left: 188px;
     }
 }
-
-/*Large mobile screen size - header re-sized*/
-    
+/*Large mobile screen size - header re-sized*/  
 @media screen and (max-width: 425px) { 
     #homepage-h1 {
         font-size: 18px;
@@ -385,9 +361,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
         margin-left: 12.5%;
     }
 } 
-
 /*Medium mobile screen size - header re-sized*/
-
 @media screen and (max-width: 375px) { 
     #homepage-h1 {
         font-size: 18px;
@@ -409,9 +383,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
         font-size: 17px; 
     } 
 }
-
 /*Small mobile screen size - header re-sized*/
-
 @media screen and (max-width: 320px) { 
     #homepage-h1 {
         font-size: 15px; 
@@ -428,9 +400,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
         font-size: 13px; 
     } 
 }
-
 /*---------------------------------------------About Page---*/
-
 .bg-color-change-about {
     background-color: #274c77;
     color: #e7ecef;
@@ -529,38 +499,36 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     font-size: 35px;
     padding-bottom: 15px;
 }
-
 /*--------------------------------------------Media Queries for About Pages---*/
 
 /*Large screen size - factsheet, media clips, subsribe button and external link images re-sized and repositioned */
-
 @media screen and (min-width: 1500px) and (max-width: 2560px) {
 
     #factsheet-border {
         width: 540px;
         height: 385px;
         margin-left: -5px;
-        }
+    }
 
     #about-source {
         font-size: 20px;
         margin-bottom: 5px;
-        }
+    }
 
     #subscribe-btn-about button {
         width: 500px;
         height: 100px;
         border-radius: 50px;
-        }
+    }
 
     #subscribe-btn-about button span {
         font-size: 40px;
-        }
+    }
 
     .useful-links-about h2, .useful-links-resources h2 {
         font-size: 60px;
         padding-left: 20px;
-        }
+    }
 
     #nas-media {
         float: left;
@@ -568,7 +536,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
         margin-top: -400px;
         width: 540px;
         height: 385px;
-        }
+    }
 
     #cwmind-media {
         float: left;
@@ -576,99 +544,86 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
         margin-top: -423px;
         width: 540px;
         height: 385px;
-        }
     }
-
+}
 /*Large laptop and desktop screen size - media clips re-sized and repositioned*/
-
-    @media screen and (min-width: 1440px) and (max-width: 1500px) {
-         #nas-media {
-            float: left;
-            margin-left: 400px;
-            margin-top: -220px;
-        }
-
-        #cwmind-media {
-            float: left;
-            margin-left: 800px;
-            margin-top: -244px;
-        }
+@media screen and (min-width: 1440px) and (max-width: 1500px) {
+    #nas-media {
+        float: left;
+        margin-left: 400px;
+        margin-top: -220px;
     }
 
-   /*smaller laptop screen size -  media clips re-sized and repositioned*/
-
-    @media screen and (min-width: 1024px) and (max-width: 1439px) {
-        #nas-media {
-            float: right;
-            margin-right: 340px;
-            margin-top: -220px;
-        }
-
-        #cwmind-media {
-            float: right;
-            margin-right: 10px;
-            margin-top: -244px;
-        }
+    #cwmind-media {
+        float: left;
+        margin-left: 800px;
+        margin-top: -244px;
+    }
+}
+/*smaller laptop screen size -  media clips re-sized and repositioned*/
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    #nas-media {
+        float: right;
+        margin-right: 340px;
+        margin-top: -220px;
     }
 
+    #cwmind-media {
+        float: right;
+        margin-right: 10px;
+        margin-top: -244px;
+    }
+}
 /*tablet and small laptop screen size -  media clip re-sized and repositioned*/
-
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-        #nas-media {
-            float: right;
-            margin-right: 40px;
-            margin-top: -220px;
-        }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #nas-media {
+        float: right;
+        margin-right: 40px;
+        margin-top: -220px;
     }
-
+}
 /*Large mobile screen - subsribe button centred*/
-
-    @media screen and (max-width: 425px) {
-        #subscribe-btn-about { 
-            text-align: center;
-        }
+@media screen and (max-width: 425px) {
+    #subscribe-btn-about { 
+        text-align: center;
     }
-
+}
 /*Small mobile screen size - factsheet re-sized and re-positioned*/
-
-    @media screen and (max-width: 320px) {
-        #factsheet-border {
-            width: 270px;
-            height: 180px;
-           
-            font-size: 14px;
-        }
-
-        #about-source {
-            font-size: 9px;
-        }
-
-        #nas-media, #cwmind-media {
-            width: 270px;
-            height: 180px;
-        }
-    }   
-
-    @media screen and (max-width: 280px) {
-        #factsheet-border {
-            width: 240px;
-        }
-
-        #about-source {
-            font-size: 8px;
-        }
-
-        #our-autism-journey {
-            font-size: 22px;
-        }
-
-        #nas-media, #cwmind-media {
-            width: 240px;
-        }
+@media screen and (max-width: 320px) {
+    #factsheet-border {
+        width: 270px;
+        height: 180px; 
+        font-size: 14px;
     }
 
-/*---------------------------------------------Resources Page---*/
+    #about-source {
+        font-size: 9px;
+    }
 
+    #nas-media, #cwmind-media {
+        width: 270px;
+        height: 180px;
+    }
+}   
+
+@media screen and (max-width: 280px) {
+    #factsheet-border {
+        width: 240px;
+    }
+
+    #about-source {
+        font-size: 8px;
+    }
+
+    #our-autism-journey {
+        font-size: 22px;
+    }
+
+    #nas-media, #cwmind-media {
+        width: 240px;
+    }
+}
+/*---------------------------------------------Resources Page---*/
 h2, h4  {
     text-align: center;
 }
@@ -742,95 +697,80 @@ h2, h4  {
     font-size: 35px;
     padding-bottom: 15px;
 }
-
 /*-----------------------------------------Media Queries for Resources Page---*/
 
 /*
 Large screen size - text content and subscribe button re-sized and re-positioned
 */
-
 @media screen and (min-width: 1500px) and (max-width: 2560px) {
     article h4 {
         font-size: 48px;
-        }
+    }
 
     #subscribe-btn-resources button {
         width: 500px;
         height: 100px;
         border-radius: 50px;
-        }
+    }
 
     #subscribe-btn-resources button span {
         font-size: 40px;
-        }
     }
-
+}
 /*Large mobile screen - subsribe button centred*/
-
-    @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
         #subscribe-btn-resources { 
         text-align: center;
-        }
     }
-
+}
 /*------------------------------Media Queries for About and Resources Pages---*/
 
 /*
 Large screen size - header, content, bullet points and external link images re-sized
 */
-
 @media screen and (min-width: 1500px) and (max-width: 2560px) {
     h2 {
         font-size: 48px;
-        }
+    }
 
     p, ul, #resources-link, #resources-link2 {
         font-size: 32px;
-        }
+    }
 
     .charity-logo img {
         width: 500px;
-        } 
-    }
-
+    } 
+}
 /*Tablet screen size - external images re-sized*/
-
-    @media screen and (max-width: 768px) {
-        .charity-logo img {
-            width: 200px;
-        }
+@media screen and (max-width: 768px) {
+    .charity-logo img {
+        width: 200px;
     }
-
+}
 /*Medium mobile screen - external images re-sized*/
-    
-    @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .charity-logo img {
         width: 280px;
         padding-bottom: 10px;
-        }
+    }
     
     #nas-logo {
         margin-bottom: 30px;
-        }
     }
-
+}
 /*Small mobile screen - external images re-sized*/
-
-    @media screen and (max-width: 320px) and (min-width: 280px) {
-    
+@media screen and (max-width: 320px) and (min-width: 280px) {
     .charity-logo img {
         width: 230px;
         padding-right: 15px;
         padding-bottom: 10px;
-        }
+    }
 
     #nas-logo {
         margin-bottom: 30px;
-        }
     }
-
+}
 /*---------------------------------------------Subscribe Page---*/
-
 .bg-change-form {
     background-color: #274c77;
     color: #e7ecef;
@@ -909,13 +849,11 @@ Large screen size - header, content, bullet points and external link images re-s
     font-size: 35px;
     padding-bottom: 15px;
 }
-
 /*---------------------------------------------Media Queries for Subscribe---*/
 
 /*
 Large screen size - sub-headers, subscribe button, form content, paragraphs, image and external links re-sized and re-positioned
-*/
-    
+*/   
 @media screen and (min-width: 1500px) and (max-width: 2560px) {
     #form-header {
         font-size: 48px;
@@ -959,7 +897,6 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, ima
 /*
 Large laptop and desktop screen size - sub-headers, subscribe button, form content, paragraphs, image and external links re-sized and re-positioned
 */
-
 @media screen and (min-width: 1440px) and (max-width: 1499px) {
     #form-header {
         font-size: 32px;
@@ -995,11 +932,9 @@ Large laptop and desktop screen size - sub-headers, subscribe button, form conte
         width: 75%;
     }  
 }
-
 /*
 tablet and small laptop screen size - sub-headers, form and image re-sized and re-positioned
 */
-
 @media screen and (min-width: 801px) and (max-width: 1439px) {
     #form-header {
         font-size: 24px;
@@ -1015,11 +950,9 @@ tablet and small laptop screen size - sub-headers, form and image re-sized and r
         width: 75%;
     }  
 }
-
 /*
 Tablet screen size - sub-header, form and image re-sized and re-positioned
 */
-
 @media screen and (min-width: 768px) and (max-width: 800px) {
     #form-header {
         font-size: 24px;
@@ -1036,7 +969,6 @@ Tablet screen size - sub-header, form and image re-sized and re-positioned
     }  
 }
 /*---------------------------------------------Footer---*/
-
 footer {
     position: relative;
     margin: 10px;
@@ -1065,16 +997,13 @@ a {
 .copyright {
     margin-top: 5px;
 }
-
 /*--------------------------------------Media Queries for Footer---*/
 
 /*Large desktop screen size - icons resized and further padding added*/
-
 @media screen and (min-width: 2500px) {
     a {
         font-size: 40px;
         padding: 40px;
     }
 }
-
 /*End of CSS*/
