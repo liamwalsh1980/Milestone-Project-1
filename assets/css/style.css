@@ -218,10 +218,11 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
     text-transform: uppercase; 
     font-size: 20px;
     color: #e7ecef;
+    line-height: 33px;
 } 
 
 #subscribe-btn-home-cover:hover {
-    background-color: rgb(59, 158, 59);
+    background-color: #3a8347;
 }
 
 /*--------------------------------------Media Queries for Homepage---*/
@@ -428,7 +429,6 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
     } 
 }
 
-
 /*---------------------------------------------About Page---*/
 
 .bg-color-change-about {
@@ -456,7 +456,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
 }
 
 #about-source:hover {
-    color: rgb(59, 158, 59);
+    color: #3a8347;
 }
 
 #nas-media, #cwmind-media {
@@ -477,11 +477,11 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
 }
 
 #resources-link:hover {
-    color: rgb(59, 158, 59);
+    color: #3a8347;
 }
 
 #resources-link2:hover {
-    color: rgb(59, 158, 59);
+    color: #3a8347;
 }
 
 .autism {
@@ -494,14 +494,15 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
 }
 
 #subscribe-btn-about { 
-    margin-top: 30px; 
+    margin-top: 10px; 
     padding: 5px;
 } 
 
 #subscribe-btn-about span {  
     text-transform: uppercase; 
     font-size: large;
-    color: #274c77;
+    color: #e7ecef;
+    line-height: 33px;
 } 
 
 #subscribe-btn-about div {
@@ -513,7 +514,7 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
 }
 
 #subscribe-btn-about div:hover {
-    background-color: rgb(59, 158, 59);
+    background-color: #3a8347;
 }
 
 .useful-links-about, .useful-links-resources {
@@ -664,7 +665,6 @@ tablet screen size - hero image, header and cover text re-sized and repositioned
         #nas-media, #cwmind-media {
             width: 240px;
         }
-        
     }
 
 /*---------------------------------------------Resources Page---*/
@@ -715,7 +715,8 @@ h2, h4  {
 #subscribe-btn-resources span {  
     text-transform: uppercase; 
     font-size: large;
-    color: #274c77;
+    color: #e7ecef;
+    line-height: 33px;
 } 
 
 #subscribe-btn-resources div {
@@ -727,7 +728,7 @@ h2, h4  {
 }
 
 #subscribe-btn-resources div:hover {
-    background-color: rgb(59, 158, 59);
+    background-color: #3a8347;
 }
 
 .useful-links-resources {
@@ -877,7 +878,7 @@ Large screen size - header, content, bullet points and external link images re-s
 }
 
 #subscribe-btn button:hover {
-    background-color:rgb(59, 158, 59);
+    background-color: #3a8347;
 }
 
 #what-to-expect {

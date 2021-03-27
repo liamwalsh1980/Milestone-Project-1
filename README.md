@@ -100,14 +100,14 @@ Date this project started: 9th March 2021
 
 * The home and subscribe pages have minimum content. The homepage has been designed to gain the users attention and encourage them to easily navigate to the about page, resources page and then onto the subscribe page to register. 
 
-* I changed the colour of the website a couple of times and used coolors.co to assist with a couple of colours that worked well to compliment the light blue i had already found and that I wanted to use. The coolors.co colours chosen was a dark blue and very light grey. I needed a colour to stand out when buttons are being hovered over. Therefore, I picked a strong green to achieve this. 
+* I changed the colour of the website a couple of times and used coolors.co to assist with a couple of colours that worked well to compliment the light blue i had already found and that I wanted to use. The coolors.co colours chosen was a dark blue and very light grey. I needed a colour to stand out when buttons are being hovered over. Therefore, I picked a green to achieve this. 
 
 * Full details of all colours used for the website can be found below: - 
 
     - Light Blue: hex:479ce0, rgb:71,156,224, hsl:207°,71%,58%  
     - Dark blue (from coolors.co) hex:274c77, rgb:39,76,119, hsl:212°,51%,31%  
     - Very light grey (from coolors.co) hex:e7ecef , rgb:231,236,239, hsl:202°,20%,92%  
-    - Hover green hex:3b9e3b, rgb:59,158,59, hsl:120°,46%,43%  
+    - Hover green hex:#3a8347, rgb:58,131,71, hsl:131°,39%,37% (selected by using DevTools 'Toggler Colour Picker' to match the shade of green in the hero image)
 
 * I wanted to offer users the option of making contact by email. I was going to apply a generic email address at the top of the homepage, however after moving it about a few times i decided to add an icon within the footer of every page which looked much more professional. 
 
@@ -135,7 +135,7 @@ Date this project started: 9th March 2021
 
 * There is two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autusm" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to green to show they are clickable. 
 
-* The 'SUBSCRIBE FOR FREE' button wording is in capital letters and when hovering over this, the back ground colour changes to green. 
+* The 'SUBSCRIBE FOR FREE' button wording is in capital letters and when hovering over this, the background colour changes to green. 
 
 * There are also horizontal line breaks between each section within this page to make it easy to navigate through. The layout is identical on all screensizes with changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section. 
 
@@ -144,7 +144,7 @@ Date this project started: 9th March 2021
 
 * The main purpose for this page is to provide users with clear to read advice and ideas. I decided to keep this page simple with the option to read and much or as little as the user wanted. This is done using the CSS 'overflow' property and 'scroll' value. I wanted all information pieces to sit inside a semantic element to show improved web development. I replaced the div elements with article elements to achieve this. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page. 
 
-* Below the information advice and ideas section there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue with the text in dark blue. The wording is in capital letters and when hovering over this button the background colour changes to a green. Below there is a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When clicked, the user will see that the external website will open in a new tab on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. The layout is identical on all screensizes with changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section.
+* Below the information advice and ideas section there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue with the text in light grey. The wording is in capital letters and when hovering over this button the background colour changes to a green. Below there is a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When clicked, the user will see that the external website will open in a new tab on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. The layout is identical on all screensizes with changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section.
 
 * For the about and resources pages, I used bootstrap containers, rows and columns to structure the layout of this page which made it easier to manage with regards to responsive design. 
  
