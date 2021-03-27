@@ -456,7 +456,9 @@ I checked the details of this report and seen that it was the 'Largest Contentfu
 [Further research into this is required]
 
 ### Issues found
-* I wanted to include a Modal message when the form on the subscribe page is submitted successfully. Adding the code didn't work and with some assistance from my Mentor (TBC)
+* I wanted to include a Modal message when the form on the subscribe page is submitted successfully. Adding the code didn't work - assistance from my Mentor (TBC)
+
+* I Used DevTools throughout my project to make sure that all device screen sizes were taken into consideraton. I took some time to complete media queries across all pages, however, certain elements on certain screen sizes still didn't look right. I will be working on this more during further projects to perfect the skill between using bootstrap and media queries.
 
 ### Further testing
 ### Bugs outstanding
