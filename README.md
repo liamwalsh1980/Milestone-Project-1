@@ -71,7 +71,7 @@ Date this project started: 9th March 2021
 
 - <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-5.pdf">Wireframe version 5</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-6.pdf">Wireframe version 6</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-6.pdf">Wireframe version 6 (final version)</a>
 
 [a link to be added here directly to the completed wireframe page or to pdf version]
 
@@ -116,7 +116,7 @@ Date this project started: 9th March 2021
 ## Design Process 'page by page'
 
 #### Homepage (index.html)
-* The homepage design went through a few trials with choosing the right type of image I wanted and the positioning of it. When I found this <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">image</a> I knew it would work well for what I wanted achieve on my landing page. The image has striking colours with clear version of of an adult and a child embracing a colourful heart-shaped object expressing love and caring. The background is a beautful light blue which matches my colour scheme throughout the site. 
+* The homepage design went through a few trials with choosing the right type of image I wanted and the positioning of it. When I found this <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">image</a> I knew it would work well for what I wanted to achieve on my landing page. The image has striking colours with clear version of of an adult and a child embracing a colourful heart-shaped object expressing love and caring. The background is a beautful light blue which matches my colour scheme throughout the site. 
 
 * I wanted to use all colours pre-picked for the homepage and with the hero image being colourful i felt this would maximise the attraction for all users. 
 
@@ -124,9 +124,9 @@ Date this project started: 9th March 2021
 
 * There was an ordered list using numbers 1-3 giving an easy step by step process to move throughout the website. However, after careful consideration I decided to remove the ordered list and strengthen the look of the navigation menu bar with easy to understand menu titles within the navigation bar.   
 
-* Below the cover text there is a 'SUBSCRIBE FOR FREE' like button which is linked to the subscribe page. On all screen sizes this is dark blue with the light grey text. On small laptop, tablet and mobile screen sizes this sits below the hero image and cover text. The wording is in capital letters and when hovered over the background colour changes to green showing the user that it can be clicked. Green for go was my thought on the colour change. 
+* Below the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. On all screen sizes this is dark blue with the light grey text. On small laptop, tablet and mobile screen sizes this sits below the hero image and cover text. The wording is in capital letters and when hovered over the background colour changes to green showing the user that it can be clicked. Green for go was my thought on the colour change. 
 
-* After removing the ordered list, I had the option to increase the size of the cover text and 'SUBSCRIBE FOR FREE' like button making both more visible to users.  
+* After removing the ordered list, I had the option to increase the size of the cover text and 'SUBSCRIBE FOR FREE' button making both more visible to users.  
 
 * I decided to add a h1 header to complete the design of the homepage, stating what the website is about an who it is aimed for. On large screen sizes the colour of this is dark blue in Ubuntu font styling except for the word 'Autism' which is in Kalam font. It can be found at the top and in the middle of the hero image. On small laptop, mobile and tablet size screens this header is below the hero image and above the cover text in the centre of the screen. The header colour is light blue with the word 'Autism' in dark blue to make it stand out more on smaller devices. 
 
@@ -135,7 +135,7 @@ Date this project started: 9th March 2021
 
 * There is two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autusm" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to green to show they are clickable. 
 
-* The 'SUBSCRIBE FOR FREE' like button wording is in capital letters and when hovering over this, the back ground colour changes to green. 
+* The 'SUBSCRIBE FOR FREE' button wording is in capital letters and when hovering over this, the back ground colour changes to green. 
 
 * There are also horizontal line breaks between each section within this page to make it easy to navigate through. The layout is identical on all screensizes with changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section. 
 
@@ -207,63 +207,63 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 ---
-
 ### Existing Features
  
-My project has four web pages with all found by using the menu navigation bar
+My project has four web pages all found by using the menu navigation bar at the top of all pages.
 
 #### Across all pages
 
-* Text logo at the top left header
-* Navigation bar at the top right header
-* Four icons and copright text at the bottom in the centre of the footer
+* Text logo link at the top left header.
+* Navigation bar at the top right header.
+* Four icons and copright text centred at the bottom of the footer.
 
 #### Homepage (index.html)  
 
 * The main feature of this page is a large hero image.  
-* A header stating what the website is about
-* There is a small list of website benefits  
-* A 'SUBSCRIBE FOR FREE' button. which is a link to the subscribe page 
+* A header stating what the website is about.
+* A small list of website benefits (cover text).
+* A 'SUBSCRIBE FOR FREE' button. which is a link to the subscribe page.
 
 #### About (about.html)  
 
 * This page has a dark blue background colour with a light grey text colour.
 * A sub header 'Our Autism Journey' with three short paragraphs below.  
 * A sub header 'Website Goals' with 3 bullet points of text. Within the bullet point text there is a couple of links to the 'resources' and 'subscribe' pages.
-* There is a factsheet with information relevant to the source.
-* There is two media clips to watch on screen or full screen if prefered.
+* A factsheet and at the bottom the relevant source.
+* Two media clips to watch on screen or full screen if prefered.
 *There is another sub header 'The next step' with a short paragraph.
 * A 'SUBSCRIBE FOR FREE' button linked to the subscribe page.
-* External link logos to charties.  
+* External link logos to three charties.  
 
 #### Resources (resources.html)
 
-* Sub header 'Advice and Ideas'
-* Sub header 'Don't stop going out' with a paragaph 
-* Sub header 'Routines and good habits' with a paragaph 
-* Sub header 'Free up time is easier than you think' with a paragaph 
-* Sub header 'Encouraging a Non-Verbal Child to Communicate' with a paragaph 
-    - All above sub headers and corresponding paragraphs have been placed in a text box giving the user the option to pick which one to read. Each text box has a scroll option making it easy to read whichever article the user is interested in. 
-* There is another sub header 'The next step' with a short paragraph.
+* Sub header 'Advice and Ideas'.
+* Sub header 'Don't stop going out' with a paragaph.
+* Sub header 'Routines and good habits' with a paragaph. 
+* Sub header 'Free up time is easier than you think' with a paragaph.
+* Sub header 'Encouraging a Non-Verbal Child to Communicate' with a paragaph.
+    - All above sub headers and corresponding paragraphs have been placed in a text box giving the user the option to pick which one to read. Each text box has a scroll option making it easy to read whichever article the user is interested in.
+* A sub header 'The next step' with a short paragraph.
 * A 'SUBSCRIBE FOR FREE' button linked to the subscribe page.
-* External link logos to charties.  
+* External link logos to three charties.   
 
 #### Subscribe (subcribe.html)
 
-* A sub header 'Subscribe to Embrace Autism' is highlighted at the top of the page below the header. 
+* A sub header 'Subscribe to Embrace Autism' is highlighted at the top. 
 * A form for subscribing to the Embrace Autism mailing list.  
     - The form includes a name and email section to complete along with the choice of either a weekly or monthly subscription by selecting the relevant radio buttons.
-* A'please fill in this field' will appear if the form is completed fully.
+* The error message 'please fill in this field' will appear if the form isn't completed fully.
 * A sub header 'What to expect now' and paragraph to read after completing the form.
-* There is a 'Thank you' image below the paragraph which i feel is a nice touch to finish the users experience on the site as they subcribe.
-* External link logos to charties.  
+* A 'Thank you' image below the paragraph which i feel is a nice touch to finish the users experience on the site as they subcribe.
+* External link logos to three charties.   
 
 ### Features Left to Implement
-* A dedicated page for media clips would be good to implement. Adding this would be quick, however, it would take time researching appropriate clips.
-* Further advice articles on the The resources page would be good to have, however, this would take some time to complete as the content would need be relevant to the website.
-* I considered a blog page however, i felt that at this stage the website needs to gain plenty of subcribers first before a blog can be added.
+* A dedicated page for media clips would be good to implement. Adding basic page would be quick, however, it would take time researching appropriate clips to include.
+* Further advice articles on the The resources page would be good to have, however, this would take some time to complete as the content would need be relevant to the website aims and structure layout.
+* I considered a blog page however, i felt that at this stage the website would need to be running for a while with plenty of subcribers before a blog can be added.
 * I also considered the option of a live chat option for parents to talk to each other and share ideas. However, the website would need to more established first and at this stage in the course i feel i don't have the skillset to implement this.
-* To lead on from the live chat idea, i would like to make sure that there is some level of security and understand the responsbilities of offering a secure website with a live chat feature. This also leads on to the idea of offering a user login and password option. 
+* To lead on from the live chat idea, i would like to make sure that there is some level of security and understand the responsbilities of offering a secure website with a live chat feature. 
+* The idea of offering a user login/password option would be good to have in the future as the website gains more traffic.
 
 ## Technologies Used
 ---
@@ -279,6 +279,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - Styling HTML5 coding with declarations. Used in line with the CSS essentials module completed
 
 ### Frameworks, Libraries, Programs and others Technologies Used
+
+* <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
+
+    - I reverted back to lessons to help with some coding
 
 * <a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome DevTools</a>
 
@@ -334,121 +338,125 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - Used to rest all CSS coding
 
 
-
-
 ## Testing
 ---
 
-* When testing the website on different screen sizes i made the decision to change the layout of the homepage for mobiles and tablets against laptop and desktop. The header, cover text and subcribe button is within the hero image on desktop and laptop. On smaller screens like mobile and tablet i decided to reduce the size of the image in order for the user to see the whole image clearly and then scroll down to see the header, cover text and subcribe buttow. This i believe makes better UX. I made sure the subscribe button stayed a good size to making it clear to click on by the user.
+* When testing the website on different screen sizes within Development Tools i made the decision to change the layout of the homepage for mobiles and tablets against laptop and desktop. The header, cover text and subcribe button is within the hero image on desktop and laptop. On smaller screens like mobile and tablet i decided to reduce the size of the image in order for the user to see the whole image clearly and then scroll down to see the header, cover text and subcribe buttow. This i believe makes better UX. I made sure the subscribe button stayed a good size to making it clear to click on.
 
 * When testing the navigation bar on smaller screens this would appear as a hamburger menu (3 horizontal bars) which is what i wanted to achieve. I applied styling with a different colour and a bottom border to whichever page the user is currently on for good UX. The bottom border property on bigger screens worked well, however, on smaller screens with the hamburger menu, this didn't work as well.
-I therefore removed the bottom border property using media queries upto 991px which is the break point between the navigation menu changing format. This was tested on development tools on all break points up to 991px. The results came back 100%. For reference, the colours highlighting the current page the user is on remanding in place. Therefore, users on smaller devices would still see what page they are on by color difference. 
+I therefore removed the bottom border property using media queries upto 991px which is the break point between the navigation menu changing format. This was tested on development tools on all break points up to 991px. The results came back 100%. For reference, the colours highlighting the current page the user is on remands in place. Therefore, users on smaller devices would still see what page they are on by color difference of the page titles. 
 
 * I tested the media clips on different screen sizes, making sure that both clips loaded and played fully. I also checked that 'allowfullscreen' attribute was active and working. I did this by viewing the site on laptop and mobile. Both tests were successful. I also checked to make sure the sound was working and again the testing was successful.
 
 ### User Stories
 1. I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.  
-**EA Response - Embrace Autism offers useful links to charities that specialise in Autism all over the UK. These links can be found on the about and resources pages. For example: Clicking the link to the National Autism Society will offer this parent the right step towards long term help and support. For Northern Ireland parents it would be best to click on the Autism NI charity which is also a link available on the website.** 
-
-    - Go to the about, resource and subscribe page
-    - On any of these pages the useful links can be found at the bottom in the form of clickable logos. 
+**EA Response - Embrace Autism offers useful links to charities that specialise in Autism all over the UK. These links can be found on the about, resources and subscribe pages. For example: Clicking the link to the National Autism Society will offer this parent the right step towards long term help and support. For Northern Ireland parents it would be best to click on the Autism NI charity which is also a link available on the website.** 
+    
+    1. Go to the about, resource and subscribe page
+    1. On any of these pages the useful links can be found at the bottom in the form of clickable logos.
+    1. There is a small header above these logos stating 'Useful Links' as a guide.  
 
 1. I have a teenage Son who has Autism. He only wants to play on his computer games. He hardly leaves the house and I'm concerned about his health and wellbeing.  
 **EA Response - There would be advice on the website to support this parent, often related to encouraging routines and good habits to get into.** 
 
-    - Go to the resource page
-    - On this page user will see some advice and ideas to read. Its likely that theres an article that will help this parent.
+    1. Go to the resource page
+    1. On this page the user will see some advice and ideas to read. Its likely that theres an article that will help this parent as this is a very common issue for parents with an Autistic teenager.
 
 1. I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained.  
-**EA Response - by subscribing to the Embrace Autism mailing, this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of her family. They can also take a look at the useful links to see whether one of the charties can offer some additional advice** 
+**EA Response - by subscribing to the Embrace Autism mailing list, this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of the family. The user can also take a look at the useful links to see whether one of the charties can offer some additional advice** 
 
-    - Go to the subscribe page
-    - On this page user the user can complete the form to subscribe on the mailing list for regular information sent via email. There's useful links at the bottom of this page for this user to click on. 
+    1. Go to the subscribe page
+    1. On this page the user can complete the form to subscribe on the mailing list for regular information sent via email. There's useful links at the bottom of this page for this user to click on aswell.  
 
 1. I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their site visitors?  
-**EA Response - There is the option to contact Embrace Autism by email. To send an email the user will need to click the email envelope icon which can be found within the footer next to the social media icons. The user can click the icon to open a draft email within their device. The draft will have the pre-prepopulated email address of info@embrace-autism.co.uk in the recipient section of the email. The user can then complete the email and when ready, click send.** 
+**EA Response - There is the option to contact Embrace Autism by email. To send an email the user can click the email envelope icon which can be found within the footer next to the social media icons on all pages. The user can click the icon to open a draft email within their device. The draft will have the pre-prepopulated email address of info@embrace-autism.co.uk in the recipient section of the email. The user can then complete the email and when ready, click send.** 
 
-    - This user can click on the email icon at the footer of any page to open up an email template draft to complete and send. 
+    1. This user can click on the email icon at the footer of any page to open up an email template draft to complete and send. 
 
 1. I'm a teenager with Autism. With my high level sensory needs, I find it difficult to wear masks when i'm in shops and with most shops insisting i wear one, its becoming very tough to go out. Is there anything i can do to make it easier when visiting shops
-**EA Response - This user can click any of the useful links to gain useful information. The user will find within the Hidden Disabilities link the option to get a free green and yellow sunflower identity ribbon which can be used when out shopping without the need for wearing a mask.** 
+**EA Response - This user can click any of the useful links to gain information. The user will find within the Hidden Disabilities link the option to get a free green and yellow sunflower identity ribbon which can be used when out shopping without the need for wearing a mask.** 
 
     - Go to the about, resource and subscribe page
     - On any of these pages the useful link for Hidden Disabilities can be found at the bottom in the form of clickable logo. 
 
-### W3C Markup Validation Service - testing
+### W3C Validation Service - testing
 
 The W3C Markup Validator and W3C CSS Validator was used to validate all coding on every html and css page of my project.
+
+### W3C Markup Validation Service - testing
 
 #### Homepage - 1 error found 
 
 * The element 'a' must not appear as a descendant of the button element.
-**How i resolved this error: Before adopting a div element in place of the button element, i tried placing the button elemenet inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue.I then re-tested the code on W3C and no errors were found.**
+- **How i resolved this error: Before adopting a div element in place of the button element, i tried placing the button elemenet inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. I then re-tested the code on W3C and no errors were found.**
 
-#### About page - 3 errors found (2 were the same as i have 2 media clips on this page which shown errors)
-
-* Bad value true for attribute allowfullscreen on element iframe.
-**How i resolved this error: I checked the iframe element code from YouTube and seen that the 'true' value wasn't needed' This value was removed. I tested the media clips to make sure that they were still playing when on the page and that they could can be played on fullscreen size. I then re-tested the code on W3C and no errors were found.**
+#### About page - 3 errors found (2 were the same as i have 2 media clips on this page which shown the same error)
 
 * Bad value true for attribute allowfullscreen on element iframe.
-**How i resolved this error: I checked the iframe element code from YouTube and seen that the 'true' value wasn't needed' This value was removed. I tested the media clips to make sure that they were still playing when on the page and that they could can be played on fullscreen size. I then re-tested the code on W3C and no errors were found.**
+- **How i resolved this error: I checked the iframe element code from YouTube and seen that the 'true' value wasn't needed' This value was removed. I tested the media clips to make sure that they were still playing when on the page and that they can be played on fullscreen size as an option. I then re-tested the code on W3C and no errors were found.**
 
 * The element 'a' must not appear as a descendant of the button element.
-**How i resolved this error: Before adopting a div element in place of the button element, i tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. With some CSS adjustments to reflect the div instead of the button element which is now removed, this was then fully resolved. I then re-tested the code on W3C and no errors were found.**
+- **How i resolved this error: Before adopting a div element in place of the button element, i tried placing the button elemenet inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue.I then re-tested the code on W3C and no errors were found.**
 
-#### Resources page - 3 errors found
+#### Resources page - 3 errors found (2 were the same error)
 
 * The element 'a' must not appear as a descendant of the button element.
-**How i resolved this error: Before adopting a div element in place of the button element, i tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. With some CSS adjustments to reflect the div instead of the button element which is now removed, this was then fully resolved. I then re-tested the code on W3C and no errors were found.**
+- **How i resolved this error: Before adopting a div element in place of the button element, i tried placing the button elemenet inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue.I then re-tested the code on W3C and no errors were found.**
 
 * The aria-labelledby attribute must point to an element in the same document.
-**How i resolved this error: By matching the aria-labelledby to the id within the relevent element. I then re-tested the code on W3C and no errors were found.**
+- **How i resolved this error: By matching the aria-labelledby to the id within the relevent element. I then re-tested the code on W3C and no errors were found.**
 
 * The aria-labelledby attribute must point to an element in the same document.
 **How i resolved this error: By matching the aria-labelledby to the id within the relevent element. I then re-tested the code on W3C and no errors were found.**
 
 #### Subscribe page - 1 error found
 * The aria-labelledby attribute must point to an element in the same document.
-**How i resolved this error: aria-labelledby matched the id in the relevant element, however, there was a capital letter at the start of the aria-labelledby wording. I made the adjustment from uppercase to lowercase which resolved this issue. I then re-tested the code on W3C and no errors were found.**
+- **How i resolved this error: aria-labelledby matched the id in the relevant element, however, there was a capital letter at the start of the aria-labelledby wording. I made the adjustment from uppercase to lowercase which resolved this issue. I then re-tested the code on W3C and no errors were found.**
 
-* W3C Markup Validation Service: zero errors **(completed)**
+ **HTML Testing completed**
 
 ### W3C CSS Validation Service - testing
 
-The W3C Markup Validator and W3C CSS Validator was used to validate all coding on every html and css page of my project.
-
 #### CSS coding - 2 errors found
 
-* subscribe-btn-about (error: Value Error : text-align none is not a text-align value : none). **How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-about (Subscribe button on about page). There was no issues with the button on the webpage. I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.**
+* subscribe-btn-about (error: Value Error : text-align none is not a text-align value : none). 
+- **How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-about (Subscribe button on about page). There was no issues with the button on the webpage. I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.**
 
-* subscribe-btn-resources (error: Value Error : text-align none is not a text-align value : none). **How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-resources (Subscribe button on resources page). There was no issues with the button on the webpage. I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.**
+* subscribe-btn-resources (error: Value Error : text-align none is not a text-align value : none). 
+- **How i resolved this error: i removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-resources (Subscribe button on resources page). There was no issues with the button on the webpage. I then re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.**
 
-* W3C CSS Validation Service - zero errors **(completed)**
+ **CSS Testing completed**
 
-### Testing on different web browsers making sure that links worked and pages and loaded properly. 
+### Different Web Browsers
+
+#### Testing on different web browsers making sure that links worked and pages and loaded properly. 
 
 * I tested the site across the following web browers
-    - Google Chrome
+    - Google Chrome - The site was developed using Chrome and therefore testing was being done daily on this browser
     - Mozilla Firefox
-    - Apple Safari - * I tested the site by opening it in
-    - Safari using iphone 12 and a Macbook. 
+    - Apple Safari - I tested the site by opening it in
+    Safari using iphone an 12 and a Macbook. 
     - Microsoft Explorer
 
 ### Testing responsiveness
 
-* I manually tested the site on differnet screen sizes by using Development tools throughout the project and once the site was finished and deployed
+* I manually tested the site on differnet screen sizes by using Development tools throughout the project and once the site was finished and deployed.
 
-[test the home page]
+### Lighthouse testing
 
-[test the about page]
+#### Desktop results
 
-[test the resource page]
+![template](assets/images/lighthouse/desktop-lighthouse-results.png)
 
-[test the subscribe page]
+#### Moblile results
+![template](assets/images/lighthouse/mobile-lighthouse-results.png)
 
-[test all screen sizes]
+I checked the details of this report and seen that it was the 'Largest Contentful Paint' score that was the main issue. 
 
-[lighthouse]
+[Further research into this is required]
+
+### Issues found
+* I wanted to include a Modal message when the form on the subscribe page is submitted successfully. Adding the code didn't work and with some assistance from my Mentor (TBC)
 
 ### Further testing
 ### Bugs outstanding
@@ -477,11 +485,16 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Github pages
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the GitHub Repository
-1. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.       
-1. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-1. Under "Source", click the dropdown called "None" and select "Master Branch".
+1. I logged into GitHub account and located my [MS1 GitHub Repository](https://github.com/liamwalsh1980/Milestone-Project-1).
+
+1. At the top of the Repository i clicked the [settings](https://github.com/liamwalsh1980/Milestone-Project-1/settings). option on the menu.
+
+1. I scrolled down the settings page to the the GitHub Pages Section.
+
+1. Under Source, i clicked the dropdown option called none and selected Master Branch.
+
 1. The page will automatically refresh.
+
 1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
@@ -536,7 +549,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 #### Hero Image for the homepage (index.html)
 * I received inspiration for this project by using an image supplied by the <a href="https://www.istockphoto.com/portfolio/vejaa?assettype=image&mediatype=photography" target="blank">Photography - Vejaa</a>. - Image sourced from istockphoto.com and purchased for £8.40
 
-- Chosen homepage <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">Hero image</a> by photography - Vejaa
+*  Chosen homepage <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">Hero image</a> by photography - Vejaa
+
+#### Useful links on the about, resources and subscribe pages (about.html, resources.html and subsribe.html)
+
+* I sourced the '<a href="https://www.autismni.org/" target="_blank">Autism NI</a>' logo using DevTools.  I seen the logo on the official website in an image element and used this on my site.
+
+* I sourced the '<a href="https://www.autism.org.uk/" target="_blank">National Autistic Society</a>' logo using DevTools. I seen the logo on the official website in an image element. It only worked when i used the coding from the point of the 'src' attribute as there was some inline styling which i didn't need as my own CSS was applied afterwards.
+
+* I sourced the '<a href="https://hiddendisabilitiesstore.com/" target="_blank">Hidden Disabilities</a>' logo using DevTools. I seen the logo on the official website in an image element and used this on my site.
+
 
 #### Thank you image for the subcribe page (subcribe.html)
 * I found a great 'thank you' image on <a href="https://www.pexels.com/" target="_blank">Pexels</a> which was free of charge to download.
