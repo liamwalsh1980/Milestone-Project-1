@@ -4,7 +4,7 @@
 
 ----
 
-![template](assets/images/imagetemplate.png)
+![template](assets/images/am-i-responsive.png)
 
 This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project is to design a responsive website using HTML5 and CSS3 with the option of using CSS libraries/frameworks like Bootstrap. There is a minimum requirement of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about page and resources page relevant with the right level of content and a fourth page offering users the option to subscribe on a mailing list. All this I feel would work well when using the menu bar to navigate around the site. 
 
@@ -60,28 +60,28 @@ Date this project started: 9th March 2021
 ### Balsamiq Wireframes
 ---
 
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-3.pdf">Wireframe version 3</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-3.pdf">Wireframe version 3</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-4.pdf">Wireframe version 4</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-4.pdf">Wireframe version 4</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-5.pdf">Wireframe version 5</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-5.pdf">Wireframe version 5</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-6.pdf">Wireframe version 6 (final version)</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-6.pdf">Wireframe version 6 (final version)</a>
 
 [a link to be added here directly to the completed wireframe page or to pdf version]
 
 #### Homepage wireframe
-![template](assets/images/wireframes/embrace-autism-home.png)
+![template](assets/images/embrace-autism-home.png)
 #### About page wireframe
-![template](assets/images/wireframes/embrace-autism-about.png)
+![template](assets/images/embrace-autism-about.png)
 #### Resources page wireframe
-![template](assets/images/wireframes/embrace-autism-resources.png)
+![template](assets/images/embrace-autism-resources.png)
 #### Subscribe page wireframe
-![template](assets/images/wireframes/embrace-autism-subscribe.png)
+![template](assets/images/embrace-autism-subscribe.png)
 
 * Moving on to the surface plane of the UX process, I wanted to make sure there was consistence with regards to the header (logo name and navigation menu) and footer throughout all pages (social media icons, email icons and copyright text). I also wanted to show an even and relevant amount of information depending on which page the user is on.  
 
@@ -121,7 +121,7 @@ Date this project started: 9th March 2021
 
 * The cover text highlights three key benefits about the website. The text was formatted as an unordered list with the bullet points removed. At first the unordered list was nested in a div element; however, I wanted the list to sit inside a semantic element to show improved web developmemt. I used the aside element to achieve this. On a desktop screen size, the colours I chose for the cover text list was a dark blue with a light grey background colour using rgba(106, 112, 116, 0.7). The 'alpha' was used to show a softened colour background and to appear to blend into the hero image. On small laptop, tablet and mobile screen sizes the cover text sits below the hero image with a blue background colour and the font colour in light grey. I chosen to move this below the hero image so the user would clearly see the hero image first and then the cover text below with the idea to achieve better overall UX.
 
-* There was an ordered list using numbers 1-3 giving an easy step by step process to move throughout the website. However, after careful consideration I decided to remove the ordered list and strengthen the look of the navigation menu bar with easy-to-understand menu titles within the navigation bar. Early versions of my <a href="/workspace/Milestone-Project-1/assets/images/wireframes/embrace-autism-wireframes-1.pdf">Wireframe version 1</a> shows this feature.     
+* There was an ordered list using numbers 1-3 giving an easy step by step process to move throughout the website. However, after careful consideration I decided to remove the ordered list and strengthen the look of the navigation menu bar with easy-to-understand menu titles within the navigation bar. Early versions of my <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-1.pdf">Wireframe version 1</a> shows this feature.     
 * Below the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. On all screen sizes this is dark blue with the light grey text. On small laptop, tablet and mobile screen sizes this sits below the hero image and cover text. The wording is in capital letters and when hovered over, the background colour changes to green showing the user that it can be clicked. Green for go was my thought on the colour change.   
 
 * After removing the ordered list, I had the option to increase the size of the cover text and 'SUBSCRIBE FOR FREE' button making both more visible to users.  
