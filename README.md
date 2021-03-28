@@ -4,9 +4,9 @@
 
 ----
 
-![template](assets/images/am-i-responsive.png)
+![template](assets/images/i-am-responsive.png)
 
-This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project is to design a responsive website using HTML5 and CSS3 with the option of using CSS libraries/frameworks like Bootstrap. There is a minimum requirement of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about page and resources page relevant with the right level of content and a fourth page offering users the option to subscribe on a mailing list. All this I feel would work well when using the menu bar to navigate around the site. 
+This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project are to design a responsive website using HTML5 and CSS3 with the option of using CSS libraries/frameworks like Bootstrap. There is a minimum requirement of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about page and resources page relevant with the right level of content and a fourth page offering users the option to subscribe on a mailing list. All this I feel would work well when using the menu bar to navigate around the site. 
 
 Embrace Autism is a fictional information website that is mainly aimed at parents who have a child with a diagnosis of Autism (ASD – Autistic Spectrum Disorder). The website provides advice and ideas on how to occupy and keep Autistic children happy, engaged and active. As a father of an Autistic child, I know how difficult it can be to entertain and keep your child happy and fulfilled. Therefore, I had the idea to design a website that can offer help and advice drawn upon my own experiences and what has been taught to me. Embrace Autism is a website that you can access time and time again to get new ideas and useful links to external websites relevant to ASD. There is the option to subscribe to the Embrace Autism mailing list by providing your name and email address (info@embrace-autism.co.uk) to get regular new ideas, free of charge. 
 
@@ -55,7 +55,7 @@ Date this project started: 9th March 2021
 
 * The content for the website mainly came from my own experiences and therefore this took a little time to put together. I used a couple of external sources to help with the content from other Autism websites I am familiar with. Credits to these sites can be found at the bottom of this README document for reference within the 'Credits' section.   
 
-* Once I knew what structure I had in mind I moved onto the Skeleton plane and used <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a> wireframes to start some blueprints on how the website looked. Initially I was building a website with three pages, however, after going through the design process early on I knew that four pages was needed to spread out the right level of content in the right places. This I believe would offer better overall UX. For reference  wireframes - version three was when the wireframing started with four pages. 
+* Once I knew what structure I had in mind I moved onto the Skeleton plane and used <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a> wireframes to start some blueprints on how the website looked. Initially I was building a website with three pages, however, after going through the design process early on I knew that four pages was needed to spread out the right level of content in the right places. This I believe would offer better overall UX. For reference to my wireframes, version three was when the wireframing changed from three to four pages.
 
 ### Balsamiq Wireframes
 ---
@@ -119,7 +119,7 @@ Date this project started: 9th March 2021
 
 * I wanted to use all colours pre-picked for the homepage and with the hero image being colourful I felt this would maximise the attraction for all users. 
 
-* The cover text highlights three key benefits about the website. The text was formatted as an unordered list with the bullet points removed. At first the unordered list was nested in a div element; however, I wanted the list to sit inside a semantic element to show improved web developmemt. I used the aside element to achieve this. On a desktop screen size, the colours I chose for the cover text list was a dark blue with a light grey background colour using rgba(106, 112, 116, 0.7). The 'alpha' was used to show a softened colour background and to appear to blend into the hero image. On small laptop, tablet and mobile screen sizes the cover text sits below the hero image with a blue background colour and the font colour in light grey. I chosen to move this below the hero image so the user would clearly see the hero image first and then the cover text below with the idea to achieve better overall UX.
+* The cover text highlights three key benefits about the website. The text was formatted as an unordered list with the bullet points removed. At first the unordered list was nested in a div element; however, I wanted the list to sit inside a semantic element to show improved web development. I used the aside element to achieve this. On a desktop screen size, the colours I chose for the cover text list was a dark blue with a light grey background colour using rgba(106, 112, 116, 0.7). The 'alpha' was used to show a softened colour background and to appear to blend into the hero image. On small laptop, tablet and mobile screen sizes the cover text sits below the hero image with a blue background colour and the font colour in light grey. I chose to move this below the hero image so the user would clearly see the hero image first and then the cover text below with the idea to achieve better overall UX.
 
 * There was an ordered list using numbers 1-3 giving an easy step by step process to move throughout the website. However, after careful consideration I decided to remove the ordered list and strengthen the look of the navigation menu bar with easy-to-understand menu titles within the navigation bar. Early versions of my <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-1.pdf">Wireframe version 1</a> shows this feature.     
 * Below the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. On all screen sizes this is dark blue with the light grey text. On small laptop, tablet and mobile screen sizes this sits below the hero image and cover text. The wording is in capital letters and when hovered over, the background colour changes to green showing the user that it can be clicked. Green for go was my thought on the colour change.   
@@ -131,7 +131,7 @@ Date this project started: 9th March 2021
 #### About page (about.html)
 * The about page has a dark blue background colour within the middle section of the page. The Ubuntu font is used for all content in light grey colour. The structure of the page leans to the left side to make the content easier to read. The page holds information in the form of sub headers, paragraphs, an unordered list (bullet points) a factsheet and two short media clips in reference to Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom and just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. When hovering over this small text the font colour will change to green to show it is clickable.  
 
-* There is two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autusm" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to green to show they are clickable. 
+* There are two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autism" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to green to show they are clickable. 
 
 * The 'SUBSCRIBE FOR FREE' button wording is in capital letters and when hovering over this, the background colour changes to green. 
 
@@ -215,7 +215,7 @@ My project has four web pages all found by using the menu navigation bar at the 
 
 * Text logo link at the top left header.
 * Navigation bar at the top right header.
-* Four icons and copright text centred at the bottom of the footer.
+* Four icons and copyright text centred at the bottom of the footer.
 
 #### Homepage (index.html)  
 
@@ -311,7 +311,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 * <a href="https://www.istockphoto.com/" target="_blank">istockphoto</a>
 
-    - I used one "chargable' image from this site for my homepage hero image. It cost £8.40 and was worth every penny as the quality of this image was perfect for what I wanted on my homepage.
+    - I used one "chargeable" image from this site for my homepage hero image. It cost £8.40 and was worth every penny as the quality of this image was perfect for what I wanted on my homepage.
 
 * <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
 
@@ -351,7 +351,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 * I tested the media clips on different screen sizes, making sure that both clips loaded and played fully. I also checked that the 'allowfullscreen' attribute was active and working. I did this by viewing the site on laptop and mobile. Both tests were successful. I also checked to make sure the sound was working and again the testing was successful. 
 
-### User Stories (outcomes and steps to acheieve what each user wants)
+### User Stories (outcomes and steps to achieve what each user wants)
 1. I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.     
 **EA Response - Embrace Autism offers useful links to charities that specialise in Autism all over the UK. These links can be found on the about, resources and subscribe pages. For example: Clicking the link to the National Autism Society will offer this parent the right step towards long term help and support. For Northern Ireland parents it would be best to click on the Autism NI charity which is also a link available on the website.** 
     
@@ -363,7 +363,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 **EA Response - There would be advice on the website to support this parent, often related to encouraging routines and good habits to get into.** 
 
     1. Go to the resource page
-    1. On this page the user will see some advice and ideas to read. It's likely that theres an article that will help this parent as this is a very common issue for parents with an Autistic teenager.
+    1. On this page the user will see some advice and ideas to read. It's likely that there's an article that will help this parent as this is a very common issue for parents with an Autistic teenager.
 
 1. I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained. **EA Response - by subscribing to the Embrace Autism mailing list, this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of the family. The user can also take a look at the useful links to see whether one of the charities can offer some additional advice.** 
 
@@ -383,7 +383,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ### W3C Validation Service - testing
 
-The W3C Markup Validator and W3C CSS Validator was used to validate all coding on every html and css page of my project.
+The W3C Markup Validator and W3C CSS Validator was used to validate all coding on every HTML and CSS page of my project.
 
 ### W3C Markup Validation Service - testing
 
@@ -395,7 +395,7 @@ The W3C Markup Validator and W3C CSS Validator was used to validate all coding o
 #### About page - 3 errors found (2 were the same as I have 2 media clips on this page which shown the same error)
 
 * Bad value true for attribute allowfullscreen on element iframe.
-    - **How I resolved this error:** I checked the iframe element code from YouTube and seen that the 'true' value wasn't needed' This value was removed. I tested the media clips to make sure that they were still playing when on the page and that they can be played on fullscreen size as an option. I then re-tested the code on W3C and no errors were found.
+    - **How I resolved this error:** I checked the iframe element code from YouTube and seen that the 'true' value wasn't needed' This value was removed. I tested the media clips to make sure that they were still playing when on the page and that they can be played on full screen size as an option. I then re-tested the code on W3C and no errors were found.
 
 * The element 'a' must not appear as a descendant of the button element.
     - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. I then re-tested the code on W3C and no errors were found.
@@ -425,7 +425,7 @@ The W3C Markup Validator and W3C CSS Validator was used to validate all coding o
 * subscribe-btn-resources (error: Value Error : text-align none is not a text-align value : none). 
     - **How I resolved this error:** I removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-resources (Subscribe button on resources page). There was no issues with the button on the webpage. 
 
-Once both errors were fixed I re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.
+Once both errors were fixed, I re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.
 
  **CSS Testing completed**
 
@@ -433,10 +433,10 @@ Once both errors were fixed I re-tested the code on W3C CSS and the message 'Con
 
 #### Testing was completed on different web browsers making sure that links worked and pages loaded properly. 
 
-* I tested the site across the following web browers
+* I tested the site across the following web browsers
     - Google Chrome - The site was developed using Chrome and therefore testing was being done daily on this browser.
     - Apple Safari - I tested the site by opening it in
-    Safari using iphone an 12 and a Macbook. 
+    Safari using an iPhone 12 and a MacBook. 
     - Microsoft Explorer [to be completed]
     - Mozilla Firefox [to be completed]
 
@@ -448,10 +448,10 @@ Once both errors were fixed I re-tested the code on W3C CSS and the message 'Con
 
 #### Desktop results
 
-![template](assets/images/lighthouse/desktop-lighthouse-results.png)
+![template](assets/images/desktop-lighthouse-results.png)
 
-#### Moblile results
-![template](assets/images/lighthouse/mobile-lighthouse-results.png)
+#### Mobile results
+![template](assets/images/mobile-lighthouse-results.png)
 
 I checked the details of this report and seen that it was the 'Largest Contentful Paint' score that was the main issue. 
 [Further research into this is required]
@@ -492,18 +492,18 @@ The project was deployed to GitHub Pages doing the following: -
 
 1. At the top of the Repository I clicked the [settings](https://github.com/liamwalsh1980/Milestone-Project-1/settings). option on the menu.
 
-1. I scrolled down the settings page to the the GitHub Pages Section.
+1. I scrolled down the settings page to the GitHub Pages Section.
 
 1. Under Source, I clicked the dropdown option called none and selected Master Branch.
 
-1. The page automatically refreshed with a a URL for me to use to show my live site.
+1. The page automatically refreshed with a URL for me to use to show my live site.
 
 1. I Scrolled down the page to obtained the published site link to enable me to share with others. 
 
-For a more in depth guide about Configuring a publishing source from Gitgub pages please [click here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+For a more in-depth guide about Configuring a publishing source from Github pages please [click here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 ### Forking the GitHub Repository
-By forking the GitHub Repository you can make a copy of my original repository on your GitHub account to view and/or make changes without affecting the original repository by doing the following:-
+By forking the GitHub Repository you can make a copy of my original repository on your GitHub account to view and/or make changes without affecting the original repository by doing the following: -
 
 1. Log in to GitHub and locate the GitHub Repository
 1. At the top of the Repository click the [settings](https://github.com/liamwalsh1980/Milestone-Project-1/settings)
@@ -567,7 +567,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 * I sourced the <a href="https://hiddendisabilitiesstore.com/" target="_blank">Hidden Disabilities</a> logo using DevTools. I saw the logo on the official website in an image element and used this on my site.
 
-#### The 'Thank you' image for the subcsribe page (subcribe.html)
+#### The 'Thank you' image for the subscribe page (subcribe.html)
 * I found a great 'thank you' image on <a href="https://www.pexels.com/" target="_blank">Pexels</a> which was free of charge to download.
 <a href="https://www.pexels.com/photo/traffic-sign-business-creativity-1887992/" target="_blank">Thank you image</a> by Ann H from <a href="https://pexels.com/" target="_blank">Pexels</a>. This was a free of charge image available to download.
 

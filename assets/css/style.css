@@ -391,7 +391,7 @@ Desktop screen size - hero image, header, cover text and subscribe button re-siz
 
     #outer-button { 
         text-align: left; 
-        margin-left: 100px; 
+        margin-left: 1002px; 
         margin-top: 20px; 
     } 
 } 
@@ -412,6 +412,10 @@ Small desktop screen size - hero image, header, cover text and subscribe button 
         font-size: 35px; 
         padding-top: 10px; 
     }
+
+    #homepage-h1 span { 
+        color: #274c77; 
+    } 
     
     #homepage-cover-text-background { 
         width: 25%; 
@@ -423,6 +427,7 @@ Small desktop screen size - hero image, header, cover text and subscribe button 
 
     #outer-button { 
         margin-left: 665px;
+        margin-top: 40px;
     } 
 } 
 /* 
