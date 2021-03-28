@@ -590,7 +590,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Notes
 
-* This website is for educational purposes only and created for my Code Institute User Centric Frontend Development Milestone Project (MS1)
+This website is for educational purposes only and created for my Code Institute User Centric Frontend Development Milestone Project (MS1)
 
 
 ### End of README Document
