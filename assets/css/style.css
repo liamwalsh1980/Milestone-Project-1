@@ -649,12 +649,12 @@ h2, h4  {
     overflow: scroll;
 }
 
-#going-out, #routines, #free-time, #non-verbal {
+#going-out, #routines, #tips, #non-verbal {
     color: #479ce0;
     text-align: left;
 }
 
-.going-out-p, .routines-p, .free-time-p, .non-verbal-p {
+.going-out-p, .routines-p, .tips-p, .non-verbal-p {
     text-align: left;
 }
 

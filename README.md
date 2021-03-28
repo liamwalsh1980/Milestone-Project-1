@@ -240,7 +240,7 @@ My project has four web pages all found by using the menu navigation bar at the 
 * Sub header 'Advice and Ideas'. 
 * Sub header 'Don't stop going out' with a paragraph. 
 * Sub header 'Routines and good habits' with a paragraph.  
-* Sub header 'Free up time is easier than you think' with a paragraph. 
+* Sub header 'Tips for Parenting a Child on the Autism Spectrum' with a paragraph. 
 * Sub header 'Encouraging a Non-Verbal Child to Communicate' with a paragraph. 
     - All above sub headers and corresponding paragraphs have been placed in a text box giving the user the option to pick which one to read. Each text box has a scroll option making it easy to read whichever article the user is interested in. 
 * A sub header 'The next step' with a short paragraph. 
@@ -378,8 +378,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 1. I'm a teenager with Autism and have high-level sensory need. I find it difficult to wear a face mask when I'm in shops and with most shops insisting, people wear one, it's becoming very hard to go out. Is there anything I can do to make it easier for me when shopping?
 **EA Response - This user can click any of the useful links to gain information. The user is likely to come across support relating to sensory conditions in older children who are more independent.** 
 
-    - Go to the about, resource and subscribe page
-    - On any of these pages the useful link for all three charities can be found at the bottom in the form of clickable logos. 
+    1. Go to the about, resource and subscribe page
+    1. On any of these pages the useful link for all three charities can be found at the bottom in the form of clickable logos. 
 
 ### W3C Validation Service - testing
 
@@ -535,11 +535,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 ---
 
 ### Content
-* I obtained content and adapted it for the resources page paragraph titled - Don't stop going out. The content was taken from <a href="https://www.autismspeaks.org/blog/11-tips-new-autism-parents" target="blank">Autism Speaks</a> - (10) Take your kid out everywhere.
+* I obtained content and adapted it for the resources page article titled - Don't stop going out. The content was taken from <a href="https://www.autismspeaks.org/blog/11-tips-new-autism-parents" target="blank">Autism Speaks</a> - (10) Take your kid out everywhere.
 
-* I obtained content for the resources page paragraph titled - Routines and good habits. The content was taken from <a href="https://www.marcus.org/autism-resources/autism-tips-and-resources/establishing-routines-at-home" target="blank">Marcus Autism Center</a> - Establishing routines at home (Why children with autism need routines at home)
+* I obtained content for the resources page article titled - Routines and good habits. The content was taken from <a href="https://www.marcus.org/autism-resources/autism-tips-and-resources/establishing-routines-at-home" target="blank">Marcus Autism Center</a> - Establishing routines at home (Why children with autism need routines at home)
 
-* I obtained content for the resources page paragraph titled - Tips for New Autism Parents. The content was taken from <a href="https://www.appliedbehavioranalysisedu.org/6-strategies-for-encouraging-a-non-verbal-child-to-communicate/" target="blank">Applied Behaviour Analysis Edu</a> - 6 Strategies for Encouraging a Non-Verbal Child to Communicate.
+* I obtained content for the resources page article titled - Tips for Parenting a Child on the Autism Spectrum. The content was taken from <a href="https://www.webmd.com/brain/autism/parenting-child-with-autism" target="blank">Web MD</a> - Tips for Parenting a Child on the Autism Spectrum
+
+* I obtained content for the resources page article titled - Encouraging a Non-Verbal Child to Communicate. The content was taken from <a href="https://www.appliedbehavioranalysisedu.org/6-strategies-for-encouraging-a-non-verbal-child-to-communicate/" target="blank">Applied Behaviour Analysis Edu</a> - 6 Strategies for Encouraging a Non-Verbal Child to Communicate.
 
 ### Code
 * <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5.0</a> Library used throughout the project mainly to make the site responsive using the Bootstrap Grid System. 
