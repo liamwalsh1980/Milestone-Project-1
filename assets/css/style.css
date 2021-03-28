@@ -32,7 +32,7 @@ body {
 #menulist a {
     font-size: 18px;
     color: #479ce0;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin: 5px;
     text-transform: uppercase;
 }
@@ -213,193 +213,360 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
 /*--------------------------------------Media Queries for Homepage---*/
 
 /*
-Large desktop screen size - hero image, header, cover text and subsribe button re-sized, repositioned and color changes
+Extra Large desktop screen size - hero image, header, cover text and subsribe button re-sized, repositioned and color changes
 */
- @media screen and (min-width: 2500px) {    
-    #outer {
-        height: 2000px;
-    }
-
-    #hero-image {
+@media screen and (min-width: 2560px) {  
+    #outer { 
         height: 2000px; 
-        background-size: cover; 
-    }
-
-    #homepage-h1 {
-        font-size: 80px;
-        padding-top: 20px;
-    }  
-
-    #homepage-h1 span {
-        color: #274c77;
-    }
-
-    #homepage-cover-text-background {
-        background-color: rgba(231,236,239, 0.7);
-        color: #274c77;
-        width: 30%;
-        height: 20%;
-        margin-left: 1400px;
-        margin-top: 50px;
-    }
-
-    #ul-benefits-list { 
-        font-size: 70px;
-        padding-top: 40px;
     } 
 
-    #outer-button {
-        text-align: left;
-        margin-left: 1530px;
-        margin-top: 40px;
-    }
+    #hero-image { 
+        height: 2000px;  
+        background-size: cover;  
+    } 
 
-    #subscribe-btn-home-cover {
-        background-color: #274c77;
-        padding: 0;
-        width: 500px;
-        height: 100px;
-        border-radius: 40px;
-        border: none;
-        margin-top: 20px;
-    }
+    #homepage-h1 { 
+        font-size: 80px; 
+        padding-top: 20px; 
+    }  
+
+    #homepage-h1 span { 
+        color: #274c77; 
+    } 
+
+    #homepage-cover-text-background { 
+        background-color: rgba(231,236,239, 0.7); 
+        color: #274c77; 
+        width: 25%; 
+        height: 20%; 
+        margin-left: 1700px; 
+        margin-top: 50px; 
+    } 
+
+    #ul-benefits-list {  
+        font-size: 70px; 
+        padding-top: 40px; 
+    }  
+
+    #outer-button { 
+        text-align: left; 
+        margin-left: 1767px; 
+        margin-top: 40px; 
+    } 
+
+    #subscribe-btn-home-cover { 
+        background-color: #274c77; 
+        padding: 0; 
+        width: 500px; 
+        height: 100px; 
+        border-radius: 40px; 
+        border: none; 
+        margin-top: 20px; 
+    } 
 
     #subscribe-btn-home-cover span {  
-        font-size: 40px;
-    } 
-}
-/*
-Desktop screen size - hero image, header, cover text and subsribe button re-sized and colour changes
-*/
-@media screen and (min-width: 1440px) and (max-width: 1500px) {
-    #outer {
-        height: 850px;
-    }
-
-    #hero-image {
-        height: 850px; 
-        background-size: cover; 
-    }
-
-    #homepage-h1 {
-        font-size: 40px;
-        padding-top: 20px;
+        font-size: 40px; 
+        line-height: 80px;
     }  
-
-    #homepage-h1 span {
-        color: #274c77;
-    }
-
-    #homepage-cover-text-background {
-        background-color: rgba(231,236,239, 0.7);
-        color: #274c77;
-        width: 25%;
-        margin-left: 850px;
-        margin-top: 50px;
-    }
-
-    #outer-button {
-        text-align: left;
-        margin-left: 900px;
-        margin-top: 40px;
-    }
-}
-/*
-Laptop and small desktop screen size - hero image, header, cover text and subsribe button re-sized and repositioned
-*/
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-    #outer {
-        height: 900px;
-    }
-
-    #hero-image {
-        height: 600px; 
-        background-size: cover; 
-    }
-
-    #homepage-h1 {
-        font-size: 35px;
-        padding-top: 610px;
-    }  
-
-    #homepage-cover-text-background {
-        width: 40%;
-        margin-left: 302px;
-    }
-}
-/*
-tablet screen size - hero image, header and cover text re-sized and repositioned
-*/
-@media screen and (min-width: 768px) and (max-width: 789px) {
-    #outer {
-        height: 800px;
-    }
-
-    #hero-image {
-        height: 500px; 
-        background-size: cover; 
-    }
-
-    #homepage-h1 {
-        font-size: 25px;
-        padding-top: 510px;
-    }  
-
-    #homepage-cover-text-background {
-        width: 50%;
-        margin-left: 188px;
-    }
-}
-/*Large mobile screen size - header re-sized*/  
-@media screen and (max-width: 425px) { 
-    #homepage-h1 {
-        font-size: 18px;
-    }   
-
-    #homepage-cover-text-background {
-        width: 75%;
-        margin-left: 12.5%;
-    }
 } 
-/*Medium mobile screen size - header re-sized*/
-@media screen and (max-width: 375px) { 
-    #homepage-h1 {
-        font-size: 18px;
-    }    
+/* 
+Large Desktop screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/
+@media screen and (min-width: 1701px) and (max-width: 2559px) { 
+    #outer { 
+        height: 1400px; 
+    } 
 
-    #homepage-cover-text-background {
-        width: 75%;
-        margin-left: 12.5%;
-    }
+    #hero-image { 
+        height: 1400px;  
+        background-size: cover;  
+    } 
+
+    #homepage-h1 { 
+        font-size: 50px; 
+        padding-top: 20px; 
+    }  
+
+    #homepage-h1 span { 
+        color: #274c77; 
+    } 
+
+    #homepage-cover-text-background { 
+        background-color: rgba(231,236,239, 0.7); 
+        color: #274c77; 
+        width: 20%; 
+        height: 200px;
+        margin-left: 1450px; 
+        margin-top: 50px; 
+    } 
 
     #ul-benefits-list { 
-        font-size: 26px;
-        padding-top: 15px;
+        font-size: 40px;
+        padding-top: 10px;
+    }    
+
+    #outer-button { 
+        text-align: left; 
+        margin-left: 1542px; 
+        margin-top: 40px; 
     } 
 } 
+/* 
+Desktop screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/
+@media screen and (min-width: 1600px) and (max-width: 1700px) { 
+    #outer { 
+        height: 1000px; 
+    } 
 
-@media screen and (max-width: 360px) {
-    #homepage-h1 {
-        font-size: 17px; 
+    #hero-image { 
+        height: 1000px;  
+        background-size: cover;  
+    } 
+
+    #homepage-h1 { 
+        font-size: 50px; 
+        padding-top: 20px; 
+    }  
+
+    #homepage-h1 span { 
+        color: #274c77; 
+    } 
+
+    #homepage-cover-text-background { 
+        background-color: rgba(231,236,239, 0.7); 
+        color: #274c77; 
+        width: 28%; 
+        height: 200px;
+        margin-left: 950px; 
+        margin-top: 50px; 
+    } 
+
+    #ul-benefits-list { 
+        font-size: 40px;
+        padding-top: 10px;
+    } 
+
+    #outer-button { 
+        text-align: left; 
+        margin-left: 1045px; 
+        margin-top: 40px; 
+    } 
+} 
+/* 
+Desktop screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/
+@media screen and (min-width: 1440px) and (max-width: 1599px) { 
+    #outer { 
+        height: 900px; 
+    } 
+
+    #hero-image { 
+        height: 900px;  
+        background-size: cover;  
+    } 
+
+    #homepage-h1 { 
+        font-size: 40px; 
+        padding-top: 20px; 
+    }  
+
+    #homepage-h1 span { 
+        color: #274c77; 
+    } 
+
+    #homepage-cover-text-background { 
+        background-color: rgba(231,236,239, 0.7); 
+        color: #274c77; 
+        width: 25%; 
+        height: 200px;
+        margin-left: 950px; 
+        margin-top: 50px; 
+    } 
+
+    #ul-benefits-list { 
+        font-size: 40px;
+        padding-top: 10px;
+    } 
+
+    #outer-button { 
+        text-align: left; 
+        margin-left: 100px; 
+        margin-top: 20px; 
+    } 
+} 
+/* 
+Small desktop screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/
+@media screen and (min-width: 1280px) and (max-width: 1439px) { 
+    #outer { 
+        height: 800px; 
+    } 
+
+    #hero-image { 
+        height: 800px;  
+        background-size: cover;  
+    } 
+
+    #homepage-h1 { 
+        font-size: 35px; 
+        padding-top: 10px; 
+    }
+    
+    #homepage-cover-text-background { 
+        width: 25%; 
+        margin-left: 800px; 
+        margin-top: 50px;
+        background-color: rgba(231,236,239, 0.7); 
+        color: #274c77; 
+    } 
+
+    #outer-button { 
+        margin-left: 665px;
+    } 
+} 
+/* 
+Laptop screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) { 
+    #outer { 
+        height: 600px; 
+    } 
+
+    #hero-image { 
+        height: 600px;  
+        background-size: cover;  
+    } 
+
+    #homepage-h1 { 
+        font-size: 25px; 
+        padding-top: 10px; 
+    }
+    
+    #homepage-h1 span { 
+        color: #274c77; 
+    }
+    
+    #homepage-cover-text-background { 
+        width: 30%; 
+        margin-left: auto; 
+        background-color: rgba(231,236,239, 0.7); 
+        color: #274c77; 
+    } 
+
+    #outer-button { 
+        text-align: right; 
+        padding-right: 20px; 
+    } 
+} 
+/* 
+Small laptop screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/
+@media screen and (min-width: 801px) and (max-width: 1023px) { 
+    #outer { 
+        height: 600px; 
+    } 
+
+    #hero-image { 
+        height: 600px;  
+        background-size: cover;  
+    } 
+
+    #homepage-h1 { 
+        font-size: 25px; 
+        padding-top: 10px; 
+    }
+    
+    #homepage-cover-text-background { 
+        width: 30%; 
+        margin-left: auto; 
+        background-color: rgba(231,236,239, 0.7); 
+        color: #274c77; 
+    } 
+
+    #outer-button { 
+        text-align: right; 
+        padding-right: 20px; 
+    } 
+} 
+/* 
+tablet screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/ 
+@media screen and (min-width: 768px) and (max-width: 800px) {
+    #outer { 
+        height: 830px; 
+    } 
+
+    #hero-image { 
+        height: 500px;  
+        background-size: cover;  
+    } 
+
+    #homepage-h1 { 
+        font-size: 25px; 
+        padding-top: 510px; 
+    }
+    
+    #homepage-cover-text-background { 
+        width: 40%; 
+        margin-left: 30%; 
+        margin-top: 10px;
+    } 
+
+    #outer-button { 
+        text-align: right; 
+        padding-right: 248px; 
+    } 
+} 
+/*Large mobile screen size - header and cover text re-sized*/  
+@media screen and (min-width: 425px) and (max-width: 767px) {  
+    #homepage-h1 { 
+        font-size: 18px; 
+    }  
+
+    #homepage-cover-text-background { 
+        width: 70%; 
+        margin-left: 15%; 
     } 
 }
-/*Small mobile screen size - header re-sized*/
-@media screen and (max-width: 320px) { 
-    #homepage-h1 {
+
+@media screen and (min-width: 376px) and (max-width: 424px) {  
+    #homepage-h1 { 
+        font-size: 18px; 
+    }  
+
+    #homepage-cover-text-background { 
+        width: 75%; 
+        margin-left: 12.5%; 
+    } 
+}
+/*Medium mobile screen size - header and cover text re-sized*/ 
+@media screen and (min-width: 279px) and (max-width: 375px) {  
+    #homepage-h1 { 
         font-size: 15px; 
     }  
 
-    #ul-benefits-list { 
-        font-size: 25px;
-        padding-top: 20px;
+    #homepage-cover-text-background { 
+        width: 75%; 
+        margin-left: 12.5%; 
     } 
-} 
 
-@media screen and (max-width: 280px) {
-    #homepage-h1 {
-        font-size: 13px; 
-    } 
-}
+    #ul-benefits-list {  
+        font-size: 26px; 
+        padding-top: 15px; 
+    }  
+}  
+/*Small mobile screen size - header and cover text re-sized*/ 
+@media screen and (min-width: 1px) and (max-width: 280px) { 
+    #homepage-h1 { 
+        font-size: 13px;  
+    }  
+
+    #ul-benefits-list {  
+        font-size: 22px; 
+        padding-top: 20px; 
+    }  
+} 
 /*---------------------------------------------About Page---*/
 .bg-color-change-about {
     background-color: #274c77;
