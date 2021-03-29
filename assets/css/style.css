@@ -12,6 +12,11 @@ body {
     background-color: #e7ecef;
 }
 /*---------------------------------------------Heading---*/
+
+#fixed-header {
+    position: fixed;
+}
+
 #logo {
     color: inherit;
     font-family: Kalam, cursive;
@@ -435,11 +440,11 @@ Laptop screen size - hero image, header, cover text and subscribe button re-size
 */
 @media screen and (min-width: 1024px) and (max-width: 1279px) { 
     #outer { 
-        height: 600px; 
+        height: 800px; 
     } 
 
     #hero-image { 
-        height: 600px;  
+        height: 800px;  
         background-size: cover;  
     } 
 
@@ -581,6 +586,11 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 
 #our-autism-journey, #next-step, #website-goals {
     text-align: left;
+    margin-top: 20px;
+}
+
+#website-goals {
+    margin-bottom: 20px;
 }
 
 #factsheet-border {
@@ -588,7 +598,8 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
     height: 200px;
     border-radius: 10%;
     background-color: #e7ecef;
-    padding: 10px; 
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 #about-source {
@@ -605,10 +616,6 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
     width: 300px;
     height: 200px;
     border-radius: 20px;
-}
-
-#cwmind-media {
-    margin-top: 15px;
 }
 
 #resources-link, #resources-link2 {
@@ -633,11 +640,12 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 
 .hr-color-about {
     color: #479ce0;
+    margin: 40px 0;
 }
 
 #subscribe-btn-about { 
-    margin-top: 10px; 
-    padding: 5px;
+    text-align: center;
+    padding-bottom: 30px;
 } 
 
 #subscribe-btn-about span {  
@@ -652,6 +660,7 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
     border: none;
     border-radius: 30px;
     height: 50px;
+    margin-top: 20px;
     padding: 0;
 }
 
@@ -673,17 +682,23 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 }
 /*--------------------------------------------Media Queries for About Pages---*/
 
-/*Large screen size - factsheet, media clips, subsribe button and external link images re-sized and repositioned */
+/*
+Large screen size - factsheet, media clips, subsribe button and external link images re-sized and repositioned 
+*/
 @media screen and (min-width: 1501px) and (max-width: 2560px) {
 
     #factsheet-border {
-        width: 540px;
-        height: 385px;
-        margin-left: -5px;
+        width: 400px;
+        height: 300px;
+        margin-left: 620px;
+    }
+
+    #factsheet-border p {
+        font-size: 24px;
     }
 
     #about-source {
-        font-size: 20px;
+        font-size: 10px;
         margin-bottom: 5px;
     }
 
@@ -708,97 +723,156 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 
     #nas-media {
         float: left;
-        margin-left: 750px;
-        margin-top: -400px;
-        width: 540px;
-        height: 385px;
+        margin-left: 1060px;
+        margin-top: -310px;
+        width: 400px;
+        height: 300px;
     }
 
     #cwmind-media {
         float: left;
         margin-left: 1500px;
-        margin-top: -423px;
-        width: 540px;
-        height: 385px;
+        margin-top: -310px;
+        width: 400px;
+        height: 300px;
     }
 }
-/*Large laptop and desktop screen size - media clips re-sized and repositioned*/
+/*
+Large laptop and desktop screen size - factsheet and media clips re-sized and repositioned
+*/
 @media screen and (min-width: 1440px) and (max-width: 1500px) {
+    #factsheet-border {
+        margin-left: 70px;
+    }
+    
     #nas-media {
-        float: left;
-        margin-left: 400px;
-        margin-top: -220px;
+        float: right;
+        margin-right: 39%;
+        margin-top: -205px;
     }
 
     #cwmind-media {
-        float: left;
-        margin-left: 800px;
-        margin-top: -244px;
+        float: right;
+        margin-right: 70px;
+        margin-top: -205px;
+        margin-bottom: 20px;
     }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
+    #factsheet-border {
+        margin-left: 70px;
+    }
+    
     #nas-media {
         float: right;
-        margin-right: 560px;
-        margin-top: -220px;
+        margin-right: 475px;
+        margin-top: -205px;
     }
 
     #cwmind-media {
         float: right;
-        margin-right: 200px;
-        margin-top: -244px;
+        margin-right: 70px;
+        margin-top: -205px;
+        margin-bottom: 20px;
     }
 }
-/*smaller laptop screen size -  media clips re-sized and repositioned*/
+/*
+smaller laptop screen size -  factsheet and media clips re-sized and repositioned
+*/
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    #factsheet-border {
+        margin-left: 25px;
+    }
+    
     #nas-media {
         float: right;
-        margin-right: 340px;
-        margin-top: -220px;
+        margin-right: 350px;
+        margin-top: -205px;
     }
 
     #cwmind-media {
         float: right;
-        margin-right: 10px;
-        margin-top: -244px;
+        margin-right: 25px;
+        margin-top: -205px;
+        margin-bottom: 20px;
     }
 }
 /*tablet and small laptop screen size -  media clip re-sized and repositioned*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    #factsheet-border {
+        margin-left: 40px;
+    }
+    
     #nas-media {
         float: right;
         margin-right: 40px;
-        margin-top: -220px;
+        margin-top: -205px;
+    }
+
+    #cwmind-media {
+        float: right;
+        margin-right: 405px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 }
-/*Large mobile screen - subsribe button centred*/
+/* Large mobile screen size - factsheet re-sized and re-positioned */
 @media screen and (max-width: 425px) {
-    #subscribe-btn-about { 
-        text-align: center;
-    }
-}
-/*Small mobile screen size - factsheet re-sized and re-positioned*/
-@media screen and (max-width: 320px) {
     #factsheet-border {
-        width: 270px;
-        height: 180px; 
-        font-size: 14px;
+        width: 80%;
+        margin: 40px;
+    }
+
+    #factsheet-border p {
+        font-size: 16px
     }
 
     #about-source {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     #nas-media, #cwmind-media {
-        width: 270px;
-        height: 180px;
+        margin: 20px 40px;
+        width: 80%;
     }
-}   
+}
+
+@media screen and (max-width: 375px) {
+    #factsheet-border {
+        width: 90%;
+        margin: 15px;
+    }
+
+    #about-source {
+        font-size: 10px;
+    }
+
+    #nas-media, #cwmind-media {
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #factsheet-border p {
+        font-size: 14px
+    }
+
+    #about-source {
+        font-size: 10px;
+    }
+
+    #nas-media, #cwmind-media {
+        margin-top: 30px;
+    }
+}
 
 @media screen and (max-width: 280px) {
-    #factsheet-border {
-        width: 240px;
+
+    #factsheet-border p {
+        font-size: 14px
     }
 
     #about-source {
@@ -810,7 +884,7 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
     }
 
     #nas-media, #cwmind-media {
-        width: 240px;
+        margin-top: 20px;
     }
 }
 /*---------------------------------------------Resources Page---*/
@@ -826,10 +900,12 @@ h2, h4  {
 
 .hr-color-resources {
     color: #479ce0;
+    margin: 40px 0;
 }
 
 #advice-ideas, #next {
     text-align: left;
+    margin-top: 20px;
     padding-bottom: 5px;
 }
 
@@ -853,8 +929,8 @@ h2, h4  {
 }
 
 #subscribe-btn-resources { 
-    margin-top: 20px; 
-    padding: 5px;
+    text-align: center;
+    padding-bottom: 30px;
 } 
 
 #subscribe-btn-resources span {  
@@ -869,6 +945,7 @@ h2, h4  {
     border: none;
     border-radius: 30px;
     height: 50px;
+    margin-top: 20px;
     padding: 0;
 }
 
@@ -974,7 +1051,7 @@ Large screen size - header, content, bullet points and external link images re-s
 #form-header {
     text-align: center;
     font-size: 18px;
-    padding-top: 20px;
+    padding: 30px;
 }
 
 #form-border {
@@ -987,10 +1064,10 @@ Large screen size - header, content, bullet points and external link images re-s
 }
 
 #subscribe-for-free {
-    font-size: 18px;
+    font-size: 16px;
 }
 
-.label {
+form .label {
     font-size: 16px;
 }
 
@@ -1021,6 +1098,7 @@ Large screen size - header, content, bullet points and external link images re-s
 
 .hr-color-subscribe {
     color: #479ce0;
+    margin: 50px 0;
 }
 
 #thank-you-image {
@@ -1029,6 +1107,8 @@ Large screen size - header, content, bullet points and external link images re-s
     width: 100%;
     background-size: cover; 
     border-radius: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .useful-links-subscribe {
@@ -1054,7 +1134,7 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, ima
     }
 
     #subscribe-for-free {
-        font-size: 48px;
+        font-size: 28px;
     }
 
     .label {
@@ -1067,7 +1147,7 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, ima
     }
 
     #subscribe-btn span {  
-        font-size: 38px;
+        font-size: 22px;
     } 
 
     #what-to-expect {
@@ -1097,7 +1177,7 @@ Large laptop and desktop screen size - sub-headers, subscribe button, form conte
     }
 
     #subscribe-for-free {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .label {
@@ -1110,7 +1190,7 @@ Large laptop and desktop screen size - sub-headers, subscribe button, form conte
     }
 
     #subscribe-btn span {  
-        font-size: 28px;
+        font-size: 18px;
     } 
 
     #what-to-expect {
@@ -1143,6 +1223,10 @@ tablet and small laptop screen size - sub-headers, form and image re-sized and r
         height: 320px; 
         width: 75%;
     }  
+
+    #subscribe-btn span {  
+        font-size: 18px;
+    } 
 }
 /*
 Tablet screen size - sub-header, form and image re-sized and re-positioned
@@ -1161,6 +1245,30 @@ Tablet screen size - sub-header, form and image re-sized and re-positioned
         height: 320px; 
         width: 75%;
     }  
+
+    #subscribe-btn span {  
+        font-size: 18px;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    #subscribe-btn span {  
+        font-size: 16px;
+    } 
+}
+
+@media screen and (max-width: 360px) {
+    #form-header {
+        font-size: 15px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #form-header {
+        font-size: 12px;
+        padding: 15px;
+    }
 }
 /*---------------------------------------------Footer---*/
 footer {
