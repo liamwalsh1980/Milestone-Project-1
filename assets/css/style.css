@@ -721,8 +721,6 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
         width: 540px;
         height: 385px;
     }
-
-
 }
 /*Large laptop and desktop screen size - media clips re-sized and repositioned*/
 @media screen and (min-width: 1440px) and (max-width: 1500px) {
@@ -752,8 +750,6 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
         margin-top: -244px;
     }
 }
-
-
 /*smaller laptop screen size -  media clips re-sized and repositioned*/
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     #nas-media {
@@ -901,14 +897,18 @@ Large screen size - text content and subscribe button re-sized and re-positioned
         font-size: 48px;
     }
 
-    #subscribe-btn-resources button {
-        width: 500px;
-        height: 100px;
-        border-radius: 50px;
+    #subscribe-btn-resources div {
+        width: 400px;
+        height: 80px;
     }
 
-    #subscribe-btn-resources button span {
-        font-size: 40px;
+    #subscribe-btn-resources {
+        padding: 50px 0;
+    }
+
+    #subscribe-btn-resources span {
+        font-size: 30px;
+        padding-top: 1000px;
     }
 }
 /*Large mobile screen - subsribe button centred*/
