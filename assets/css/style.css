@@ -13,10 +13,6 @@ body {
 }
 /*---------------------------------------------Heading---*/
 
-#fixed-header {
-    position: fixed;
-}
-
 #logo {
     color: inherit;
     font-family: Kalam, cursive;
