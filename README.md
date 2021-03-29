@@ -441,8 +441,8 @@ Testing was completed on different web browsers making sure that links worked an
     - Google Chrome - The site was developed using Chrome and therefore testing was being done daily on this browser.
     - Apple Safari - I tested the site by opening it in
     Safari using an iPhone 12 and a MacBook. 
-    - Microsoft Explorer [to be completed]
-    - Mozilla Firefox [to be completed]
+    - Microsoft Edge - I downloaded this browser, logged into my Gitpod and checked all four webpages across all screen sizes. 
+    - Mozilla Firefox - I downloaded this browser, logged into my Gitpod and checked all four webpages across all screen sizes.
 
 ### Testing responsiveness
 
@@ -466,7 +466,31 @@ I checked the details of this report and seen that it was the 'Largest Contentfu
 * I Used DevTools throughout my project to make sure that all device screen sizes were taken into consideration. I took some time to complete media queries across all pages, however, certain elements on certain screen sizes still didn't look right. I will be working on this more during further projects to perfect the skill between using bootstrap and media queries.
 
 ### Further testing
+* I was testing the development of the site on my iPhone throughout this project to make sure it was mobile first responsive. I felt this really helped my stay focused as the site was coded on MacBook. 
+
+* I tested all three external links to the three different charity organisations on all pages relevant. All links open in a different web browser tab for good UX. This was tested across all web browsers mentioned above. 
+
+* I also made sure that the source text external link in red on the about page worked successfully and that it opened in a new web browser as well. 
+
+* All icons in the footer were tested across all pages to make sure that the links worked by taking a user to the right social media landing page and that the link would open an external page in a new web browser tab. 
+
+* The email icon was tested successfully with a email draft opened as it should do with the pre-populated email address info@embrace-autism.co.uk in the recipient section. 
+
+* I tested all internal links across all four pages using the above web browsers mentioned. The links tested were the logo text at the top left of the header, the navigation menu at the top right of the header, all SUBSCRIBE FOR FREE and SUBSCRIBE buttons across all pages, and the resources and subscribe text links on the about page. 
+
+* I tested the form on the subscribe page: -
+
+    1. Contact form:
+        * Go to the "Subscribe" page
+        * I clicked the submit button with all fields empty which verified that an error message about the required fields appeared. 
+        * I attempted to submit the form with an invalid email address which verified that the relevant error message appeared.
+        * I submitted the form with all fields correctly filled in and this verified that the form works with an 'alert' message appearing. For reference the message that appears says 'Thank you! You will receive your first newsletter within the next 48 hours that a success message appears'.
+
 ### Bugs outstanding
+
+Lighthouse testing for mobiles - performance score is low and needs to be looked into. All i know is that the Largest Contentful Paint (LCP) is courses the main issues to this score. A couple of sites i visiting to look into this were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a> 
+
+
 
 [In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
