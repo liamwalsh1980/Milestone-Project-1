@@ -674,7 +674,7 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 /*--------------------------------------------Media Queries for About Pages---*/
 
 /*Large screen size - factsheet, media clips, subsribe button and external link images re-sized and repositioned */
-@media screen and (min-width: 1500px) and (max-width: 2560px) {
+@media screen and (min-width: 1501px) and (max-width: 2560px) {
 
     #factsheet-border {
         width: 540px;
@@ -687,14 +687,18 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
         margin-bottom: 5px;
     }
 
-    #subscribe-btn-about button {
-        width: 500px;
-        height: 100px;
-        border-radius: 50px;
+    #subscribe-btn-about div {
+        width: 400px;
+        height: 80px;
     }
 
-    #subscribe-btn-about button span {
-        font-size: 40px;
+    #subscribe-btn-about {
+        padding: 50px 0;
+    }
+
+    #subscribe-btn-about span {
+        font-size: 30px;
+        padding-top: 1000px;
     }
 
     .useful-links-about h2, .useful-links-resources h2 {
@@ -717,6 +721,8 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
         width: 540px;
         height: 385px;
     }
+
+
 }
 /*Large laptop and desktop screen size - media clips re-sized and repositioned*/
 @media screen and (min-width: 1440px) and (max-width: 1500px) {
@@ -732,8 +738,24 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
         margin-top: -244px;
     }
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    #nas-media {
+        float: right;
+        margin-right: 560px;
+        margin-top: -220px;
+    }
+
+    #cwmind-media {
+        float: right;
+        margin-right: 200px;
+        margin-top: -244px;
+    }
+}
+
+
 /*smaller laptop screen size -  media clips re-sized and repositioned*/
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     #nas-media {
         float: right;
         margin-right: 340px;
