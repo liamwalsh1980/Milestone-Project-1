@@ -2,9 +2,73 @@
 
 ## Code Institute - Milestone Project 1
 
-----
-
 ![template](assets/images/testing/i-am-responsive.png)
+
+## Table of contents
+
+1. [Introduction](#introduction)
+1. [UX](#ux)
+   * [Main aims](#main-aims)
+   * [User Stories](#user-stories)
+   * [Design Process](#design-process)
+        * [Strategy trade-off](#strategy-trade-off)
+        * [Scope Plane diagram](#scope-plane-diagram)
+1. [Balsamiq Wireframes](#balsamiq-wireframes)
+    * [Homepage wireframe](#homepage-wireframe)
+    * [About page wireframe](#about-page-wireframe)
+    * [Resources page wireframe](#resources-page-wireframe)
+    * [Subscribe page wireframe](#subsribe-page-wireframe)
+1. [Design Process page by page](#design-process-page-by-page)
+    * [Homepage (index.html)](#homepage-(index.html))
+    * [About page (about.html)](#about-page-(about.html))
+    * [Resources page (resources.html)](#resources-page-(resources.html))
+    * [Subscribe page (subcribe.html)](#subscribe-page-(subcribe.html))
+    * [Media Queries](#media-queries)
+1. [Features](#features)
+    * [Existing Features](#existing-features)
+        * [Across all Pages](#across-all-pages)
+        * [Homepage (index.html)](#homepage-(index.html))
+        * [About (about.html)](#about-(about.html))
+        * [Resources (resources.html)](#resources-(resources.html))
+        * [Subscribe (subcribe.html)](#subcribe-(subscribe.html))
+    * [Features Left to Implement](#features-left-to-implement)
+1. [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks and other Technologies Used](#frameworks-and-other-technologies-used)
+1. [Testing](#testing)
+    * [User Stories](#user-stories)
+    * [W3C Markup Validation Service - testing](#w3c-markup-validation-service---testing)
+        * [Homepage - 1 error found](#homepage---1-error-found)
+        * [About page - 3 errors found](#about-page---3-errors-found) 
+        * [Resources page - 3 errors found](#resources-page---3-errors-found)
+        * Subscribe page - 1 error found
+    * W3C CSS Validation Service - testing
+        * CSS coding - 2 errors found
+    * Different Web Browsers
+    * Testing responsiveness
+    * Lighthouse testing
+        * Desktop results
+        * Mobile results
+    * Issues found
+    * Further testing
+    * Bugs outstanding
+1. Deployment
+    * Github pages
+    * Forking the GitHub Repository
+    * Making a Local Clone
+1. Credits
+    * Content
+    * Code
+    * Factsheet
+    * Media
+    * Media clips
+    * Other credits
+1. Acknowledgements
+1.  Notes
+
+# Introduction
+
+[Back to top ⇧](#embrace-autism)
 
 This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project are to design a responsive website using HTML5 and CSS3 with the option of using CSS libraries/frameworks like Bootstrap. There is a minimum requirement of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about page and resources page relevant with the right level of content and a fourth page offering users the option to subscribe on a mailing list. All this I feel would work well when using the menu bar to navigate around the site. 
 
@@ -16,8 +80,11 @@ Date this project started: 9th March 2021
 
 [Click here to view the Embrace Autism project website live](https://embraceautism2.godaddysites.com/)
 
+<a href="#top">Back to top</a>
+
 ## UX
----
+
+[Back to top ⇧](#embrace-autism)
 
 ### Main aims
 * To inform other parents of potential new ways to help in their day-to-day life when bringing up their Child with Autism. 
@@ -44,7 +111,7 @@ Date this project started: 9th March 2021
 
 * I knew I wanted to create a website based on a subject that is close to my heart. I came up with a good name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once I had completed the Strategy and Scope planes knowing what was and what wasn't needed or achievable, I then focused on the structure and layout. 
 
-#### Strategy trade-off
+#### Strategy Trade-off
 
 ![Image template](assets/images/ux/ea-strategy.png)
 
@@ -113,7 +180,9 @@ Date this project started: 9th March 2021
 
 * I took some time to work on making my HTML accessible for the visually impaired. I made sure that anchor elements, media clips, external links and internal links had the relevant aria-labels and sr-only classes added. I also made sure that certain text had aria-labelled by applied and that all image elements had the alt attribute in place.
 
-## Design Process 'page by page'
+## Design Process page by page
+
+[Back to top ⇧](#embrace-autism)
 
 #### Homepage (index.html)
 * The homepage design went through a few trials with choosing the right type of image I wanted and the positioning of it. When I found this <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">image</a> I knew it would work well for what I wanted to achieve on my landing page. The image has striking colours with clear version of an adult and a child embracing a colourful heart-shaped object expressing love and care. The background is a beautiful light blue which matches my colour scheme throughout the site.  
@@ -207,7 +276,9 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.]
 
 ## Features
----
+
+[Back to top ⇧](#embrace-autism)
+
 ### Existing Features
  
 My project has four web pages all found by using the menu navigation bar at the top of all pages.
@@ -267,7 +338,8 @@ My project has four web pages all found by using the menu navigation bar at the 
 * The idea of offering a user login/password option would be good to have in the future as the website gains more traffic. 
 
 ## Technologies Used
----
+
+[Back to top ⇧](#embrace-autism)
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -279,7 +351,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 * CSS3
     - Styling HTML5 coding with declarations. Used in line with the CSS essentials module completed
 
-### Frameworks, Libraries, Programs and others Technologies Used
+### Frameworks and other Technologies Used
 
 * <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
 
@@ -342,9 +414,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
     - Used to test all CSS coding.
 
-
 ## Testing
----
+
+[Back to top ⇧](#embrace-autism)
 
 * When testing the website on different screen sizes within Development Tools I made the decision to change the layout of the homepage for mobiles and tablets against laptop and desktop. The header, cover text and subscribe button is within the hero image on desktop and laptop. On smaller screens like mobile and tablet I decided to reduce the size of the image in order for the user to see the whole image clearly and then scroll down to see the header, cover text and subscribe button. This I believe makes better UX. I made sure the subscribe button stayed a good size to making it clear to click on. 
 
@@ -391,7 +463,8 @@ The W3C Markup Validator was used to validate all coding on every HTML page of m
 1. The element 'a' must not appear as a descendant of the button element. 
     - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C.
 
-#### About page - 3 errors found (2 were the same as I have 2 media clips on this page which shown the same error)
+#### About page - 3 errors found 
+2 were the same as I have 2 media clips on this page which shown the same error
 
 1. Bad value true for attribute allowfullscreen on element iframe.
     - **How I resolved this error:** I checked the iframe element code from YouTube and seen that the 'true' value wasn't needed' This value was removed. I tested the media clips to make sure that they were still playing when on the page and that they can be played on full screen size as an option.
@@ -399,7 +472,8 @@ The W3C Markup Validator was used to validate all coding on every HTML page of m
 1. The element 'a' must not appear as a descendant of the button element.
     - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. 
 
-#### Resources page - 3 errors found (2 were the same error)
+#### Resources page - 3 errors found 
+2 were the same error
 
 1. The element 'a' must not appear as a descendant of the button element.
     - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. 
@@ -511,7 +585,8 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.]
 
 ## Deployment (Date this project was deployed: TBC)
----
+
+[Back to top ⇧](#embrace-autism)
 
 ### Github pages
 The project was deployed to GitHub Pages doing the following: -
@@ -560,7 +635,8 @@ In particular, you should provide all details of the differences between the dep
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ## Credits
----
+
+[Back to top ⇧](#embrace-autism)
 
 ### Content
 * I obtained content and adapted it for the resources page article titled - Don't stop going out. The content was taken from <a href="https://www.autismspeaks.org/blog/11-tips-new-autism-parents" target="blank">Autism Speaks</a> - (10) Take your kid out everywhere.
@@ -610,18 +686,21 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - <a href="https://www.w3schools.com/" target="blank">w3schools</a> - At certain times throughout this project I needed some reminders of how to write certain code i.e., iframes element to embed the media clips in the about page. Instead of going back to previous lessons i often googled and came across this website. 
 
-### Acknowledgements    
+## Acknowledgements    
+
+[Back to top ⇧](#embrace-autism)
 
 * My Mentor - Seun Owonikoko  
 * Other students and Code Institute tutors on the Slack community
 * My family for being so supportive, honest and patient with me
 
-### Notes
+## Notes
 
 This website is for educational purposes only and created for my Code Institute User Centric Frontend Development Milestone Project (MS1)
 
 
 ### End of README Document
+
 
 
 
