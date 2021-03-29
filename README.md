@@ -4,7 +4,7 @@
 
 ----
 
-![template](assets/images/i-am-responsive.png)
+![template](assets/images/testing/i-am-responsive.png)
 
 This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project are to design a responsive website using HTML5 and CSS3 with the option of using CSS libraries/frameworks like Bootstrap. There is a minimum requirement of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about page and resources page relevant with the right level of content and a fourth page offering users the option to subscribe on a mailing list. All this I feel would work well when using the menu bar to navigate around the site. 
 
@@ -32,11 +32,12 @@ Date this project started: 9th March 2021
 ### User Stories
 1. I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.    
 
-1. I have a teenage Son who has Autism. He only wants to play on his computer games every day. He hardly leaves the house and I'm concerned about his health and wellbeing.  
+1. I have a teenage Son who has Autism. He only wants to play on his computer games every day. He hardly leaves the house and I'm concerned about his health and wellbeing. I would like some help with improving my Son's life style.
 
 1. I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained.   
 
 1. I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their site visitors?  
+
 1. I'm a teenager with Autism and have high-level sensory need. I find it difficult to wear a face mask when I'm in shops and with most shops insisting, people wear one, it's becoming very hard to go out. Is there anything I can do to make it easier for me when shopping? 
 
 ### Design Process 
@@ -45,11 +46,11 @@ Date this project started: 9th March 2021
 
 #### Strategy trade-off
 
-![Image template](assets/images/ea-strategy.png)
+![Image template](assets/images/ux/ea-strategy.png)
 
 #### Scope Plane diagram
 
-![Image template](assets/images/ea-scope.png)
+![Image template](assets/images/ux/ea-scope.png)
 
 * I wanted to keep the Structure straightforward so that all users visiting the site would see the same flow, patterns and layout making their experience on the site enjoyable and easy to navigate around.  
 
@@ -60,28 +61,28 @@ Date this project started: 9th March 2021
 ### Balsamiq Wireframes
 ---
 
-- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-3.pdf">Wireframe version 3</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-3.pdf">Wireframe version 3</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-4.pdf">Wireframe version 4</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-4.pdf">Wireframe version 4</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-5.pdf">Wireframe version 5</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-5.pdf">Wireframe version 5</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-6.pdf">Wireframe version 6 (final version)</a>
+- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-6.pdf">Wireframe version 6 (final version)</a>
 
 [a link to be added here directly to the completed wireframe page or to pdf version]
 
 #### Homepage wireframe
-![template](assets/images/embrace-autism-home.png)
+![template](assets/images/ux/embrace-autism-home.png)
 #### About page wireframe
-![template](assets/images/embrace-autism-about.png)
+![template](assets/images/ux/embrace-autism-about.png)
 #### Resources page wireframe
-![template](assets/images/embrace-autism-resources.png)
+![template](assets/images/ux/embrace-autism-resources.png)
 #### Subscribe page wireframe
-![template](assets/images/embrace-autism-subscribe.png)
+![template](assets/images/ux/embrace-autism-subscribe.png)
 
 * Moving on to the surface plane of the UX process, I wanted to make sure there was consistence with regards to the header (logo name and navigation menu) and footer throughout all pages (social media icons, email icons and copyright text). I also wanted to show an even and relevant amount of information depending on which page the user is on.  
 
@@ -121,7 +122,7 @@ Date this project started: 9th March 2021
 
 * The cover text highlights three key benefits about the website. The text was formatted as an unordered list with the bullet points removed. At first the unordered list was nested in a div element; however, I wanted the list to sit inside a semantic element to show improved web development. I used the aside element to achieve this. On a desktop screen size, the colours I chose for the cover text list was a dark blue with a light grey background colour using rgba(106, 112, 116, 0.7). The 'alpha' was used to show a softened colour background and to appear to blend into the hero image. On small laptop, tablet and mobile screen sizes the cover text sits below the hero image with a blue background colour and the font colour in light grey. I chose to move this below the hero image so the user would clearly see the hero image first and then the cover text below with the idea to achieve better overall UX.
 
-* There was an ordered list using numbers 1-3 giving an easy step by step process to move throughout the website. However, after careful consideration I decided to remove the ordered list and strengthen the look of the navigation menu bar with easy-to-understand menu titles within the navigation bar. Early versions of my <a href="/workspace/Milestone-Project-1/assets/images/embrace-autism-wireframes-1.pdf">Wireframe version 1</a> shows this feature.     
+* There was an ordered list using numbers 1-3 giving an easy step by step process to move throughout the website. However, after careful consideration I decided to remove the ordered list and strengthen the look of the navigation menu bar with easy-to-understand menu titles within the navigation bar. Early versions of my <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-1.pdf">Wireframe version 1</a> shows this feature.     
 * Below the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. On all screen sizes this is dark blue with the light grey text. On small laptop, tablet and mobile screen sizes this sits below the hero image and cover text. The wording is in capital letters and when hovered over, the background colour changes to green showing the user that it can be clicked. Green for go was my thought on the colour change.   
 
 * After removing the ordered list, I had the option to increase the size of the cover text and 'SUBSCRIBE FOR FREE' button making both more visible to users.  
@@ -359,7 +360,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     1. On any of these pages the useful links can be found at the bottom in the form of clickable logos.
     1. There is a small header above these logos stating 'Useful Links' as a guide.  
 
-1. I have a teenage Son who has Autism. He only wants to play on his computer games every day. He hardly leaves the house and I'm concerned about his health and wellbeing.   
+1. I have a teenage Son who has Autism. He only wants to play on his computer games every day. He hardly leaves the house and I'm concerned about his health and wellbeing. I would like some help with improving my Son's life style.   
 **EA Response - There would be advice on the website to support this parent, often related to encouraging routines and good habits to get into.** 
 
     1. Go to the resource page
@@ -381,57 +382,60 @@ In this section, you should mention all of the languages, frameworks, libraries,
     1. Go to the about, resource and subscribe page
     1. On any of these pages the useful link for all three charities can be found at the bottom in the form of clickable logos. 
 
-### W3C Validation Service - testing
-
-The W3C Markup Validator and W3C CSS Validator was used to validate all coding on every HTML and CSS page of my project.
-
 ### W3C Markup Validation Service - testing
+
+The W3C Markup Validator was used to validate all coding on every HTML page of my project.
 
 #### Homepage - 1 error found 
 
-* The element 'a' must not appear as a descendant of the button element. 
-    - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. I then re-tested the code on W3C and no errors were found.
+1. The element 'a' must not appear as a descendant of the button element. 
+    - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C.
 
 #### About page - 3 errors found (2 were the same as I have 2 media clips on this page which shown the same error)
 
-* Bad value true for attribute allowfullscreen on element iframe.
-    - **How I resolved this error:** I checked the iframe element code from YouTube and seen that the 'true' value wasn't needed' This value was removed. I tested the media clips to make sure that they were still playing when on the page and that they can be played on full screen size as an option. I then re-tested the code on W3C and no errors were found.
+1. Bad value true for attribute allowfullscreen on element iframe.
+    - **How I resolved this error:** I checked the iframe element code from YouTube and seen that the 'true' value wasn't needed' This value was removed. I tested the media clips to make sure that they were still playing when on the page and that they can be played on full screen size as an option.
 
-* The element 'a' must not appear as a descendant of the button element.
-    - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. I then re-tested the code on W3C and no errors were found.
+1. The element 'a' must not appear as a descendant of the button element.
+    - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. 
 
 #### Resources page - 3 errors found (2 were the same error)
 
-* The element 'a' must not appear as a descendant of the button element.
-    - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. I then re-tested the code on W3C and no errors were found.
+1. The element 'a' must not appear as a descendant of the button element.
+    - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. 
 
-* The aria-labelledby attribute must point to an element in the same document.
-    - **How I resolved this error:** By matching the aria-labelledby to the id within the relevant element. I then re-tested the code on W3C and no errors were found.
+1. The aria-labelledby attribute must point to an element in the same document.
+    - **How I resolved this error:** By matching the aria-labelledby to the id within the relevant element. 
 
 #### Subscribe page - 1 error found
 
-* The aria-labelledby attribute must point to an element in the same document.
-    - **How I resolved this error:** aria-labelledby matched the id in the relevant element, however, there was a capital letter at the start of the aria-labelledby wording. I made the adjustment from uppercase to lowercase which resolved this issue. I then re-tested the code on W3C and no errors were found.
+1. The aria-labelledby attribute must point to an element in the same document.
+    - **How I resolved this error:** aria-labelledby matched the id in the relevant element, however, there was a capital letter at the start of the aria-labelledby wording. I made the adjustment from uppercase to lowercase which resolved this issue. 
+
+Once all errors were fixed, I re-tested the code on W3C Markup validator and no errors were found.
 
  **HTML Testing completed**
 
 ### W3C CSS Validation Service - testing
 
+The W3C CSS Validator was used to validate all CSS used for my project.
+
 #### CSS coding - 2 errors found
 
-* subscribe-btn-about (error: Value Error : text-align none is not a text-align value : none). 
+1. subscribe-btn-about (error: Value Error : text-align none is not a text-align value : none). 
     - **How I resolved this error:** I removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-about (Subscribe button on about page). There were no issues with the button on the webpage.
 
-* subscribe-btn-resources (error: Value Error : text-align none is not a text-align value : none). 
+1. subscribe-btn-resources (error: Value Error : text-align none is not a text-align value : none). 
     - **How I resolved this error:** I removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-resources (Subscribe button on resources page). There was no issues with the button on the webpage. 
 
-Once both errors were fixed, I re-tested the code on W3C CSS and the message 'Congratulations! No Error Found' came back.
+Once both errors were fixed, I re-tested the code on W3C CSS valdiator and the message 
+'Congratulations! No Error Found' came back.
 
  **CSS Testing completed**
 
 ### Different Web Browsers
 
-#### Testing was completed on different web browsers making sure that links worked and pages loaded properly. 
+Testing was completed on different web browsers making sure that links worked and pages loaded properly. 
 
 * I tested the site across the following web browsers
     - Google Chrome - The site was developed using Chrome and therefore testing was being done daily on this browser.
@@ -448,10 +452,10 @@ Once both errors were fixed, I re-tested the code on W3C CSS and the message 'Co
 
 #### Desktop results
 
-![template](assets/images/desktop-lighthouse-results.png)
+![template](assets/images/testing/desktop-lighthouse-results.png)
 
 #### Mobile results
-![template](assets/images/mobile-lighthouse-results.png)
+![template](assets/images/testing/mobile-lighthouse-results.png)
 
 I checked the details of this report and seen that it was the 'Largest Contentful Paint' score that was the main issue. 
 [Further research into this is required]
