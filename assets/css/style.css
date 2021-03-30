@@ -582,7 +582,7 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 
 #our-autism-journey, #next-step, #website-goals {
     text-align: left;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #website-goals {
@@ -884,7 +884,7 @@ smaller laptop screen size -  factsheet and media clips re-sized and repositione
     }
 }
 /*---------------------------------------------Resources Page---*/
-h2, h4  {
+h2  {
     text-align: center;
 }
 
@@ -901,19 +901,18 @@ h2, h4  {
 
 #advice-ideas, #next {
     text-align: left;
-    margin-top: 20px;
-    padding-bottom: 5px;
-}
-
-.resources-scroll {
-    height: 150px;
-    padding: 5px;
-    overflow: scroll;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 #going-out, #routines, #tips, #non-verbal {
     color: #479ce0;
     text-align: left;
+    font-size: 26px;
+}
+
+#going-out:hover, #routines:hover, #tips:hover, #non-verbal:hover {
+    color: green;
 }
 
 .going-out-p, .routines-p, .tips-p, .non-verbal-p {
@@ -966,7 +965,7 @@ h2, h4  {
 Large screen size - text content and subscribe button re-sized and re-positioned
 */
 @media screen and (min-width: 1500px) and (max-width: 2560px) {
-    article h4 {
+    article section {
         font-size: 48px;
     }
 
@@ -984,10 +983,25 @@ Large screen size - text content and subscribe button re-sized and re-positioned
         padding-top: 1000px;
     }
 }
-/*Large mobile screen - subsribe button centred*/
+/*Tablet screen size - headers resized*/
+@media screen and (max-width: 768px) {
+    #going-out, #routines, #tips, #non-verbal {
+        font-size: 22px;
+    }
+}
+/*Large mobile screen - headers resized and subsribe button centred*/
 @media screen and (max-width: 425px) {
+    #going-out, #routines, #tips, #non-verbal {
+        font-size: 18px;
+    }
         #subscribe-btn-resources { 
         text-align: center;
+    }
+}
+/*Small mobile screen - external images re-sized*/
+@media screen and (max-width: 320px) and (min-width: 280px) {
+    #going-out, #routines, #tips, #non-verbal {
+        font-size: 14px;
     }
 }
 /*------------------------------Media Queries for About and Resources Pages---*/
@@ -1015,7 +1029,7 @@ Large screen size - header, content, bullet points and external link images re-s
     }
 }
 /*Medium mobile screen - external images re-sized*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {    
     .charity-logo img {
         width: 280px;
         padding-bottom: 10px;
@@ -1061,6 +1075,7 @@ Large screen size - header, content, bullet points and external link images re-s
 
 #subscribe-for-free {
     font-size: 16px;
+    text-align: center;
 }
 
 form .label {
