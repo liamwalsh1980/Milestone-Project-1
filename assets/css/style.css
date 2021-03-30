@@ -711,7 +711,7 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 /*
 Large screen size - factsheet, media clips, subsribe button and external link images re-sized and repositioned 
 */
-@media screen and (min-width: 1501px) and (max-width: 2560px) {
+@media screen and (min-width: 1601px) and (max-width: 2560px) {
     #our-autism-journey {
         font-size: 60px;
         padding-top: 200px;
@@ -773,6 +773,54 @@ Large screen size - factsheet, media clips, subsribe button and external link im
         height: 300px;
     }
 }
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    #our-autism-journey {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    #website-goals, #next-step{
+        padding-bottom: 30px;
+    }
+    
+    #factsheet-border {
+        margin-left: 150px;
+    }
+
+    #factsheet-border p {
+        font-size: 16px
+    }
+    
+    #nas-media {
+        float: right;
+        margin-right: 39%;
+        margin-top: -205px;
+    }
+
+    #cwmind-media {
+        float: right;
+        margin-right: 150px;
+        margin-top: -205px;
+        margin-bottom: 20px;
+    }
+
+    #subscribe-btn-about div {
+        width: 300px;
+        height: 65px;
+    }
+
+    #subscribe-btn-about {
+        padding: 30px 0;
+    }
+
+    #subscribe-btn-about span {
+        font-size: 25px;
+        line-height: 50px;
+    }
+}
+
+
 /*
 Large laptop and desktop screen size - factsheet and media clips re-sized and repositioned
 */
@@ -1019,7 +1067,7 @@ h2  {
 /*
 Large screen size - text content and subscribe button re-sized and re-positioned
 */
-@media screen and (min-width: 1500px) and (max-width: 2560px) {
+@media screen and (min-width: 1601px) and (max-width: 2560px) {
     #advice-ideas {
         padding-top: 200px;
         padding-bottom: 50px;
@@ -1047,6 +1095,30 @@ Large screen size - text content and subscribe button re-sized and re-positioned
         font-size: 60px;
     }
 }
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    #advice-ideas {
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    
+    
+    #subscribe-btn-resources div {
+        width: 300px;
+        height: 65px;
+    }
+
+    #subscribe-btn-resources {
+        padding: 30px 0;
+    }
+
+    #subscribe-btn-resources span {
+        font-size: 25px;
+        line-height: 50px;
+    }
+}
+
+
 /*Tablet screen size - headers resized*/
 @media screen and (max-width: 768px) {
     #going-out, #routines, #tips, #non-verbal {
@@ -1218,7 +1290,7 @@ form .label {
 /*
 Large screen size - sub-headers, subscribe button, form content, paragraphs, image and external links re-sized and re-positioned
 */   
-@media screen and (min-width: 1500px) and (max-width: 2560px) {
+@media screen and (min-width: 1601px) and (max-width: 2560px) {
     #form-header {
         font-size: 48px;
         padding-top: 200px;
@@ -1261,7 +1333,27 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, ima
         font-size: 60px;
     }
 }
+@media screen and (min-width: 1500px) and (max-width: 1600px) {
+    #form-header {
+        font-size: 32px;
+        padding-top: 120px;
+        padding-bottom: 30px;
+    }
 
+    #form-border {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #subscribe-for-free{
+        font-size: 24px;
+    }
+
+    #thank-you-image {
+        height: 500px; 
+        width: 75%;
+    } 
+}
 /*
 Large laptop and desktop screen size - sub-headers, subscribe button, form content, paragraphs, image and external links re-sized and re-positioned
 */
