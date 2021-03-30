@@ -12,17 +12,17 @@
    * [User Stories](#user-stories)
    * [Design Process](#design-process)
         * [Strategy trade-off](#strategy-trade-off)
-        * [Scope Plane diagram](#scope-plane-diagram)
+        * [Scope plane diagram](#scope-plane-diagram)
 1. [Balsamiq Wireframes](#balsamiq-wireframes)
     * [Homepage wireframe](#homepage-wireframe)
     * [About page wireframe](#about-page-wireframe)
     * [Resources page wireframe](#resources-page-wireframe)
     * [Subscribe page wireframe](#subsribe-page-wireframe)
 1. [Design Process page by page](#design-process-page-by-page)
-    * [Homepage (index.html)](#homepage-(index.html))
-    * [About page (about.html)](#about-page-(about.html))
-    * [Resources page (resources.html)](#resources-page-(resources.html))
-    * [Subscribe page (subcribe.html)](#subscribe-page-(subcribe.html))
+    * [Homepage](#homepage)
+    * [About page](#about-page)
+    * [Resources page](#resources-page)
+    * [Subscribe page](#subscribe-page)
     * [Media Queries](#media-queries)
 1. [Features](#features)
     * [Existing Features](#existing-features)
@@ -41,34 +41,32 @@
         * [Homepage - 1 error found](#homepage---1-error-found)
         * [About page - 3 errors found](#about-page---3-errors-found) 
         * [Resources page - 3 errors found](#resources-page---3-errors-found)
-        * Subscribe page - 1 error found
-    * W3C CSS Validation Service - testing
-        * CSS coding - 2 errors found
-    * Different Web Browsers
-    * Testing responsiveness
-    * Lighthouse testing
-        * Desktop results
-        * Mobile results
-    * Issues found
-    * Further testing
-    * Bugs outstanding
-1. Deployment
-    * Github pages
-    * Forking the GitHub Repository
-    * Making a Local Clone
-1. Credits
-    * Content
-    * Code
-    * Factsheet
-    * Media
-    * Media clips
-    * Other credits
-1. Acknowledgements
-1.  Notes
+        * [Subscribe page - 1 error found](#subscribe-page---1-error-found)
+    * [W3C CSS Validation Service - testing](#w3c-css-validation-service---testing)
+        * [CSS coding - 2 errors found](#css-coding---2-errors-found)
+    * [Different Web Browsers](#different-web-browsers)
+    * [Testing responsiveness](#testing-responsiveness)
+    * [Lighthouse testing](#lighthouse-testing)
+        * [Desktop results](#desktop-results)
+        * [Mobile results](#mobile-results)
+    * [Issues found](#issues-found)
+    * [Further testing](#further-testing)
+    * [Bugs outstanding](#bugs-outstanding)
+1. [Deployment](#deployment)
+    * [Github pages](#github-pages)
+    * [Forking the GitHub Repository](#forking-the-github-repository)
+    * [Making a Local Clone](#making-a-local-clone)
+1. [Credits](#credits)
+    * [Content](#content)
+    * [Code](#code)
+    * [Factsheet](#factsheet)
+    * [Media](#media)
+    * [Media clips](#media-clips)
+    * [Other credits](#other-credits)
+1. [Acknowledgements](#acknowledgements)
+1. [Notes](#notes)
 
 # Introduction
-
-[Back to top ⇧](#embrace-autism)
 
 This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project are to design a responsive website using HTML5 and CSS3 with the option of using CSS libraries/frameworks like Bootstrap. There is a minimum requirement of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about page and resources page relevant with the right level of content and a fourth page offering users the option to subscribe on a mailing list. All this I feel would work well when using the menu bar to navigate around the site. 
 
@@ -80,11 +78,9 @@ Date this project started: 9th March 2021
 
 [Click here to view the Embrace Autism project website live](https://embraceautism2.godaddysites.com/)
 
-<a href="#top">Back to top</a>
+[Back to top ⇧](#embrace-autism)
 
 ## UX
-
-[Back to top ⇧](#embrace-autism)
 
 ### Main aims
 * To inform other parents of potential new ways to help in their day-to-day life when bringing up their Child with Autism. 
@@ -95,6 +91,8 @@ Date this project started: 9th March 2021
 * To make it easy and quick to subscribe for weekly/monthly updates offering the user help and advice in the form of a mailing list.  
 * To offer useful links to creditable charities and organisations that can offer more in-depth advice and support.
 * The main aim from a developer's point is to maximise as many subscribed members on Embrace Autism's mailing list as possible by encouraging users to complete the very quick and easy subscribe form. By doing this, the Embrace Autism site will gain more popularity and a wealth of subscribers creating a fantastic community of parents going through a similar journey. 
+
+[Back to top ⇧](#embrace-autism)
 
 ### User Stories
 1. I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.    
@@ -107,6 +105,8 @@ Date this project started: 9th March 2021
 
 1. I'm a teenager with Autism and have high-level sensory need. I find it difficult to wear a face mask when I'm in shops and with most shops insisting, people wear one, it's becoming very hard to go out. Is there anything I can do to make it easier for me when shopping? 
 
+[Back to top ⇧](#embrace-autism)
+
 ### Design Process 
 
 * I knew I wanted to create a website based on a subject that is close to my heart. I came up with a good name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once I had completed the Strategy and Scope planes knowing what was and what wasn't needed or achievable, I then focused on the structure and layout. 
@@ -115,7 +115,7 @@ Date this project started: 9th March 2021
 
 ![Image template](assets/images/ux/ea-strategy.png)
 
-#### Scope Plane diagram
+#### Scope plane diagram
 
 ![Image template](assets/images/ux/ea-scope.png)
 
@@ -124,6 +124,8 @@ Date this project started: 9th March 2021
 * The content for the website mainly came from my own experiences and therefore this took a little time to put together. I used a couple of external sources to help with the content from other Autism websites I am familiar with. Credits to these sites can be found at the bottom of this README document for reference within the 'Credits' section.   
 
 * Once I knew what structure I had in mind I moved onto the Skeleton plane and used <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a> wireframes to start some blueprints on how the website looked. Initially I was building a website with three pages, however, after going through the design process early on I knew that four pages was needed to spread out the right level of content in the right places. This I believe would offer better overall UX. For reference to my wireframes, version three was when the wireframing changed from three to four pages.
+
+[Back to top ⇧](#embrace-autism)
 
 ### Balsamiq Wireframes
 ---
@@ -150,6 +152,8 @@ Date this project started: 9th March 2021
 ![template](assets/images/ux/embrace-autism-resources.png)
 #### Subscribe page wireframe
 ![template](assets/images/ux/embrace-autism-subscribe.png)
+
+[Back to top ⇧](#embrace-autism)
 
 * Moving on to the surface plane of the UX process, I wanted to make sure there was consistence with regards to the header (logo name and navigation menu) and footer throughout all pages (social media icons, email icons and copyright text). I also wanted to show an even and relevant amount of information depending on which page the user is on.  
 
@@ -180,11 +184,11 @@ Date this project started: 9th March 2021
 
 * I took some time to work on making my HTML accessible for the visually impaired. I made sure that anchor elements, media clips, external links and internal links had the relevant aria-labels and sr-only classes added. I also made sure that certain text had aria-labelled by applied and that all image elements had the alt attribute in place.
 
-## Design Process page by page
-
 [Back to top ⇧](#embrace-autism)
 
-#### Homepage (index.html)
+## Design Process page by page
+
+#### Homepage
 * The homepage design went through a few trials with choosing the right type of image I wanted and the positioning of it. When I found this <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">image</a> I knew it would work well for what I wanted to achieve on my landing page. The image has striking colours with clear version of an adult and a child embracing a colourful heart-shaped object expressing love and care. The background is a beautiful light blue which matches my colour scheme throughout the site.  
 
 * I wanted to use all colours pre-picked for the homepage and with the hero image being colourful I felt this would maximise the attraction for all users. 
@@ -198,7 +202,9 @@ Date this project started: 9th March 2021
 
 * I decided to add a h1 header to complete the design of the homepage, stating what the website is about an who it is aimed for. On large screen sizes the colour of this is dark blue in Ubuntu font styling except for the word 'Autism' which is in Kalam font. It can be found above the hero image, central to the page. On small laptop, mobile and tablet size screens this header is below the hero image and above the cover text in the centre of the screen. The header colour is light blue with the word 'Autism' in dark blue to make it stand out more on smaller devices.  
 
-#### About page (about.html)
+[Back to top ⇧](#embrace-autism)
+
+#### About page 
 * The about page has a dark blue background colour within the middle section of the page. The Ubuntu font is used for all content in light grey colour. The structure of the page leans to the left side to make the content easier to read. The page holds information in the form of sub headers, paragraphs, an unordered list (bullet points) a factsheet and two short media clips in reference to Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom and just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. When hovering over this small text the font colour will change to green to show it is clickable.  
 
 * There are two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autism" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to green to show they are clickable. 
@@ -207,16 +213,20 @@ Date this project started: 9th March 2021
 
 * There are also horizontal line breaks between each section within this page to make it easy to navigate through. The layout is identical on all screen sizes with little changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section.  
 
-#### Resources page (resources.html)
+[Back to top ⇧](#embrace-autism)
+
+#### Resources page 
 * The resources page has a dark blue background colour within the main body just like the about page. The Ubuntu font is used for all content with a light grey colour finish. 
 
-* The main purpose for this page is to provide users with clear to read advice and ideas. I decided to keep this page simple with the option to read and much or as little as the user wanted. This is done using the CSS 'overflow' property and 'scroll' value. I wanted all information pieces to sit inside a semantic element to show improved web development. I replaced the div elements with article elements to achieve this. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page.   
+* The main purpose for this page is to provide users with clear to read advice and ideas. I decided to keep this page simple with the option to read and much or as little as the user wanted. I wanted all information pieces to sit inside a semantic element to show improved web development. I replaced the div elements with article elements to achieve this and used the details and summary elements inside the articles. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page.   
 
 * Below the information advice and ideas section there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue with the wording in light grey. The wording is in capital letters and when hovering over this button the background colour changes to a green. Below there is a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When clicked, the user will see that the external website will open in a new tab on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. The layout is identical on all screen sizes with changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section. 
 
 * For the about and resources pages, I used bootstrap containers, rows and columns to structure the layout of this page which made it easier to manage with regards to responsive design. 
+
+[Back to top ⇧](#embrace-autism)
  
-#### Subscribe page (subcribe.html)
+#### Subscribe page 
 * The subscribe page has a dark blue background colour just like the about and resource pages. The Ubuntu font is used for all content with a light grey colour. 
 
 * The main purpose for this page is the form. I used Bootstrap5 to format the form for responsive design. The form is at the top of this page and sits in a contrasting background colour of light grey with dark blue text. There is five parts of the form for users to complete. Name, email address, weekly subscription or monthly subscription (only one to be selected) and submit button for the user to click when ready to subscribe. The submit button has a light grey font colour and has a dark blue background colour that's turns green when hovered over. The wording 'SUBSCRIBE' is in capital letters. The form cannot be sent until all details are completed with a name, email address and the weekly or monthly radio button selected. If the form is submitted without any of this information included, a message 'please fill in this field' will appear to inform the user. 
@@ -233,7 +243,7 @@ Date this project started: 9th March 2021
 
 * For this page I used bootstrap to help with the form setup which made it easier to manage with regards to responsive design. 
 
-[MODAL??]
+[Back to top ⇧](#embrace-autism)
 
 #### Media Queries
 
@@ -268,6 +278,8 @@ Date this project started: 9th March 2021
     - The 'Thank you' image is central and re-sized on every screen size to keep in proportion.  
     - The useful links section had been adjusted slightly to fit within any screen size. 
 
+[Back to top ⇧](#embrace-autism)
+
 [Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -276,8 +288,6 @@ As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.]
 
 ## Features
-
-[Back to top ⇧](#embrace-autism)
 
 ### Existing Features
  
@@ -314,7 +324,7 @@ My project has four web pages all found by using the menu navigation bar at the 
 * Sub header 'Routines and good habits' with a paragraph.  
 * Sub header 'Tips for Parenting a Child on the Autism Spectrum' with a paragraph. 
 * Sub header 'Encouraging a Non-Verbal Child to Communicate' with a paragraph. 
-    - All above sub headers and corresponding paragraphs have been placed in a text box giving the user the option to pick which one to read. Each text box has a scroll option making it easy to read whichever article the user is interested in. 
+    - All above sub headers and corresponding paragraphs have been placed in a text box as an article. All paragraphs are collapsed by default giving the user the option to pick which one to read. Each text box header has a widget next to it and when a header of an article is hovered over it changes colour to show the user this is clickable.
 * A sub header 'The next step' with a short paragraph. 
 * A 'SUBSCRIBE FOR FREE' button linked to the subscribe page. 
 * External link logos to three charities.    
@@ -327,7 +337,9 @@ My project has four web pages all found by using the menu navigation bar at the 
 * The error message 'please fill in this field' will appear if the form isn't completed fully. 
 * A sub header 'What to expect now' and paragraph to read after completing the form. 
 * A 'Thank you' image below the paragraph which I feel is a nice touch to finish the users experience on the site as they subscribe. 
-* External link logos to three charities.    
+* External link logos to three charities.  
+
+[Back to top ⇧](#embrace-autism)
 
 ### Features Left to Implement
 * A dedicated page for media clips would be good to implement. Adding the page would be quick, however, it would take time researching appropriate clips to include. 
@@ -337,92 +349,63 @@ My project has four web pages all found by using the menu navigation bar at the 
 * To lead on from the live chat idea, I would like to make sure that there is some level of security and understand the responsibilities of offering a secure website with a live chat feature.  
 * The idea of offering a user login/password option would be good to have in the future as the website gains more traffic. 
 
-## Technologies Used
-
 [Back to top ⇧](#embrace-autism)
+
+## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 ### Languages Used
 
-* HTML5
-    - The markup language used for all site content, many images and media clips. Used in line with the HTML essentials module completed.
+* <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML5</a> - The markup language used for all site content, many images and media clips. Used in line with the HTML essentials module completed.
 
-* CSS3
-    - Styling HTML5 coding with declarations. Used in line with the CSS essentials module completed
+* <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS3</a> - Styling HTML5 coding with declarations. Used in line with the CSS essentials module completed
 
 ### Frameworks and other Technologies Used
 
-* <a href="https://codeinstitute.net/" target="_blank">Code Institute</a>
+* <a href="https://codeinstitute.net/" target="_blank">Code Institute</a> - I reverted back to lessons to help with some coding.
 
-    - I reverted back to lessons to help with some coding.
+* <a href="https://slack.com/intl/en-gb/" target="_blank">Slack</a> - One of the most useful tools when looking for assistance, quickly
 
-* <a href="https://slack.com/intl/en-gb/" target="_blank">Slack</a>
+* <a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome DevTools</a> - Used to help amend coding to achieve the best results for each page. Used to examine the overall performance of the site with Lighthouse.
 
-    - One of the most useful tools when looking for assistance, quickly
-
-* <a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome DevTools</a>
-
-    - Used to help amend coding to achieve the best results for each page. 
-    - Used to examine the overall performance of the site with Lighthouse.
-
-* <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5.0</a>
-
-    - Used for the navigation menu, containers and form. The grid system was used in the best way I could to keep the site mobile first responsive. 
+* <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5.0</a> - Used for the navigation menu, containers and form. The grid system was used in the best way I could to keep the site mobile first responsive. 
     
-* <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a>
+* <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a> -  Used to create my wireframes. This tool was used six times as adjustments were made during the design process of my website.
 
-    -  Used to create my wireframes. This tool was used six times as adjustments were made during the design process of my website.
+* <a href="https://fontawesome.com/" target="_blank">Fontawesome</a> - I used four 'free of charge' icons across all pages of the website footer.
 
-* <a href="https://fontawesome.com/" target="_blank">Fontawesome</a>
+* <a href="https://pexels.com/" target="_blank">Pexels</a> - I used one "free' image from this site for the subscribe page
 
-    - I used four 'free of charge' icons across all pages of the website footer.
+* <a href="https://www.istockphoto.com/" target="_blank">istockphoto</a> - I used one "chargeable" image from this site for my homepage hero image. It cost £8.40 and was worth every penny as the quality of this image was perfect for what I wanted on my homepage.
 
-* <a href="https://pexels.com/" target="_blank">Pexels</a>
+* <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> - I used two font families on my website. The Ubuntu - Sans-serif for most of the website content and the Kalam - Cursive for the text logo and for most of the 'Autism' wording throughout the site. 
 
-    - I used one "free' image from this site for the subscribe page
+* <a href="https://www.lipsum.com/feed/html" target="_blank">Lipsum</a> - Used to copy and paste Lorem Ipsum text at the beginning of my project to assist in the structure and layout.
 
-* <a href="https://www.istockphoto.com/" target="_blank">istockphoto</a>
+* <a href="https://gitpod.io/" target="_blank">Gitpod</a> - Used to complete my HTML and CSS coding for my MS1 project
 
-    - I used one "chargeable" image from this site for my homepage hero image. It cost £8.40 and was worth every penny as the quality of this image was perfect for what I wanted on my homepage.
+* <a href="https://github.com/" target="_blank">Github</a> - GitHub is used to store the projects code after being pushed from Git.
 
-* <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
+* <a href="https://git-scm.com/" target="_blank">Git</a> - Git was used for version control by using the Gitpod terminal to commit to Git and Push to GitHub.
 
-    - I used two font families on my website. The Ubuntu - Sans-serif for most of the website content and the Kalam - Cursive for the text logo and for most of the 'Autism' wording throughout the site. 
+* <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a> - Used to test all HTML coding for all four pages.
 
-* <a href="https://www.lipsum.com/feed/html" target="_blank">Lipsum</a>
-
-    - Used to copy and paste Lorem Ipsum text at the beginning of my project to assist in the structure and layout.
-
-* <a href="https://gitpod.io/" target="_blank">Gitpod</a>
-
-    - Used to complete my HTML and CSS coding for my MS1 project
-
-* <a href="https://github.com/" target="_blank">Github</a>
-
-    - GitHub is used to store the projects code after being pushed from Git.
-
-* <a href="https://git-scm.com/" target="_blank">Git</a>
-
-    - Git was used for version control by using the Gitpod terminal to commit to Git and Push to GitHub.
-
-* <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a>
-
-    - Used to test all HTML coding for all four pages.
-
-* <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a>
-
-    - Used to test all CSS coding.
-
-## Testing
+* <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a> - Used to test all CSS coding.
 
 [Back to top ⇧](#embrace-autism)
+
+## Testing
 
 * When testing the website on different screen sizes within Development Tools I made the decision to change the layout of the homepage for mobiles and tablets against laptop and desktop. The header, cover text and subscribe button is within the hero image on desktop and laptop. On smaller screens like mobile and tablet I decided to reduce the size of the image in order for the user to see the whole image clearly and then scroll down to see the header, cover text and subscribe button. This I believe makes better UX. I made sure the subscribe button stayed a good size to making it clear to click on. 
 
 * When testing the navigation bar on smaller screens this would appear as a hamburger menu (3 horizontal bars) which is what I wanted to achieve. I applied styling with a different colour and a bottom border to whichever page the user is currently on for good UX. The bottom border property on bigger screens worked well, however, on smaller screens with the hamburger menu, this didn't work as well. I therefore removed the bottom border property using media queries up to 991px which is the break point between the navigation menu changing format. This was tested on development tools on all break points up to 991px.  For reference, the colours highlighting the current page the user is on, remands in place. Therefore, users on smaller devices would still see what page they are on by the colour difference of the page titles.  
 
 * I tested the media clips on different screen sizes, making sure that both clips loaded and played fully. I also checked that the 'allowfullscreen' attribute was active and working. I did this by viewing the site on laptop and mobile. Both tests were successful. I also checked to make sure the sound was working and again the testing was successful. 
+
+* The resources page originally had the articles 
+
+[Back to top ⇧](#embrace-autism)
 
 ### User Stories (outcomes and steps to achieve what each user wants)
 1. I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.     
@@ -453,6 +436,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
     1. Go to the about, resource and subscribe page
     1. On any of these pages the useful link for all three charities can be found at the bottom in the form of clickable logos. 
+
+[Back to top ⇧](#embrace-autism)
 
 ### W3C Markup Validation Service - testing
 
@@ -490,6 +475,8 @@ Once all errors were fixed, I re-tested the code on W3C Markup validator and no 
 
  **HTML Testing completed**
 
+ [Back to top ⇧](#embrace-autism)
+
 ### W3C CSS Validation Service - testing
 
 The W3C CSS Validator was used to validate all CSS used for my project.
@@ -506,6 +493,8 @@ Once both errors were fixed, I re-tested the code on W3C CSS valdiator and the m
 'Congratulations! No Error Found' came back.
 
  **CSS Testing completed**
+
+ [Back to top ⇧](#embrace-autism)
 
 ### Different Web Browsers
 
@@ -524,6 +513,8 @@ Testing was completed on different web browsers making sure that links worked an
 
 ### Lighthouse testing completed (screen shots below)
 
+[Back to top ⇧](#embrace-autism)
+
 #### Desktop results
 
 ![template](assets/images/testing/desktop-lighthouse-results.png)
@@ -534,10 +525,14 @@ Testing was completed on different web browsers making sure that links worked an
 I checked the details of this report and seen that it was the 'Largest Contentful Paint' score that was the main issue. 
 [Further research into this is required]
 
+[Back to top ⇧](#embrace-autism)
+
 ### Issues found
 * I wanted to include a Modal message when the form on the subscribe page is submitted successfully. Adding the code didn't work - assistance from my Mentor (TBC)
 
 * I Used DevTools throughout my project to make sure that all device screen sizes were taken into consideration. I took some time to complete media queries across all pages, however, certain elements on certain screen sizes still didn't look right. I will be working on this more during further projects to perfect the skill between using bootstrap and media queries.
+
+[Back to top ⇧](#embrace-autism)
 
 ### Further testing
 * I was testing the development of the site on my iPhone throughout this project to make sure it was mobile first responsive. I felt this really helped my stay focused as the site was coded on MacBook. 
@@ -559,6 +554,8 @@ I checked the details of this report and seen that it was the 'Largest Contentfu
         * I clicked the submit button with all fields empty which verified that an error message about the required fields appeared. 
         * I attempted to submit the form with an invalid email address which verified that the relevant error message appeared.
         * I submitted the form with all fields correctly filled in and this verified that the form works with an 'alert' message appearing. For reference the message that appears says 'Thank you! You will receive your first newsletter within the next 48 hours that a success message appears'.
+
+[Back to top ⇧](#embrace-autism)
 
 ### Bugs outstanding
 
@@ -584,9 +581,9 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.]
 
-## Deployment (Date this project was deployed: TBC)
-
 [Back to top ⇧](#embrace-autism)
+
+## Deployment (Date this project was deployed: TBC)
 
 ### Github pages
 The project was deployed to GitHub Pages doing the following: -
@@ -613,6 +610,8 @@ By forking the GitHub Repository you can make a copy of my original repository o
 Button on the menu, locate the "Fork" Button which is at the top of the page
 1. You should now have a copy of the original repository in your GitHub account.
 
+[Back to top ⇧](#embrace-autism)
+
 ### Making a Local Clone
 
 1. Log in to GitHub and locate the GitHub Repository
@@ -634,9 +633,9 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-## Credits
-
 [Back to top ⇧](#embrace-autism)
+
+## Credits
 
 ### Content
 * I obtained content and adapted it for the resources page article titled - Don't stop going out. The content was taken from <a href="https://www.autismspeaks.org/blog/11-tips-new-autism-parents" target="blank">Autism Speaks</a> - (10) Take your kid out everywhere.
@@ -686,9 +685,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - <a href="https://www.w3schools.com/" target="blank">w3schools</a> - At certain times throughout this project I needed some reminders of how to write certain code i.e., iframes element to embed the media clips in the about page. Instead of going back to previous lessons i often googled and came across this website. 
 
-## Acknowledgements    
-
 [Back to top ⇧](#embrace-autism)
+
+## Acknowledgements    
 
 * My Mentor - Seun Owonikoko  
 * Other students and Code Institute tutors on the Slack community
