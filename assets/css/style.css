@@ -13,6 +13,10 @@ body {
 }
 /*---------------------------------------------Heading---*/
 
+#header-color {
+     background-color: #e7ecef;
+}
+
 #logo {
     color: inherit;
     font-family: Kalam, cursive;
@@ -241,7 +245,7 @@ Extra Large desktop screen size - hero image, header, cover text and subsribe bu
         width: 25%; 
         height: 20%; 
         margin-left: 1700px; 
-        margin-top: 50px; 
+        margin-top: 200px; 
     } 
 
     #ul-benefits-list {  
@@ -421,7 +425,7 @@ Small desktop screen size - hero image, header, cover text and subscribe button 
     #homepage-cover-text-background { 
         width: 25%; 
         margin-left: 800px; 
-        margin-top: 50px;
+        margin-top: 200px;
         background-color: rgba(231,236,239, 0.7); 
         color: #274c77; 
     } 
@@ -458,6 +462,7 @@ Laptop screen size - hero image, header, cover text and subscribe button re-size
         margin-left: auto; 
         background-color: rgba(231,236,239, 0.7); 
         color: #274c77; 
+        margin-top: 100px;
     } 
 
     #outer-button { 
@@ -500,12 +505,11 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 */ 
 @media screen and (min-width: 768px) and (max-width: 800px) {
     #outer { 
-        height: 830px; 
+        height: 800px; 
     } 
 
     #hero-image { 
         height: 500px;  
-        background-size: cover;  
     } 
 
     #homepage-h1 { 
@@ -526,8 +530,18 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 } 
 /*Large mobile screen size - header and cover text re-sized*/  
 @media screen and (min-width: 425px) and (max-width: 767px) {  
+
+    #outer { 
+        height: 600px; 
+    } 
+
+    #hero-image { 
+        height: 300px;  
+    } 
+
     #homepage-h1 { 
         font-size: 18px; 
+        margin-top: 40px;
     }  
 
     #homepage-cover-text-background { 
@@ -548,8 +562,17 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 }
 /*Medium mobile screen size - header and cover text re-sized*/ 
 @media screen and (min-width: 279px) and (max-width: 375px) {  
+    #outer { 
+        height: 600px; 
+    } 
+
+    #hero-image { 
+        height: 300px;  
+    } 
+
     #homepage-h1 { 
         font-size: 15px; 
+        margin-top: 40px;
     }  
 
     #homepage-cover-text-background { 
@@ -583,6 +606,10 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 #our-autism-journey, #next-step, #website-goals {
     text-align: left;
     margin-top: 10px;
+}
+
+#our-autism-journey {
+    padding-top: 80px;
 }
 
 #website-goals {
@@ -905,6 +932,10 @@ h2  {
     padding-bottom: 10px;
 }
 
+#advice-ideas {
+    padding-top: 80px;
+}
+
 #going-out, #routines, #tips, #non-verbal {
     color: #479ce0;
     text-align: left;
@@ -1061,7 +1092,7 @@ Large screen size - header, content, bullet points and external link images re-s
 #form-header {
     text-align: center;
     font-size: 18px;
-    padding: 30px;
+    padding-top: 120px;
 }
 
 #form-border {
@@ -1270,15 +1301,16 @@ Tablet screen size - sub-header, form and image re-sized and re-positioned
 
 @media screen and (max-width: 360px) {
     #form-header {
-        font-size: 15px;
-        padding: 20px;
+        font-size: 12px;
+        padding-top: 100px;
     }
 }
 
 @media screen and (max-width: 280px) {
     #form-header {
-        font-size: 12px;
-        padding: 15px;
+        font-size: 13px;
+        padding-top: 80px;
+        padding-bottom: 20px
     }
 }
 /*---------------------------------------------Footer---*/
