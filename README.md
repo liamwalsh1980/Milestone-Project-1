@@ -4,46 +4,52 @@
 
 ![template](assets/images/testing/i-am-responsive.png)
 
+[Click here to view the Embrace Autism project live](https://embraceautism2.godaddysites.com/)
+
 ## Table of contents
 
 1. [Introduction](#introduction)
 1. [UX](#ux)
+   * [User demographic](#user-demographic)
    * [Main aims](#main-aims)
    * [User Stories](#user-stories)
-   * [Design Process](#design-process)
-        * [Strategy trade-off](#strategy-trade-off)
-        * [Scope plane diagram](#scope-plane-diagram)
-1. [Balsamiq Wireframes](#balsamiq-wireframes)
-    * [Homepage wireframe](#homepage-wireframe)
-    * [About page wireframe](#about-page-wireframe)
-    * [Resources page wireframe](#resources-page-wireframe)
-    * [Subscribe page wireframe](#subsribe-page-wireframe)
+1. [Development Process](#development-process)
+    * [Strategy](#strategy)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
+        * [Balsamiq Wireframes](#balsamiq-wireframes)
+            * [Homepage wireframe](#homepage-wireframe)
+            * [About page wireframe](#about-page-wireframe)
+            * [Resources page wireframe](#resources-page-wireframe)
+            * [Subscribe page wireframe](#subscribe-page-wireframe)
+    * [Surface](#surface)
 1. [Design Process page by page](#design-process-page-by-page)
-    * [Homepage](#homepage)
-    * [About page](#about-page)
-    * [Resources page](#resources-page)
-    * [Subscribe page](#subscribe-page)
+    * [Homepage design](#homepage-design)
+    * [About page design](#about-page-design)
+    * [Resources page design](#resources-page-design)
+    * [Subscribe page design](#subscribe-page-design)
     * [Media Queries](#media-queries)
 1. [Features](#features)
     * [Existing Features](#existing-features)
-        * [Across all Pages](#across-all-pages)
-        * [Homepage (index.html)](#homepage-(index.html))
-        * [About (about.html)](#about-(about.html))
-        * [Resources (resources.html)](#resources-(resources.html))
-        * [Subscribe (subcribe.html)](#subcribe-(subscribe.html))
+        * [All Pages](#all-pages)
+        * [Homepage features](#homepage-features)
+        * [About features](#about-features)
+        * [Resources features](#resources-features)
+        * [Subscribe features](#subscribe-features)
     * [Features Left to Implement](#features-left-to-implement)
 1. [Technologies Used](#technologies-used)
-    * [Languages Used](#languages-used)
-    * [Frameworks and other Technologies Used](#frameworks-and-other-technologies-used)
+    * [Languages Used](#languages)
+    * [Frameworks and other Technologies](#frameworks-and-other-technologies)
 1. [Testing](#testing)
-    * [User Stories](#user-stories)
-    * [W3C Markup Validation Service - testing](#w3c-markup-validation-service---testing)
-        * [Homepage - 1 error found](#homepage---1-error-found)
-        * [About page - 3 errors found](#about-page---3-errors-found) 
-        * [Resources page - 3 errors found](#resources-page---3-errors-found)
-        * [Subscribe page - 1 error found](#subscribe-page---1-error-found)
-    * [W3C CSS Validation Service - testing](#w3c-css-validation-service---testing)
-        * [CSS coding - 2 errors found](#css-coding---2-errors-found)
+    * [User stories tested ](#user-stories-tested)
+    * [W3C Markup Validation Service](#w3c-markup-validation-service)
+        * [Homepage tested](#homepage-tested)
+        * [About page tested](#about-page-tested) 
+        * [Resources page tested](#resources-page-tested)
+        * [Subscribe page tested](#subscribe-page-tested)
+    * [W3C CSS Validation Service](#w3c-css-validation-service)
+        * [CSS coding tested](#css-coding-tested)
     * [Different Web Browsers](#different-web-browsers)
     * [Testing responsiveness](#testing-responsiveness)
     * [Lighthouse testing](#lighthouse-testing)
@@ -62,11 +68,11 @@
     * [Factsheet](#factsheet)
     * [Media](#media)
     * [Media clips](#media-clips)
-    * [Other credits](#other-credits)
+    * [Other](#other)
 1. [Acknowledgements](#acknowledgements)
 1. [Notes](#notes)
 
-# Introduction
+## Introduction
 
 This milestone project is the first of four that is to contribute towards my Full Stack Web Developer Diploma with Code Institute. The main requirements in this project are to design a responsive website using HTML5 and CSS3 with the option of using CSS libraries/frameworks like Bootstrap. There is a minimum requirement of three web pages or three separate sections on one page. I chose to go with four webpages as I wanted to keep the homepage content minimum, the about page and resources page relevant with the right level of content and a fourth page offering users the option to subscribe on a mailing list. All this I feel would work well when using the menu bar to navigate around the site. 
 
@@ -76,11 +82,15 @@ Every Friday morning my wife and I attend an Autism intervention workshop online
 
 Date this project started: 9th March 2021
 
-[Click here to view the Embrace Autism project website live](https://embraceautism2.godaddysites.com/)
-
 [Back to top ⇧](#embrace-autism)
 
 ## UX
+
+### User demographic
+* Parents/parental guardians of children who have just had a formal diagnoses of Autism
+* Parents/parental guardians of children with Autism who may need more support
+* Parents/parental guardians who feel their child is on the Autistic spectrum
+* Older children with Autism 
 
 ### Main aims
 * To inform other parents of potential new ways to help in their day-to-day life when bringing up their Child with Autism. 
@@ -107,28 +117,33 @@ Date this project started: 9th March 2021
 
 [Back to top ⇧](#embrace-autism)
 
-### Design Process 
+## Development Process 
+* I knew I wanted to create a website based on a subject that is close to my heart. I came up with the name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once I had completed the Strategy and Scope planes knowing what was and what wasn't needed or achievable, I then focused on the structure and layout. 
 
-* I knew I wanted to create a website based on a subject that is close to my heart. I came up with a good name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once I had completed the Strategy and Scope planes knowing what was and what wasn't needed or achievable, I then focused on the structure and layout. 
-
-#### Strategy Trade-off
+### Strategy
 
 ![Image template](assets/images/ux/ea-strategy.png)
 
-#### Scope plane diagram
+### Scope 
 
 ![Image template](assets/images/ux/ea-scope.png)
 
-* I wanted to keep the Structure straightforward so that all users visiting the site would see the same flow, patterns and layout making their experience on the site enjoyable and easy to navigate around.  
+### Structure
+
+* I wanted to keep the Structure straightforward so that all users visiting the site would see the same flow, patterns and layout making their experience on the site enjoyable and easy to navigate around. I put together a list of features i wanted 
+
+![Image template](assets/images/ux/ea-structure.png)
 
 * The content for the website mainly came from my own experiences and therefore this took a little time to put together. I used a couple of external sources to help with the content from other Autism websites I am familiar with. Credits to these sites can be found at the bottom of this README document for reference within the 'Credits' section.   
-
 * Once I knew what structure I had in mind I moved onto the Skeleton plane and used <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a> wireframes to start some blueprints on how the website looked. Initially I was building a website with three pages, however, after going through the design process early on I knew that four pages was needed to spread out the right level of content in the right places. This I believe would offer better overall UX. For reference to my wireframes, version three was when the wireframing changed from three to four pages.
 
 [Back to top ⇧](#embrace-autism)
 
-### Balsamiq Wireframes
----
+### Skeleton
+
+* Wireframes created using Balsamiq as a blueprint. 
+
+#### Balsamiq Wireframes
 
 - <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
 
@@ -154,6 +169,8 @@ Date this project started: 9th March 2021
 ![template](assets/images/ux/embrace-autism-subscribe.png)
 
 [Back to top ⇧](#embrace-autism)
+
+### Surface
 
 * Moving on to the surface plane of the UX process, I wanted to make sure there was consistence with regards to the header (logo name and navigation menu) and footer throughout all pages (social media icons, email icons and copyright text). I also wanted to show an even and relevant amount of information depending on which page the user is on.  
 
@@ -188,7 +205,7 @@ Date this project started: 9th March 2021
 
 ## Design Process page by page
 
-#### Homepage
+#### Homepage design
 * The homepage design went through a few trials with choosing the right type of image I wanted and the positioning of it. When I found this <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">image</a> I knew it would work well for what I wanted to achieve on my landing page. The image has striking colours with clear version of an adult and a child embracing a colourful heart-shaped object expressing love and care. The background is a beautiful light blue which matches my colour scheme throughout the site.  
 
 * I wanted to use all colours pre-picked for the homepage and with the hero image being colourful I felt this would maximise the attraction for all users. 
@@ -204,7 +221,7 @@ Date this project started: 9th March 2021
 
 [Back to top ⇧](#embrace-autism)
 
-#### About page 
+#### About page design
 * The about page has a dark blue background colour within the middle section of the page. The Ubuntu font is used for all content in light grey colour. The structure of the page leans to the left side to make the content easier to read. The page holds information in the form of sub headers, paragraphs, an unordered list (bullet points) a factsheet and two short media clips in reference to Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom and just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. When hovering over this small text the font colour will change to green to show it is clickable.  
 
 * There are two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autism" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to green to show they are clickable. 
@@ -215,7 +232,7 @@ Date this project started: 9th March 2021
 
 [Back to top ⇧](#embrace-autism)
 
-#### Resources page 
+#### Resources page design
 * The resources page has a dark blue background colour within the main body just like the about page. The Ubuntu font is used for all content with a light grey colour finish. 
 
 * The main purpose for this page is to provide users with clear to read advice and ideas. I decided to keep this page simple with the option to read and much or as little as the user wanted. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page.   
@@ -226,7 +243,7 @@ Date this project started: 9th March 2021
 
 [Back to top ⇧](#embrace-autism)
  
-#### Subscribe page 
+#### Subscribe page design
 * The subscribe page has a dark blue background colour just like the about and resource pages. The Ubuntu font is used for all content with a light grey colour. 
 
 * The main purpose for this page is the form. I used Bootstrap5 to format the form for responsive design. The form is at the top of this page and sits in a contrasting background colour of light grey with dark blue text. There is five parts of the form for users to complete. Name, email address, weekly subscription or monthly subscription (only one to be selected) and submit button for the user to click when ready to subscribe. The submit button has a light grey font colour and has a dark blue background colour that's turns green when hovered over. The wording 'SUBSCRIBE' is in capital letters. The form cannot be sent until all details are completed with a name, email address and the weekly or monthly radio button selected. If the form is submitted without any of this information included, a message 'please fill in this field' will appear to inform the user. 
@@ -292,20 +309,20 @@ This section is also where you would share links to any wireframes, mockups, dia
  
 My project has four web pages all found by using the menu navigation bar at the top of all pages.
 
-#### Across all pages
+#### All pages
 
 * Text logo link at the top left header.
 * Navigation bar at the top right header.
 * Four icons and copyright text centred at the bottom of the footer.
 
-#### Homepage (index.html)  
+#### Homepage features 
 
 * The main feature of this page is a large hero image.  
 * A header stating what the website is about.
 * A small list of website benefits (cover text).
 * A 'SUBSCRIBE FOR FREE' button which is a link to the subscribe page.
 
-#### About (about.html)  
+#### About features
 
 * This page has a dark blue background colour with a light grey text colour. 
 * A sub header 'Our Autism Journey' with three short paragraphs below.   
@@ -316,7 +333,7 @@ My project has four web pages all found by using the menu navigation bar at the 
 * A 'SUBSCRIBE FOR FREE' button linked to the subscribe page. 
 * External link logos to three charities.   
 
-#### Resources (resources.html)
+#### Resources features
 
 * Sub header 'Advice and Ideas'. 
 * Sub header 'Don't stop going out' with a paragraph. 
@@ -328,7 +345,7 @@ My project has four web pages all found by using the menu navigation bar at the 
 * A 'SUBSCRIBE FOR FREE' button linked to the subscribe page. 
 * External link logos to three charities.    
 
-#### Subscribe (subcribe.html)
+#### Subscribe features
 
 * A sub header 'Subscribe to Embrace Autism' at the top.  
 * A form for subscribing to the Embrace Autism mailing list.   
@@ -354,13 +371,13 @@ My project has four web pages all found by using the menu navigation bar at the 
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-### Languages Used
+### Languages 
 
 * <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML5</a> - The markup language used for all site content, many images and media clips. Used in line with the HTML essentials module completed.
 
 * <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS3</a> - Styling HTML5 coding with declarations. Used in line with the CSS essentials module completed
 
-### Frameworks and other Technologies Used
+### Frameworks and other Technologies
 
 * <a href="https://codeinstitute.net/" target="_blank">Code Institute</a> - I reverted back to lessons to help with some coding.
 
@@ -404,7 +421,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 [Back to top ⇧](#embrace-autism)
 
-### User Stories (outcomes and steps to achieve what each user wants)
+### User stories tested
+(outcomes and steps involved)
 1. I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.     
 **EA Response - Embrace Autism offers useful links to charities that specialise in Autism all over the UK. These links can be found on the about, resources and subscribe pages. For example: Clicking the link to the National Autism Society will offer this parent the right step towards long term help and support. For Northern Ireland parents it would be best to click on the Autism NI charity which is also a link available on the website.** 
     
@@ -436,16 +454,19 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 [Back to top ⇧](#embrace-autism)
 
-### W3C Markup Validation Service - testing
+### W3C Markup Validation Service
 
 The W3C Markup Validator was used to validate all coding on every HTML page of my project.
 
-#### Homepage - 1 error found 
+#### Homepage tested 
+(1 error found)
 
 1. The element 'a' must not appear as a descendant of the button element. 
     - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C.
 
-#### About page - 3 errors found 
+#### About page tested 
+(3 errors found)
+
 2 were the same as I have 2 media clips on this page which shown the same error
 
 1. Bad value true for attribute allowfullscreen on element iframe.
@@ -454,7 +475,9 @@ The W3C Markup Validator was used to validate all coding on every HTML page of m
 1. The element 'a' must not appear as a descendant of the button element.
     - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. 
 
-#### Resources page - 3 errors found 
+#### Resources page tested 
+(3 errors found)
+
 2 were the same error
 
 1. The element 'a' must not appear as a descendant of the button element.
@@ -463,7 +486,8 @@ The W3C Markup Validator was used to validate all coding on every HTML page of m
 1. The aria-labelledby attribute must point to an element in the same document.
     - **How I resolved this error:** By matching the aria-labelledby to the id within the relevant element. 
 
-#### Subscribe page - 1 error found
+#### Subscribe page tested 
+(1 error found)
 
 1. The aria-labelledby attribute must point to an element in the same document.
     - **How I resolved this error:** aria-labelledby matched the id in the relevant element, however, there was a capital letter at the start of the aria-labelledby wording. I made the adjustment from uppercase to lowercase which resolved this issue. 
@@ -474,11 +498,12 @@ Once all errors were fixed, I re-tested the code on W3C Markup validator and no 
 
  [Back to top ⇧](#embrace-autism)
 
-### W3C CSS Validation Service - testing
+### W3C CSS Validation Service
 
 The W3C CSS Validator was used to validate all CSS used for my project.
 
-#### CSS coding - 2 errors found
+#### CSS coding tested
+(2 errors found)
 
 1. subscribe-btn-about (error: Value Error : text-align none is not a text-align value : none). 
     - **How I resolved this error:** I removed the declaration in CSS and checked to make sure that the positioning and functionality is still working relevant to the #subscribe-btn-about (Subscribe button on about page). There were no issues with the button on the webpage.
@@ -508,7 +533,7 @@ Testing was completed on different web browsers making sure that links worked an
 
 * I manually tested the site on different screen sizes by using Development tools throughout the project and once the site was finished and deployed.
 
-### Lighthouse testing completed (screen shots below)
+### Lighthouse testing 
 
 [Back to top ⇧](#embrace-autism)
 
@@ -580,7 +605,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 [Back to top ⇧](#embrace-autism)
 
-## Deployment (Date this project was deployed: TBC)
+## Deployment 
+(Date this project was deployed: TBC)
 
 ### Github pages
 The project was deployed to GitHub Pages doing the following: -
@@ -678,7 +704,7 @@ In addition, if it is not obvious, you should also describe how to run your code
     - <a href="https://www.autism.org.uk/" target="blank">National Autism Society</a>
     - <a href="https://cwmind.org.uk/autism-resources/" target="blank">CW Mind</a>
 
-### Other credits
+### Other
 
 - <a href="https://www.w3schools.com/" target="blank">w3schools</a> - At certain times throughout this project I needed some reminders of how to write certain code i.e., iframes element to embed the media clips in the about page. Instead of going back to previous lessons i often googled and came across this website. 
 
