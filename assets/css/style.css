@@ -612,7 +612,7 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
 }
 
 #our-autism-journey {
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 #website-goals {
@@ -819,7 +819,6 @@ Large screen size - factsheet, media clips, subsribe button and external link im
         line-height: 50px;
     }
 }
-
 
 /*
 Large laptop and desktop screen size - factsheet and media clips re-sized and repositioned
@@ -1212,7 +1211,7 @@ Large screen size - header, content, bullet points and external link images re-s
 #form-header {
     text-align: center;
     font-size: 18px;
-    padding-top: 120px;
+    padding-top: 90px;
 }
 
 #form-border {
@@ -1360,7 +1359,7 @@ Large laptop and desktop screen size - sub-headers, subscribe button, form conte
 @media screen and (min-width: 1440px) and (max-width: 1499px) {
     #form-header {
         font-size: 32px;
-        padding-top: 140px;
+        padding-top: 120px;
         padding-bottom: 40px;
     }
 
