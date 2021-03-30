@@ -218,7 +218,7 @@ Date this project started: 9th March 2021
 #### Resources page 
 * The resources page has a dark blue background colour within the main body just like the about page. The Ubuntu font is used for all content with a light grey colour finish. 
 
-* The main purpose for this page is to provide users with clear to read advice and ideas. I decided to keep this page simple with the option to read and much or as little as the user wanted. I wanted all information pieces to sit inside a semantic element to show improved web development. I replaced the div elements with article elements to achieve this and used the details and summary elements inside the articles. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page.   
+* The main purpose for this page is to provide users with clear to read advice and ideas. I decided to keep this page simple with the option to read and much or as little as the user wanted. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page.   
 
 * Below the information advice and ideas section there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue with the wording in light grey. The wording is in capital letters and when hovering over this button the background colour changes to a green. Below there is a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When clicked, the user will see that the external website will open in a new tab on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. The layout is identical on all screen sizes with changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section. 
 
@@ -268,7 +268,6 @@ Date this project started: 9th March 2021
 
 * Media queries - resources page (resources.html) 
 
-    - The h4 header in the articles needed to be adjusted on the large screen size. 
     - The subscribe button needed to be adjusted on most screen sizes to look in proportion with the rest of the web page.  
     - The useful links section has been adjusted slightly to fit within any screen size. 
 
@@ -324,7 +323,7 @@ My project has four web pages all found by using the menu navigation bar at the 
 * Sub header 'Routines and good habits' with a paragraph.  
 * Sub header 'Tips for Parenting a Child on the Autism Spectrum' with a paragraph. 
 * Sub header 'Encouraging a Non-Verbal Child to Communicate' with a paragraph. 
-    - All above sub headers and corresponding paragraphs have been placed in a text box as an article. All paragraphs are collapsed by default giving the user the option to pick which one to read. Each text box header has a widget next to it and when a header of an article is hovered over it changes colour to show the user this is clickable.
+    - All above sub headers and corresponding paragraphs have been placed in a text box. All paragraphs are collapsed by default giving the user the option to pick which one to read. Each text box header has a widget next to it and when a header is hovered over it changes colour to show the user this is clickable.
 * A sub header 'The next step' with a short paragraph. 
 * A 'SUBSCRIBE FOR FREE' button linked to the subscribe page. 
 * External link logos to three charities.    
@@ -343,7 +342,7 @@ My project has four web pages all found by using the menu navigation bar at the 
 
 ### Features Left to Implement
 * A dedicated page for media clips would be good to implement. Adding the page would be quick, however, it would take time researching appropriate clips to include. 
-* Further advice articles on the resources page would be good to have, however, this would take some time to complete as the content would need be relevant to the website aims and structure layout. 
+* Further advice and ideas on the resources page would be good to have, however, this would take some time to complete as the content would need be relevant to the website aims and structure layout. 
 * I considered a blog page however, I felt that at this stage the website would need to be running for a while with plenty of subscribers before a blog can be added. 
 * I also considered a live chat option for parents to talk to each other and share ideas. However, the website would need to more established first and at this stage in the course I feel that I don't have the skillset to implement this yet. 
 * To lead on from the live chat idea, I would like to make sure that there is some level of security and understand the responsibilities of offering a secure website with a live chat feature.  
@@ -403,8 +402,6 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 * I tested the media clips on different screen sizes, making sure that both clips loaded and played fully. I also checked that the 'allowfullscreen' attribute was active and working. I did this by viewing the site on laptop and mobile. Both tests were successful. I also checked to make sure the sound was working and again the testing was successful. 
 
-* The resources page originally had the articles 
-
 [Back to top ⇧](#embrace-autism)
 
 ### User Stories (outcomes and steps to achieve what each user wants)
@@ -419,7 +416,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 **EA Response - There would be advice on the website to support this parent, often related to encouraging routines and good habits to get into.** 
 
     1. Go to the resource page
-    1. On this page the user will see some advice and ideas to read. It's likely that there's an article that will help this parent as this is a very common issue for parents with an Autistic teenager.
+    1. On this page the user will see some advice and ideas to read. It's likely that there's some information that will help this parent as this is a very common issue for parents with an Autistic teenager.
 
 1. I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained. **EA Response - by subscribing to the Embrace Autism mailing list, this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of the family. The user can also take a look at the useful links to see whether one of the charities can offer some additional advice.** 
 
@@ -638,13 +635,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-* I obtained content and adapted it for the resources page article titled - Don't stop going out. The content was taken from <a href="https://www.autismspeaks.org/blog/11-tips-new-autism-parents" target="blank">Autism Speaks</a> - (10) Take your kid out everywhere.
+* I obtained content and adapted it for the resources page paragraph titled - Don't stop going out. The content was taken from <a href="https://www.autismspeaks.org/blog/11-tips-new-autism-parents" target="blank">Autism Speaks</a> - (10) Take your kid out everywhere.
 
-* I obtained content for the resources page article titled - Routines and good habits. The content was taken from <a href="https://www.marcus.org/autism-resources/autism-tips-and-resources/establishing-routines-at-home" target="blank">Marcus Autism Center</a> - Establishing routines at home (Why children with autism need routines at home)
+* I obtained content for the resources page paragraph titled - Routines and good habits. The content was taken from <a href="https://www.marcus.org/autism-resources/autism-tips-and-resources/establishing-routines-at-home" target="blank">Marcus Autism Center</a> - Establishing routines at home (Why children with autism need routines at home)
 
-* I obtained content for the resources page article titled - Tips for Parenting a Child on the Autism Spectrum. The content was taken from <a href="https://www.webmd.com/brain/autism/parenting-child-with-autism" target="blank">Web MD</a> - Tips for Parenting a Child on the Autism Spectrum
+* I obtained content for the resources page paragraph titled - Tips for Parenting a Child on the Autism Spectrum. The content was taken from <a href="https://www.webmd.com/brain/autism/parenting-child-with-autism" target="blank">Web MD</a> - Tips for Parenting a Child on the Autism Spectrum
 
-* I obtained content for the resources page article titled - Encouraging a Non-Verbal Child to Communicate. The content was taken from <a href="https://www.appliedbehavioranalysisedu.org/6-strategies-for-encouraging-a-non-verbal-child-to-communicate/" target="blank">Applied Behaviour Analysis Edu</a> - 6 Strategies for Encouraging a Non-Verbal Child to Communicate.
+* I obtained content for the resources page paragraph titled - Encouraging a Non-Verbal Child to Communicate. The content was taken from <a href="https://www.appliedbehavioranalysisedu.org/6-strategies-for-encouraging-a-non-verbal-child-to-communicate/" target="blank">Applied Behaviour Analysis Edu</a> - 6 Strategies for Encouraging a Non-Verbal Child to Communicate.
 
 ### Code
 * <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5.0</a> Library used throughout the project mainly to make the site responsive using the Bootstrap Grid System. 
