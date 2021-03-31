@@ -2,7 +2,7 @@
 
 ## Code Institute - Milestone Project 1
 
-![template](assets/images/testing/i-am-responsive.png)
+![template](assets/readme/testing/i-am-responsive.png)
 
 [Click here to view the Embrace Autism project live](https://embraceautism2.godaddysites.com/)
 
@@ -122,17 +122,17 @@ Date this project started: 9th March 2021
 
 ### Strategy
 
-![Image template](assets/images/ux/ea-strategy.png)
+![Image template](assets/readme/ux/ea-strategy.png)
 
 ### Scope 
 
-![Image template](assets/images/ux/ea-scope.png)
+![Image template](assets/readme/ux/ea-scope.png)
 
 ### Structure
 
 * I wanted to keep the Structure straightforward so that all users visiting the site would see the same flow, patterns and layout making their experience on the site enjoyable and easy to navigate around. I put together a list of features i wanted 
 
-![Image template](assets/images/ux/ea-structure.png)
+![Image template](assets/readme/ux/ea-structure.png)
 
 * The content for the website mainly came from my own experiences and therefore this took a little time to put together. I used a couple of external sources to help with the content from other Autism websites I am familiar with. Credits to these sites can be found at the bottom of this README document for reference within the 'Credits' section.   
 * Once I knew what structure I had in mind I moved onto the Skeleton plane and used <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a> wireframes to start some blueprints on how the website looked. Initially I was building a website with three pages, however, after going through the design process early on I knew that four pages was needed to spread out the right level of content in the right places. This I believe would offer better overall UX. For reference to my wireframes, version three was when the wireframing changed from three to four pages.
@@ -145,28 +145,28 @@ Date this project started: 9th March 2021
 
 #### Balsamiq Wireframes
 
-- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
+- <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
+- <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-3.pdf">Wireframe version 3</a>
+- <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-3.pdf">Wireframe version 3</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-4.pdf">Wireframe version 4</a>
+- <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-4.pdf">Wireframe version 4</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-5.pdf">Wireframe version 5</a>
+- <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-5.pdf">Wireframe version 5</a>
 
-- <a href="/workspace/Milestone-Project-1/assets/images/ux/embrace-autism-wireframes-6.pdf">Wireframe version 6 (final version)</a>
+- <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-6.pdf">Wireframe version 6 (final version)</a>
 
 [a link to be added here directly to the completed wireframe page or to pdf version]
 
 #### Homepage wireframe
-![template](assets/images/ux/embrace-autism-home.png)
+![template](assets/readme/ux/embrace-autism-home.png)
 #### About page wireframe
-![template](assets/images/ux/embrace-autism-about.png)
+![template](assets/readme/ux/embrace-autism-about.png)
 #### Resources page wireframe
-![template](assets/images/ux/embrace-autism-resources.png)
+![template](assets/readme/ux/embrace-autism-resources.png)
 #### Subscribe page wireframe
-![template](assets/images/ux/embrace-autism-subscribe.png)
+![template](assets/readme/ux/embrace-autism-subscribe.png)
 
 [Back to top ⇧](#embrace-autism)
 
