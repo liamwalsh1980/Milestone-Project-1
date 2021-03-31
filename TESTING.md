@@ -46,6 +46,7 @@
         * [Mobile results](#mobile-results)
     * [Issues found](#issues-found)
     * [Further testing](#further-testing)
+        * [Contact form](#contact-form)
     * [Bugs outstanding](#bugs-outstanding)
 
 ## Testing
@@ -61,6 +62,8 @@
 #### Mobile and tablet hompepage
 
 ![template](assets/readme/testing/screen-sizes/homepage-laptop-and-mobile.png)
+
+[Back to top ⇧](#embrace-autism)
 
 ### Navigation bar
 
@@ -110,6 +113,8 @@ I am a parent with a young child that's just been diagnosed with Autism. I need 
 
 ![template](assets/readme/testing/user-stories/useful-links-subscribe-page.png)
 
+[Back to top ⇧](#embrace-autism)
+
 #### Story 2
 
 I have a teenage Son who has Autism. He only wants to play on his computer games every day. He hardly leaves the house and I'm concerned about his health and wellbeing. I would like some help with improving my Son's life style.  
@@ -120,6 +125,8 @@ I have a teenage Son who has Autism. He only wants to play on his computer games
 1. On this page the user will see some advice and ideas to read. It's likely that there's some information that will help this parent as this is a very common issue for parents with an Autistic teenager.
 
 ![template](assets/readme/testing/user-stories/resources-information.png)
+
+[Back to top ⇧](#embrace-autism)
 
 #### Story 3
 
@@ -136,6 +143,7 @@ I have five children. The two youngest have been diagnosed with Autism at differ
 
 ![template](assets/readme/testing/user-stories/completed-subscribe-form.png)
 
+[Back to top ⇧](#embrace-autism)
 
 #### Story 4
 
@@ -148,6 +156,8 @@ I work for a large Autism charity and see that Embrace Autism is offering advice
 ![template](assets/readme/testing/user-stories/footer-email-icon.png)
 
 ![template](assets/readme/testing/user-stories/email-draft.png)
+
+[Back to top ⇧](#embrace-autism)
 
 #### Story 5
 
@@ -267,6 +277,9 @@ Testing was completed on different web browsers making sure that links worked an
 ![template](assets/readme/testing/web-browsers/google-chrome/subscribe-page-top.png)
 
 ![template](assets/readme/testing/web-browsers/google-chrome/subscribe-page-bottom.png)
+
+[Back to top ⇧](#embrace-autism)
+
 #### Apple Safari 
 - I tested the site by opening it in Safari using an iPhone 12 and a MacBook. 
 
@@ -286,6 +299,8 @@ Testing was completed on different web browsers making sure that links worked an
 
 ![template](assets/readme/testing/web-browsers/apple-safari/subscribe-page-bottom.png)
 
+[Back to top ⇧](#embrace-autism)
+
 #### Microsoft Edge 
 - I downloaded this browser, logged into my Gitpod and checked all four webpages across all screen sizes. 
 
@@ -304,6 +319,8 @@ Testing was completed on different web browsers making sure that links worked an
 ![template](assets/readme/testing/web-browsers/microsoft-edge/subscribe-page-top.png)
 
 ![template](assets/readme/testing/web-browsers/microsoft-edge/subscribe-page-bottom.png)
+
+[Back to top ⇧](#embrace-autism)
 
 #### Mozilla Firefox 
 - I downloaded this browser, logged into my Gitpod and checked all four webpages across all screen sizes.
@@ -350,6 +367,8 @@ I manually tested the site on different screen sizes by using Development tools 
 
 ![template](assets/readme/testing/screen-sizes/mobile/subscribe-page-2-320px.png)
 
+[Back to top ⇧](#embrace-autism)
+
 #### Tablet
 
 ![template](assets/readme/testing/screen-sizes/tablet/homepage-1-768px.png)
@@ -370,13 +389,29 @@ I manually tested the site on different screen sizes by using Development tools 
 
 ![template](assets/readme/testing/screen-sizes/tablet/subscribe-page-2-768px.png)
 
+[Back to top ⇧](#embrace-autism)
+
 #### Desktop
 
-![template](assets/readme/testing/lighthouse/desktop-lighthouse-results.png)
+![template](assets/readme/testing/screen-sizes/desktop/homepage-1-1440px.png)
 
-### Lighthouse testing 
+![template](assets/readme/testing/screen-sizes/desktop/homepage-2-1440px.png)
+
+![template](assets/readme/testing/screen-sizes/desktop/about-page-1-1440px.png)
+
+![template](assets/readme/testing/screen-sizes/desktop/about-page-2-1440px.png)
+
+![template](assets/readme/testing/screen-sizes/desktop/resources-page-1-1440px.png)
+
+![template](assets/readme/testing/screen-sizes/desktop/resources-page-2-1440px.png)
+
+![template](assets/readme/testing/screen-sizes/desktop/subscribe-page-1-1440px.png)
+
+![template](assets/readme/testing/screen-sizes/desktop/subscribe-page-2-1440px.png)
 
 [Back to top ⇧](#embrace-autism)
+
+### Lighthouse testing 
 
 #### Desktop results
 
@@ -391,9 +426,17 @@ I checked the details of this report and seen that it was the 'Largest Contentfu
 [Back to top ⇧](#embrace-autism)
 
 ### Issues found
-* I wanted to include a Modal message when the form on the subscribe page is submitted successfully. Adding the code didn't work - assistance from my Mentor (TBC)
+* I wanted to include a Modal message when the form on the subscribe page is submitted successfully. Adding the code didn't work. After a little research i beleive the JavaScript link from bootstrap was the issue. After carefully consideration i found a better option. I used the 'onsubmit' attribute in my HTML code to show a message only when the form is completed and submitted. This was found using [W3schools](https://www.w3schools.com/tags/ev_onsubmit.asp).
 
-* I Used DevTools throughout my project to make sure that all device screen sizes were taken into consideration. I took some time to complete media queries across all pages, however, certain elements on certain screen sizes still didn't look right. I will be working on this more during further projects to perfect the skill between using bootstrap and media queries.
+![template](assets/readme/testing/user-stories/completed-subscribe-form.png)
+
+[Back to top ⇧](#embrace-autism)
+
+* I Used DevTools throughout my project to make sure that all device screen sizes were taken into consideration. I took some time to complete media queries across all pages, however, certain elements on certain screen sizes still didn't look right. I will be working on this more during further projects to perfect the skill between using bootstrap and media queries. Please find below three examples for reference.
+
+![template](assets/readme/testing/issues/mobile-issue.png)
+![template](assets/readme/testing/issues/tablet-issue.png)
+![template](assets/readme/testing/issues/desktop-issue.png)
 
 [Back to top ⇧](#embrace-autism)
 
@@ -410,21 +453,30 @@ I checked the details of this report and seen that it was the 'Largest Contentfu
 
 * I tested all internal links across all four pages using the above web browsers mentioned. The links tested were the logo text at the top left of the header, the navigation menu at the top right of the header, all SUBSCRIBE FOR FREE and SUBSCRIBE buttons across all pages, and the resources and subscribe text links on the about page. 
 
-* I tested the form on the subscribe page: -
+#### Contact form
 
-    1. Contact form:
-        * Go to the "Subscribe" page
-        * I clicked the submit button with all fields empty which verified that an error message about the required fields appeared. 
-        * I attempted to submit the form with an invalid email address which verified that the relevant error message appeared.
-        * I submitted the form with all fields correctly filled in and this verified that the form works with an 'alert' message appearing. For reference the message that appears says 'Thank you! You will receive your first newsletter within the next 48 hours that a success message appears'.
+I tested the form on the subscribe page: -
+
+* Go to the "Subscribe" page
+* I clicked the submit button with all fields empty which verified that an error message about the required fields appeared. 
+* I attempted to submit the form with an invalid email address which verified that the relevant error message appeared.
+* I submitted the form with all fields correctly filled in and this verified that the form works with an 'alert' message appearing. For reference the message that appears says 'Thank you! You will receive your first newsletter within the next 48 hours that a success message appears'. This message maybe updated before the website is deployed.
+
+![template](assets/readme/testing/contact-form/contact-form-incorrect-1.png)
+
+![template](assets/readme/testing/contact-form/contact-form-incorrect-2.png)
+
+![template](assets/readme/testing/contact-form/contact-form-incorrect-3.png)
+
+![template](assets/readme/testing/contact-form/contact-form-incorrect-4.png)
+
+![template](assets/readme/testing/user-stories/completed-subscribe-form.png)
 
 [Back to top ⇧](#embrace-autism)
 
 ### Bugs outstanding
 
 Lighthouse testing for mobiles - performance score is low and needs to be looked into. All i know is that the Largest Contentful Paint (LCP) is courses the main issues to this score. A couple of sites i visiting to look into this were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a> 
-
-
 
 [In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -445,5 +497,7 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.]
 
 [Back to top ⇧](#embrace-autism)
+
+Return to my [README.md](README.md) to continue reading
 
 ### End of TESTING Document
