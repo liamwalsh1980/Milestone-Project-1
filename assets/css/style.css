@@ -20,7 +20,7 @@ body {
 #logo {
     color: inherit;
     font-family: Kalam, cursive;
-    font-size: 36px;
+    font-size: 40px;
     letter-spacing: 2px;
     float: left;
     padding-top: 10px;
@@ -374,7 +374,7 @@ Desktop screen size - hero image, header, cover text and subscribe button re-siz
     } 
 
     #homepage-h1 { 
-        font-size: 40px; 
+        font-size: 32px; 
         padding-top: 100px; 
     }  
 
@@ -416,7 +416,7 @@ Small desktop screen size - hero image, header, cover text and subscribe button 
     } 
 
     #homepage-h1 { 
-        font-size: 35px; 
+        font-size: 32px; 
         padding-top: 100px; 
     }
 
@@ -530,44 +530,83 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
     } 
 
     #outer-button { 
-        text-align: right; 
-        padding-right: 248px; 
+        text-align: left; 
+        margin-left: 37%; 
+        margin-top: 10px; 
+    } 
+
+    #subscribe-btn-home-cover { 
+        width: 190px; 
+        height: 50px;
+    } 
+
+    #subscribe-btn-home-cover span {  
+        font-size: 16px; 
     } 
 } 
 /*Large mobile screen size - header and cover text re-sized*/  
 @media screen and (min-width: 425px) and (max-width: 767px) {  
 
     #outer { 
-        height: 600px; 
+        height: 700px; 
     } 
 
     #hero-image { 
-        height: 300px;  
+        height: 350px;  
     } 
 
     #homepage-h1 { 
         font-size: 18px; 
-        margin-top: 40px;
+        margin-top: 100px;
+        padding-top: 360px;
     }  
 
     #homepage-cover-text-background { 
         width: 70%; 
         margin-left: 15%; 
     } 
+
+    #subscribe-btn-home-cover { 
+        width: 190px; 
+        height: 50px;
+    } 
+
+    #subscribe-btn-home-cover span {  
+        font-size: 16px; 
+    }  
 }
 
 @media screen and (min-width: 376px) and (max-width: 424px) {  
+    #outer { 
+        height: 700px; 
+    } 
+
+    #hero-image { 
+        height: 400px;  
+    } 
+
     #homepage-h1 { 
         font-size: 18px; 
+        margin-top: 100px;
+        padding-top: 410px;
     }  
 
     #homepage-cover-text-background { 
-        width: 75%; 
-        margin-left: 12.5%; 
+        width: 70%; 
+        margin-left: 15%; 
     } 
+
+    #subscribe-btn-home-cover { 
+        width: 150px; 
+        height: 50px;
+    } 
+
+    #subscribe-btn-home-cover span {  
+        font-size: 12px; 
+    }  
 }
 /*Medium mobile screen size - header and cover text re-sized*/ 
-@media screen and (min-width: 279px) and (max-width: 375px) {  
+@media screen and (min-width: 281px) and (max-width: 375px) {  
     #outer { 
         height: 600px; 
     } 
@@ -590,9 +629,18 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
         font-size: 26px; 
         padding-top: 15px; 
     }  
+
+    #subscribe-btn-home-cover { 
+        width: 150px; 
+        height: 50px;
+    } 
+
+    #subscribe-btn-home-cover span {  
+        font-size: 12px; 
+    }  
 }  
 /*Small mobile screen size - header and cover text re-sized*/ 
-@media screen and (min-width: 1px) and (max-width: 280px) { 
+@media screen and (max-width: 280px) { 
     #homepage-h1 { 
         font-size: 13px;  
     }  
@@ -600,6 +648,15 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
     #ul-benefits-list {  
         font-size: 22px; 
         padding-top: 20px; 
+    }  
+
+    #subscribe-btn-home-cover { 
+        width: 150px; 
+        height: 50px;
+    } 
+
+    #subscribe-btn-home-cover span {  
+        font-size: 12px; 
     }  
 } 
 /*---------------------------------------------About Page---*/

@@ -8,8 +8,14 @@
 
 ## Table of contents
 
-
 1. [Testing](#testing)
+    * [Screen sizes](#screen-sizes)
+        * [Desktop homepage](#desktop-homepage)
+        * [Mobile and tablet hompepage](#mobile-and-tablet-hompepage)
+    * [Navigation bar](#navigation-bar)
+        * [Full screen navigation bar](#full-screen-navigation-bar)
+        * [Hamburger navigation bar](#hamburger-navigation-bar)
+    * [Media Clips](#media-clips)
     * [User stories tested ](#user-stories-tested)
     * [W3C Markup Validation Service](#w3c-markup-validation-service)
         * [Homepage tested](#homepage-tested)
@@ -27,13 +33,47 @@
     * [Further testing](#further-testing)
     * [Bugs outstanding](#bugs-outstanding)
 
-    ## Testing
+## Testing
+
+### Screen sizes
 
 * When testing the website on different screen sizes within Development Tools I made the decision to change the layout of the homepage for mobiles and tablets against laptop and desktop. The header, cover text and subscribe button is within the hero image on desktop and laptop. On smaller screens like mobile and tablet I decided to reduce the size of the image in order for the user to see the whole image clearly and then scroll down to see the header, cover text and subscribe button. This I believe makes better UX. I made sure the subscribe button a good size to give the user clear indication its there to click on.  
 
+#### Desktop homepage
+
+![template](assets/readme/testing/homepage-desktop.png)
+
+#### Mobile and tablet hompepage
+
+![template](assets/readme/testing/homepage-laptop-and-mobile.png)
+
+### Navigation bar
+
 * When testing the navigation bar on smaller screens this would appear as a hamburger menu (3 horizontal bars) which is what I wanted to achieve. I applied styling with a different colour and a bottom border to whichever page the user is currently on for good UX. The bottom border property on bigger screens worked well, however, on smaller screens with the hamburger menu, this didn't work as well. I therefore removed the bottom border property using media queries up to 991px which is the break point between the navigation menu changing format. This was tested on development tools on all break points up to 991px.  For reference, the colours highlighting the current page the user is on, remands in place. Therefore, users on smaller devices would still see what page they are on by the colour difference of the page titles.  
 
+#### Full screen navigation bar
+
+![template](assets/readme/testing/full-screen-navigation-bar.png)
+
+#### Hamburger navigation bar
+
+![template](assets/readme/testing/hamburger-navigation-bar.png)
+
+### Media Clips
+
 * I tested the media clips on different screen sizes, making sure that both clips loaded and played fully. I also checked that the 'allowfullscreen' attribute was active and working. I did this by viewing the site on laptop and mobile. Both tests were successful. I also checked to make sure the sound was working and again the testing was successful. 
+
+#### Screenview media clips
+
+
+
+#### Full size media clip 1
+
+
+
+#### Full size media clip 2
+
+
 
 [Back to top ⇧](#embrace-autism)
 
