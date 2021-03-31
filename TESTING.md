@@ -16,7 +16,15 @@
         * [Full screen navigation bar](#full-screen-navigation-bar)
         * [Hamburger navigation bar](#hamburger-navigation-bar)
     * [Media Clips](#media-clips)
+        * [Screenview media clips](#screenview-media-clips)
+        * [Full size media clip 1](#full-size-media-clip-1)
+        * [Full size media clip 2](#full-size-media-clip-2)
     * [User stories tested ](#user-stories-tested)
+        * [Story 1](#story-1)
+        * [Story 2](#story-2)
+        * [Story 3](#story-3)
+        * [Story 4](#story-4)
+        * [Story 5](#story-5)
     * [W3C Markup Validation Service](#w3c-markup-validation-service)
         * [Homepage tested](#homepage-tested)
         * [About page tested](#about-page-tested) 
@@ -24,7 +32,11 @@
         * [Subscribe page tested](#subscribe-page-tested)
     * [W3C CSS Validation Service](#w3c-css-validation-service)
         * [CSS coding tested](#css-coding-tested)
-    * [Different Web Browsers](#different-web-browsers)
+    * [Web Browsers](#web-browsers)
+        * [Google Chrome](#google-chrome)
+        * [Apple Safari](#apple-safari)
+        * [Microsoft Edge](#microsoft-edge)
+        * [Mozilla Firefox](#mozilla-firefox)
     * [Testing responsiveness](#testing-responsiveness)
     * [Lighthouse testing](#lighthouse-testing)
         * [Desktop results](#desktop-results)
@@ -41,11 +53,11 @@
 
 #### Desktop homepage
 
-![template](assets/readme/testing/homepage-desktop.png)
+![template](assets/readme/testing/screen-sizes/homepage-desktop.png)
 
 #### Mobile and tablet hompepage
 
-![template](assets/readme/testing/homepage-laptop-and-mobile.png)
+![template](assets/readme/testing/screen-sizes/homepage-laptop-and-mobile.png)
 
 ### Navigation bar
 
@@ -53,11 +65,11 @@
 
 #### Full screen navigation bar
 
-![template](assets/readme/testing/full-screen-navigation-bar.png)
+![template](assets/readme/testing/navigation-bar/full-screen-navigation-bar.png)
 
 #### Hamburger navigation bar
 
-![template](assets/readme/testing/hamburger-navigation-bar.png)
+![template](assets/readme/testing/navigation-bar/hamburger-navigation-bar.png)
 
 ### Media Clips
 
@@ -65,48 +77,85 @@
 
 #### Screenview media clips
 
-
+![template](assets/readme/testing/media-clips/screenview-media-clips.png)
 
 #### Full size media clip 1
 
-
+![template](assets/readme/testing/media-clips/full-size-media-clip-1.png)
 
 #### Full size media clip 2
 
-
+![template](assets/readme/testing/media-clips/full-size-media-clip-2.png)
 
 [Back to top ⇧](#embrace-autism)
 
 ### User stories tested
-(outcomes and steps involved)
-1. I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.     
+
+#### Story 1
+
+I am a parent with a young child that's just been diagnosed with Autism. I need some general advice on what to do, now that I know what my child's condition is. I don't necessarily need specific advice at this stage, I just need to be pointed in the right direction.    
+
 **EA Response - Embrace Autism offers useful links to charities that specialise in Autism all over the UK. These links can be found on the about, resources and subscribe pages. For example: Clicking the link to the National Autism Society will offer this parent the right step towards long term help and support. For Northern Ireland parents it would be best to click on the Autism NI charity which is also a link available on the website.** 
     
-    1. Go to the about, resource and subscribe page
-    1. On any of these pages the useful links can be found at the bottom in the form of clickable logos.
-    1. There is a small header above these logos stating 'Useful Links' as a guide.  
+1. Go to the about, resource or subscribe page
+1. On any of these pages the useful links can be found at the bottom in the form of clickable logos.
+1. There is a small header above these logos stating 'Useful Links' as a guide.  
 
-1. I have a teenage Son who has Autism. He only wants to play on his computer games every day. He hardly leaves the house and I'm concerned about his health and wellbeing. I would like some help with improving my Son's life style.   
+![template](assets/readme/testing/user-stories/useful-links-about-page.png)
+
+![template](assets/readme/testing/user-stories/useful-links-resources-page.png)
+
+![template](assets/readme/testing/user-stories/useful-links-subscribe-page.png)
+
+#### Story 2
+
+I have a teenage Son who has Autism. He only wants to play on his computer games every day. He hardly leaves the house and I'm concerned about his health and wellbeing. I would like some help with improving my Son's life style.  
+
 **EA Response - There would be advice on the website to support this parent, often related to encouraging routines and good habits to get into.** 
 
-    1. Go to the resource page
-    1. On this page the user will see some advice and ideas to read. It's likely that there's some information that will help this parent as this is a very common issue for parents with an Autistic teenager.
+1. Go to the resource page
+1. On this page the user will see some advice and ideas to read. It's likely that there's some information that will help this parent as this is a very common issue for parents with an Autistic teenager.
 
-1. I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained. **EA Response - by subscribing to the Embrace Autism mailing list, this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of the family. The user can also take a look at the useful links to see whether one of the charities can offer some additional advice.** 
+![template](assets/readme/testing/user-stories/resources-information.png)
 
-    1. Go to the subscribe page
-    1. On this page the user can complete the form to subscribe on the mailing list for regular information sent via email. There's useful links at the bottom of this page for this user to click on as well.  
+#### Story 3
 
-1. I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their site visitors?  
+I have five children. The two youngest have been diagnosed with Autism at different levels on the spectrum. I spend a lot of time with them which leaves little time left to spend with my older children and husband. I am in need of some support to free up more time whilst keeping all my children happy and entertained. 
+
+**EA Response - by subscribing to the Embrace Autism mailing list, this parent will get regular updates with new ideas, tips and advice to help free up more time with all members of the family. The user can also take a look at the useful links to see whether one of the charities can offer some additional advice.** 
+
+1. Go to the subscribe page
+1. On this page the user can complete the form to subscribe on the mailing list for regular information sent via email. There's useful links at the bottom of this page for this user to click on as well.  
+
+![template](assets/readme/testing/user-stories/subscribe-form.png)
+
+![template](assets/readme/testing/user-stories/incomplete-subscribe-form.png)
+
+![template](assets/readme/testing/user-stories/completed-subscribe-form.png)
+
+
+#### Story 4
+
+I work for a large Autism charity and see that Embrace Autism is offering advice and support from a parent's point of view with experience raising a child on the Autistic spectrum. How do I reach out to the founders of this website to provide more information and advice to help assist their site visitors?  
+
 **EA Response - There is the option to contact Embrace Autism by email. To send an email the user can click the email envelope icon which can be found within the footer next to the social media icons on all pages. The user can click the icon to open a draft email within their device. The draft will have the pre-populated email address of info@embrace-autism.co.uk in the recipient section of the email. The user can then complete the email and when ready, click send.** 
 
-    1. This user can click on the email icon at the footer of any page to open up an email template draft to complete and send. 
+1. This user can click on the email icon at the footer of any page to open up an email template draft to complete and send. 
 
-1. I'm a teenager with Autism and have high-level sensory need. I find it difficult to wear a face mask when I'm in shops and with most shops insisting, people wear one, it's becoming very hard to go out. Is there anything I can do to make it easier for me when shopping?
+![template](assets/readme/testing/user-stories/footer-email-icon.png)
+
+![template](assets/readme/testing/user-stories/email-draft.png)
+
+#### Story 5
+
+I'm a teenager with Autism and have high-level sensory need. I find it difficult to wear a face mask when I'm in shops and with most shops insisting,people wear one, it's becoming very hard to go out. Is there anything I can do to make it easier for me when shopping?
+
 **EA Response - This user can click any of the useful links to gain information. The user is likely to come across support relating to sensory conditions in older children who are more independent.** 
 
-    1. Go to the about, resource and subscribe page
-    1. On any of these pages the useful link for all three charities can be found at the bottom in the form of clickable logos. 
+1. Go to the about, resource and subscribe page
+1. On any of these pages the useful link for all three charities can be found at the bottom in the form of clickable logos. 
+
+![template](assets/readme/testing/user-stories/useful-links-about-page.png)
 
 [Back to top ⇧](#embrace-autism)
 
@@ -118,7 +167,12 @@ The W3C Markup Validator was used to validate all coding on every HTML page of m
 (1 error found)
 
 1. The element 'a' must not appear as a descendant of the button element. 
-    - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C.
+
+    - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. 
+
+I re-tested the code on W3C Markup validator and no errors were found.
+
+![template](assets/readme/testing/w3c-html/w3c-html-homepage.png)
 
 #### About page tested 
 (3 errors found)
@@ -131,6 +185,10 @@ The W3C Markup Validator was used to validate all coding on every HTML page of m
 1. The element 'a' must not appear as a descendant of the button element.
     - **How I resolved this error:** Before adopting a div element in place of the button element, I tried placing the button element inside the 'a' element. The error still shown on W3C. I therefore, used the div element to resolve this issue. 
 
+I re-tested the code on W3C Markup validator and no errors were found.
+
+![template](assets/readme/testing/w3c-html/w3c-html-about-page.png)
+
 #### Resources page tested 
 (3 errors found)
 
@@ -142,13 +200,19 @@ The W3C Markup Validator was used to validate all coding on every HTML page of m
 1. The aria-labelledby attribute must point to an element in the same document.
     - **How I resolved this error:** By matching the aria-labelledby to the id within the relevant element. 
 
+I re-tested the code on W3C Markup validator and no errors were found.
+
+![template](assets/readme/testing/w3c-html/w3c-html-resources-page.png)
+
 #### Subscribe page tested 
 (1 error found)
 
 1. The aria-labelledby attribute must point to an element in the same document.
     - **How I resolved this error:** aria-labelledby matched the id in the relevant element, however, there was a capital letter at the start of the aria-labelledby wording. I made the adjustment from uppercase to lowercase which resolved this issue. 
 
-Once all errors were fixed, I re-tested the code on W3C Markup validator and no errors were found.
+I re-tested the code on W3C Markup validator and no errors were found.
+
+![template](assets/readme/testing/w3c-html/w3c-html-subscribe-page.png)
 
  **HTML Testing completed**
 
@@ -170,20 +234,62 @@ The W3C CSS Validator was used to validate all CSS used for my project.
 Once both errors were fixed, I re-tested the code on W3C CSS valdiator and the message 
 'Congratulations! No Error Found' came back.
 
+![template](assets/readme/testing/w3c-css/w3c-css.png)
+
  **CSS Testing completed**
 
  [Back to top ⇧](#embrace-autism)
 
-### Different Web Browsers
+### Web Browsers
 
 Testing was completed on different web browsers making sure that links worked and pages loaded properly. 
 
 * I tested the site across the following web browsers
-    - Google Chrome - The site was developed using Chrome and therefore testing was being done daily on this browser.
-    - Apple Safari - I tested the site by opening it in
-    Safari using an iPhone 12 and a MacBook. 
-    - Microsoft Edge - I downloaded this browser, logged into my Gitpod and checked all four webpages across all screen sizes. 
-    - Mozilla Firefox - I downloaded this browser, logged into my Gitpod and checked all four webpages across all screen sizes.
+
+#### Google Chrome 
+- The site was developed using Chrome and therefore testing was being done daily on this browser.
+
+![template](assets/readme/testing/web-browsers/google-chrome/homepage-top.png)
+
+![template](assets/readme/testing/web-browsers/google-chrome/homepage-bottom.png)
+
+![template](assets/readme/testing/web-browsers/google-chrome/about-page-top.png)
+
+![template](assets/readme/testing/web-browsers/google-chrome/about-page-bottom.png)
+
+![template](assets/readme/testing/web-browsers/google-chrome/resources-page-top.png)
+
+![template](assets/readme/testing/web-browsers/google-chrome/resources-page-bottom.png)
+
+![template](assets/readme/testing/web-browsers/google-chrome/subscribe-page-top.png)
+
+![template](assets/readme/testing/web-browsers/google-chrome/subscribe-page-bottom.png)
+#### Apple Safari 
+- I tested the site by opening it in Safari using an iPhone 12 and a MacBook. 
+
+![template](assets/readme/testing/web-browsers/apple-safari/homepage-top.png)
+
+![template](assets/readme/testing/web-browsers/apple-safari/homepage-bottom.png)
+
+![template](assets/readme/testing/web-browsers/apple-safari/about-page-top.png)
+
+![template](assets/readme/testing/web-browsers/apple-safari/about-page-bottom.png)
+
+![template](assets/readme/testing/web-browsers/apple-safari/resources-page-top.png)
+
+![template](assets/readme/testing/web-browsers/apple-safari/resources-page-bottom.png)
+
+![template](assets/readme/testing/web-browsers/apple-safari/subscribe-page-top.png)
+
+![template](assets/readme/testing/web-browsers/apple-safari/subscribe-page-bottom.png)
+
+#### Microsoft Edge 
+- I downloaded this browser, logged into my Gitpod and checked all four webpages across all screen sizes. 
+
+
+
+#### Mozilla Firefox 
+- I downloaded this browser, logged into my Gitpod and checked all four webpages across all screen sizes.
 
 ### Testing responsiveness
 

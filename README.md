@@ -2,7 +2,7 @@
 
 ## Code Institute - Milestone Project 1
 
-![template](assets/readme/testing/i-am-responsive.png)
+![template](assets/readme/ux/i-am-responsive.png)
 
 [Click here to view the Embrace Autism project live](https://embraceautism2.godaddysites.com/)
 
