@@ -123,13 +123,11 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
     #logo {
         color: inherit;
         font-family: Kalam, cursive;
-        font-size: 23px;
-        letter-spacing: 2px;
-        float: left;
+        font-size: 20px;
     }
 
     .navbar-toggler {
-        padding: 0.8px 3.2px;      
+        padding: 0.6px 2.4px;      
     }
 
     #menulist a {
@@ -139,7 +137,7 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
 /*
 Extra Small mobile screen size - Logo text, navigation hamburger menu re-sized
 */
-    @media screen and (max-width: 280px) {
+    @media screen and (max-width: 320px) {
     #logo {
         font-size: 18px;
     }
@@ -527,7 +525,7 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
     
     #homepage-h1 { 
         font-size: 24px; 
-        margin-top: 100px;
+        margin-top: 80px;
         padding-top: 510px;
     }  
 
@@ -559,7 +557,7 @@ small tablet screen size - hero image, header, cover text and subscribe button r
     
     #homepage-h1 { 
         font-size: 24px; 
-        margin-top: 100px;
+        margin-top: 60px;
         padding-top: 410px;
     }  
 
@@ -918,7 +916,7 @@ Large screen size - factsheet, media clips, subsribe button and external link im
         height: 300px;
     }
 }
-
+/* Desktop screen size - factsheet, media clips, headers and subscribe re-sized and re-positioned */
 @media screen and (min-width: 1501px) and (max-width: 1600px) {
     #our-autism-journey {
         padding-top: 100px;
@@ -1006,7 +1004,7 @@ Large laptop and desktop screen size - factsheet and media clips re-sized and re
     }
 }
 /*
-smaller laptop screen size -  factsheet and media clips re-sized and repositioned
+Smaller laptop screen size -  factsheet and media clips re-sized and repositioned
 */
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     #factsheet-border {
@@ -1026,7 +1024,7 @@ smaller laptop screen size -  factsheet and media clips re-sized and repositione
         margin-bottom: 20px;
     }
 }
-/*tablet and small laptop screen size -  media clip re-sized and repositioned*/
+/* Tablet screen size - factsheet and media clips re-sized and re-positioned */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #factsheet-border {
         margin-left: 40px;
@@ -1045,7 +1043,7 @@ smaller laptop screen size -  factsheet and media clips re-sized and repositione
         margin-bottom: 20px;
     }
 }
-/* Large mobile screen size - factsheet re-sized and re-positioned */
+/* Large mobile screen size - factsheet and media clips re-sized and re-positioned */
 @media screen and (max-width: 425px) {
     #factsheet-border {
         width: 80%;
@@ -1065,7 +1063,7 @@ smaller laptop screen size -  factsheet and media clips re-sized and repositione
         width: 80%;
     }
 }
-
+/* Medium mobile screen size - factsheet and media clips re-sized and re-positioned */
 @media screen and (max-width: 375px) {
     #our-autism-journey {
         padding-top: 70px;

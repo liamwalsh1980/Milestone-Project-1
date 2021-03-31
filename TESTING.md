@@ -38,6 +38,9 @@
         * [Microsoft Edge](#microsoft-edge)
         * [Mozilla Firefox](#mozilla-firefox)
     * [Testing responsiveness](#testing-responsiveness)
+        * [Mobile](#mobile)
+        * [Tablet](#tablet)
+        * [Desktop](#desktop)
     * [Lighthouse testing](#lighthouse-testing)
         * [Desktop results](#desktop-results)
         * [Mobile results](#mobile-results)
@@ -321,10 +324,55 @@ Testing was completed on different web browsers making sure that links worked an
 
 ![template](assets/readme/testing/web-browsers/mozilla-firefox/subscribe-page-bottom.png)
 
+[Back to top ⇧](#embrace-autism)
 
 ### Testing responsiveness
 
-* I manually tested the site on different screen sizes by using Development tools throughout the project and once the site was finished and deployed.
+I manually tested the site on different screen sizes by using Development tools throughout the project and once the site was finished and deployed.
+
+#### Mobile
+
+![template](assets/readme/testing/screen-sizes/mobile/homepage-320px.png)
+
+![template](assets/readme/testing/screen-sizes/mobile/about-page-1-320px.png)
+
+![template](assets/readme/testing/screen-sizes/mobile/about-page-2-320px.png)
+
+![template](assets/readme/testing/screen-sizes/mobile/about-page-3-320px.png)
+
+![template](assets/readme/testing/screen-sizes/mobile/about-page-4-320px.png)
+
+![template](assets/readme/testing/screen-sizes/mobile/resources-page-1-320px.png)
+
+![template](assets/readme/testing/screen-sizes/mobile/resources-page-2-320px.png)
+
+![template](assets/readme/testing/screen-sizes/mobile/subscribe-page-1-320px.png)
+
+![template](assets/readme/testing/screen-sizes/mobile/subscribe-page-2-320px.png)
+
+#### Tablet
+
+![template](assets/readme/testing/screen-sizes/tablet/homepage-1-768px.png)
+
+![template](assets/readme/testing/screen-sizes/tablet/homepage-2-768px.png)
+
+![template](assets/readme/testing/screen-sizes/tablet/about-page-1-768px.png)
+
+![template](assets/readme/testing/screen-sizes/tablet/about-page-2-768px.png)
+
+![template](assets/readme/testing/screen-sizes/tablet/about-page-3-768px.png)
+
+![template](assets/readme/testing/screen-sizes/tablet/resources-page-1-768px.png)
+
+![template](assets/readme/testing/screen-sizes/tablet/resources-page-2-768px.png)
+
+![template](assets/readme/testing/screen-sizes/tablet/subscribe-page-1-768px.png)
+
+![template](assets/readme/testing/screen-sizes/tablet/subscribe-page-2-768px.png)
+
+#### Desktop
+
+![template](assets/readme/testing/lighthouse/desktop-lighthouse-results.png)
 
 ### Lighthouse testing 
 
