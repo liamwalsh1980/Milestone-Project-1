@@ -286,10 +286,41 @@ Testing was completed on different web browsers making sure that links worked an
 #### Microsoft Edge 
 - I downloaded this browser, logged into my Gitpod and checked all four webpages across all screen sizes. 
 
+![template](assets/readme/testing/web-browsers/microsoft-edge/homepage-top.png)
 
+![template](assets/readme/testing/web-browsers/microsoft-edge/homepage-bottom.png)
+
+![template](assets/readme/testing/web-browsers/microsoft-edge/about-page-top.png)
+
+![template](assets/readme/testing/web-browsers/microsoft-edge/about-page-bottom.png)
+
+![template](assets/readme/testing/web-browsers/microsoft-edge/resources-page-top.png)
+
+![template](assets/readme/testing/web-browsers/microsoft-edge/resources-page-bottom.png)
+
+![template](assets/readme/testing/web-browsers/microsoft-edge/subscribe-page-top.png)
+
+![template](assets/readme/testing/web-browsers/microsoft-edge/subscribe-page-bottom.png)
 
 #### Mozilla Firefox 
 - I downloaded this browser, logged into my Gitpod and checked all four webpages across all screen sizes.
+
+![template](assets/readme/testing/web-browsers/mozilla-firefox/homepage-top.png)
+
+![template](assets/readme/testing/web-browsers/mozilla-firefox/homepage-bottom.png)
+
+![template](assets/readme/testing/web-browsers/mozilla-firefox/about-page-top.png)
+
+![template](assets/readme/testing/web-browsers/mozilla-firefox/about-page-bottom.png)
+
+![template](assets/readme/testing/web-browsers/mozilla-firefox/resources-page-top.png)
+
+![template](assets/readme/testing/web-browsers/mozilla-firefox/resources-page-bottom.png)
+
+![template](assets/readme/testing/web-browsers/mozilla-firefox/subscribe-page-top.png)
+
+![template](assets/readme/testing/web-browsers/mozilla-firefox/subscribe-page-bottom.png)
+
 
 ### Testing responsiveness
 
@@ -301,10 +332,10 @@ Testing was completed on different web browsers making sure that links worked an
 
 #### Desktop results
 
-![template](assets/readme/testing/desktop-lighthouse-results.png)
+![template](assets/readme/testing/lighthouse/desktop-lighthouse-results.png)
 
 #### Mobile results
-![template](assets/readme/testing/mobile-lighthouse-results.png)
+![template](assets/readme/testing/lighthouse/mobile-lighthouse-results.png)
 
 I checked the details of this report and seen that it was the 'Largest Contentful Paint' score that was the main issue. 
 [Further research into this is required]
