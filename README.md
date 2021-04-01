@@ -30,13 +30,18 @@
     * [Resources page design](#resources-page-design)
     * [Subscribe page design](#subscribe-page-design)
     * [Media Queries](#media-queries)
+        * [Media queries - all pages](#media-queries---all-pages) 
+        * [Media queries - homepage](#media-queries---homepage)
+        * [Media queries - about page](#media-queries---about-page)
+         * [Media queries - subscribe page](#media-queries---subscribe-page)
+        * [Media queries - resources page](#media-queries---resources-page)
 1. [Features](#features)
     * [Existing Features](#existing-features)
         * [All Pages](#all-pages)
         * [Homepage features](#homepage-features)
-        * [About features](#about-features)
-        * [Resources features](#resources-features)
-        * [Subscribe features](#subscribe-features)
+        * [About page features](#about-page-features)
+        * [Resources page features](#resource-page-features)
+        * [Subscribe page features](#subscribe-page-features)
     * [Features Left to Implement](#features-left-to-implement)
 1. [Technologies Used](#technologies-used)
     * [Languages Used](#languages)
@@ -76,6 +81,8 @@ Date this project started: 9th March 2021
 * Parents/parental guardians who feel their child is on the Autistic spectrum
 * Older children with Autism 
 
+[Back to top ⇧](#embrace-autism)
+
 ### Main aims
 * To inform other parents of potential new ways to help in their day-to-day life when bringing up their Child with Autism. 
 * Offer suggestive ways to improve the quality of life for all members of the family involved.
@@ -102,9 +109,9 @@ Date this project started: 9th March 2021
 [Back to top ⇧](#embrace-autism)
 
 ## Development Process 
-* I knew I wanted to create a website based on a subject that is close to my heart. I came up with the name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once I had completed the Strategy and Scope planes knowing what was and what wasn't needed or achievable, I then focused on the structure and layout. 
 
 ### Strategy
+* I knew I wanted to create a website based on a subject that is close to my heart. I came up with the name "Embrace Autism" for the website and knew early on what type of site it was going to be, who it was aimed for and what it can offer. Once I had completed the Strategy and Scope planes knowing what was and what wasn't needed or achievable, I then focused on the structure and layout. 
 
 ![Image template](assets/readme/ux/ea-strategy.png)
 
@@ -114,18 +121,21 @@ Date this project started: 9th March 2021
 
 ### Structure
 
-* I wanted to keep the Structure straightforward so that all users visiting the site would see the same flow, patterns and layout making their experience on the site enjoyable and easy to navigate around. I put together a list of features i wanted 
+[Back to top ⇧](#embrace-autism)
+
+* I wanted to keep the Structure straightforward so that all users visiting the site would see the same flow, patterns and layout making their experience on the site enjoyable and easy to navigate around. I put together a list of features i wanted. 
 
 ![Image template](assets/readme/ux/ea-structure.png)
 
 * The content for the website mainly came from my own experiences and therefore this took a little time to put together. I used a couple of external sources to help with the content from other Autism websites I am familiar with. Credits to these sites can be found at the bottom of this README document for reference within the 'Credits' section.   
+
 * Once I knew what structure I had in mind I moved onto the Skeleton plane and used <a href="https://balsamiq.com/wireframes/?gclid=CjwKCAjw6fCCBhBNEiwAem5SO0TfrA7AKJnwXKFEJStjRK5qFYRfJ7jLW6Vdt4F1CdcujCZRm9Zr7xoC3oUQAvD_BwE" target="_blank">Balsamiq</a> wireframes to start some blueprints on how the website looked. Initially I was building a website with three pages, however, after going through the design process early on I knew that four pages was needed to spread out the right level of content in the right places. This I believe would offer better overall UX. For reference to my wireframes, version three was when the wireframing changed from three to four pages.
 
 [Back to top ⇧](#embrace-autism)
 
 ### Skeleton
 
-* Wireframes created using Balsamiq as a blueprint. 
+* Wireframes created using Balsamiq as a blueprint. Please see below.
 
 #### Balsamiq Wireframes
 
@@ -189,7 +199,7 @@ Date this project started: 9th March 2021
 
 ## Design Process page by page
 
-#### Homepage design
+### Homepage design
 * The homepage design went through a few trials with choosing the right type of image I wanted and the positioning of it. When I found this <a href="https://www.istockphoto.com/photo/child-and-adult-hands-holding-colorful-heart-on-blue-sky-background-world-autism-gm1213547010-352734294" target="_blank">image</a> I knew it would work well for what I wanted to achieve on my landing page. The image has striking colours with clear version of an adult and a child embracing a colourful heart-shaped object expressing love and care. The background is a beautiful light blue which matches my colour scheme throughout the site.  
 
 * I wanted to use all colours pre-picked for the homepage and with the hero image being colourful I felt this would maximise the attraction for all users. 
@@ -206,7 +216,7 @@ Date this project started: 9th March 2021
 
 [Back to top ⇧](#embrace-autism)
 
-#### About page design
+### About page design
 * The about page has a dark blue background colour within the middle section of the page. The Ubuntu font is used for all content in light grey colour. The structure of the page leans to the left side to make the content easier to read. The page holds information in the form of sub headers, paragraphs, an unordered list (bullet points) a factsheet and two short media clips in reference to Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom and just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. When hovering over this small text the font colour will change to green to show it is clickable.  
 
 * There are two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autism" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to green to show they are clickable. 
@@ -217,7 +227,7 @@ Date this project started: 9th March 2021
 
 [Back to top ⇧](#embrace-autism)
 
-#### Resources page design
+### Resources page design
 * The resources page has a dark blue background colour within the main body just like the about page. The Ubuntu font is used for all content with a light grey colour finish. 
 
 * The main purpose for this page is to provide users with clear to read advice and ideas. I decided to keep this page simple with the option to read and much or as little as the user wanted. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page.   
@@ -228,7 +238,7 @@ Date this project started: 9th March 2021
 
 [Back to top ⇧](#embrace-autism)
  
-#### Subscribe page design
+### Subscribe page design
 * The subscribe page has a dark blue background colour just like the about and resource pages. The Ubuntu font is used for all content with a light grey colour. 
 
 * The main purpose for this page is the form. I used Bootstrap5 to format the form for responsive design. The form is at the top of this page and sits in a contrasting background colour of light grey with dark blue text. There is five parts of the form for users to complete. Name, email address, weekly subscription or monthly subscription (only one to be selected) and submit button for the user to click when ready to subscribe. The submit button has a light grey font colour and has a dark blue background colour that's turns green when hovered over. The wording 'SUBSCRIBE' is in capital letters. The form cannot be sent until all details are completed with a name, email address and the weekly or monthly radio button selected. If the form is submitted without any of this information included, a message 'please fill in this field' will appear to inform the user. 
@@ -247,37 +257,56 @@ Date this project started: 9th March 2021
 
 [Back to top ⇧](#embrace-autism)
 
-#### Media Queries
+### Media Queries
 
-* Media queries - all pages (index.html, about.html, resources.html and subscribe.html) 
+#### Media queries - all pages 
 
-    - The navigation bar is created using Bootstrap5 and therefore mobile first responsive. From small mobiles up to and including tablets the navigation bar is formatted as a hamburger menu (3 horizontal bars, one on top of the other) I checked all screen sizes and it was the largest screen (2560px) that needed media queries adding to change the positioning of the logo text and navigation bar. The logo text has been moved to the left and the navigation bar to the right on the very large screen sizes.
+(index.html, about.html, resources.html and subscribe.html) 
 
-    - I then checked the smallest possible screen size (Galaxy Fold mobile: 280px) and noticed that I needed to apply some styling using media queries to adjust the images, text and media clips. 
+- The navigation bar is created using Bootstrap5 and therefore mobile first responsive. From small mobiles up to and including tablets the navigation bar is formatted as a hamburger menu (3 horizontal bars, one on top of the other) I checked all screen sizes and it was the largest screen (2560px) that needed media queries adding to change the positioning of the logo text and navigation bar. The logo text has been moved to the left and the navigation bar to the right on the very large screen sizes.
 
-    - The footer has minimum content with icons and a very short paragraph included. For good UX I centred the footer and therefore on any device this will appear central and easy to view and click any particular social media or email icon. 
+- I then checked the smallest possible screen size (Galaxy Fold mobile: 280px) and noticed that I needed to apply some styling using media queries to adjust the images, text and media clips. 
 
-* Media queries - homepage (index.html) 
+- The footer has minimum content with icons and a very short paragraph included. For good UX I centred the footer and therefore on any device this will appear central and easy to view and click any particular social media or email icon. 
 
-    - The Hero-image, h1 header, cover text and subscribe button has been adjusted and repositioned to fit within all screen sizes. The header, cover text and subscribe button is all positioned below the hero image for small mobiles up to and including tablets. This I believe offers better overall UX. 
+#### Media queries - homepage 
 
-* Media queries - about page (about.html) 
+(index.html) 
 
-    - The font size, height and width has been adjusted to fit on smaller screens for the factsheet and media clips.
-    - The 'useful links' logos needed to be reduced in size and re-positioned to fit on smaller screens. A long with this the sub header above these logos also had to be adjusted in size to keep in proportion with the logos.
-    - The Subscribe button needed to be adjusted in size for both small screens and large screens. Again, this was to keep in proportion with everything else on the page. 
-    - The media clips have been repositioned side by side the factsheet for devices from laptop size screens upwards. On tablet one media clip is next to the factsheet and the second media clip is below the factsheet. On mobile screen sizes the media clips sit below each other and below the factsheet to give the best UX possible. 
+- The Hero-image, h1 header, cover text and subscribe button has been adjusted and repositioned to fit within all screen sizes. The header, cover text and subscribe button is all positioned below the hero image for small mobiles up to and including tablets. This I believe offers better overall UX. 
 
-* Media queries - resources page (resources.html) 
+[Back to top ⇧](#embrace-autism)
 
-    - The subscribe button needed to be adjusted on most screen sizes to look in proportion with the rest of the web page.  
-    - The useful links section has been adjusted slightly to fit within any screen size. 
+#### Media queries - about page 
 
-* Media queries - subscribe page (subscribe.html) 
+(about.html) 
 
-    - The subscribe form stays central and at the top of this page. As the screen sizes getting bigger the form adjusted in size according to the screen size.  
-    - The 'Thank you' image is central and re-sized on every screen size to keep in proportion.  
-    - The useful links section had been adjusted slightly to fit within any screen size. 
+- The font size, height and width has been adjusted to fit on smaller screens for the factsheet and media clips.
+
+- The 'useful links' logos needed to be reduced in size and re-positioned to fit on smaller screens. A long with this the sub header above these logos also had to be adjusted in size to keep in proportion with the logos.
+
+- The Subscribe button needed to be adjusted in size for both small screens and large screens. Again, this was to keep in proportion with everything else on the page. 
+
+- The media clips have been repositioned side by side the factsheet for devices from laptop size screens upwards. On tablet one media clip is next to the factsheet and the second media clip is below the factsheet. On mobile screen sizes the media clips sit below each other and below the factsheet to give the best UX possible. 
+
+[Back to top ⇧](#embrace-autism)
+
+#### Media queries - resources page 
+
+(resources.html) 
+
+- The subscribe button needed to be adjusted on most screen sizes to look in proportion with the rest of the web page.  
+- The useful links section has been adjusted slightly to fit within any screen size. 
+
+[Back to top ⇧](#embrace-autism)
+
+#### Media queries - subscribe page 
+
+(subscribe.html) 
+
+- The subscribe form stays central and at the top of this page. As the screen sizes getting bigger the form adjusted in size according to the screen size.  
+- The 'Thank you' image is central and re-sized on every screen size to keep in proportion.  
+- The useful links section had been adjusted slightly to fit within any screen size. 
 
 [Back to top ⇧](#embrace-autism)
 
@@ -307,7 +336,7 @@ My project has four web pages all found by using the menu navigation bar at the 
 * A small list of website benefits (cover text).
 * A 'SUBSCRIBE FOR FREE' button which is a link to the subscribe page.
 
-#### About features
+#### About page features
 
 * This page has a dark blue background colour with a light grey text colour. 
 * A sub header 'Our Autism Journey' with three short paragraphs below.   
@@ -318,7 +347,7 @@ My project has four web pages all found by using the menu navigation bar at the 
 * A 'SUBSCRIBE FOR FREE' button linked to the subscribe page. 
 * External link logos to three charities.   
 
-#### Resources features
+#### Resource page features
 
 * Sub header 'Advice and Ideas'. 
 * Sub header 'Don't stop going out' with a paragraph. 
@@ -330,7 +359,7 @@ My project has four web pages all found by using the menu navigation bar at the 
 * A 'SUBSCRIBE FOR FREE' button linked to the subscribe page. 
 * External link logos to three charities.    
 
-#### Subscribe features
+#### Subscribe page features
 
 * A sub header 'Subscribe to Embrace Autism' at the top.  
 * A form for subscribing to the Embrace Autism mailing list.   

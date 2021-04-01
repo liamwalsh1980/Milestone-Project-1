@@ -2,7 +2,7 @@
 
 ## Code Institute - Milestone Project 1 (Testing Section)
 
-![template](assets/readme/testing/i-am-responsive-all.png)
+![template](assets/readme/ux/i-am-responsive-all.png)
 
 [Click here to view the Embrace Autism project live](https://embraceautism2.godaddysites.com/)
 
@@ -12,7 +12,7 @@
     * [Screen sizes](#screen-sizes)
         * [Desktop homepage](#desktop-homepage)
         * [Mobile and tablet hompepage](#mobile-and-tablet-hompepage)
-    * [Navigation bar](#navigation-bar)
+    * [Navigation bar menu](#navigation-bar-menu)
         * [Full screen navigation bar](#full-screen-navigation-bar)
         * [Hamburger navigation bar](#hamburger-navigation-bar)
     * [Media Clips](#media-clips)
@@ -71,7 +71,7 @@
 
 [Back to top ⇧](#embrace-autism)
 
-### Navigation bar
+### Navigation bar menu
 
 * When testing the navigation bar on smaller screens this would appear as a hamburger menu (3 horizontal bars) which is what I wanted to achieve. I applied styling with a different colour and a bottom border to whichever page the user is currently on for good UX. The bottom border property on bigger screens worked well, however, on smaller screens with the hamburger menu, this didn't work as well. I therefore removed the bottom border property using media queries up to 991px which is the break point between the navigation menu changing format. This was tested on development tools on all break points up to 991px.  For reference, the colours highlighting the current page the user is on, remands in place. Therefore, users on smaller devices would still see what page they are on by the colour difference of the page titles.  
 
@@ -82,6 +82,8 @@
 #### Hamburger navigation bar
 
 ![template](assets/readme/testing/navigation-bar/hamburger-navigation-bar.png)
+
+[Back to top ⇧](#embrace-autism)
 
 ### Media Clips
 
@@ -193,6 +195,8 @@ I re-tested the code on W3C Markup validator and no errors were found.
 
 ![template](assets/readme/testing/w3c-html/w3c-html-homepage.png)
 
+[Back to top ⇧](#embrace-autism)
+
 #### About page tested 
 (3 errors found)
 
@@ -208,6 +212,8 @@ I re-tested the code on W3C Markup validator and no errors were found.
 
 ![template](assets/readme/testing/w3c-html/w3c-html-about-page.png)
 
+[Back to top ⇧](#embrace-autism)
+
 #### Resources page tested 
 (3 errors found)
 
@@ -222,6 +228,8 @@ I re-tested the code on W3C Markup validator and no errors were found.
 I re-tested the code on W3C Markup validator and no errors were found.
 
 ![template](assets/readme/testing/w3c-html/w3c-html-resources-page.png)
+
+[Back to top ⇧](#embrace-autism)
 
 #### Subscribe page tested 
 (1 error found)
