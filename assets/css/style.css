@@ -758,6 +758,7 @@ Small mobile screen size - hero image, header, cover text and subscribe button r
 #our-autism-journey, #next-step, #website-goals {
     text-align: left;
     margin-top: 10px;
+    font-size: 22px;
 }
 
 #our-autism-journey {
@@ -773,8 +774,7 @@ Small mobile screen size - hero image, header, cover text and subscribe button r
     height: 200px;
     border-radius: 10%;
     background-color: #e7ecef;
-    padding: 10px;
-    margin-bottom: 10px;
+    font-size: 16px;
 }
 
 #about-source {
@@ -787,7 +787,13 @@ Small mobile screen size - hero image, header, cover text and subscribe button r
     color: #daac62;
 }
 
-#nas-media, #cwmind-media {
+#nas-media {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+#cwmind-media {
     width: 300px;
     height: 200px;
     border-radius: 20px;
@@ -850,35 +856,33 @@ Small mobile screen size - hero image, header, cover text and subscribe button r
     padding-right: 30px;
 }
 
-.useful-links-about h2, useful-links-resources h2 {
+.useful-links-about h2 {
     color: #479ce0;
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom: 15px;
 }
 /*--------------------------------------------Media Queries for About Pages---*/
 /*
 Large screen size - headers, factsheet, media clips, subsribe button and external link images re-sized and repositioned 
 */
-@media screen and (min-width: 1601px) and (max-width: 2560px) {
+@media screen and (min-width: 2245px) and (max-width: 2560px) {
     #our-autism-journey {
         font-size: 60px;
-        padding-top: 200px;
+        padding-top: 120px;
         padding-bottom: 48px;
+    }
+
+    .bg-color-change-about {
+        font-size: 32px;
+    }
+
+    #resources-link, #resources-link2 {
+        font-size: 32px;
     }
 
     #website-goals, #next-step {
         font-size: 60px;
         padding-bottom: 48px;
-    }
-
-    #factsheet-border {
-        width: 400px;
-        height: 300px;
-        margin-left: 620px;
-    }
-
-    #factsheet-border p {
-        font-size: 24px;
     }
 
     #about-source {
@@ -905,22 +909,60 @@ Large screen size - headers, factsheet, media clips, subsribe button and externa
         padding-left: 20px;
     }
 
-    #nas-media {
-        float: left;
-        margin-left: 1060px;
-        margin-top: -310px;
-        width: 400px;
-        height: 300px;
+    #factsheet-border {
+        margin-left: 580px;
     }
-
+    
     #cwmind-media {
-        float: left;
-        margin-left: 1500px;
-        margin-top: -310px;
-        width: 400px;
-        height: 300px;
+        margin-right: 580px;
     }
 }
+
+@media screen and (min-width: 1601px) and (max-width: 2244px) {
+    #our-autism-journey {
+        font-size: 50px;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+
+    .bg-color-change-about {
+        font-size: 28px;
+    }
+
+    #resources-link, #resources-link2 {
+        font-size: 28px;
+    }
+
+    #website-goals, #next-step {
+        font-size: 50px;
+        padding-bottom: 40px;
+    }
+
+    #about-source {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    #subscribe-btn-about div {
+        width: 400px;
+        height: 80px;
+    }
+
+    #subscribe-btn-about {
+        padding: 30px 0;
+    }
+
+    #subscribe-btn-about span {
+        font-size: 30px;
+        padding-top: 1000px;
+    }
+
+    .useful-links-about h2 {
+        font-size: 60px;
+        padding-left: 20px;
+    }
+}
+
 /* Desktop screen size - factsheet, media clips, headers and subscribe re-sized and re-positioned */
 @media screen and (min-width: 1501px) and (max-width: 1600px) {
     #our-autism-journey {
@@ -932,27 +974,6 @@ Large screen size - headers, factsheet, media clips, subsribe button and externa
         padding-bottom: 30px;
     }
     
-    #factsheet-border {
-        margin-left: 150px;
-    }
-
-    #factsheet-border p {
-        font-size: 16px
-    }
-    
-    #nas-media {
-        float: right;
-        margin-right: 39%;
-        margin-top: -205px;
-    }
-
-    #cwmind-media {
-        float: right;
-        margin-right: 150px;
-        margin-top: -205px;
-        margin-bottom: 20px;
-    }
-
     #subscribe-btn-about div {
         width: 300px;
         height: 65px;
@@ -966,154 +987,188 @@ Large screen size - headers, factsheet, media clips, subsribe button and externa
         font-size: 25px;
         line-height: 50px;
     }
-}
-/*
-Large laptop and desktop screen size - factsheet and media clips re-sized and repositioned
-*/
-@media screen and (min-width: 1440px) and (max-width: 1500px) {
-    #factsheet-border {
-        margin-left: 70px;
+
+    .website-goals {
+        font-size: 16px;
     }
+}
+/*Laptop screen size - factsheet and media clips re-sized and repositioned*/
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
     
-    #nas-media {
-        float: right;
-        margin-right: 39%;
-        margin-top: -205px;
-    }
-
-    #cwmind-media {
-        float: right;
-        margin-right: 70px;
-        margin-top: -205px;
-        margin-bottom: 20px;
-    }
-}
-/*
-Laptop and desktop screen size - factsheet and media clips re-sized and repositioned
-*/
-@media screen and (min-width: 1280px) and (max-width: 1439px) {
-    #factsheet-border {
-        margin-left: 70px;
-    }
-    
-    #nas-media {
-        float: right;
-        margin-right: 475px;
-        margin-top: -205px;
-    }
-
-    #cwmind-media {
-        float: right;
-        margin-right: 70px;
-        margin-top: -205px;
-        margin-bottom: 20px;
-    }
-}
-/*
-Smaller laptop screen size -  factsheet and media clips re-sized and repositioned
-*/
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    #factsheet-border {
-        margin-left: 25px;
-    }
-    
-    #nas-media {
-        float: right;
-        margin-right: 350px;
-        margin-top: -205px;
-    }
-
-    #cwmind-media {
-        float: right;
-        margin-right: 25px;
-        margin-top: -205px;
-        margin-bottom: 20px;
-    }
-}
-/* Tablet screen size - factsheet and media clips re-sized and re-positioned */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    #factsheet-border {
-        margin-left: 40px;
-    }
-    
-    #nas-media {
-        float: right;
-        margin-right: 40px;
-        margin-top: -205px;
-    }
-
-    #cwmind-media {
-        float: right;
-        margin-right: 405px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-    }
-}
-/* Large mobile screen size - factsheet and media clips re-sized and re-positioned */
-@media screen and (max-width: 425px) {
-    #factsheet-border {
-        width: 80%;
-        margin: 40px;
-    }
-
     #factsheet-border p {
-        font-size: 16px
+        font-size: 16px;
+        padding-top: 15px;
     }
 
     #about-source {
-        font-size: 12px;
+        font-size: 10px;
     }
 
-    #nas-media, #cwmind-media {
-        margin: 20px 40px;
-        width: 80%;
+    #our-autism-journey {
+        padding-top: 90px;
+        padding-bottom: 10px;
+    }   
+}
+/*Laptop screen size - factsheet and media clips re-sized and repositioned*/
+@media screen and (min-width: 919px) and (max-width: 1024px) {
+    #factsheet-border p {
+        font-size: 16px;
+    }
+
+    #about-source {
+        font-size: 10px;
+    }
+
+    #our-autism-journey {
+        padding-top: 90px;
+        padding-bottom: 10px;
+    }
+
+    #factsheet-border, #nas-media, #cwmind-media {
+        margin-top: 20px;
+    }   
+}
+/*Small laptop screen size - factsheet and media clips re-sized and repositioned*/
+@media screen and (min-width: 878px) and (max-width: 918px) {
+    #factsheet-border p {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    #about-source {
+        font-size: 10px;
+    }
+
+    #our-autism-journey {
+        padding-top: 90px;
+        padding-bottom: 10px;
+    }
+
+    #factsheet-border, #nas-media, #cwmind-media {
+        margin-top: 30px;
+    }
+/*Tablet screen size - factsheet and media clips re-sized and repositioned*/
+}
+@media screen and (min-width: 790px) and (max-width: 877px) {
+    #factsheet-border p {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    #about-source {
+        font-size: 10px;
+    }
+
+    #our-autism-journey {
+        padding-top: 90px;
+        padding-bottom: 10px;
+    }
+    #factsheet-border, #nas-media, #cwmind-media {
+        margin-top: 40px;
     }
 }
-/* Medium mobile screen size - header, factsheet and media clips re-sized and re-positioned */
-@media screen and (max-width: 375px) {
+/*Tablet screen size - header, factsheet and media clips re-sized and repositioned*/
+@media screen and (min-width: 689px) and (max-width: 789px) {
     #our-autism-journey {
         padding-top: 70px;
         padding-bottom: 10px;
     }
     
-    #factsheet-border {
-        width: 90%;
-        margin: 15px;
+    #factsheet-border, #nas-media, #cwmind-media {
+        margin-top: 4%;
+    }
+}
+/*Tablet screen size - header, factsheet and media clips re-sized and repositioned*/
+@media screen and (max-width: 688px) {
+    #factsheet-border p {
+        font-size: 16px;
+        padding-top: 20px;
     }
 
     #about-source {
         font-size: 10px;
     }
 
-    #nas-media, #cwmind-media {
-        margin-top: 30px;
-        margin-left: 15px;
-        width: 90%;
-    }
-}
-/* Small mobile screen size - header, factsheet and media clips re-sized and re-positioned */
-@media screen and (max-width: 320px) {
     #our-autism-journey {
-        padding-top: 60px;
+        padding-top: 65px;
         padding-bottom: 10px;
     }
 
+    #factsheet-border, #nas-media, #cwmind-media {
+        width: 70%;
+        margin-top: 40px;
+        margin-left: 15%;
+    }
+}
+/*Small tablet screen size - header, factsheet and media clips re-sized and repositioned*/
+@media screen and (max-width: 576px) {
     #factsheet-border p {
-        font-size: 14px
+        font-size: 15px;
+        padding-top: 25px;
+    }
+
+    #about-source {
+        font-size: 9px;
+    }
+
+    #our-autism-journey {
+        padding-top: 65px;
+        padding-bottom: 10px;
+    }
+    #factsheet-border, #nas-media, #cwmind-media {
+        width: 75%;
+        margin-top: 20px;
+        margin-left: 12.5%;
+    }
+}
+/*Large mobile screen size - header, factsheet and media clips re-sized and repositioned*/
+@media screen and (max-width: 425px) {
+    #factsheet-border p {
+        font-size: 15px;
+        padding-top: 20px;
     }
 
     #about-source {
         font-size: 10px;
     }
 
-    #nas-media, #cwmind-media {
-        margin-top: 30px;
+    #our-autism-journey {
+        padding-top: 65px;
+        padding-bottom: 10px;
+    }
+    #factsheet-border, #nas-media, #cwmind-media {
+        width: 90%;
+        margin-top: 25px;
+        margin-left: 25px;
     }
 }
-/* Small mobile screen size - factsheet and media clips re-sized and re-positioned */
-@media screen and (max-width: 280px) {
+/*
+Medium mobile screen size - header, factsheet and media clips re-sized and repositioned
+*/
+@media screen and (max-width: 375px) {
     #factsheet-border p {
-        font-size: 14px
+        font-size: 15px;
+    }
+
+    #about-source {
+        font-size: 9px;
+    }
+
+    #our-autism-journey {
+        padding-top: 65px;
+        padding-bottom: 10px;
+    }
+    #factsheet-border, #nas-media, #cwmind-media {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+/*Small mobile screen size - header, factsheet and media clips re-sized and re-positioned*/
+@media screen and (max-width: 325px) {
+    #factsheet-border p {
+        font-size: 14px;
+        padding-top: 20px;
     }
 
     #about-source {
@@ -1121,13 +1176,34 @@ Smaller laptop screen size -  factsheet and media clips re-sized and repositione
     }
 
     #our-autism-journey {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    #factsheet-border, #nas-media, #cwmind-media {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+/* Small mobile screen size - header, factsheet and media clips re-sized and re-positioned */
+@media screen and (max-width: 280px) {
+    #factsheet-border p {
+        font-size: 11px;
+    }
+
+    #about-source {
+        font-size: 6px;
+    }
+
+    #our-autism-journey {
         font-size: 22px;
         padding-top: 50px;
         padding-bottom: 10px;
     }
-
-    #nas-media, #cwmind-media {
+    #factsheet-border, #nas-media, #cwmind-media {
+        width: 100%;
         margin-top: 20px;
+        margin-left: 10px;
     }
 }
 /*---------------------------------------------Resources Page---*/
@@ -1150,6 +1226,7 @@ h2  {
     text-align: left;
     margin-top: 10px;
     padding-bottom: 30px;
+    font-size: 22px;
 }
 
 #advice-ideas {
@@ -1207,7 +1284,7 @@ h2  {
 
 .useful-links-resources h2 {
     color: #479ce0;
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom: 15px;
 }
 /*-----------------------------------------Media Queries for Resources Page---*/
@@ -1311,36 +1388,46 @@ Large screen size - header, content, bullet points and external link images re-s
         font-size: 48px;
     }
 
-    p, ul, #resources-link, #resources-link2 {
-        font-size: 32px;
-    }
-
     .charity-logo img {
-        width: 500px;
+        width: 300px;
     } 
 }
-/*Tablet screen size - external images re-sized*/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
     .charity-logo img {
-        width: 200px;
+        width: 210px;
+    }
+}
+
+@media screen and (min-width: 569px) and (max-width: 768px) {
+    .charity-logo img {
+        width: 150px;
+    }
+}
+
+/*Tablet screen size - external images re-sized*/
+@media screen and (min-width: 426px) and (max-width: 568px) {
+    .charity-logo img {
+        width: 145px;
     }
 }
 /*Medium mobile screen - external images re-sized*/
 @media screen and (max-width: 425px) {    
     .charity-logo img {
-        width: 280px;
+        width: 200px;
         padding-bottom: 10px;
+        padding-left: 10px;
     }
     
     #nas-logo {
         margin-bottom: 30px;
+        padding-right: 30px;
     }
 }
 /*Small mobile screen - external images re-sized*/
 @media screen and (max-width: 320px) and (min-width: 280px) {
     .charity-logo img {
-        width: 230px;
-        padding-right: 15px;
+        width: 180px;
+        padding-left: 10px;
         padding-bottom: 10px;
     }
 
@@ -1371,7 +1458,7 @@ Large screen size - header, content, bullet points and external link images re-s
 }
 
 #subscribe-for-free {
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -1428,7 +1515,7 @@ form .label {
 
 .useful-links-subscribe h2 {
     color: #479ce0;
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom: 15px;
 }
 /*---------------------------------------------Media Queries for Subscribe---*/
@@ -1492,7 +1579,7 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, and
     }
 
     #subscribe-for-free{
-        font-size: 24px;
+        font-size: 22px;
     }
 
     #thank-you-image {
@@ -1511,12 +1598,12 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
     }
 
     #subscribe-for-free {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     #form-border {
-        width: 50%;
-        margin-left: 25%;
+        width: 60%;
+        margin-left: 20%;
     }
 
     #subscribe-btn span {  
@@ -1524,7 +1611,7 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
     } 
 
     #what-to-expect {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     #form-paragraph {
@@ -1545,7 +1632,7 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
     }
 
     #subscribe-for-free {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     form .label {
@@ -1553,12 +1640,12 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
     }
 
     #form-border {
-        width: 50%;
-        margin-left: 25%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     #what-to-expect {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     #thank-you-image {
@@ -1579,12 +1666,12 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
     }
     
     #form-border {
-        width: 50%;
-        margin-left: 25%;
+        width: 70%;
+        margin-left: 12.5%;
     }
 
     #what-to-expect {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     #thank-you-image {
@@ -1610,7 +1697,7 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
     }
 
     #what-to-expect {
-        font-size: 24px;
+        font-size: 22px;
     }
     #subscribe-btn span {  
         font-size: 16px;
@@ -1629,7 +1716,7 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
     }
 
     #what-to-expect {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
 /*Small mobile screen size - header and form and re-sized and re-positioned*/
