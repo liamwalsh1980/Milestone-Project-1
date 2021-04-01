@@ -1,6 +1,6 @@
 # Embrace Autism
 
-## Code Institute - Milestone Project 1 (Testing)
+## Code Institute - Milestone Project 1 (Testing Section)
 
 ![template](assets/readme/testing/i-am-responsive-all.png)
 
@@ -45,7 +45,13 @@
         * [Desktop results](#desktop-results)
         * [Mobile results](#mobile-results)
     * [Issues found](#issues-found)
+        * [Modal](#modal)
+        * [Navigation bar](#navigation-bar)
+        * [Responsiveness](#responsiveness)
     * [Further testing](#further-testing)
+        * [Mobile first](#mobile-first)
+        * [External links](#external-links)
+        * [Internal links](#internal-links)
         * [Contact form](#contact-form)
     * [Bugs outstanding](#bugs-outstanding)
 
@@ -426,12 +432,24 @@ I checked the details of this report and seen that it was the 'Largest Contentfu
 [Back to top ⇧](#embrace-autism)
 
 ### Issues found
+
+#### Modal
 * I wanted to include a Modal message when the form on the subscribe page is submitted successfully. Adding the code didn't work. After a little research i beleive the JavaScript link from bootstrap was the issue. After carefully consideration i found a better option. I used the 'onsubmit' attribute in my HTML code to show a message only when the form is completed and submitted. This was found using [W3schools](https://www.w3schools.com/tags/ev_onsubmit.asp).
 
 ![template](assets/readme/testing/user-stories/completed-subscribe-form.png)
 
 [Back to top ⇧](#embrace-autism)
 
+#### Navigation bar
+* I had an initial issue with fixing the navigation bar and text logo to the top of the screen when scrolling down all pages. After a little research using bootstrap i was able to successfully fix the navigation bar and text logo using some padding and positioning. 
+
+![template](assets/readme/testing/issues/fixed-nav-issue.png)
+
+![template](assets/readme/testing/issues/fixed-nav-fixed-1.png)
+
+![template](assets/readme/testing/issues/fixed-nav-fixed-2.png)
+
+#### Responsiveness
 * I Used DevTools throughout my project to make sure that all device screen sizes were taken into consideration. I took some time to complete media queries across all pages, however, certain elements on certain screen sizes still didn't look right. I will be working on this more during further projects to perfect the skill between using bootstrap and media queries. Please find below three examples for reference.
 
 ![template](assets/readme/testing/issues/mobile-issue.png)
@@ -441,17 +459,21 @@ I checked the details of this report and seen that it was the 'Largest Contentfu
 [Back to top ⇧](#embrace-autism)
 
 ### Further testing
-* I was testing the development of the site on my iPhone throughout this project to make sure it was mobile first responsive. I felt this really helped my stay focused as the site was coded on MacBook. 
 
+#### Mobile first
+* I was testing the development of the site on my iPhone throughout this project to make sure it was mobile first responsive. I felt this really helped me stay focused as the site was coded using a MacBook. 
+
+#### External links
 * I tested all three external links to the three different charity organisations on all pages relevant. All links open in a different web browser tab for good UX. This was tested across all web browsers mentioned above. 
 
 * I also made sure that the source text external link in red on the about page worked successfully and that it opened in a new web browser as well. 
 
-* All icons in the footer were tested across all pages to make sure that the links worked by taking a user to the right social media landing page and that the link would open an external page in a new web browser tab. 
+* All social media icons in the footer were tested across all pages to make sure that the links were active. When an icon is clicked the user is taken to the relevant social media landing page. This will be opened in an external page in a new web browser tab. 
 
 * The email icon was tested successfully with a email draft opened as it should do with the pre-populated email address info@embrace-autism.co.uk in the recipient section. 
 
-* I tested all internal links across all four pages using the above web browsers mentioned. The links tested were the logo text at the top left of the header, the navigation menu at the top right of the header, all SUBSCRIBE FOR FREE and SUBSCRIBE buttons across all pages, and the resources and subscribe text links on the about page. 
+#### Internal links
+* I tested all internal links across all four pages using the above web browsers mentioned. The links tested were the logo text at the top left of the header which will take you back to the homepage, the navigation menu at the top right of the header, all SUBSCRIBE FOR FREE and SUBSCRIBE buttons across all pages, and the resources and subscribe text links on the about page. All links work as they should. 
 
 #### Contact form
 
@@ -476,7 +498,13 @@ I tested the form on the subscribe page: -
 
 ### Bugs outstanding
 
-Lighthouse testing for mobiles - performance score is low and needs to be looked into. All i know is that the Largest Contentful Paint (LCP) is courses the main issues to this score. A couple of sites i visiting to look into this were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a> 
+Lighthouse testing for mobiles - performance score is low and needs to be looked into. All i know is that the Largest Contentful Paint (LCP) is coursing the main issues to this score. A couple of sites i visiting to look into this were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a> 
+
+[Back to top ⇧](#embrace-autism)
+
+Return to my [README.md](README.md) to continue reading
+
+### End of TESTING Document
 
 [In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -496,8 +524,3 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.]
 
-[Back to top ⇧](#embrace-autism)
-
-Return to my [README.md](README.md) to continue reading
-
-### End of TESTING Document
