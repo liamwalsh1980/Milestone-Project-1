@@ -12,7 +12,6 @@ body {
     background-color: #e7ecef;
 }
 /*---------------------------------------------Heading---*/
-
 #header-color {
      background-color: #e7ecef;
 }
@@ -51,8 +50,7 @@ body {
     color: #274c77;
 }
 /*--------------------------------------Media Queries for Heading---*/
-
-/*Extra Large screen size - Logo text, navigation bar repositioned and re-sized */
+/*Extra Large screen size - Logo text and navigation bar repositioned and re-sized */
 @media screen and (min-width: 2500px) {
     #logo {
         font-size: 80px;
@@ -113,6 +111,7 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
         font-size: 14px;
     }
 }
+
 @media screen and (max-width: 360px) {
     #logo {
         font-size: 28px;
@@ -137,7 +136,7 @@ Screen sizes with Hamburger dropdown menu - underline removed from the selected 
 /*
 Extra Small mobile screen size - Logo text, navigation hamburger menu re-sized
 */
-    @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     #logo {
         font-size: 18px;
     }
@@ -214,7 +213,6 @@ Extra Small mobile screen size - Logo text, navigation hamburger menu re-sized
 #subscribe-btn-home-cover:hover {
     background-color: #3a8347;
 }
-
 /*--------------------------------------Media Queries for Homepage---*/
 /*
 Extra Large desktop screen size - hero image, header, cover text and subsribe button re-sized, repositioned and color changes
@@ -512,7 +510,7 @@ Laptop screen size - hero image, header, cover text and subscribe button re-size
     } 
 } 
 /* 
-tablet screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+Tablet screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
 */ 
 @media screen and (min-width: 786px) and (max-width: 1023px) {
     #outer { 
@@ -544,21 +542,21 @@ tablet screen size - hero image, header, cover text and subscribe button re-size
     }  
 }
 /* 
-small tablet screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+Small tablet screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
 */ 
 @media screen and (min-width: 685px) and (max-width: 785px) {
     #outer { 
-        height: 680px; 
+        height: 780px; 
     } 
 
     #hero-image { 
-        height: 400px;  
+        height: 450px;  
     } 
     
     #homepage-h1 { 
         font-size: 24px; 
         margin-top: 60px;
-        padding-top: 410px;
+        padding-top: 460px;
     }  
 
     #homepage-cover-text-background { 
@@ -576,7 +574,7 @@ small tablet screen size - hero image, header, cover text and subscribe button r
     }  
 }
 /* 
-extra large mobile size - hero image, header, cover text and subscribe button re-sized and repositioned 
+Extra large mobile size - hero image, header, cover text and subscribe button re-sized and repositioned 
 */ 
 @media screen and (min-width: 584px) and (max-width: 684px) {
     #outer { 
@@ -607,7 +605,9 @@ extra large mobile size - hero image, header, cover text and subscribe button re
         font-size: 16px; 
     }  
 }
-/*Large mobile screen size - header and cover text re-sized*/  
+/*
+Large mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/  
 @media screen and (min-width: 483px) and (max-width: 583px) {  
 
     #outer { 
@@ -638,7 +638,9 @@ extra large mobile size - hero image, header, cover text and subscribe button re
         font-size: 12px; 
     }  
 }
-/*Medium mobile screen size - header and cover text re-sized*/ 
+/*
+Medium mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/ 
 @media screen and (min-width: 382px) and (max-width: 482px) {  
     #outer { 
         height: 600px; 
@@ -673,7 +675,9 @@ extra large mobile size - hero image, header, cover text and subscribe button re
         font-size: 12px; 
     }  
 }
-/*Medium mobile screen size - header and cover text re-sized*/ 
+/*
+Medium mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/ 
 @media screen and (min-width: 281px) and (max-width: 381px) {  
     #outer { 
         height: 600px; 
@@ -707,7 +711,9 @@ extra large mobile size - hero image, header, cover text and subscribe button re
         font-size: 12px; 
     }  
 }  
-/*Small mobile screen size - header and cover text re-sized*/ 
+/*
+Small mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
+*/ 
 @media screen and (max-width: 280px) { 
 
     #outer { 
@@ -850,9 +856,8 @@ extra large mobile size - hero image, header, cover text and subscribe button re
     padding-bottom: 15px;
 }
 /*--------------------------------------------Media Queries for About Pages---*/
-
 /*
-Large screen size - factsheet, media clips, subsribe button and external link images re-sized and repositioned 
+Large screen size - headers, factsheet, media clips, subsribe button and external link images re-sized and repositioned 
 */
 @media screen and (min-width: 1601px) and (max-width: 2560px) {
     #our-autism-journey {
@@ -895,7 +900,7 @@ Large screen size - factsheet, media clips, subsribe button and external link im
         padding-top: 1000px;
     }
 
-    .useful-links-about h2, .useful-links-resources h2 {
+    .useful-links-about h2 {
         font-size: 60px;
         padding-left: 20px;
     }
@@ -962,7 +967,6 @@ Large screen size - factsheet, media clips, subsribe button and external link im
         line-height: 50px;
     }
 }
-
 /*
 Large laptop and desktop screen size - factsheet and media clips re-sized and repositioned
 */
@@ -984,7 +988,9 @@ Large laptop and desktop screen size - factsheet and media clips re-sized and re
         margin-bottom: 20px;
     }
 }
-
+/*
+Laptop and desktop screen size - factsheet and media clips re-sized and repositioned
+*/
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
     #factsheet-border {
         margin-left: 70px;
@@ -1063,7 +1069,7 @@ Smaller laptop screen size -  factsheet and media clips re-sized and repositione
         width: 80%;
     }
 }
-/* Medium mobile screen size - factsheet and media clips re-sized and re-positioned */
+/* Medium mobile screen size - header, factsheet and media clips re-sized and re-positioned */
 @media screen and (max-width: 375px) {
     #our-autism-journey {
         padding-top: 70px;
@@ -1085,7 +1091,7 @@ Smaller laptop screen size -  factsheet and media clips re-sized and repositione
         width: 90%;
     }
 }
-
+/* Small mobile screen size - header, factsheet and media clips re-sized and re-positioned */
 @media screen and (max-width: 320px) {
     #our-autism-journey {
         padding-top: 60px;
@@ -1104,7 +1110,7 @@ Smaller laptop screen size -  factsheet and media clips re-sized and repositione
         margin-top: 30px;
     }
 }
-
+/* Small mobile screen size - factsheet and media clips re-sized and re-positioned */
 @media screen and (max-width: 280px) {
     #factsheet-border p {
         font-size: 14px
@@ -1205,9 +1211,8 @@ h2  {
     padding-bottom: 15px;
 }
 /*-----------------------------------------Media Queries for Resources Page---*/
-
 /*
-Large screen size - text content and subscribe button re-sized and re-positioned
+Large screen size - headers, text content, useful links and subscribe button re-sized and re-positioned
 */
 @media screen and (min-width: 1601px) and (max-width: 2560px) {
     #advice-ideas {
@@ -1235,15 +1240,17 @@ Large screen size - text content and subscribe button re-sized and re-positioned
 
     .useful-links-resources h2 {
         font-size: 60px;
+        padding-left: 20px;
     }
 }
-
+/*
+Desktop screen size - header and subscribe button re-sized and re-positioned
+*/
 @media screen and (min-width: 1501px) and (max-width: 1600px) {
     #advice-ideas {
         padding-top: 100px;
         padding-bottom: 30px;
     }
-    
     
     #subscribe-btn-resources div {
         width: 300px;
@@ -1259,9 +1266,7 @@ Large screen size - text content and subscribe button re-sized and re-positioned
         line-height: 50px;
     }
 }
-
-
-/*Tablet screen size - headers resized*/
+/*Tablet screen size - headers resized and repositioned*/
 @media screen and (max-width: 768px) {
     #going-out, #routines, #tips, #non-verbal {
         font-size: 22px;
@@ -1277,7 +1282,7 @@ Large screen size - text content and subscribe button re-sized and re-positioned
     #going-out, #routines, #tips, #non-verbal {
         font-size: 18px;
     }
-        #subscribe-btn-resources { 
+    #subscribe-btn-resources { 
         text-align: center;
     }
 
@@ -1298,7 +1303,6 @@ Large screen size - text content and subscribe button re-sized and re-positioned
     }
 }
 /*------------------------------Media Queries for About and Resources Pages---*/
-
 /*
 Large screen size - header, content, bullet points and external link images re-sized
 */
@@ -1428,9 +1432,8 @@ form .label {
     padding-bottom: 15px;
 }
 /*---------------------------------------------Media Queries for Subscribe---*/
-
 /*
-Large screen size - sub-headers, subscribe button, form content, paragraphs, image and external links re-sized and re-positioned
+Large screen size - sub-headers, subscribe button, form content, paragraphs, and image re-sized and re-positioned
 */   
 @media screen and (min-width: 1601px) and (max-width: 2560px) {
     #form-header {
@@ -1444,14 +1447,14 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, ima
         padding-top: 30px;
     }
 
-    .label {
-        font-size: 42px;
+    form .label {
+        font-size: 24px;
     }
 
     #form-border {
         width: 60%;
         margin-left: 20%;
-        height: 450px;
+        height: 480px;
     }
 
     #subscribe-btn span {  
@@ -1475,6 +1478,7 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, ima
         font-size: 60px;
     }
 }
+/*Desktop screen size - sub-headers, subscribe button and image re-sized and re-positioned*/ 
 @media screen and (min-width: 1500px) and (max-width: 1600px) {
     #form-header {
         font-size: 32px;
@@ -1497,7 +1501,7 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, ima
     } 
 }
 /*
-Large laptop and desktop screen size - sub-headers, subscribe button, form content, paragraphs, image and external links re-sized and re-positioned
+Large laptop screen size - sub-headers, subscribe button, form content, paragraphs and image re-sized and re-positioned
 */
 @media screen and (min-width: 1440px) and (max-width: 1499px) {
     #form-header {
@@ -1508,10 +1512,6 @@ Large laptop and desktop screen size - sub-headers, subscribe button, form conte
 
     #subscribe-for-free {
         font-size: 26px;
-    }
-
-    .label {
-        font-size: 24px;
     }
 
     #form-border {
@@ -1536,9 +1536,7 @@ Large laptop and desktop screen size - sub-headers, subscribe button, form conte
         width: 75%;
     }  
 }
-/*
-tablet and small laptop screen size - sub-headers, form and image re-sized and re-positioned
-*/
+/*tablet and small laptop screen size - sub-headers, form and image re-sized and re-positioned*/
 @media screen and (min-width: 801px) and (max-width: 1439px) {
     #form-header {
         font-size: 26px;
@@ -1572,9 +1570,7 @@ tablet and small laptop screen size - sub-headers, form and image re-sized and r
         font-size: 18px;
     } 
 }
-/*
-Tablet screen size - sub-header, form and image re-sized and re-positioned
-*/
+/*Tablet screen size - sub-header, form and image re-sized and re-positioned*/
 @media screen and (min-width: 768px) and (max-width: 800px) {
     #form-header {
         font-size: 22px;
@@ -1600,7 +1596,7 @@ Tablet screen size - sub-header, form and image re-sized and re-positioned
         font-size: 18px;
     } 
 }
-
+/*Small tablet screen size - header and form re-sized and re-positioned*/
 @media screen and (max-width: 767px) {
 
     #form-header {
@@ -1620,7 +1616,7 @@ Tablet screen size - sub-header, form and image re-sized and re-positioned
         font-size: 16px;
     } 
 }
-
+/*Medium mobile screen size - header and form and re-sized and re-positioned*/
 @media screen and (max-width: 360px) {
     #form-header {
         font-size: 18px;
@@ -1636,7 +1632,7 @@ Tablet screen size - sub-header, form and image re-sized and re-positioned
         font-size: 24px;
     }
 }
-
+/*Small mobile screen size - header and form and re-sized and re-positioned*/
 @media screen and (max-width: 280px) {
     #form-header {
         font-size: 15px;
@@ -1678,7 +1674,6 @@ a {
     margin-top: 5px;
 }
 /*--------------------------------------Media Queries for Footer---*/
-
 /*Large desktop screen size - icons resized and further padding added*/
 @media screen and (min-width: 2500px) {
     a {
