@@ -4,7 +4,7 @@
 
 ![template](assets/readme/ux/i-am-responsive.png)
 
-[Click here to view the Embrace Autism project live](https://embraceautism2.godaddysites.com/)
+[Click here to view the Embrace Autism project live](https://liamwalsh1980.github.io/Milestone-Project-1/)
 
 ## Table of contents
 
@@ -139,6 +139,8 @@ Date this project started: 9th March 2021
 
 #### Balsamiq Wireframes
 
+[Image template](assets/readme/ux/embrace-autism-wireframes-1.pdf)
+
 - <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
 
 - <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
@@ -182,14 +184,14 @@ Date this project started: 9th March 2021
 
 * The home and subscribe pages have minimum content. The homepage has been designed to gain the users attention and encourage them to easily navigate to the about page, resources page and then onto the subscribe page to register. 
 
-* I changed the colour of the website a couple of times and used <a href="https://coolors.co/" target="_blank">Coolors</a> to assist with a couple of colours that worked well to compliment the light blue already found and that I wanted to use. The colours chosen from <a href="https://coolors.co/" target="_blank">Coolors</a> was a dark blue and very light grey. I needed a colour to stand out when buttons are being hovered over. Therefore, I picked a green to achieve this. 
+* I changed the colour of the website a couple of times and used <a href="https://coolors.co/" target="_blank">Coolors</a> to assist with a couple of colours that worked well to compliment the light blue already found and that I wanted to use. The colours chosen from <a href="https://coolors.co/" target="_blank">Coolors</a> was a dark blue and very light grey. I needed a colour to stand out when buttons are being hovered over. Therefore, I picked a a soft orange to achieve this. 
 
 * Full details of all colours used for the website can be found below: - 
 
     - Light Blue: hex:479ce0, rgb:71,156,224, hsl:207°,71%,58%  
     - Dark blue (from <a href="https://coolors.co/" target="_blank">Coolors</a>) hex:274c77, rgb:39,76,119, hsl:212°,51%,31%  
     - Very light grey (from <a href="https://coolors.co/" target="_blank">Coolors</a>) hex:e7ecef , rgb:231,236,239, hsl:202°,20%,92% 
-    - Hover green hex:#3a8347, rgb:58,131,71, hsl:131°,39%,37% (selected by using DevTools 'Toggler Colour Picker' to match the shade of green in the hero image)
+    - Hover orange hex:#daac62, rgb:218,172,98, hsl:37°,61.9%,62% (selected by using DevTools 'Toggler Colour Picker' to match this shade of orange)
 
 * I wanted to offer users the option of making contact by email. I was going to apply a generic email address at the top of the homepage in text format, however after moving it about a few times I decided to add an icon within the footer of every page which looked much more professional. 
 
@@ -208,7 +210,7 @@ Date this project started: 9th March 2021
 
 * There was an ordered list using numbers 1-3 giving an easy step by step process to move throughout the website. However, after careful consideration I decided to remove the ordered list and strengthen the look of the navigation menu bar with easy-to-understand menu titles within the navigation bar. Early versions of my <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-1.pdf">Wireframe version 1</a> shows this feature.  
 
-* Below the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. On all screen sizes this is dark blue with the light grey text. On small laptop, tablet and mobile screen sizes this sits below the hero image and cover text. The wording is in capital letters and when hovered over, the background colour changes to green showing the user that it can be clicked. Green for go was my thought on the colour change.   
+* Below the cover text there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. On all screen sizes this is dark blue with the light grey text. On small laptop, tablet and mobile screen sizes this sits below the hero image and cover text. The wording is in capital letters and when hovered over, the background colour changes to orange showing the user that it can be clicked. 
 
 * After removing the ordered list, I had the option to increase the size of the cover text and 'SUBSCRIBE FOR FREE' button making both more visible to users.  
 
@@ -217,11 +219,11 @@ Date this project started: 9th March 2021
 [Back to top ⇧](#embrace-autism)
 
 ### About page design
-* The about page has a dark blue background colour within the middle section of the page. The Ubuntu font is used for all content in light grey colour. The structure of the page leans to the left side to make the content easier to read. The page holds information in the form of sub headers, paragraphs, an unordered list (bullet points) a factsheet and two short media clips in reference to Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom and just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. When hovering over this small text the font colour will change to green to show it is clickable.  
+* The about page has a dark blue background colour within the middle section of the page. The Ubuntu font is used for all content in light grey colour. The structure of the page leans to the left side to make the content easier to read. The page holds information in the form of sub headers, paragraphs, an unordered list (bullet points) a factsheet and two short media clips in reference to Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom and just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. When hovering over this small text the font colour will change to orange to show it is clickable.  
 
-* There are two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autism" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to green to show they are clickable. 
+* There are two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autism" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to orange to show they are clickable. 
 
-* The 'SUBSCRIBE FOR FREE' button wording is in capital letters and when hovering over this, the background colour changes to green. 
+* The 'SUBSCRIBE FOR FREE' button wording is in capital letters and when hovering over this, the background colour changes to orange. 
 
 * There are also horizontal line breaks between each section within this page to make it easy to navigate through. The layout is identical on all screen sizes with little changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section.  
 
@@ -232,7 +234,7 @@ Date this project started: 9th March 2021
 
 * The main purpose for this page is to provide users with clear to read advice and ideas. I decided to keep this page simple with the option to read and much or as little as the user wanted. There are also horizontal breaks between each information paragraph to make it easy to navigate throughout the page.   
 
-* Below the information advice and ideas section there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue with the wording in light grey. The wording is in capital letters and when hovering over this button the background colour changes to a green. Below there is a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When clicked, the user will see that the external website will open in a new tab on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. The layout is identical on all screen sizes with changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section. 
+* Below the information advice and ideas section there is some additional content encouraging the user to visit the subscribe page to register. Underneath this content there is a 'SUBSCRIBE FOR FREE' button which is linked to the subscribe page. This button is light blue with the wording in light grey. The wording is in capital letters and when hovering over this button the background colour changes to a orange. Below there is a useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When clicked, the user will see that the external website will open in a new tab on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. The layout is identical on all screen sizes with changes made using media queries to adjust the size and positioning of the factsheet, subscribe button and useful links section. 
 
 * For the about and resources pages, I used bootstrap containers, rows and columns to structure the layout of this page which made it easier to manage with regards to responsive design. 
 
@@ -241,7 +243,7 @@ Date this project started: 9th March 2021
 ### Subscribe page design
 * The subscribe page has a dark blue background colour just like the about and resource pages. The Ubuntu font is used for all content with a light grey colour. 
 
-* The main purpose for this page is the form. I used Bootstrap5 to format the form for responsive design. The form is at the top of this page and sits in a contrasting background colour of light grey with dark blue text. There is five parts of the form for users to complete. Name, email address, weekly subscription or monthly subscription (only one to be selected) and submit button for the user to click when ready to subscribe. The submit button has a light grey font colour and has a dark blue background colour that's turns green when hovered over. The wording 'SUBSCRIBE' is in capital letters. The form cannot be sent until all details are completed with a name, email address and the weekly or monthly radio button selected. If the form is submitted without any of this information included, a message 'please fill in this field' will appear to inform the user. 
+* The main purpose for this page is the form. I used Bootstrap5 to format the form for responsive design. The form is at the top of this page and sits in a contrasting background colour of light grey with dark blue text. There is five parts of the form for users to complete. Name, email address, weekly subscription or monthly subscription (only one to be selected) and submit button for the user to click when ready to subscribe. The submit button has a light grey font colour and has a dark blue background colour that's turns orange when hovered over. The wording 'SUBSCRIBE' is in capital letters. The form cannot be sent until all details are completed with a name, email address and the weekly or monthly radio button selected. If the form is submitted without any of this information included, a message 'please fill in this field' will appear to inform the user. 
 
 * Above the form there is a central sub header to confirm what the form is for. Below the form there is another sub header with a short paragraph to explain to the user what they can expect once they've subscribed. 
 
@@ -433,12 +435,13 @@ Testing information can be found in a separate
 
 
 ## Deployment 
-(Date this project was deployed: TBC)
+(Date this project was deployed: 1st April 2021)
 
 ### Github pages
 The project was deployed to GitHub Pages doing the following: -
 
 1. I logged into GitHub account and located my [MS1 Project GitHub Repository](https://github.com/liamwalsh1980/Milestone-Project-1).
+
 
 1. At the top of the Repository I clicked the [settings](https://github.com/liamwalsh1980/Milestone-Project-1/settings). option on the menu.
 
@@ -448,7 +451,9 @@ The project was deployed to GitHub Pages doing the following: -
 
 1. The page automatically refreshed with a URL for me to use to show my live site.
 
-1. I Scrolled down the page to obtained the published site link to enable me to share with others. 
+1. I Scrolled down the page to obtain the published site link to enable me to share with others. 
+
+1. [Click here to view the Embrace Autism project live](https://liamwalsh1980.github.io/Milestone-Project-1/)
 
 For a more in-depth guide about Configuring a publishing source from Github pages please [click here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
@@ -470,7 +475,8 @@ Button on the menu, locate the "Fork" Button which is at the top of the page
 1. Open Git Bash
 1. Change the current working directory to the location where you want the cloned directory to be made.
 1. Type git clone, and then paste the URL you copied in Step 3.
-    - $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    - $ git clone
+    https://github.com/liamwalsh1980/Milestone-Project-1
 1. Press Enter. Your local clone will be created.
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
