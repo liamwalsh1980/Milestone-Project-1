@@ -211,7 +211,7 @@ Extra Small mobile screen size - Logo text, navigation hamburger menu re-sized
 } 
 
 #subscribe-btn-home-cover:hover {
-    background-color: #3a8347;
+    background-color: #daac62;
 }
 /*--------------------------------------Media Queries for Homepage---*/
 /*
@@ -784,7 +784,7 @@ Small mobile screen size - hero image, header, cover text and subscribe button r
 }
 
 #about-source:hover {
-    color: #3a8347;
+    color: #daac62;
 }
 
 #nas-media, #cwmind-media {
@@ -801,11 +801,11 @@ Small mobile screen size - hero image, header, cover text and subscribe button r
 }
 
 #resources-link:hover {
-    color: #3a8347;
+    color: #daac62;
 }
 
 #resources-link2:hover {
-    color: #3a8347;
+    color: #daac62;
 }
 
 .autism {
@@ -840,7 +840,7 @@ Small mobile screen size - hero image, header, cover text and subscribe button r
 }
 
 #subscribe-btn-about div:hover {
-    background-color: #3a8347;
+    background-color: #daac62;
 }
 
 .useful-links-about, .useful-links-resources {
@@ -1163,7 +1163,7 @@ h2  {
 }
 
 #going-out:hover, #routines:hover, #tips:hover, #non-verbal:hover {
-    color: #3a8347;
+    color: #daac62;
 }
 
 .going-out-p, .routines-p, .tips-p, .non-verbal-p {
@@ -1196,7 +1196,7 @@ h2  {
 }
 
 #subscribe-btn-resources div:hover {
-    background-color: #3a8347;
+    background-color: #daac62;
 }
 
 .useful-links-resources {
@@ -1397,7 +1397,7 @@ form .label {
 }
 
 #subscribe-btn button:hover {
-    background-color: #3a8347;
+    background-color: #daac62;
 }
 
 #what-to-expect {
