@@ -135,8 +135,6 @@ Date this project started: 9th March 2021
 
 ### Skeleton
 
-* Wireframes created using Balsamiq as a blueprint. Please see below.
-
 #### Balsamiq Wireframes
 
 - <a href="/workspace/Milestone-Project-1/assets/readme/ux/wireframes/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
