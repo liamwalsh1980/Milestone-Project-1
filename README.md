@@ -153,8 +153,6 @@ Date this project started: 9th March 2021
 
 - <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-6.pdf">Wireframe version 6 (final version)</a>
 
-[a link to be added here directly to the completed wireframe page or to pdf version]
-
 #### Homepage wireframe
 ![template](assets/readme/ux/embrace-autism-home.png)
 #### About page wireframe
@@ -184,7 +182,7 @@ Date this project started: 9th March 2021
 
 * The home and subscribe pages have minimum content. The homepage has been designed to gain the users attention and encourage them to easily navigate to the about page, resources page and then onto the subscribe page to register. 
 
-* I changed the colour of the website a couple of times and used <a href="https://coolors.co/" target="_blank">Coolors</a> to assist with a couple of colours that worked well to compliment the light blue already found and that I wanted to use. The colours chosen from <a href="https://coolors.co/" target="_blank">Coolors</a> was a dark blue and very light grey. I needed a colour to stand out when buttons are being hovered over. Therefore, I picked a a soft orange to achieve this. 
+* I changed the colour of the website a couple of times and used <a href="https://coolors.co/" target="_blank">Coolors</a> to assist with a couple of colours that worked well to compliment the light blue already found and that I wanted to use. The colours chosen from <a href="https://coolors.co/" target="_blank">Coolors</a> was a dark blue and very light grey. I needed a colour to stand out when buttons and text links are being hovered over. I originally picked a green colour for this, however, after using the <a href="https://colorschemedesigner.com/csd-3.5/" target="_blank">Color Scheme Designer Site</a> I found a more compatible  colour. I picked a soft orange which worked very well. 
 
 * Full details of all colours used for the website can be found below: - 
 
@@ -222,6 +220,8 @@ Date this project started: 9th March 2021
 * The about page has a dark blue background colour within the middle section of the page. The Ubuntu font is used for all content in light grey colour. The structure of the page leans to the left side to make the content easier to read. The page holds information in the form of sub headers, paragraphs, an unordered list (bullet points) a factsheet and two short media clips in reference to Autism. The information you will find on this page is about my family's personal journey with Autism, the websites goals, next steps, subscribe button to click on and useful external links at the bottom and just above the footer. The factsheet has contrasting colours with a light grey background and dark blue font colour. This is done purposely to stand out from the page. At the bottom of the factsheet there is small text confirming the source of the fact in red. This is also a link to click on which takes the user straight to the relevant website of where the fact came from. When hovering over this small text the font colour will change to orange to show it is clickable.  
 
 * There are two external media clips for users to watch. The first media clip is about two and half minutes long and titled "What is Autism" The second is about five and half minutes long and is titled "Amazing Things Happen!". This media clips are credited at the bottom of this README in the credits section. Within the bullet points inside the Website Goals section, there is a couple of additional links to the resource and subscribe pages to encourage users to click on. These link words are in a light blue colour to stand out from the rest of the text. When hovering over these text links the font colour will change to orange to show they are clickable. 
+
+* The factsheet and media clips are wrapped in bootstraps row and column containers for responsiveness across all screen sizes. 
 
 * The 'SUBSCRIBE FOR FREE' button wording is in capital letters and when hovering over this, the background colour changes to orange. 
 
@@ -289,7 +289,7 @@ Date this project started: 9th March 2021
 
 - The Subscribe button needed to be adjusted in size for both small screens and large screens. Again, this was to keep in proportion with everything else on the page. 
 
-- The media clips have been repositioned side by side the factsheet for devices from laptop size screens upwards. On tablet one media clip is next to the factsheet and the second media clip is below the factsheet. On mobile screen sizes the media clips sit below each other and below the factsheet to give the best UX possible. 
+- The media clips have been repositioned side by side the factsheet for devices from laptop size screens upwards. On tablet one media clip is next to the factsheet and the second media clip is below the factsheet. One of the last adjustments made was to centre the media clip sitting below the factsheet for better UX. On mobile screen sizes the media clips sit below each other and below the factsheet to give the best UX possible. 
 
 [Back to top ⇧](#embrace-autism)
 
@@ -311,13 +311,6 @@ Date this project started: 9th March 2021
 - The useful links section had been adjusted slightly to fit within any screen size. 
 
 [Back to top ⇧](#embrace-autism)
-
-[Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.]
 
 ## Features
 
@@ -443,7 +436,7 @@ The project was deployed to GitHub Pages doing the following: -
 1. I logged into GitHub account and located my [MS1 Project GitHub Repository](https://github.com/liamwalsh1980/Milestone-Project-1).
 
 
-1. At the top of the Repository I clicked the [settings](https://github.com/liamwalsh1980/Milestone-Project-1/settings). option on the menu.
+1. At the top of the Repository I clicked the settings option on the menu.
 
 1. I scrolled down the settings page to the GitHub Pages Section.
 
@@ -461,16 +454,17 @@ For a more in-depth guide about Configuring a publishing source from Github page
 By forking the GitHub Repository you can make a copy of my original repository on your GitHub account to view and/or make changes without affecting the original repository by doing the following: -
 
 1. Log in to GitHub and locate the GitHub Repository
-1. At the top of the Repository click the [settings](https://github.com/liamwalsh1980/Milestone-Project-1/settings)
-Button on the menu, locate the "Fork" Button which is at the top of the page
+1. At the top of the Repository click the settings option on the menu, locate and click the "Fork" Button which is at the top right of the page.
 1. You should now have a copy of the original repository in your GitHub account.
+
+For a more in-depth guide about how to Fork a repo please [click here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
 [Back to top ⇧](#embrace-autism)
 
 ### Making a Local Clone
 
 1. Log in to GitHub and locate the GitHub Repository
-1. Under the repository name, click "Clone or download".
+1. Next to the the green Gitpod button you will see the dropdown button "code". Click this to open up the option to clone.
 1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 1. Open Git Bash
 1. Change the current working directory to the location where you want the cloned directory to be made.
@@ -478,16 +472,6 @@ Button on the menu, locate the "Fork" Button which is at the top of the page
     - $ git clone
     https://github.com/liamwalsh1980/Milestone-Project-1
 1. Press Enter. Your local clone will be created.
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-* Different values for environment variables (Heroku Config Vars)?
-* Different configuration files?
-* Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 [Back to top ⇧](#embrace-autism)
 
@@ -555,52 +539,3 @@ This website is for educational purposes only and created for my Code Institute 
 
 
 ### End of README Document
-
-
-
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome Liam Walsh,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
