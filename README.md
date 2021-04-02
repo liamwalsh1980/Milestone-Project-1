@@ -139,9 +139,7 @@ Date this project started: 9th March 2021
 
 #### Balsamiq Wireframes
 
-[Image template](assets/readme/ux/embrace-autism-wireframes-1.pdf)
-
-- <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
+- <a href="/workspace/Milestone-Project-1/assets/readme/ux/wireframes/embrace-autism-wireframes-1.pdf">Wireframe version 1</a>
 
 - <a href="/workspace/Milestone-Project-1/assets/readme/ux/embrace-autism-wireframes-2.pdf">Wireframe version 2</a>
 
