@@ -146,9 +146,7 @@ body {
         margin: 20px;
     }
 }
-/*
-Screen sizes with Hamburger dropdown menu - underline removed from the selected page title
-*/
+/*Screen sizes with Hamburger dropdown menu - underline removed from the selected page title*/
 @media screen and (max-width: 991px) {
     #menulist .active {
         border-bottom: none;
@@ -363,7 +361,7 @@ Large Desktop screen size - hero image, header, cover text and subscribe button 
 
     #homepage-h1 { 
         font-size: 50px; 
-        padding-top: 100px; 
+        padding-top: 140px; 
     }  
 
     #homepage-h1 span { 
@@ -390,9 +388,7 @@ Large Desktop screen size - hero image, header, cover text and subscribe button 
         margin-top: 40px; 
     } 
 } 
-/* 
-Desktop screen size - hero image, header, cover text and subscribe button re-sized and repositioned and colour changes
-*/
+/*Desktop screen size - hero image, header, cover text and subscribe button re-sized and repositioned and colour changes*/
 @media screen and (min-width: 1600px) and (max-width: 1700px) { 
     #outer { 
         height: 1300px; 
@@ -405,7 +401,7 @@ Desktop screen size - hero image, header, cover text and subscribe button re-siz
 
     #homepage-h1 { 
         font-size: 50px; 
-        padding-top: 100px; 
+        padding-top: 130px; 
     }  
 
     #homepage-h1 span { 
@@ -432,9 +428,7 @@ Desktop screen size - hero image, header, cover text and subscribe button re-siz
         margin-top: 40px; 
     } 
 } 
-/* 
-Desktop screen size - hero image, header, cover text and subscribe button re-sized and repositioned and colour changes
-*/
+/*Desktop screen size - hero image, header, cover text and subscribe button re-sized and repositioned and colour changes*/
 @media screen and (min-width: 1440px) and (max-width: 1599px) { 
     #outer { 
         height: 1000px; 
@@ -549,9 +543,7 @@ Small desktop screen size - hero image, header, cover text and subscribe button 
         margin-top: 40px;
     } 
 } 
-/* 
-Laptop screen size - hero image, header, cover text and subscribe button re-sized and repositioned and colour changes
-*/
+/*Laptop screen size - hero image, header, cover text and subscribe button re-sized and repositioned and colour changes*/
 @media screen and (min-width: 1024px) and (max-width: 1199px) { 
     #outer { 
         height: 770px; 
@@ -585,10 +577,12 @@ Laptop screen size - hero image, header, cover text and subscribe button re-size
         padding-right: 50px; 
         margin-top: 25px
     } 
+
+    #subscribe-btn-home-cover span {
+        line-height: 40px;
+    }
 } 
-/* 
-Tablet screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
-*/ 
+/*Tablet screen size - hero image, header, cover text and subscribe button re-sized and repositioned */ 
 @media screen and (min-width: 786px) and (max-width: 1023px) {
     #outer { 
         height: 780px; 
@@ -618,9 +612,7 @@ Tablet screen size - hero image, header, cover text and subscribe button re-size
         font-size: 16px; 
     }  
 }
-/* 
-Small tablet screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
-*/ 
+/*Small tablet screen size - hero image, header, cover text and subscribe button re-sized and repositioned*/ 
 @media screen and (min-width: 685px) and (max-width: 785px) {
     #outer { 
         height: 780px; 
@@ -650,9 +642,7 @@ Small tablet screen size - hero image, header, cover text and subscribe button r
         font-size: 16px; 
     }  
 }
-/* 
-Extra large mobile size - hero image, header, cover text and subscribe button re-sized and repositioned 
-*/ 
+/*Extra large mobile size - hero image, header, cover text and subscribe button re-sized and repositioned*/ 
 @media screen and (min-width: 584px) and (max-width: 684px) {
     #outer { 
         height: 650px; 
@@ -682,9 +672,7 @@ Extra large mobile size - hero image, header, cover text and subscribe button re
         font-size: 16px; 
     }  
 }
-/*
-Large mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
-*/  
+/*Large mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned*/  
 @media screen and (min-width: 483px) and (max-width: 583px) {  
 
     #outer { 
@@ -715,9 +703,7 @@ Large mobile screen size - hero image, header, cover text and subscribe button r
         font-size: 12px; 
     }  
 }
-/*
-Medium mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
-*/ 
+/*Medium mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned*/ 
 @media screen and (min-width: 382px) and (max-width: 482px) {  
     #outer { 
         height: 600px; 
@@ -752,9 +738,7 @@ Medium mobile screen size - hero image, header, cover text and subscribe button 
         font-size: 12px; 
     }  
 }
-/*
-Medium mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
-*/ 
+/*Medium mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned */ 
 @media screen and (min-width: 281px) and (max-width: 381px) {  
     #outer { 
         height: 600px; 
@@ -775,7 +759,7 @@ Medium mobile screen size - hero image, header, cover text and subscribe button 
     } 
 
     #ul-benefits-list {  
-        font-size: 22px; 
+        font-size: 24px; 
         padding-top: 20px; 
     }  
 
@@ -788,9 +772,7 @@ Medium mobile screen size - hero image, header, cover text and subscribe button 
         font-size: 12px; 
     }  
 }  
-/*
-Small mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned 
-*/ 
+/*Small mobile screen size - hero image, header, cover text and subscribe button re-sized and repositioned*/ 
 @media screen and (max-width: 280px) { 
     #outer { 
         height: 600px; 
@@ -1051,30 +1033,28 @@ Large screen size - headers, factsheet, media clips, subsribe button and externa
         margin-right: 480px;
     }
 }
-/*
-Large screen size - headers, factsheet, media clip and subsribe button re-sized and repositioned 
-*/
+/*Large screen size - headers, factsheet, media clip and subsribe button re-sized and repositioned*/
 @media screen and (min-width: 1601px) and (max-width: 1941px) {
-        #factsheet-border {
-            margin-left: 280px;
+    #factsheet-border {
+        margin-left: 280px;
     }
     
-        #cwmind-media {
-            margin-right: 280px;
+    #cwmind-media {
+        margin-right: 280px;
     }
 
-        #subscribe-btn-about div {
-            width: 350px;
-            height: 85px;
+    #subscribe-btn-about div {
+        width: 350px;
+        height: 85px;
     }
 
-        #subscribe-btn-about {
-            padding: 30px 0;
+    #subscribe-btn-about {
+        padding: 30px 0;
     }
 
-        #subscribe-btn-about span {
-            font-size: 30px;
-            line-height: 60px;
+    #subscribe-btn-about span {
+        font-size: 30px;
+        line-height: 60px;
     }
 }
 /*Desktop screen size - factsheet, headers and subscribe button re-sized and re-positioned*/
@@ -1284,9 +1264,7 @@ Large screen size - headers, factsheet, media clip and subsribe button re-sized 
         line-height: 15px;
     }
 }
-/*
-Medium mobile screen size - header, factsheet and media clips re-sized and repositioned
-*/
+/*Medium mobile screen size - header, factsheet and media clips re-sized and repositioned*/
 @media screen and (max-width: 375px) {
     #factsheet-border p {
         font-size: 15px;
@@ -1451,9 +1429,7 @@ h2  {
     padding-bottom: 15px;
 }
 /*-----------------------------------------Media Queries for Resources Page---*/
-/*
-Large screen size - headers, text content, useful links and subscribe button re-sized and re-positioned
-*/
+/*Large screen size - headers, text content, useful links and subscribe button re-sized and re-positioned*/
 @media screen and (min-width: 2245px) and (max-width: 3000px) {
     #advice-ideas {
         padding-top: 160px;
@@ -1492,9 +1468,7 @@ Large screen size - headers, text content, useful links and subscribe button re-
         font-size: 40px
     }
 }
-/*
-Large screen size - headers, text content, useful links and subscribe button re-sized and re-positioned
-*/
+/*Large screen size - headers, text content, useful links and subscribe button re-sized and re-positioned*/
 @media screen and (min-width: 1941px) and (max-width: 2244px) {
     #advice-ideas {
         padding-top: 120px;
@@ -1533,9 +1507,7 @@ Large screen size - headers, text content, useful links and subscribe button re-
         font-size: 40px
     }
 }
-/*
-Desktop screen size - headers, text content, useful links and subscribe button re-sized and re-positioned
-*/
+/*Desktop screen size - headers, text content, useful links and subscribe button re-sized and re-positioned*/
 @media screen and (min-width: 1601px) and (max-width: 1940px) {
     #advice-ideas {
         padding-top: 120px;
@@ -1574,9 +1546,7 @@ Desktop screen size - headers, text content, useful links and subscribe button r
         font-size: 40px
     }
 }
-/*
-Desktop screen size - header and subscribe button re-sized and re-positioned
-*/
+/*Desktop screen size - header and subscribe button re-sized and re-positioned*/
 @media screen and (min-width: 1501px) and (max-width: 1600px) {
     #advice-ideas {
         padding-top: 100px;
@@ -1657,7 +1627,7 @@ Desktop screen size - header and subscribe button re-sized and re-positioned
         line-height: 25px;
     }
 }
-
+/*Small mobile screen - external images re-sized*/
 @media screen and (max-width: 280px) {
     #advice-ideas {
         font-size: 20px;
@@ -1683,9 +1653,7 @@ Desktop screen size - header and subscribe button re-sized and re-positioned
     }
 }
 /*------------------------------Charity Logos on about, resources and subscribe pages--*/
-/*
-Large screen size - header, content, bullet points and external link images re-sized
-*/
+/*Large screen - external images re-sized*/
 @media screen and (min-width: 1500px) and (max-width: 3000px) {
     .charity-logo img {
         width: 400px;
@@ -1696,14 +1664,14 @@ Large screen size - header, content, bullet points and external link images re-s
         padding-left: 20px;
     }
 }
-
+/*Latop/desktop screen - external images re-sized*/
 @media screen and (min-width: 1201px) and (max-width: 1499px) {
     .useful-links-resources h2, .useful-links-subscribe h2, .useful-links-about h2{
         font-size: 40px;
         padding-left: 20px;
     }
 }
-
+/*Laptop screen - external images re-sized and repositioned*/
 @media screen and (min-width: 769px) and (max-width: 1200px) {
     .charity-logo img {
         width: 220px;
@@ -1714,14 +1682,14 @@ Large screen size - header, content, bullet points and external link images re-s
         padding-left: 20px;
     }
 }
-
+/*Tablet screen - external images re-sized */
 @media screen and (min-width: 569px) and (max-width: 768px) {
     .charity-logo img {
         width: 150px;
     }
 }
 
-/*Tablet screen size - external images re-sized*/
+/*Large mobile screen size - external images re-sized*/
 @media screen and (min-width: 426px) and (max-width: 568px) {
     .charity-logo img {
         width: 200px;
@@ -1882,7 +1850,6 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, and
         font-size: 60px;
     }
 }
-
 /*Desktop screen size - sub-headers, subscribe button and image re-sized and re-positioned*/ 
 @media screen and (min-width: 1500px) and (max-width: 1600px) {
     #form-header {
