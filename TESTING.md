@@ -6,7 +6,7 @@
 
 [Click here to view the Embrace Autism project live](https://liamwalsh1980.github.io/Milestone-Project-1/)
 
-Return to my [README.md](README.md) to continue reading
+Return to my [README.md](README.md) 
 
 ## Table of contents
 
@@ -50,6 +50,9 @@ Return to my [README.md](README.md) to continue reading
         * [Modal](#modal)
         * [Navigation bar](#navigation-bar)
         * [Responsiveness](#responsiveness)
+            * [Mobile responsiveness](#mobile-responsiveness)
+            * [Tablet responsiveness](#tablet-responsiveness)
+            * [Desktop responsiveness](#desktop-responsiveness)
     * [Further testing](#further-testing)
         * [Mobile first](#mobile-first)
         * [External links](#external-links)
@@ -436,8 +439,8 @@ I manually tested the site on different screen sizes by using Development tools 
 #### Mobile results
 ![template](assets/readme/testing/lighthouse/mobile-lighthouse-results.png)
 
-I checked the details of this report and seen that it was the 'Largest Contentful Paint' score that was the main issue. 
-[Further research into this is required]
+I checked the details of this report and seen that it was the 'Largest Contentful Paint' score that was the main issue. Further testing to be completed. This is highlighted in the [Bugs outstanding](#bugs-outstanding) section. 
+
 
 [Back to top ⇧](#embrace-autism)
 
@@ -460,10 +463,25 @@ I checked the details of this report and seen that it was the 'Largest Contentfu
 ![template](assets/readme/testing/issues/fixed-nav-fixed-2.png)
 
 #### Responsiveness
-* I Used DevTools throughout my project to make sure that all device screen sizes were taken into consideration. I took some time to complete media queries across all pages, however, certain elements on certain screen sizes still didn't look right. I will be working on this more during further projects to perfect the skill between using bootstrap and media queries. Please find below three examples for reference.
+
+I Used DevTools throughout my project to make sure that all device screen sizes were taken into consideration. I took some time to complete media queries across all pages, however, certain elements on certain screen sizes still didn't look right. I will be working on this more during further projects to perfect the skill between using bootstrap and media queries. Please find below three examples for reference which I didn't have time to resolve.
+
+#### Mobile responsiveness
+
+On the homepage, I found issues with the mobile screen size was on the header section and specifically the hamburger navigation menu at lower mobile screen sizes. I have since fixed this by using media queries to adjust the size of the logo and adjust the positioning the navigation toggle.  
 
 ![template](assets/readme/testing/issues/mobile-issue.png)
+
+#### Tablet responsiveness
+
+On the homepage, I found issues with the tablet screen sizes was the positioning of the logo and hamburger navigation menu. I've made sure that at the screen size break point of 768px this looked fine, however, I would need time to make adjustments using media queries to complete this across all tablet screen sizes. 
+
 ![template](assets/readme/testing/issues/tablet-issue.png)
+
+#### Desktop responsiveness
+
+On the homepage, I found issues with positioning the cover text and subscribe for free button across all screen sizes. I made sure that at each break point the positioning was completed, however, I would need more time to make sure the positioning for both these features were in line and consistent.
+
 ![template](assets/readme/testing/issues/desktop-issue.png)
 
 [Back to top ⇧](#embrace-autism)
@@ -508,7 +526,11 @@ I tested the form on the subscribe page: -
 
 ### Bugs outstanding
 
-Lighthouse testing for mobiles - performance score is low and needs to be looked into. All i know is that the Largest Contentful Paint (LCP) is coursing the main issues to this score. A couple of sites i visiting to look into this were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a> 
+* Lighthouse testing for mobiles - performance score is low and needs to be looked into. All i know is that the Largest Contentful Paint (LCP) is the main issue and is resulting in a low overall score. A couple of sites i visited to look into this were <a href="https://imageengine.io/" target="_blank">Image Engine</a> and <a href="https://nitropack.io/blog/post/reduce-largest-contentful-paint-lcp" target="_blank">Nitro Pack</a>.I signed up to the below service to complete more research into how i can improve this score for mobile performance. 
+
+![template](assets/readme/testing/issues/lighthouse-issue-scientiamobile.png)
+
+* Responsiveness on the homepage - I will spend more time after this project is submited looking at improving the responsiveness of the features on this page. 
 
 [Back to top ⇧](#embrace-autism)
 
