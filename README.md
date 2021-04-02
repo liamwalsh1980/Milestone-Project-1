@@ -233,7 +233,7 @@ Date this project started: 9th March 2021
 
 * Above the form there is a central sub header to confirm what the form is for. Below the form there is another sub header with a short paragraph to explain to the user what they can expect once they've subscribed. 
 
-* Below this there is a 'thank you' image. This was found as a free image at <a href="https://pexels.com" target="_blank">Pexels</a>. 
+* Below this there is a 'Autism is my Superpower' image. This was found on Amazon and a front cover to a book called <a href="https://www.amazon.co.uk/Autism-Super-Power-Meaningful-College-Ruled/dp/1795479574" target="_blank">Autism Is My Super Power: Notebook for Autism Awareness: 14 (Meaningful Quote Journals with College-Ruled Lines)</a>. 
 
 * Below this image there’s the useful links section which includes three charity organisation logos for users to click on. These links are external to the websites of the charities. When any one of the logo links is clicked, the user will see that the external website will open in a new tab page on their browser. This is to make sure that if the user wants to return to Embrace Autism, the site is still open to easily go back to. 
 
@@ -293,7 +293,7 @@ Date this project started: 9th March 2021
 (subscribe.html) 
 
 - The subscribe form stays central and at the top of this page. As the screen sizes getting bigger the form adjusted in size according to the screen size.  
-- The 'Thank you' image is central and re-sized on every screen size to keep in proportion.  
+- The 'Autism is my Superpower' image is central and re-sized on every screen size to keep in proportion.  
 - The useful links section had been adjusted slightly to fit within any screen size. 
 
 [Back to top ⇧](#embrace-autism)
@@ -347,7 +347,7 @@ My project has four web pages all found by using the menu navigation bar at the 
     - The form includes a name and email section to complete along with the choice of either a weekly or monthly subscription by selecting the relevant radio buttons. 
 * The error message 'please fill in this field' will appear if the form isn't completed fully. 
 * A sub header 'What to expect now' and paragraph to read after completing the form. 
-* A 'Thank you' image below the paragraph which I feel is a nice touch to finish the users experience on the site as they subscribe. 
+* A 'Autism is my Superpower' image below the paragraph which I feel is a nice touch to finish the users experience on the site as they subscribe. 
 * External link logos to three charities.  
 
 [Back to top ⇧](#embrace-autism)
@@ -494,9 +494,8 @@ For a more in-depth guide about how to Fork a repo please [click here](https://d
 
 * I sourced the <a href="https://hiddendisabilitiesstore.com/" target="_blank">Hidden Disabilities</a> logo using DevTools. I saw the logo on the official website in an image element and used this on my site.
 
-#### The 'Thank you' image for the subscribe page (subcribe.html)
-* I found a great 'thank you' image on <a href="https://www.pexels.com/" target="_blank">Pexels</a> which was free of charge to download.
-<a href="https://www.pexels.com/photo/traffic-sign-business-creativity-1887992/" target="_blank">Thank you image</a> by Ann H from <a href="https://pexels.com/" target="_blank">Pexels</a>. This was a free of charge image available to download.
+#### The 'Autism is my Superpower' image for the subscribe page (subcribe.html)
+* I found a great image on <a href="https://www.amazon.co.uk/Autism-Super-Power-Meaningful-College-Ruled/dp/1795479574" target="_blank">Amazon</a> as part of a frontcover for a book.
 
 ### Media clips
 

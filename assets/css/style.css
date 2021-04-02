@@ -1782,14 +1782,14 @@ form .label {
     margin: 50px 0;
 }
 
-#thank-you-image {
-    background: url("../images/thank-you-image.jpg") no-repeat center center;  
-    height: 200px; 
+#autism-superpower-image {
+    background: url("../images/autism-superpower.jpg") no-repeat center center;  
     width: 100%;
+    height: 500%;
     background-size: cover; 
-    border-radius: 10%;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 10%;
 }
 
 .useful-links-subscribe {
@@ -1841,8 +1841,8 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, and
         font-size: 32px;
     }
 
-    #thank-you-image {
-        height: 600px; 
+    #autism-superpower-image {
+        height: 1000px; 
         width: 75%;
     }  
 
@@ -1867,8 +1867,8 @@ Large screen size - sub-headers, subscribe button, form content, paragraphs, and
         font-size: 22px;
     }
 
-    #thank-you-image {
-        height: 500px; 
+    #autism-superpower-image {
+        height: 885px; 
         width: 75%;
     } 
 }
@@ -1903,8 +1903,8 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
         font-size: 18px;
     }
 
-    #thank-you-image {
-        height: 480px; 
+    #autism-superpower-image {
+        height: 820px; 
         width: 75%;
     }  
 }
@@ -1933,8 +1933,8 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
         font-size: 22px;
     }
 
-    #thank-you-image {
-        height: 380px; 
+    #autism-superpower-image {
+        height: 800px; 
         width: 75%;
     }  
 
@@ -1959,8 +1959,8 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
         font-size: 22px;
     }
 
-    #thank-you-image {
-        height: 320px; 
+    #autism-superpower-image {
+        height: 550px; 
         width: 75%;
     }  
 
@@ -1968,7 +1968,7 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
         font-size: 18px;
     } 
 }
-/*Small tablet screen size - header and form re-sized and re-positioned*/
+/*Small tablet screen size - header, form and image re-sized and re-positioned*/
 @media screen and (max-width: 767px) and (min-width: 526px) {
 
     #form-header {
@@ -1989,12 +1989,18 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
     #what-to-expect {
         font-size: 22px;
     }
+
+    #autism-superpower-image {
+        height: 420px; 
+        width: 75%;
+    } 
+
     #subscribe-btn span {  
         font-size: 16px;
     } 
 }
-/*Medium mobile screen size - header and form and re-sized and re-positioned*/
-@media screen and (max-width: 525px) {
+/*Medium mobile screen size - header, form  and image re-sized and re-positioned*/
+@media screen and (max-width: 525px) and (min-width: 376px) {
     #form-header {
         font-size: 18px;
         padding-top: 100px;
@@ -2008,9 +2014,27 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
     #what-to-expect {
         font-size: 22px;
     }
+
+    #autism-superpower-image {
+        height: 350px; 
+        width: 75%;
+    } 
 }
-/*Small mobile screen size - header and form and re-sized and re-positioned*/
-@media screen and (max-width: 280px) {
+/*Small mobile screen size - header and image re-sized and re-positioned*/
+@media screen and (max-width: 375px) and (min-width: 320px) {
+    #form-header {
+        font-size: 18px;
+        padding-top: 100px;
+        padding-bottom: 20px
+    }
+    
+    #autism-superpower-image {
+        height: 300px; 
+        width: 75%;
+    } 
+}
+/*Small mobile screen size - header and image and re-sized and re-positioned*/
+@media screen and (max-width: 319px) {
     #form-header {
         font-size: 15px;
         padding-top: 90px;
@@ -2020,6 +2044,11 @@ Large laptop screen size - sub-headers, subscribe button, form content, paragrap
     #what-to-expect {
         font-size: 20px;
     }
+
+    #autism-superpower-image {
+        height: 260px; 
+        width: 75%;
+    } 
 }
 /*---------------------------------------------Footer---*/
 footer {
