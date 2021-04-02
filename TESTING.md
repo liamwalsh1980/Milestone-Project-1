@@ -4,7 +4,7 @@
 
 ![template](assets/readme/ux/i-am-responsive-all.png)
 
-[Click here to view the Embrace Autism project live](https://liamwalsh1980.github.io/Milestone-Project-1/)
+<a href="https://liamwalsh1980.github.io/Milestone-Project-1/" target="_blank">Click here to view the Embrace Autism project live</a>
 
 Return to my [README.md](README.md) 
 
@@ -447,7 +447,7 @@ I checked the details of this report and seen that it was the 'Largest Contentfu
 ### Issues found
 
 #### Modal
-* I wanted to include a Modal message when the form on the subscribe page is submitted successfully. Adding the code didn't work. After a little research i beleive the JavaScript link from bootstrap was the issue. After carefully consideration i found a better option. I used the 'onsubmit' attribute in my HTML code to show a message only when the form is completed and submitted. This was found using [W3schools](https://www.w3schools.com/tags/ev_onsubmit.asp).
+* I wanted to include a Modal message when the form on the subscribe page is submitted successfully. Adding the code didn't work. After a little research i beleive the JavaScript link from bootstrap was the issue. After carefully consideration i found a better option. I used the 'onsubmit' attribute in my HTML code to show a message only when the form is completed and submitted. This was found using <a href="https://www.w3schools.com/tags/ev_onsubmit.asp" target="_blank">W3schools</a>.
 
 ![template](assets/readme/testing/user-stories/completed-subscribe-form.png)
 

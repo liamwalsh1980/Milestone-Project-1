@@ -4,7 +4,7 @@
 
 ![template](assets/readme/ux/i-am-responsive.png)
 
-[Click here to view the Embrace Autism project live](https://liamwalsh1980.github.io/Milestone-Project-1/)
+<a href="https://liamwalsh1980.github.io/Milestone-Project-1/" target="_blank">Click here to view the Embrace Autism project live</a>
 
 ## Table of contents
 
@@ -417,7 +417,7 @@ Testing information can be found in a separate
 ### Github pages
 The project was deployed to GitHub Pages doing the following: -
 
-1. I logged into GitHub account and located my [MS1 Project GitHub Repository](https://github.com/liamwalsh1980/Milestone-Project-1).
+1. <a href="https://github.com/liamwalsh1980/Milestone-Project-1" target="_blank">MS1 Project GitHub Repository</a>
 
 
 1. At the top of the Repository I clicked the settings option on the menu.
@@ -430,9 +430,9 @@ The project was deployed to GitHub Pages doing the following: -
 
 1. I Scrolled down the page to obtain the published site link to enable me to share with others. 
 
-1. [Click here to view the Embrace Autism project live](https://liamwalsh1980.github.io/Milestone-Project-1/)
+1. <a href="https://liamwalsh1980.github.io/Milestone-Project-1/" target="_blank">Click here to view the Embrace Autism project live</a>
 
-For a more in-depth guide about Configuring a publishing source from Github pages please [click here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+For a more in-depth guide about Configuring a publishing source from Github pages please <a href="https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site" target="_blank">click here</a>.
 
 ### Forking the GitHub Repository
 By forking the GitHub Repository you can make a copy of my original repository on your GitHub account to view and/or make changes without affecting the original repository by doing the following: -
@@ -441,7 +441,7 @@ By forking the GitHub Repository you can make a copy of my original repository o
 1. At the top of the Repository click the settings option on the menu, locate and click the "Fork" Button which is at the top right of the page.
 1. You should now have a copy of the original repository in your GitHub account.
 
-For a more in-depth guide about how to Fork a repo please [click here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+For a more in-depth guide about how to Fork a repo please <a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo" target="_blank">click here</a>.
 
 [Back to top ⇧](#embrace-autism)
 
@@ -453,8 +453,7 @@ For a more in-depth guide about how to Fork a repo please [click here](https://d
 1. Open Git Bash
 1. Change the current working directory to the location where you want the cloned directory to be made.
 1. Type git clone, and then paste the URL you copied in Step 3.
-    - $ git clone
-    https://github.com/liamwalsh1980/Milestone-Project-1
+    - $ git clone <a href="https://github.com/liamwalsh1980/Milestone-Project-1" target="_blank">Click here</a>
 1. Press Enter. Your local clone will be created.
 
 [Back to top ⇧](#embrace-autism)
@@ -522,3 +521,4 @@ This website is for educational purposes only and created for my Code Institute 
 
 
 ### End of README Document
+[Back to top ⇧](#embrace-autism)
